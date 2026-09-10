@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://workbuddy.tencent/recruitment/resume-evaluation-data.schema.json",
+  "title": "Resume evaluation task data",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "model_version",
+    "dimension_scores",
+    "redline_status",
+    "recommendation"
+  ],
+  "properties": {
+    "model_version": {"type": "string", "minLength": 1},
+    "dimension_scores": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["score", "weight", "status", "evidence_ids"],
+        "properties": {
+          "score": {"type": ["number", "null"], "minimum": 1, "maximum": 5},
+          "weight": {"type": "number", "exclusiveMinimum": 0},
+          "status": {"enum": ["scored", "na"]},
+          "evidence_ids": {
+            "type": "array",
+            "items": {"type": "string", "minLength": 1},
+            "uniqueItems": true
+          }
+        }
+      }
+    },
+    "redline_status": {"enum": ["clear", "flagged", "not_assessed"]},
+    "recommendation": {"enum": ["recommended", "pending", "not_recommended"]},
+    "strengths": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1}
+    },
+    "gaps": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1}
+    }
+  }
+}

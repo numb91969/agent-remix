@@ -1,0 +1,97 @@
+name: cloud-doc-quality-suite
+version: 1.7.1
+description: 文档质量智能检测助手。当用户需要对腾讯云产品文档做质量把关时使用，也适用于用户希望做文档一键体检、合规审查、写作规范检查、文档打分评级的场景。此 Skill 会自动从内容时效性、结构规范性、超链接、排版格式、产品写作规范、货币规范、法律合规等多个维度检测文档，识别过时信息、结构缺失、错别字、绝对化用语、合规红线等问题，并给出综合评分与等级，最终输出可视化 HTML 检测报告。当用户提到"文档质量检测""文档体检""一键检测""文档评审""合规检测""写作规范检测""文档打分/评分""帮我检查这篇文档""review document""check document quality""document audit"等关键词，或表达对文档进行全面质量审查、合规审核、发布前把关的意图时，应使用此 Skill。
+author: doc-quality-team
+license: internal
+tags:
+  - Doc Quality
+  - Compliance
+  - Quality Scoring
+category: 10-ProjectQuality
+trigger_phrases:
+  - 文档质量检测
+  - 文档全面检测
+  - 文档综合检查
+  - 全面质量检查
+  - 一键检测
+  - 文档体检
+  - 完整文档检查
+  - 全量检测
+  - 法律合规检测
+  - 合规检测
+  - 文档合规
+  - 写作规范检测
+  - 产品写作规范检测
+  - 写作规范检查
+  - 用词规范
+  - 数字规范
+  - 词汇表规范
+  - 文档打分
+  - 文档评分
+  - 质量评分
+  - 综合评分
+  - document scoring
+  - quality scoring
+  - full document check
+  - comprehensive check
+  - document audit
+  - quality audit
+  - compliance check
+  - legal compliance
+  - writing standard check
+  - writing convention check
+  - 全面审核
+  - 文档检测
+  - 文档校验
+  - review document
+  - check document quality
+capabilities:
+  - structure-review       # 文档结构质量评审（基于模板对比）
+  - timeliness-check      # 时效性检测（6个月过期阈值）
+  - link-check           # 超链接异常检测（HTTP/DNS/锚点/平台）
+  - layout-check         # 排版格式检测（标题/段落/列表/表格；v1.7.0：pptx/xlsx 文件类型自动跳过）
+  - writing-standard-check  # 产品写作规范检测（《腾讯云产品写作规范》三大类别：用词 / 数字与数量 / 词汇表；链接规范由维度 3 承担，货币规范由维度 6 承担，空格与标点规范 v1.7.0 已完整移除）
+  - currency-check      # 货币规范检测（USD统一要求；v1.7.0：中文文档 language==zh 时自动跳过）
+  - compliance-check    # 法律合规检测（五大核心红线：国家相关元素/公序良俗/赛事元素/虚假宣传/控标字眼，命中即需修改，输出不含等级字段）
+  - quality-scoring      # 百分制综合评分（主维度：内容时效性 45 + 结构规范性 45 + 内容准确性 10 = 100；加分项：内容价值性 +0~10；无减分项；输出 0~100 分与等级：优秀/良好/合格/待改进）
+output_formats:
+  - json   # 结构化检测结果
+  - html   # 可视化检测报告
+dependencies: []
+sub_skills:
+  - references/rule-structure.md
+  - references/rule-timeliness.md
+  - references/rule-link.md
+  - references/rule-layout.md
+  - references/rule-writing-standard.md
+  - references/rule-currency.md
+  - references/rule-compliance.md
+  - references/rule-scoring.md
+scripts:
+  - scripts/check.py              # Python 统一入口脚本
+assets:
+  - assets/templates/                                 # 11 套官方文档模板目录
+  - assets/templates/产品白皮书_模板.docx              # 模板1：产品白皮书
+  - assets/templates/案例集_模板.pptx                  # 模板2：案例集
+  - assets/templates/产品解决方案_模板.pptx            # 模板3：产品解决方案
+  - assets/templates/产品介绍_模板.pptx                # 模板4：产品介绍
+  - assets/templates/产品彩页_模板.pptx                # 模板5：产品彩页
+  - assets/templates/竞品分析_模板.pptx                # 模板6：竞品分析
+  - assets/templates/快速入门_模板.docx                # 模板7：快速入门
+  - assets/templates/销售一指禅_模板.docx              # 模板8：销售一指禅
+  - assets/templates/交付标准流程_模板.docx            # 模板9：交付标准流程
+  - assets/templates/POC测试申请指引_模板.docx         # 模板10：POC 测试申请指引
+  - assets/templates/产品报价指引.xlsx                 # 模板11：产品报价指引
+references_basis:
+  - 《腾讯云产品写作规范》   # v1.7.0 保留三大类别：用词/数字与数量/词汇表；链接规范已迁移至维度 3，货币规范已迁移至维度 6，空格与标点规范已完整移除
+  - 《中华人民共和国广告法》（2021 修正）
+  - 《市场监管总局〈广告绝对化用语执法指南〉》（2023.02.25）
+  - 《中华人民共和国消费者权益保护法》
+  - 《中华人民共和国反不正当竞争法》
+  - 《中华人民共和国招标投标法》及其实施条例
+  - 《中华人民共和国国旗法》《中华人民共和国国徽法》《中华人民共和国国歌法》
+  - 《中华人民共和国英雄烈士保护法》
+  - 《奥林匹克标志保护条例》
+  - GB/T 15835-2011《出版物上数字用法》
+  - GB/T 7408-2005《数据元和交换格式 信息交换 日期和时间表示法》
+  - GB 3102.11-1993《物理科学和技术中使用的数学符号》

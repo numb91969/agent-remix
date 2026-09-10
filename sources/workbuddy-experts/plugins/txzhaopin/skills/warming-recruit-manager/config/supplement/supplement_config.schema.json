@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "warming-recruit-manager supplement private config",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "webhook": { "type": "string" },
+    "automation": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string" },
+        "enabled": { "type": "boolean" },
+        "status": { "type": "string", "enum": ["ACTIVE", "PAUSED", ""] }
+      }
+    },
+    "scope": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "priority": { "type": "array", "items": { "type": "string" } },
+        "default_limit": { "type": "integer", "minimum": 1 }
+      }
+    },
+    "recruit_mcp": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "server": { "type": "string", "const": "recruit-mcp" },
+        "detail_query": { "type": "string" },
+        "update_query": { "type": "string" },
+        "verify_query": { "type": "string" }
+      }
+    },
+    "writeback": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "dry_run_first": { "type": "boolean" },
+        "require_confirmed_payload": { "type": "boolean" },
+        "overwrite_existing_detail_value": { "type": "boolean", "const": false }
+      }
+    }
+  }
+}

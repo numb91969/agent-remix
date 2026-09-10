@@ -1,0 +1,757 @@
+﻿family_key,display_name_zh,display_name_en,domain_id,domain_name_zh,variant_count,source_count,sources,subcategories,labels,topic_tags,agent_ids
+role:company/chief-executive-officer,首席执行官（CEO）,首席执行官（CEO）,company,公司经营,1,1,agency_zh,company,首席执行官（CEO）,人力与组织,agency_zh:company/chief-executive-officer
+role:company/chief-financial-officer,首席财务官（CFO）,首席财务官（CFO）,company,公司经营,1,1,agency_zh,company,首席财务官（CFO）,财务金融,agency_zh:company/chief-financial-officer
+role:company/chief-marketing-officer,首席营销官（CMO）,首席营销官（CMO）,company,公司经营,1,1,agency_zh,company,首席营销官（CMO）,营销;财务金融,agency_zh:company/chief-marketing-officer
+role:company/chief-of-staff,幕僚长（Chief of Staff）,幕僚长（Chief of Staff）,company,公司经营,1,1,agency_zh,company,幕僚长（Chief of Staff）,,agency_zh:company/chief-of-staff
+role:company/chief-operating-officer,首席运营官（COO）,首席运营官（COO）,company,公司经营,1,1,agency_zh,company,首席运营官（COO）,人力与组织,agency_zh:company/chief-operating-officer
+role:company/chief-product-officer,首席产品官（CPO）,首席产品官（CPO）,company,公司经营,1,1,agency_zh,company,首席产品官（CPO）,产品设计;人力与组织,agency_zh:company/chief-product-officer
+role:company/chief-technology-officer,首席技术官（CTO）,首席技术官（CTO）,company,公司经营,1,1,agency_zh,company,首席技术官（CTO）,人力与组织;软件工程,agency_zh:company/chief-technology-officer
+role:data-ai/gis-3d-scene-developer,三维场景开发者,3D & Scene Developer,data-ai,数据智能,2,2,agency_en;agency_zh,gis,3D & Scene Developer;三维场景开发者,数据与 AI;软件工程,agency_zh:gis/gis-3d-scene-developer;agency_en:gis/gis-3d-scene-developer
+role:data-ai/gis-analyst,GIS 分析师,GIS Analyst,data-ai,数据智能,2,2,agency_en;agency_zh,gis,GIS Analyst;GIS 分析师,数据与 AI,agency_zh:gis/gis-analyst;agency_en:gis/gis-analyst
+role:data-ai/gis-bim-specialist,BIM/GIS 专家,BIM/GIS Specialist,data-ai,数据智能,2,2,agency_en;agency_zh,gis,BIM/GIS Specialist;BIM/GIS 专家,产品设计;数据与 AI,agency_zh:gis/gis-bim-specialist;agency_en:gis/gis-bim-specialist
+role:data-ai/gis-cartography-designer,地图制图设计师,Cartography Designer,data-ai,数据智能,2,2,agency_en;agency_zh,gis,Cartography Designer;地图制图设计师,产品设计;营销,agency_zh:gis/gis-cartography-designer;agency_en:gis/gis-cartography-designer
+role:data-ai/gis-drone-reality-mapping,无人机实景测绘专家,Drone/Reality Mapping Specialist,data-ai,数据智能,2,2,agency_en;agency_zh,gis,Drone/Reality Mapping Specialist;无人机实景测绘专家,产品设计;数据与 AI,agency_zh:gis/gis-drone-reality-mapping;agency_en:gis/gis-drone-reality-mapping
+role:data-ai/gis-geoai-ml-engineer,GeoAI/ML 工程师,GeoAI/ML Engineer,data-ai,数据智能,2,2,agency_en;agency_zh,gis,GeoAI/ML Engineer;GeoAI/ML 工程师,产品设计;教育学术;数据与 AI;软件工程,agency_zh:gis/gis-geoai-ml-engineer;agency_en:gis/gis-geoai-ml-engineer
+role:data-ai/gis-geoprocessing-specialist,地理处理专家,Geoprocessing Specialist,data-ai,数据智能,2,2,agency_en;agency_zh,gis,Geoprocessing Specialist;地理处理专家,产品设计;数据与 AI,agency_zh:gis/gis-geoprocessing-specialist;agency_en:gis/gis-geoprocessing-specialist
+role:data-ai/gis-qa-engineer,GIS 质检工程师,GIS QA Engineer,data-ai,数据智能,2,2,agency_en;agency_zh,gis,GIS QA Engineer;GIS 质检工程师,安全合规;数据与 AI;软件工程,agency_zh:gis/gis-qa-engineer;agency_en:gis/gis-qa-engineer
+role:data-ai/gis-solution-engineer,解决方案工程师,Solution Engineer,data-ai,数据智能,2,2,agency_en;agency_zh,gis,Solution Engineer;解决方案工程师,产品设计;软件工程,agency_zh:gis/gis-solution-engineer;agency_en:gis/gis-solution-engineer
+role:data-ai/gis-spatial-data-engineer,空间数据工程师,Spatial Data Engineer,data-ai,数据智能,2,2,agency_en;agency_zh,gis,Spatial Data Engineer;空间数据工程师,产品设计;数据与 AI;软件工程;销售,agency_zh:gis/gis-spatial-data-engineer;agency_en:gis/gis-spatial-data-engineer
+role:data-ai/gis-spatial-data-scientist,空间数据科学家,Spatial Data Scientist,data-ai,数据智能,2,2,agency_en;agency_zh,gis,Spatial Data Scientist;空间数据科学家,数据与 AI,agency_zh:gis/gis-spatial-data-scientist;agency_en:gis/gis-spatial-data-scientist
+role:data-ai/gis-technical-consultant,技术顾问,Technical Consultant,data-ai,数据智能,2,2,agency_en;agency_zh,gis,Technical Consultant;技术顾问,数据与 AI,agency_zh:gis/gis-technical-consultant;agency_en:gis/gis-technical-consultant
+role:data-ai/gis-web-gis-developer,Web GIS 开发工程师,Web GIS Developer,data-ai,数据智能,2,2,agency_en;agency_zh,gis,Web GIS Developer;Web GIS 开发工程师,产品设计;数据与 AI;软件工程,agency_zh:gis/gis-web-gis-developer;agency_en:gis/gis-web-gis-developer
+role:education/academic-anthropologist,人类学家,Anthropologist,education,教育学术,2,2,agency_en;agency_zh,academic,Anthropologist;人类学家,产品设计;人力与组织,agency_zh:academic/academic-anthropologist;agency_en:academic/academic-anthropologist
+role:education/academic-geographer,地理学家,Geographer,education,教育学术,2,2,agency_en;agency_zh,academic,Geographer;地理学家,产品设计;数据与 AI,agency_zh:academic/academic-geographer;agency_en:academic/academic-geographer
+role:education/academic-historian,历史学家,Historian,education,教育学术,2,2,agency_en;agency_zh,academic,Historian;历史学家,数据与 AI,agency_zh:academic/academic-historian;agency_en:academic/academic-historian
+role:education/academic-narratologist,叙事学家,Narratologist,education,教育学术,2,2,agency_en;agency_zh,academic,Narratologist;叙事学家,数据与 AI,agency_zh:academic/academic-narratologist;agency_en:academic/academic-narratologist
+role:education/academic-psychologist,心理学家,Psychologist,education,教育学术,2,2,agency_en;agency_zh,academic,Psychologist;心理学家,产品设计;医疗健康;教育学术,agency_zh:academic/academic-psychologist;agency_en:academic/academic-psychologist
+role:education/academic-statistician,Statistician,Statistician,education,教育学术,1,1,agency_en,academic,Statistician,产品设计;教育学术;数据与 AI,agency_en:academic/academic-statistician
+role:education/academic-study-planner,学习规划师,学习规划师,education,教育学术,1,1,agency_zh,academic,学习规划师,教育学术,agency_zh:academic/academic-study-planner
+role:education/research-synthesist,Research Synthesist,Research Synthesist,education,教育学术,1,1,agency_en,research,Research Synthesist,教育学术,agency_en:research/research-synthesist
+role:engineering/backend-architect-with-memory,Backend Architect,Backend Architect,engineering,技术工程,2,2,agency_en;agency_zh,integrations,Backend Architect,产品设计;数据与 AI;软件工程,agency_zh:integrations/mcp-memory/backend-architect-with-memory;agency_en:integrations/mcp-memory/backend-architect-with-memory
+role:engineering/engineering-ai-data-remediation-engineer,AI 数据修复工程师,AI Data Remediation Engineer,engineering,技术工程,2,2,agency_en;agency_zh,engineering,AI Data Remediation Engineer;AI 数据修复工程师,数据与 AI;营销;软件工程;销售,agency_zh:engineering/engineering-ai-data-remediation-engineer;agency_en:engineering/engineering-ai-data-remediation-engineer
+role:engineering/engineering-ai-engineer,AI 工程师,AI Engineer,engineering,技术工程,2,2,agency_en;agency_zh,engineering,AI Engineer;AI 工程师,产品设计;教育学术;数据与 AI;软件工程;销售,agency_zh:engineering/engineering-ai-engineer;agency_en:engineering/engineering-ai-engineer
+role:engineering/engineering-api-platform-engineer,API Platform Engineer,API Platform Engineer,engineering,技术工程,1,1,agency_en,engineering,API Platform Engineer,产品设计;软件工程,agency_en:engineering/engineering-api-platform-engineer
+role:engineering/engineering-ats-validator-architect,ATS Validator Architect,ATS Validator Architect,engineering,技术工程,1,1,agency_en,engineering,ATS Validator Architect,安全合规;数据与 AI,agency_en:engineering/engineering-ats-validator-architect
+role:engineering/engineering-autonomous-optimization-architect,自主优化架构师,Autonomous Optimization Architect,engineering,技术工程,2,2,agency_en;agency_zh,engineering,Autonomous Optimization Architect;自主优化架构师,安全合规;数据与 AI;财务金融;软件工程,agency_zh:engineering/engineering-autonomous-optimization-architect;agency_en:engineering/engineering-autonomous-optimization-architect
+role:engineering/engineering-backend-architect,后端架构师,Backend Architect,engineering,技术工程,2,2,agency_en;agency_zh,engineering,Backend Architect;后端架构师,产品设计;安全合规;数据与 AI;软件工程,agency_zh:engineering/engineering-backend-architect;agency_en:engineering/engineering-backend-architect
+role:engineering/engineering-china-network-engineer,China Network Engineer,China Network Engineer,engineering,技术工程,1,1,agency_en,engineering,China Network Engineer,产品设计;数据与 AI,agency_en:engineering/engineering-china-network-engineer
+role:engineering/engineering-cms-developer,CMS 开发者,CMS Developer,engineering,技术工程,2,2,agency_en;agency_zh,engineering,CMS Developer;CMS 开发者,内容;软件工程,agency_zh:engineering/engineering-cms-developer;agency_en:engineering/engineering-cms-developer
+role:engineering/engineering-code-reviewer,代码审查员,Code Reviewer,engineering,技术工程,2,2,agency_en;agency_zh,engineering,Code Reviewer;代码审查员,安全合规;数据与 AI;软件工程,agency_zh:engineering/engineering-code-reviewer;agency_en:engineering/engineering-code-reviewer
+role:engineering/engineering-codebase-onboarding-engineer,代码库入职引导工程师,Codebase Onboarding Engineer,engineering,技术工程,2,2,agency_en;agency_zh,engineering,Codebase Onboarding Engineer;代码库入职引导工程师,软件工程,agency_zh:engineering/engineering-codebase-onboarding-engineer;agency_en:engineering/engineering-codebase-onboarding-engineer
+role:engineering/engineering-data-engineer,数据工程师,Data Engineer,engineering,技术工程,2,2,agency_en;agency_zh,engineering,Data Engineer;数据工程师,产品设计;数据与 AI;软件工程;销售,agency_zh:engineering/engineering-data-engineer;agency_en:engineering/engineering-data-engineer
+role:engineering/engineering-data-visualization-engineer,Data Visualization Engineer,Data Visualization Engineer,engineering,技术工程,1,1,agency_en,engineering,Data Visualization Engineer,数据与 AI,agency_en:engineering/engineering-data-visualization-engineer
+role:engineering/engineering-database-optimizer,数据库优化师,Database Optimizer,engineering,技术工程,2,2,agency_en;agency_zh,engineering,Database Optimizer;数据库优化师,产品设计;数据与 AI;软件工程,agency_zh:engineering/engineering-database-optimizer;agency_en:engineering/engineering-database-optimizer
+role:engineering/engineering-database-reliability-engineer,Database Reliability Engineer,Database Reliability Engineer,engineering,技术工程,1,1,agency_en,engineering,Database Reliability Engineer,数据与 AI;软件工程,agency_en:engineering/engineering-database-reliability-engineer
+role:engineering/engineering-desktop-app-engineer,Desktop App Engineer,Desktop App Engineer,engineering,技术工程,1,1,agency_en,engineering,Desktop App Engineer,软件工程;销售,agency_en:engineering/engineering-desktop-app-engineer
+role:engineering/engineering-developer-tooling-engineer,Developer Tooling Engineer,Developer Tooling Engineer,engineering,技术工程,1,1,agency_en,engineering,Developer Tooling Engineer,产品设计;软件工程,agency_en:engineering/engineering-developer-tooling-engineer
+role:engineering/engineering-devops-automator,DevOps 自动化师,DevOps Automator,engineering,技术工程,2,2,agency_en;agency_zh,engineering,DevOps Automator;DevOps 自动化师,软件工程;销售,agency_zh:engineering/engineering-devops-automator;agency_en:engineering/engineering-devops-automator
+role:engineering/engineering-dingtalk-integration-developer,钉钉集成开发工程师,钉钉集成开发工程师,engineering,技术工程,1,1,agency_zh,engineering,钉钉集成开发工程师,软件工程,agency_zh:engineering/engineering-dingtalk-integration-developer
+role:engineering/engineering-drupal-performance,Drupal Performance Engineer,Drupal Performance Engineer,engineering,技术工程,1,1,agency_en,engineering,Drupal Performance Engineer,安全合规;数据与 AI;软件工程,agency_en:engineering/engineering-drupal-performance
+role:engineering/engineering-drupal-shopping-cart,Drupal 购物车工程师,Drupal Shopping Cart Engineer,engineering,技术工程,2,2,agency_en;agency_zh,engineering,Drupal Shopping Cart Engineer;Drupal 购物车工程师,产品设计;电商;软件工程,agency_zh:engineering/engineering-drupal-shopping-cart;agency_en:engineering/engineering-drupal-shopping-cart
+role:engineering/engineering-email-intelligence-engineer,邮件智能工程师,Email Intelligence Engineer,engineering,技术工程,2,2,agency_en;agency_zh,engineering,Email Intelligence Engineer;邮件智能工程师,人力与组织;数据与 AI;软件工程,agency_zh:engineering/engineering-email-intelligence-engineer;agency_en:engineering/engineering-email-intelligence-engineer
+role:engineering/engineering-embedded-firmware-engineer,嵌入式固件工程师,Embedded Firmware Engineer,engineering,技术工程,2,2,agency_en;agency_zh,engineering,Embedded Firmware Engineer;嵌入式固件工程师,产品设计;软件工程,agency_zh:engineering/engineering-embedded-firmware-engineer;agency_en:engineering/engineering-embedded-firmware-engineer
+role:engineering/engineering-embedded-linux-driver-engineer,嵌入式 Linux 驱动工程师,嵌入式 Linux 驱动工程师,engineering,技术工程,1,1,agency_zh,engineering,嵌入式 Linux 驱动工程师,产品设计;软件工程,agency_zh:engineering/engineering-embedded-linux-driver-engineer
+role:engineering/engineering-feishu-integration-developer,飞书集成开发工程师,Feishu Integration Developer,engineering,技术工程,2,2,agency_en;agency_zh,engineering,Feishu Integration Developer;飞书集成开发工程师,产品设计;软件工程,agency_zh:engineering/engineering-feishu-integration-developer;agency_en:engineering/engineering-feishu-integration-developer
+role:engineering/engineering-filament-optimization-specialist,Filament 优化专家,Filament Optimization Specialist,engineering,技术工程,2,2,agency_en;agency_zh,engineering,Filament Optimization Specialist;Filament 优化专家,,agency_zh:engineering/engineering-filament-optimization-specialist;agency_en:engineering/engineering-filament-optimization-specialist
+role:engineering/engineering-finops-engineer,FinOps Engineer,FinOps Engineer,engineering,技术工程,1,1,agency_en,engineering,FinOps Engineer,数据与 AI,agency_en:engineering/engineering-finops-engineer
+role:engineering/engineering-fpga-digital-design-engineer,FPGA/ASIC 数字设计工程师,FPGA/ASIC 数字设计工程师,engineering,技术工程,1,1,agency_zh,engineering,FPGA/ASIC 数字设计工程师,产品设计;软件工程,agency_zh:engineering/engineering-fpga-digital-design-engineer
+role:engineering/engineering-frontend-developer,前端开发者,Frontend Developer,engineering,技术工程,2,2,agency_en;agency_zh,engineering,Frontend Developer;前端开发者,产品设计;软件工程,agency_zh:engineering/engineering-frontend-developer;agency_en:engineering/engineering-frontend-developer
+role:engineering/engineering-gaussdb-expert,GaussDB Expert Engineer,GaussDB Expert Engineer,engineering,技术工程,1,1,agency_en,engineering,GaussDB Expert Engineer,产品设计;数据与 AI;软件工程,agency_en:engineering/engineering-gaussdb-expert
+role:engineering/engineering-git-workflow-master,Git 工作流大师,Git Workflow Master,engineering,技术工程,2,2,agency_en;agency_zh,engineering,Git Workflow Master;Git 工作流大师,,agency_zh:engineering/engineering-git-workflow-master;agency_en:engineering/engineering-git-workflow-master
+role:engineering/engineering-i18n-engineer,Internationalization Engineer,Internationalization Engineer,engineering,技术工程,1,1,agency_en,engineering,Internationalization Engineer,销售,agency_en:engineering/engineering-i18n-engineer
+role:engineering/engineering-identity-access-engineer,Identity & Access Engineer,Identity & Access Engineer,engineering,技术工程,1,1,agency_en,engineering,Identity & Access Engineer,数据与 AI,agency_en:engineering/engineering-identity-access-engineer
+role:engineering/engineering-incident-response-commander,故障响应指挥官,Incident Response Commander,engineering,技术工程,2,2,agency_en;agency_zh,engineering,Incident Response Commander;故障响应指挥官,产品设计;人力与组织;软件工程,agency_zh:engineering/engineering-incident-response-commander;agency_en:engineering/engineering-incident-response-commander
+role:engineering/engineering-iot-fleet-engineer,IoT Fleet Engineer,IoT Fleet Engineer,engineering,技术工程,1,1,agency_en,engineering,IoT Fleet Engineer,数据与 AI;销售,agency_en:engineering/engineering-iot-fleet-engineer
+role:engineering/engineering-iot-solution-architect,IoT 方案架构师,IoT 方案架构师,engineering,技术工程,1,1,agency_zh,engineering,IoT 方案架构师,产品设计;安全合规;数据与 AI,agency_zh:engineering/engineering-iot-solution-architect
+role:engineering/engineering-it-service-manager,IT 服务经理,IT Service Manager,engineering,技术工程,2,2,agency_en;agency_zh,engineering,IT Service Manager;IT 服务经理,产品设计;人力与组织;数据与 AI,agency_zh:engineering/engineering-it-service-manager;agency_en:engineering/engineering-it-service-manager
+role:engineering/engineering-knowledge-graph-engineer,Knowledge Graph Engineer,Knowledge Graph Engineer,engineering,技术工程,1,1,agency_en,engineering,Knowledge Graph Engineer,数据与 AI,agency_en:engineering/engineering-knowledge-graph-engineer
+role:engineering/engineering-llm-post-training-engineer,LLM Post-Training Engineer,LLM Post-Training Engineer,engineering,技术工程,1,1,agency_en,engineering,LLM Post-Training Engineer,数据与 AI,agency_en:engineering/engineering-llm-post-training-engineer
+role:engineering/engineering-mechanical-design-engineer,机械设计工程师,机械设计工程师,engineering,技术工程,1,1,agency_zh,engineering,机械设计工程师,产品设计;软件工程,agency_zh:engineering/engineering-mechanical-design-engineer
+role:engineering/engineering-minimal-change-engineer,最小变更工程师,Minimal Change Engineer,engineering,技术工程,2,2,agency_en;agency_zh,engineering,Minimal Change Engineer;最小变更工程师,人力与组织;内容;软件工程,agency_zh:engineering/engineering-minimal-change-engineer;agency_en:engineering/engineering-minimal-change-engineer
+role:engineering/engineering-mobile-app-builder,移动应用开发者,Mobile App Builder,engineering,技术工程,2,2,agency_en;agency_zh,engineering,Mobile App Builder;移动应用开发者,产品设计;软件工程,agency_zh:engineering/engineering-mobile-app-builder;agency_en:engineering/engineering-mobile-app-builder
+role:engineering/engineering-mobile-release-engineer,Mobile Release Engineer,Mobile Release Engineer,engineering,技术工程,1,1,agency_en,engineering,Mobile Release Engineer,医疗健康;软件工程;销售,agency_en:engineering/engineering-mobile-release-engineer
+role:engineering/engineering-multi-agent-systems-architect,多智能体系统架构师,Multi-Agent Systems Architect,engineering,技术工程,2,2,agency_en;agency_zh,engineering,Multi-Agent Systems Architect;多智能体系统架构师,产品设计;数据与 AI;销售,agency_zh:engineering/engineering-multi-agent-systems-architect;agency_en:engineering/engineering-multi-agent-systems-architect
+role:engineering/engineering-network-engineer,Network Engineer,Network Engineer,engineering,技术工程,1,1,agency_en,engineering,Network Engineer,,agency_en:engineering/engineering-network-engineer
+role:engineering/engineering-network-engineer-china,国内网络工程师,国内网络工程师,engineering,技术工程,1,1,agency_zh,engineering,国内网络工程师,产品设计;安全合规;数据与 AI;软件工程,agency_zh:engineering/engineering-network-engineer-china
+role:engineering/engineering-orgscript-engineer,OrgScript 工程师,OrgScript Engineer,engineering,技术工程,2,2,agency_en;agency_zh,engineering,OrgScript Engineer;OrgScript 工程师,产品设计;软件工程,agency_zh:engineering/engineering-orgscript-engineer;agency_en:engineering/engineering-orgscript-engineer
+role:engineering/engineering-payments-billing-engineer,Payments & Billing Engineer,Payments & Billing Engineer,engineering,技术工程,1,1,agency_en,engineering,Payments & Billing Engineer,数据与 AI;财务金融,agency_en:engineering/engineering-payments-billing-engineer
+role:engineering/engineering-pc-host-engineer,上位机工程师,上位机工程师,engineering,技术工程,1,1,agency_zh,engineering,上位机工程师,产品设计;数据与 AI;软件工程,agency_zh:engineering/engineering-pc-host-engineer
+role:engineering/engineering-pdf-engine-architect,PDF Engine Architect,PDF Engine Architect,engineering,技术工程,1,1,agency_en,engineering,PDF Engine Architect,数据与 AI,agency_en:engineering/engineering-pdf-engine-architect
+role:engineering/engineering-platform-engineer,Platform Engineer,Platform Engineer,engineering,技术工程,1,1,agency_en,engineering,Platform Engineer,软件工程,agency_en:engineering/engineering-platform-engineer
+role:engineering/engineering-privacy-engineer,Privacy Engineer,Privacy Engineer,engineering,技术工程,1,1,agency_en,engineering,Privacy Engineer,产品设计;安全合规;数据与 AI;软件工程,agency_en:engineering/engineering-privacy-engineer
+role:engineering/engineering-prompt-engineer,Prompt 工程师,Prompt Engineer,engineering,技术工程,2,2,agency_en;agency_zh,engineering,Prompt Engineer;Prompt 工程师,产品设计;数据与 AI;软件工程,agency_zh:engineering/engineering-prompt-engineer;agency_en:engineering/engineering-prompt-engineer
+role:engineering/engineering-rag-pipeline-engineer,RAG Pipeline Engineer,RAG Pipeline Engineer,engineering,技术工程,1,1,agency_en,engineering,RAG Pipeline Engineer,产品设计;销售,agency_en:engineering/engineering-rag-pipeline-engineer
+role:engineering/engineering-rapid-prototyper,快速原型师,Rapid Prototyper,engineering,技术工程,2,2,agency_en;agency_zh,engineering,Rapid Prototyper;快速原型师,软件工程,agency_zh:engineering/engineering-rapid-prototyper;agency_en:engineering/engineering-rapid-prototyper
+role:engineering/engineering-realtime-collaboration-engineer,Realtime Collaboration Engineer,Realtime Collaboration Engineer,engineering,技术工程,1,1,agency_en,engineering,Realtime Collaboration Engineer,,agency_en:engineering/engineering-realtime-collaboration-engineer
+role:engineering/engineering-rust-refactoring-specialist,Rust Refactoring Specialist,Rust Refactoring Specialist,engineering,技术工程,1,1,agency_en,engineering,Rust Refactoring Specialist,,agency_en:engineering/engineering-rust-refactoring-specialist
+role:engineering/engineering-search-relevance-engineer,Search Relevance Engineer,Search Relevance Engineer,engineering,技术工程,1,1,agency_en,engineering,Search Relevance Engineer,产品设计,agency_en:engineering/engineering-search-relevance-engineer
+role:engineering/engineering-section-508-specialist,Section 508 Accessibility Specialist,Section 508 Accessibility Specialist,engineering,技术工程,1,1,agency_en,engineering,Section 508 Accessibility Specialist,产品设计;安全合规,agency_en:engineering/engineering-section-508-specialist
+role:engineering/engineering-security-engineer,安全工程师,安全工程师,engineering,技术工程,1,1,agency_zh,engineering,安全工程师,产品设计;安全合规;软件工程,agency_zh:engineering/engineering-security-engineer
+role:engineering/engineering-senior-developer,高级开发者,Senior Developer,engineering,技术工程,2,2,agency_en;agency_zh,engineering,Senior Developer;高级开发者,产品设计;人力与组织;软件工程,agency_zh:engineering/engineering-senior-developer;agency_en:engineering/engineering-senior-developer
+role:engineering/engineering-software-architect,软件架构师,Software Architect,engineering,技术工程,2,2,agency_en;agency_zh,engineering,Software Architect;软件架构师,产品设计;数据与 AI;软件工程,agency_zh:engineering/engineering-software-architect;agency_en:engineering/engineering-software-architect
+role:engineering/engineering-solidity-smart-contract-engineer,Solidity 智能合约工程师,Solidity Smart Contract Engineer,engineering,技术工程,2,2,agency_en;agency_zh,engineering,Solidity Smart Contract Engineer;Solidity 智能合约工程师,产品设计;安全合规;数据与 AI;软件工程,agency_zh:engineering/engineering-solidity-smart-contract-engineer;agency_en:engineering/engineering-solidity-smart-contract-engineer
+role:engineering/engineering-sre,SRE (站点可靠性工程师),SRE (Site Reliability Engineer),engineering,技术工程,2,2,agency_en;agency_zh,engineering,SRE (Site Reliability Engineer);SRE (站点可靠性工程师),产品设计;财务金融;软件工程,agency_zh:engineering/engineering-sre;agency_en:engineering/engineering-sre
+role:engineering/engineering-technical-writer,技术文档工程师,Technical Writer,engineering,技术工程,2,2,agency_en;agency_zh,engineering,Technical Writer;技术文档工程师,软件工程,agency_zh:engineering/engineering-technical-writer;agency_en:engineering/engineering-technical-writer
+role:engineering/engineering-threat-detection-engineer,威胁检测工程师（工程侧）,威胁检测工程师（工程侧）,engineering,技术工程,1,1,agency_zh,engineering,威胁检测工程师（工程侧）,安全合规;软件工程,agency_zh:engineering/engineering-threat-detection-engineer
+role:engineering/engineering-universal-document-compiler,Universal Document Compiler,Universal Document Compiler,engineering,技术工程,1,1,agency_en,engineering,Universal Document Compiler,人力与组织;数据与 AI,agency_en:engineering/engineering-universal-document-compiler
+role:engineering/engineering-uswds-developer,USWDS Developer,USWDS Developer,engineering,技术工程,1,1,agency_en,engineering,USWDS Developer,产品设计;安全合规;软件工程,agency_en:engineering/engineering-uswds-developer
+role:engineering/engineering-video-streaming-engineer,Video Streaming Engineer,Video Streaming Engineer,engineering,技术工程,1,1,agency_en,engineering,Video Streaming Engineer,软件工程,agency_en:engineering/engineering-video-streaming-engineer
+role:engineering/engineering-voice-ai-integration-engineer,语音 AI 集成工程师,Voice AI Integration Engineer,engineering,技术工程,2,2,agency_en;agency_zh,engineering,Voice AI Integration Engineer;语音 AI 集成工程师,产品设计;人力与组织;数据与 AI;软件工程;销售,agency_zh:engineering/engineering-voice-ai-integration-engineer;agency_en:engineering/engineering-voice-ai-integration-engineer
+role:engineering/engineering-webassembly-engineer,WebAssembly Engineer,WebAssembly Engineer,engineering,技术工程,1,1,agency_en,engineering,WebAssembly Engineer,营销,agency_en:engineering/engineering-webassembly-engineer
+role:engineering/engineering-wechat-mini-program-developer,微信小程序开发者,WeChat Mini Program Developer,engineering,技术工程,2,2,agency_en;agency_zh,engineering,WeChat Mini Program Developer;微信小程序开发者,数据与 AI;软件工程,agency_zh:engineering/engineering-wechat-mini-program-developer;agency_en:engineering/engineering-wechat-mini-program-developer
+role:engineering/engineering-wordpress-performance,WordPress Performance Engineer,WordPress Performance Engineer,engineering,技术工程,1,1,agency_en,engineering,WordPress Performance Engineer,安全合规;数据与 AI;软件工程,agency_en:engineering/engineering-wordpress-performance
+role:engineering/engineering-wordpress-shopping-cart,WordPress 购物车工程师,WordPress Shopping Cart Engineer,engineering,技术工程,2,2,agency_en;agency_zh,engineering,WordPress Shopping Cart Engineer;WordPress 购物车工程师,产品设计;电商;软件工程,agency_zh:engineering/engineering-wordpress-shopping-cart;agency_en:engineering/engineering-wordpress-shopping-cart
+role:finance/finance-bookkeeper-controller,簿记与财务总监,Bookkeeper & Controller,finance,金融投资,2,2,agency_en;agency_zh,finance,Bookkeeper & Controller;簿记与财务总监,安全合规;数据与 AI;财务金融;销售,agency_zh:finance/finance-bookkeeper-controller;agency_en:finance/finance-bookkeeper-controller
+role:finance/finance-financial-analyst,财务分析师,Financial Analyst,finance,金融投资,2,2,agency_en;agency_zh,finance,Financial Analyst;财务分析师,数据与 AI;财务金融,agency_zh:finance/finance-financial-analyst;agency_en:finance/finance-financial-analyst
+role:finance/finance-financial-forecaster,财务预测分析师,财务预测分析师,finance,金融投资,1,1,agency_zh,finance,财务预测分析师,数据与 AI;财务金融,agency_zh:finance/finance-financial-forecaster
+role:finance/finance-fpa-analyst,FP&A 分析师,FP&A Analyst,finance,金融投资,2,2,agency_en;agency_zh,finance,FP&A Analyst;FP&A 分析师,人力与组织;数据与 AI;财务金融,agency_zh:finance/finance-fpa-analyst;agency_en:finance/finance-fpa-analyst
+role:finance/finance-fraud-detector,金融风控分析师,金融风控分析师,finance,金融投资,1,1,agency_zh,finance,金融风控分析师,安全合规;数据与 AI;财务金融,agency_zh:finance/finance-fraud-detector
+role:finance/finance-hk-stock-compliance-reviewer,香港股市合规审查专家,香港股市合规审查专家,finance,金融投资,1,1,agency_zh,finance,香港股市合规审查专家,安全合规,agency_zh:finance/finance-hk-stock-compliance-reviewer
+role:finance/finance-investment-researcher,投资研究员,Investment Researcher,finance,金融投资,2,2,agency_en;agency_zh,finance,Investment Researcher;投资研究员,产品设计;安全合规;教育学术;数据与 AI;财务金融,agency_zh:finance/finance-investment-researcher;agency_en:finance/finance-investment-researcher
+role:finance/finance-invoice-manager,发票管理专家,发票管理专家,finance,金融投资,1,1,agency_zh,finance,发票管理专家,安全合规;财务金融,agency_zh:finance/finance-invoice-manager
+role:finance/finance-tax-strategist,税务策略师,Tax Strategist,finance,金融投资,2,2,agency_en;agency_zh,finance,Tax Strategist;税务策略师,安全合规;软件工程,agency_zh:finance/finance-tax-strategist;agency_en:finance/finance-tax-strategist
+role:game-spatial/blender-addon-engineer,Blender 插件工程师,Blender Add-on Engineer,game-spatial,游戏空间,2,2,agency_en;agency_zh,game-development,Blender Add-on Engineer;Blender 插件工程师,产品设计;软件工程;销售,agency_zh:game-development/blender/blender-addon-engineer;agency_en:game-development/blender/blender-addon-engineer
+role:game-spatial/economy-designer,Economy Designer,Economy Designer,game-spatial,游戏空间,1,1,agency_en,game-development,Economy Designer,产品设计;数据与 AI,agency_en:game-development/economy-designer
+role:game-spatial/game-audio-engineer,游戏音频工程师,Game Audio Engineer,game-spatial,游戏空间,3,3,agency_en;agency_zh;workbuddy,game-development;游戏空间,Game Audio Engineer;游戏音频工程师;音效效,财务金融;软件工程,agency_zh:game-development/game-audio-engineer;agency_en:game-development/game-audio-engineer;workbuddy:GameAudioEngineer
+role:game-spatial/game-designer,游戏设计师,Game Designer,game-spatial,游戏空间,3,3,agency_en;agency_zh;workbuddy,game-development;游戏空间,Game Designer;游戏设计师,产品设计;数据与 AI;软件工程,agency_zh:game-development/game-designer;agency_en:game-development/game-designer;workbuddy:GameDesigner
+role:game-spatial/godot-gameplay-scripter,Godot 游戏脚本开发者,Godot Gameplay Scripter,game-spatial,游戏空间,2,2,agency_en;agency_zh,game-development,Godot Gameplay Scripter;Godot 游戏脚本开发者,产品设计;安全合规;软件工程,agency_zh:game-development/godot/godot-gameplay-scripter;agency_en:game-development/godot/godot-gameplay-scripter
+role:game-spatial/godot-multiplayer-engineer,Godot 多人游戏工程师,Godot Multiplayer Engineer,game-spatial,游戏空间,3,3,agency_en;agency_zh;workbuddy,game-development;游戏空间,Godot Multiplayer Engineer;Godot 多人游戏工程师;联网达,数据与 AI;软件工程,agency_zh:game-development/godot/godot-multiplayer-engineer;agency_en:game-development/godot/godot-multiplayer-engineer;workbuddy:GodotMultiplayerEngineer
+role:game-spatial/godot-shader-developer,Godot Shader 开发者,Godot Shader Developer,game-spatial,游戏空间,3,3,agency_en;agency_zh;workbuddy,game-development;游戏空间,Godot Shader Developer;Godot Shader 开发者;渲染达,软件工程,agency_zh:game-development/godot/godot-shader-developer;agency_en:game-development/godot/godot-shader-developer;workbuddy:GodotShaderDeveloper
+role:game-spatial/level-designer,关卡设计师,Level Designer,game-spatial,游戏空间,3,3,agency_en;agency_zh;workbuddy,game-development;游戏空间,Level Designer;关卡卡;关卡设计师,产品设计;人力与组织,agency_zh:game-development/level-designer;agency_en:game-development/level-designer;workbuddy:LevelDesigner
+role:game-spatial/macos-spatial-metal-engineer,macOS Metal 空间工程师,macOS Spatial/Metal Engineer,game-spatial,游戏空间,2,2,agency_en;agency_zh,spatial-computing,macOS Metal 空间工程师;macOS Spatial/Metal Engineer,产品设计;软件工程,agency_zh:spatial-computing/macos-spatial-metal-engineer;agency_en:spatial-computing/macos-spatial-metal-engineer
+role:game-spatial/narrative-designer,叙事设计师,Narrative Designer,game-spatial,游戏空间,3,3,agency_en;agency_zh;workbuddy,game-development;游戏空间,Narrative Designer;剧本本;叙事设计师,产品设计;数据与 AI,agency_zh:game-development/narrative-designer;agency_en:game-development/narrative-designer;workbuddy:NarrativeDesigner
+role:game-spatial/roblox-avatar-creator,Roblox 虚拟形象创作者,Roblox Avatar Creator,game-spatial,游戏空间,3,3,agency_en;agency_zh;workbuddy,game-development;游戏空间,Roblox Avatar Creator;Roblox 虚拟形象创作者;捏脸达,销售,agency_zh:game-development/roblox-studio/roblox-avatar-creator;agency_en:game-development/roblox-studio/roblox-avatar-creator;workbuddy:RobloxAvatarCreator
+role:game-spatial/roblox-experience-designer,Roblox 体验设计师,Roblox Experience Designer,game-spatial,游戏空间,3,3,agency_en;agency_zh;workbuddy,game-development;游戏空间,Roblox Experience Designer;Roblox 体验设计师;乐体验,产品设计;数据与 AI;软件工程,agency_zh:game-development/roblox-studio/roblox-experience-designer;agency_en:game-development/roblox-studio/roblox-experience-designer;workbuddy:RobloxExperienceDesigner
+role:game-spatial/roblox-systems-scripter,Roblox 系统脚本工程师,Roblox Systems Scripter,game-spatial,游戏空间,2,2,agency_en;agency_zh,game-development,Roblox Systems Scripter;Roblox 系统脚本工程师,安全合规;数据与 AI;软件工程;销售,agency_zh:game-development/roblox-studio/roblox-systems-scripter;agency_en:game-development/roblox-studio/roblox-systems-scripter
+role:game-spatial/technical-artist,技术美术,Technical Artist,game-spatial,游戏空间,3,3,agency_en;agency_zh;workbuddy,game-development;游戏空间,Technical Artist;技术美术;技美美,财务金融;销售,agency_zh:game-development/technical-artist;agency_en:game-development/technical-artist;workbuddy:TechnicalArtist
+role:game-spatial/terminal-integration-specialist,终端集成专家,Terminal Integration Specialist,game-spatial,游戏空间,2,2,agency_en;agency_zh,spatial-computing,Terminal Integration Specialist;终端集成专家,,agency_zh:spatial-computing/terminal-integration-specialist;agency_en:spatial-computing/terminal-integration-specialist
+role:game-spatial/unity-architect,Unity 架构师,Unity Architect,game-spatial,游戏空间,3,3,agency_en;agency_zh;workbuddy,game-development;游戏空间,Unity Architect;Unity 架构师;解耦达,产品设计;数据与 AI,agency_zh:game-development/unity/unity-architect;agency_en:game-development/unity/unity-architect;workbuddy:UnityArchitect
+role:game-spatial/unity-editor-tool-developer,Unity 编辑器工具开发者,Unity Editor Tool Developer,game-spatial,游戏空间,3,3,agency_en;agency_zh;workbuddy,game-development;游戏空间,Unity Editor Tool Developer;Unity 编辑器工具开发者;插件达,软件工程;销售,agency_zh:game-development/unity/unity-editor-tool-developer;agency_en:game-development/unity/unity-editor-tool-developer;workbuddy:UnityEditorToolDeveloper
+role:game-spatial/unity-multiplayer-engineer,Unity 多人游戏工程师,Unity Multiplayer Engineer,game-spatial,游戏空间,3,3,agency_en;agency_zh;workbuddy,game-development;游戏空间,Unity Multiplayer Engineer;Unity 多人游戏工程师;同步达,人力与组织;软件工程;销售,agency_zh:game-development/unity/unity-multiplayer-engineer;agency_en:game-development/unity/unity-multiplayer-engineer;workbuddy:UnityMultiplayerEngineer
+role:game-spatial/unity-shader-graph-artist,Unity Shader Graph 美术师,Unity Shader Graph Artist,game-spatial,游戏空间,3,3,agency_en;agency_zh;workbuddy,game-development;游戏空间,Unity Shader Graph Artist;Unity Shader Graph 美术师;着色师,销售,agency_zh:game-development/unity/unity-shader-graph-artist;agency_en:game-development/unity/unity-shader-graph-artist;workbuddy:UnityShaderGraphArtist
+role:game-spatial/unreal-multiplayer-architect,Unreal 多人游戏架构师,Unreal Multiplayer Architect,game-spatial,游戏空间,3,3,agency_en;agency_zh;workbuddy,game-development;游戏空间,Unreal Multiplayer Architect;Unreal 多人游戏架构师;联机达,,agency_zh:game-development/unreal-engine/unreal-multiplayer-architect;agency_en:game-development/unreal-engine/unreal-multiplayer-architect;workbuddy:UnrealMultiplayerArchitect
+role:game-spatial/unreal-systems-engineer,Unreal 系统工程师,Unreal Systems Engineer,game-spatial,游戏空间,2,2,agency_en;agency_zh,game-development,Unreal Systems Engineer;Unreal 系统工程师,软件工程,agency_zh:game-development/unreal-engine/unreal-systems-engineer;agency_en:game-development/unreal-engine/unreal-systems-engineer
+role:game-spatial/unreal-technical-artist,Unreal 技术美术,Unreal Technical Artist,game-spatial,游戏空间,3,3,agency_en;agency_zh;workbuddy,game-development;游戏空间,Unreal Technical Artist;Unreal 技术美术;材质通,内容;销售,agency_zh:game-development/unreal-engine/unreal-technical-artist;agency_en:game-development/unreal-engine/unreal-technical-artist;workbuddy:UnrealTechnicalArtist
+role:game-spatial/unreal-world-builder,Unreal 世界构建师,Unreal World Builder,game-spatial,游戏空间,3,3,agency_en;agency_zh;workbuddy,game-development;游戏空间,Unreal World Builder;Unreal 世界构建师;造世界,产品设计;数据与 AI,agency_zh:game-development/unreal-engine/unreal-world-builder;agency_en:game-development/unreal-engine/unreal-world-builder;workbuddy:UnrealWorldBuilder
+role:game-spatial/visionos-spatial-engineer,visionOS 空间工程师,visionOS Spatial Engineer,game-spatial,游戏空间,2,2,agency_en;agency_zh,spatial-computing,visionOS Spatial Engineer;visionOS 空间工程师,产品设计;软件工程,agency_zh:spatial-computing/visionos-spatial-engineer;agency_en:spatial-computing/visionos-spatial-engineer
+role:game-spatial/xr-cockpit-interaction-specialist,XR 座舱交互专家,XR Cockpit Interaction Specialist,game-spatial,游戏空间,2,2,agency_en;agency_zh,spatial-computing,XR Cockpit Interaction Specialist;XR 座舱交互专家,产品设计;软件工程,agency_zh:spatial-computing/xr-cockpit-interaction-specialist;agency_en:spatial-computing/xr-cockpit-interaction-specialist
+role:game-spatial/xr-immersive-developer,XR 沉浸式开发者,XR Immersive Developer,game-spatial,游戏空间,3,3,agency_en;agency_zh;workbuddy,spatial-computing;游戏空间,XR Immersive Developer;XR 沉浸式开发者;沉浸达,软件工程,agency_zh:spatial-computing/xr-immersive-developer;agency_en:spatial-computing/xr-immersive-developer;workbuddy:XrImmersiveDeveloper
+role:game-spatial/xr-interface-architect,XR 界面架构师,XR Interface Architect,game-spatial,游戏空间,3,3,agency_en;agency_zh;workbuddy,spatial-computing;游戏空间,XR Interface Architect;XR 界面架构师;空间界,产品设计,agency_zh:spatial-computing/xr-interface-architect;agency_en:spatial-computing/xr-interface-architect;workbuddy:XrInterfaceArchitect
+role:healthcare/healthcare-clinical-evidence-agent,Clinical Evidence Agent,Clinical Evidence Agent,healthcare,医疗健康,1,1,agency_en,healthcare,Clinical Evidence Agent,产品设计;医疗健康;数据与 AI,agency_en:healthcare/healthcare-clinical-evidence-agent
+role:healthcare/healthcare-innovation-strategist,Healthcare Innovation Strategist,Healthcare Innovation Strategist,healthcare,医疗健康,1,1,agency_en,healthcare,Healthcare Innovation Strategist,产品设计;医疗健康;数据与 AI;财务金融;软件工程,agency_en:healthcare/healthcare-innovation-strategist
+role:healthcare/healthcare-sovereign-health-systems-agent,Sovereign Health Systems Agent,Sovereign Health Systems Agent,healthcare,医疗健康,1,1,agency_en,healthcare,Sovereign Health Systems Agent,医疗健康;数据与 AI,agency_en:healthcare/healthcare-sovereign-health-systems-agent
+role:legal-security/legal-contract-reviewer,合同审查专家,合同审查专家,legal-security,法务安全,1,1,agency_zh,legal,合同审查专家,产品设计;安全合规,agency_zh:legal/legal-contract-reviewer
+role:legal-security/legal-policy-writer,制度文件撰写专家,制度文件撰写专家,legal-security,法务安全,1,1,agency_zh,legal,制度文件撰写专家,安全合规;数据与 AI,agency_zh:legal/legal-policy-writer
+role:legal-security/security-ai-generated-code-auditor,AI-Generated Code Security Auditor,AI-Generated Code Security Auditor,legal-security,法务安全,1,1,agency_en,security,AI-Generated Code Security Auditor,安全合规;数据与 AI;软件工程,agency_en:security/security-ai-generated-code-auditor
+role:legal-security/security-appsec-engineer,应用安全工程师,Application Security Engineer,legal-security,法务安全,2,2,agency_en;agency_zh,security,Application Security Engineer;应用安全工程师,人力与组织;安全合规;教育学术;软件工程,agency_zh:security/security-appsec-engineer;agency_en:security/security-appsec-engineer
+role:legal-security/security-architect,安全架构师,Security Architect,legal-security,法务安全,2,2,agency_en;agency_zh,security,Security Architect;安全架构师,产品设计;人力与组织;安全合规;数据与 AI;软件工程,agency_zh:security/security-architect;agency_en:security/security-architect
+role:legal-security/security-blockchain-security-auditor,区块链安全审计师,Blockchain Security Auditor,legal-security,法务安全,2,2,agency_en;agency_zh,security,Blockchain Security Auditor;区块链安全审计师,安全合规;数据与 AI,agency_zh:security/security-blockchain-security-auditor;agency_en:security/security-blockchain-security-auditor
+role:legal-security/security-cloud-security-architect,云安全架构师,Cloud Security Architect,legal-security,法务安全,2,2,agency_en;agency_zh,security,Cloud Security Architect;云安全架构师,产品设计;安全合规;软件工程;销售,agency_zh:security/security-cloud-security-architect;agency_en:security/security-cloud-security-architect
+role:legal-security/security-compliance-auditor,合规审计师,Compliance Auditor,legal-security,法务安全,2,2,agency_en;agency_zh,security,Compliance Auditor;合规审计师,人力与组织;安全合规,agency_zh:security/security-compliance-auditor;agency_en:security/security-compliance-auditor
+role:legal-security/security-incident-responder,事件响应专家,Incident Responder,legal-security,法务安全,2,2,agency_en;agency_zh,security,Incident Responder;事件响应专家,人力与组织;数据与 AI,agency_zh:security/security-incident-responder;agency_en:security/security-incident-responder
+role:legal-security/security-penetration-tester,渗透测试员,Penetration Tester,legal-security,法务安全,2,2,agency_en;agency_zh,security,Penetration Tester;渗透测试员,安全合规,agency_zh:security/security-penetration-tester;agency_en:security/security-penetration-tester
+role:legal-security/security-secrets-credential-engineer,Secrets & Credential Hygiene Engineer,Secrets & Credential Hygiene Engineer,legal-security,法务安全,1,1,agency_en,security,Secrets & Credential Hygiene Engineer,软件工程,agency_en:security/security-secrets-credential-engineer
+role:legal-security/security-senior-secops,高级安全运营工程师,Senior SecOps Engineer,legal-security,法务安全,2,2,agency_en;agency_zh,security,Senior SecOps Engineer;高级安全运营工程师,人力与组织;安全合规;数据与 AI;软件工程,agency_zh:security/security-senior-secops;agency_en:security/security-senior-secops
+role:legal-security/security-threat-detection-engineer,威胁检测工程师（安全运营）,Threat Detection Engineer,legal-security,法务安全,2,2,agency_en;agency_zh,security,Threat Detection Engineer;威胁检测工程师（安全运营）,人力与组织;安全合规;软件工程;销售,agency_zh:security/security-threat-detection-engineer;agency_en:security/security-threat-detection-engineer
+role:legal-security/security-threat-intelligence-analyst,威胁情报分析师,Threat Intelligence Analyst,legal-security,法务安全,2,2,agency_en;agency_zh,security,Threat Intelligence Analyst;威胁情报分析师,产品设计;人力与组织;数据与 AI;营销,agency_zh:security/security-threat-intelligence-analyst;agency_en:security/security-threat-intelligence-analyst
+role:marketing-growth/marketing-aeo-foundations,AEO 基础架构师,AEO Foundations Architect,marketing-growth,营销增长,2,2,agency_en;agency_zh,marketing,AEO Foundations Architect;AEO 基础架构师,内容;安全合规;数据与 AI;营销,agency_zh:marketing/marketing-aeo-foundations;agency_en:marketing/marketing-aeo-foundations
+role:marketing-growth/marketing-agentic-search-optimizer,智能搜索优化师,Agentic Search Optimizer,marketing-growth,营销增长,2,2,agency_en;agency_zh,marketing,Agentic Search Optimizer;智能搜索优化师,安全合规;数据与 AI,agency_zh:marketing/marketing-agentic-search-optimizer;agency_en:marketing/marketing-agentic-search-optimizer
+role:marketing-growth/marketing-ai-citation-strategist,AI 搜索可见性与 GEO 策略师,AI Citation Strategist,marketing-growth,营销增长,2,2,agency_en;agency_zh,marketing,AI Citation Strategist;AI 搜索可见性与 GEO 策略师,内容;安全合规;数据与 AI;营销,agency_zh:marketing/marketing-ai-citation-strategist;agency_en:marketing/marketing-ai-citation-strategist
+role:marketing-growth/marketing-app-store-optimizer,应用商店优化师,App Store Optimizer,marketing-growth,营销增长,2,2,agency_en;agency_zh,marketing,App Store Optimizer;应用商店优化师,营销,agency_zh:marketing/marketing-app-store-optimizer;agency_en:marketing/marketing-app-store-optimizer
+role:marketing-growth/marketing-baidu-seo-specialist,百度 SEO 专家,Baidu SEO Specialist,marketing-growth,营销增长,2,2,agency_en;agency_zh,marketing,Baidu SEO Specialist;百度 SEO 专家,产品设计;安全合规;教育学术;数据与 AI;营销,agency_zh:marketing/marketing-baidu-seo-specialist;agency_en:marketing/marketing-baidu-seo-specialist
+role:marketing-growth/marketing-bilibili-content-strategist,Bilibili Content Strategist,Bilibili Content Strategist,marketing-growth,营销增长,1,1,agency_en,marketing,Bilibili Content Strategist,产品设计;内容;营销,agency_en:marketing/marketing-bilibili-content-strategist
+role:marketing-growth/marketing-bilibili-strategist,B站内容策略师,B站内容策略师,marketing-growth,营销增长,1,1,agency_zh,marketing,B站内容策略师,内容;营销,agency_zh:marketing/marketing-bilibili-strategist
+role:marketing-growth/marketing-book-co-author,图书联合作者,Book Co-Author,marketing-growth,营销增长,2,2,agency_en;agency_zh,marketing,Book Co-Author;图书联合作者,,agency_zh:marketing/marketing-book-co-author;agency_en:marketing/marketing-book-co-author
+role:marketing-growth/marketing-carousel-growth-engine,轮播图增长引擎,Carousel Growth Engine,marketing-growth,营销增长,2,2,agency_en;agency_zh,marketing,Carousel Growth Engine;轮播图增长引擎,人力与组织;内容;数据与 AI;营销;软件工程,agency_zh:marketing/marketing-carousel-growth-engine;agency_en:marketing/marketing-carousel-growth-engine
+role:marketing-growth/marketing-china-ecommerce-operator,中国电商运营专家,China E-Commerce Operator,marketing-growth,营销增长,2,2,agency_en;agency_zh,marketing,China E-Commerce Operator;中国电商运营专家,产品设计;数据与 AI;电商;营销,agency_zh:marketing/marketing-china-ecommerce-operator;agency_en:marketing/marketing-china-ecommerce-operator
+role:marketing-growth/marketing-china-market-localization-strategist,中国市场本地化策略师,China Market Localization Strategist,marketing-growth,营销增长,2,2,agency_en;agency_zh,marketing,China Market Localization Strategist;中国市场本地化策略师,内容,agency_zh:marketing/marketing-china-market-localization-strategist;agency_en:marketing/marketing-china-market-localization-strategist
+role:marketing-growth/marketing-content-creator,内容创作者,Content Creator,marketing-growth,营销增长,2,2,agency_en;agency_zh,marketing,Content Creator;内容创作者,内容;数据与 AI;营销,agency_zh:marketing/marketing-content-creator;agency_en:marketing/marketing-content-creator
+role:marketing-growth/marketing-cross-border-ecommerce,跨境电商运营专家,Cross-Border E-Commerce Specialist,marketing-growth,营销增长,2,2,agency_en;agency_zh,marketing,Cross-Border E-Commerce Specialist;跨境电商运营专家,供应链;安全合规;电商;营销,agency_zh:marketing/marketing-cross-border-ecommerce;agency_en:marketing/marketing-cross-border-ecommerce
+role:marketing-growth/marketing-daily-news-briefing,新闻情报官,新闻情报官,marketing-growth,营销增长,1,1,agency_zh,marketing,新闻情报官,内容,agency_zh:marketing/marketing-daily-news-briefing
+role:marketing-growth/marketing-douyin-strategist,抖音策略师,Douyin Strategist,marketing-growth,营销增长,2,2,agency_en;agency_zh,marketing,Douyin Strategist;抖音策略师,人力与组织;内容;营销,agency_zh:marketing/marketing-douyin-strategist;agency_en:marketing/marketing-douyin-strategist
+role:marketing-growth/marketing-ecommerce-operator,电商运营师,电商运营师,marketing-growth,营销增长,1,1,agency_zh,marketing,电商运营师,电商,agency_zh:marketing/marketing-ecommerce-operator
+role:marketing-growth/marketing-email-strategist,邮件营销策略师,Email Marketing Strategist,marketing-growth,营销增长,2,2,agency_en;agency_zh,marketing,Email Marketing Strategist;邮件营销策略师,产品设计;数据与 AI;营销;销售,agency_zh:marketing/marketing-email-strategist;agency_en:marketing/marketing-email-strategist
+role:marketing-growth/marketing-global-podcast-strategist,全球播客策略师,Global Podcast Strategist,marketing-growth,营销增长,2,2,agency_en;agency_zh,marketing,Global Podcast Strategist;全球播客策略师,内容;营销,agency_zh:marketing/marketing-global-podcast-strategist;agency_en:marketing/marketing-global-podcast-strategist
+role:marketing-growth/marketing-growth-hacker,增长黑客,Growth Hacker,marketing-growth,营销增长,2,2,agency_en;agency_zh,marketing,Growth Hacker;增长黑客,产品设计;人力与组织;数据与 AI;营销;财务金融;软件工程,agency_zh:marketing/marketing-growth-hacker;agency_en:marketing/marketing-growth-hacker
+role:marketing-growth/marketing-instagram-curator,Instagram 策展师,Instagram Curator,marketing-growth,营销增长,2,2,agency_en;agency_zh,marketing,Instagram Curator;Instagram 策展师,产品设计;内容;营销,agency_zh:marketing/marketing-instagram-curator;agency_en:marketing/marketing-instagram-curator
+role:marketing-growth/marketing-knowledge-commerce-strategist,知识付费产品策划师,知识付费产品策划师,marketing-growth,营销增长,1,1,agency_zh,marketing,知识付费产品策划师,产品设计;内容;数据与 AI,agency_zh:marketing/marketing-knowledge-commerce-strategist
+role:marketing-growth/marketing-kuaishou-strategist,快手策略师,Kuaishou Strategist,marketing-growth,营销增长,2,2,agency_en;agency_zh,marketing,Kuaishou Strategist;快手策略师,产品设计;内容;数据与 AI;电商;营销,agency_zh:marketing/marketing-kuaishou-strategist;agency_en:marketing/marketing-kuaishou-strategist
+role:marketing-growth/marketing-linkedin-content-creator,LinkedIn 内容创作专家,LinkedIn Content Creator,marketing-growth,营销增长,2,2,agency_en;agency_zh,marketing,LinkedIn Content Creator;LinkedIn 内容创作专家,产品设计;内容;营销;软件工程,agency_zh:marketing/marketing-linkedin-content-creator;agency_en:marketing/marketing-linkedin-content-creator
+role:marketing-growth/marketing-livestream-commerce-coach,直播电商主播教练,Livestream Commerce Coach,marketing-growth,营销增长,2,2,agency_en;agency_zh,marketing,Livestream Commerce Coach;直播电商主播教练,产品设计;内容;数据与 AI;电商,agency_zh:marketing/marketing-livestream-commerce-coach;agency_en:marketing/marketing-livestream-commerce-coach
+role:marketing-growth/marketing-multi-platform-publisher,多平台发布编排官,Multi-Platform Publisher,marketing-growth,营销增长,2,2,agency_en;agency_zh,marketing,Multi-Platform Publisher;多平台发布编排官,内容;安全合规;数据与 AI,agency_zh:marketing/marketing-multi-platform-publisher;agency_en:marketing/marketing-multi-platform-publisher
+role:marketing-growth/marketing-podcast-strategist,播客内容策略师,Podcast Strategist,marketing-growth,营销增长,2,2,agency_en;agency_zh,marketing,Podcast Strategist;播客内容策略师,产品设计;内容;营销,agency_zh:marketing/marketing-podcast-strategist;agency_en:marketing/marketing-podcast-strategist
+role:marketing-growth/marketing-pr-communications-manager,PR 与传播经理,PR & Communications Manager,marketing-growth,营销增长,2,2,agency_en;agency_zh,marketing,PR & Communications Manager;PR 与传播经理,产品设计;人力与组织;营销,agency_zh:marketing/marketing-pr-communications-manager;agency_en:marketing/marketing-pr-communications-manager
+role:marketing-growth/marketing-private-domain-operator,私域流量运营师,Private Domain Operator,marketing-growth,营销增长,2,2,agency_en;agency_zh,marketing,Private Domain Operator;私域流量运营师,产品设计;数据与 AI;销售,agency_zh:marketing/marketing-private-domain-operator;agency_en:marketing/marketing-private-domain-operator
+role:marketing-growth/marketing-reddit-community-builder,Reddit 社区运营,Reddit Community Builder,marketing-growth,营销增长,2,2,agency_en;agency_zh,marketing,Reddit Community Builder;Reddit 社区运营,产品设计;内容;营销,agency_zh:marketing/marketing-reddit-community-builder;agency_en:marketing/marketing-reddit-community-builder
+role:marketing-growth/marketing-search-growth-orchestrator,搜索增长编排器,搜索增长编排器,marketing-growth,营销增长,1,1,agency_zh,marketing,搜索增长编排器,数据与 AI;营销,agency_zh:marketing/marketing-search-growth-orchestrator
+role:marketing-growth/marketing-seo-specialist,SEO 与自然搜索增长专家,SEO Specialist,marketing-growth,营销增长,2,2,agency_en;agency_zh,marketing,SEO Specialist;SEO 与自然搜索增长专家,产品设计;人力与组织;内容;数据与 AI;营销,agency_zh:marketing/marketing-seo-specialist;agency_en:marketing/marketing-seo-specialist
+role:marketing-growth/marketing-short-video-editing-coach,短视频剪辑指导师,Short-Video Editing Coach,marketing-growth,营销增长,2,2,agency_en;agency_zh,marketing,Short-Video Editing Coach;短视频剪辑指导师,产品设计;数据与 AI;软件工程;销售,agency_zh:marketing/marketing-short-video-editing-coach;agency_en:marketing/marketing-short-video-editing-coach
+role:marketing-growth/marketing-social-media-strategist,社交媒体策略师,Social Media Strategist,marketing-growth,营销增长,2,2,agency_en;agency_zh,marketing,Social Media Strategist;社交媒体策略师,产品设计;数据与 AI;营销,agency_zh:marketing/marketing-social-media-strategist;agency_en:marketing/marketing-social-media-strategist
+role:marketing-growth/marketing-tiktok-strategist,TikTok 策略师,TikTok Strategist,marketing-growth,营销增长,2,2,agency_en;agency_zh,marketing,TikTok Strategist;TikTok 策略师,产品设计;内容;营销,agency_zh:marketing/marketing-tiktok-strategist;agency_en:marketing/marketing-tiktok-strategist
+role:marketing-growth/marketing-twitter-engager,Twitter 互动官,Twitter Engager,marketing-growth,营销增长,2,2,agency_en;agency_zh,marketing,Twitter Engager;Twitter 互动官,产品设计;人力与组织;营销,agency_zh:marketing/marketing-twitter-engager;agency_en:marketing/marketing-twitter-engager
+role:marketing-growth/marketing-video-optimization-specialist,视频优化专家,Video Optimization Specialist,marketing-growth,营销增长,2,2,agency_en;agency_zh,marketing,Video Optimization Specialist;视频优化专家,产品设计;内容;数据与 AI;营销,agency_zh:marketing/marketing-video-optimization-specialist;agency_en:marketing/marketing-video-optimization-specialist
+role:marketing-growth/marketing-wechat-official-account,微信公众号管理,WeChat Official Account Manager,marketing-growth,营销增长,2,2,agency_en;agency_zh,marketing,WeChat Official Account Manager;微信公众号管理,产品设计;人力与组织;内容;营销;销售,agency_zh:marketing/marketing-wechat-official-account;agency_en:marketing/marketing-wechat-official-account
+role:marketing-growth/marketing-wechat-operator,微信公众号运营,微信公众号运营,marketing-growth,营销增长,1,1,agency_zh,marketing,微信公众号运营,内容;营销,agency_zh:marketing/marketing-wechat-operator
+role:marketing-growth/marketing-weibo-strategist,微博运营策略师,Weibo Strategist,marketing-growth,营销增长,2,2,agency_en;agency_zh,marketing,Weibo Strategist;微博运营策略师,数据与 AI;营销,agency_zh:marketing/marketing-weibo-strategist;agency_en:marketing/marketing-weibo-strategist
+role:marketing-growth/marketing-weixin-channels-strategist,微信视频号运营策略师,微信视频号运营策略师,marketing-growth,营销增长,1,1,agency_zh,marketing,微信视频号运营策略师,内容;数据与 AI;营销,agency_zh:marketing/marketing-weixin-channels-strategist
+role:marketing-growth/marketing-x-twitter-intelligence-analyst,X/Twitter 情报分析师,X/Twitter Intelligence Analyst,marketing-growth,营销增长,2,2,agency_en;agency_zh,marketing,X/Twitter Intelligence Analyst;X/Twitter 情报分析师,教育学术;数据与 AI;销售,agency_zh:marketing/marketing-x-twitter-intelligence-analyst;agency_en:marketing/marketing-x-twitter-intelligence-analyst
+role:marketing-growth/marketing-xiaohongshu-operator,小红书运营专家,小红书运营专家,marketing-growth,营销增长,1,1,agency_zh,marketing,小红书运营专家,内容;数据与 AI;营销,agency_zh:marketing/marketing-xiaohongshu-operator
+role:marketing-growth/marketing-xiaohongshu-specialist,小红书专家,Xiaohongshu Specialist,marketing-growth,营销增长,2,2,agency_en;agency_zh,marketing,Xiaohongshu Specialist;小红书专家,人力与组织;内容;营销,agency_zh:marketing/marketing-xiaohongshu-specialist;agency_en:marketing/marketing-xiaohongshu-specialist
+role:marketing-growth/marketing-zhihu-strategist,知乎策略师,Zhihu Strategist,marketing-growth,营销增长,2,2,agency_en;agency_zh,marketing,Zhihu Strategist;知乎策略师,产品设计;人力与组织;营销,agency_zh:marketing/marketing-zhihu-strategist;agency_en:marketing/marketing-zhihu-strategist
+role:marketing-growth/paid-media-auditor,付费媒体审计师,Paid Media Auditor,marketing-growth,营销增长,3,3,agency_en;agency_zh;workbuddy,paid-media;营销增长,Paid Media Auditor;付费媒体审计师;查账账,安全合规;数据与 AI;营销;财务金融;销售,agency_zh:paid-media/paid-media-auditor;agency_en:paid-media/paid-media-auditor;workbuddy:PaidMediaAuditor
+role:marketing-growth/paid-media-creative-strategist,广告创意策略师,Ad Creative Strategist,marketing-growth,营销增长,2,2,agency_en;agency_zh,paid-media,Ad Creative Strategist;广告创意策略师,产品设计;数据与 AI;营销,agency_zh:paid-media/paid-media-creative-strategist;agency_en:paid-media/paid-media-creative-strategist
+role:marketing-growth/paid-media-paid-social-strategist,社交广告策略师,Paid Social Strategist,marketing-growth,营销增长,2,2,agency_en;agency_zh,paid-media,Paid Social Strategist;社交广告策略师,产品设计;人力与组织;内容;数据与 AI;营销,agency_zh:paid-media/paid-media-paid-social-strategist;agency_en:paid-media/paid-media-paid-social-strategist
+role:marketing-growth/paid-media-ppc-strategist,PPC 竞价策略师,PPC Campaign Strategist,marketing-growth,营销增长,2,2,agency_en;agency_zh,paid-media,PPC Campaign Strategist;PPC 竞价策略师,产品设计;数据与 AI;电商;营销;财务金融;销售,agency_zh:paid-media/paid-media-ppc-strategist;agency_en:paid-media/paid-media-ppc-strategist
+role:marketing-growth/paid-media-programmatic-buyer,程序化广告采买专家,Programmatic & Display Buyer,marketing-growth,营销增长,2,2,agency_en;agency_zh,paid-media,Programmatic & Display Buyer;程序化广告采买专家,内容;营销,agency_zh:paid-media/paid-media-programmatic-buyer;agency_en:paid-media/paid-media-programmatic-buyer
+role:marketing-growth/paid-media-search-query-analyst,搜索词分析师,Search Query Analyst,marketing-growth,营销增长,2,2,agency_en;agency_zh,paid-media,Search Query Analyst;搜索词分析师,数据与 AI;销售,agency_zh:paid-media/paid-media-search-query-analyst;agency_en:paid-media/paid-media-search-query-analyst
+role:marketing-growth/paid-media-tracking-specialist,追踪与归因专家,Tracking & Measurement Specialist,marketing-growth,营销增长,2,2,agency_en;agency_zh,paid-media,Tracking & Measurement Specialist;追踪与归因专家,数据与 AI;软件工程,agency_zh:paid-media/paid-media-tracking-specialist;agency_en:paid-media/paid-media-tracking-specialist
+role:operations-hr/hr-performance-reviewer,绩效管理专家,绩效管理专家,operations-hr,运营人力,1,1,agency_zh,hr,绩效管理专家,人力与组织,agency_zh:hr/hr-performance-reviewer
+role:operations-hr/hr-recruiter,招聘专家（HR 全流程）,招聘专家（HR 全流程）,operations-hr,运营人力,1,1,agency_zh,hr,招聘专家（HR 全流程）,人力与组织,agency_zh:hr/hr-recruiter
+role:product-design/design-brand-guardian,品牌守护者,Brand Guardian,product-design,产品设计,2,2,agency_en;agency_zh,design,Brand Guardian;品牌守护者,数据与 AI;营销;软件工程,agency_zh:design/design-brand-guardian;agency_en:design/design-brand-guardian
+role:product-design/design-image-prompt-engineer,图像提示词工程师,Image Prompt Engineer,product-design,产品设计,2,2,agency_en;agency_zh,design,Image Prompt Engineer;图像提示词工程师,人力与组织;数据与 AI;软件工程,agency_zh:design/design-image-prompt-engineer;agency_en:design/design-image-prompt-engineer
+role:product-design/design-inclusive-visuals-specialist,包容性视觉专家,Inclusive Visuals Specialist,product-design,产品设计,2,2,agency_en;agency_zh,design,Inclusive Visuals Specialist;包容性视觉专家,数据与 AI,agency_zh:design/design-inclusive-visuals-specialist;agency_en:design/design-inclusive-visuals-specialist
+role:product-design/design-persona-walkthrough,Persona 走查专家,Persona Walkthrough Specialist,product-design,产品设计,2,2,agency_en;agency_zh,design,Persona Walkthrough Specialist;Persona 走查专家,人力与组织,agency_zh:design/design-persona-walkthrough;agency_en:design/design-persona-walkthrough
+role:product-design/design-ui-designer,UI 设计师,UI Designer,product-design,产品设计,2,2,agency_en;agency_zh,design,UI Designer;UI 设计师,产品设计;营销,agency_zh:design/design-ui-designer;agency_en:design/design-ui-designer
+role:product-design/design-ui-finish-gate-reviewer,UI Finish-Gate Reviewer,UI Finish-Gate Reviewer,product-design,产品设计,1,1,agency_en,design,UI Finish-Gate Reviewer,产品设计,agency_en:design/design-ui-finish-gate-reviewer
+role:product-design/design-ux-architect,UX 架构师,UX Architect,product-design,产品设计,2,2,agency_en;agency_zh,design,UX Architect;UX 架构师,产品设计;软件工程,agency_zh:design/design-ux-architect;agency_en:design/design-ux-architect
+role:product-design/design-ux-researcher,UX 研究员,UX Researcher,product-design,产品设计,2,2,agency_en;agency_zh,design,UX Researcher;UX 研究员,产品设计;教育学术;数据与 AI,agency_zh:design/design-ux-researcher;agency_en:design/design-ux-researcher
+role:product-design/design-video-prompt-engineer,视频提示词工程师,视频提示词工程师,product-design,产品设计,1,1,agency_zh,design,视频提示词工程师,数据与 AI;软件工程,agency_zh:design/design-video-prompt-engineer
+role:product-design/design-visual-storyteller,视觉叙事师,Visual Storyteller,product-design,产品设计,2,2,agency_en;agency_zh,design,Visual Storyteller;视觉叙事师,产品设计;人力与组织;内容;营销,agency_zh:design/design-visual-storyteller;agency_en:design/design-visual-storyteller
+role:product-design/design-whimsy-injector,趣味注入师,Whimsy Injector,product-design,产品设计,2,2,agency_en;agency_zh,design,Whimsy Injector;趣味注入师,产品设计;人力与组织;营销,agency_zh:design/design-whimsy-injector;agency_en:design/design-whimsy-injector
+role:product-design/product-behavioral-nudge-engine,行为助推引擎,Behavioral Nudge Engine,product-design,产品设计,2,2,agency_en;agency_zh,product,Behavioral Nudge Engine;行为助推引擎,软件工程,agency_zh:product/product-behavioral-nudge-engine;agency_en:product/product-behavioral-nudge-engine
+role:product-design/product-feedback-synthesizer,反馈分析师,Feedback Synthesizer,product-design,产品设计,2,2,agency_en;agency_zh,product,Feedback Synthesizer;反馈分析师,产品设计;数据与 AI,agency_zh:product/product-feedback-synthesizer;agency_en:product/product-feedback-synthesizer
+role:product-design/product-manager,产品经理（PM）,Product Manager,product-design,产品设计,2,2,agency_en;agency_zh,product,Product Manager;产品经理（PM）,产品设计;人力与组织,agency_zh:product/product-manager;agency_en:product/product-manager
+role:product-design/product-sprint-prioritizer,Sprint 排序师,Sprint Prioritizer,product-design,产品设计,2,2,agency_en;agency_zh,product,Sprint Prioritizer;Sprint 排序师,产品设计;人力与组织;数据与 AI,agency_zh:product/product-sprint-prioritizer;agency_en:product/product-sprint-prioritizer
+role:product-design/product-trend-researcher,趋势研究员,Trend Researcher,product-design,产品设计,2,2,agency_en;agency_zh,product,Trend Researcher;趋势研究员,产品设计;教育学术;数据与 AI,agency_zh:product/product-trend-researcher;agency_en:product/product-trend-researcher
+role:project-quality/project-management-experiment-tracker,实验追踪员,Experiment Tracker,project-quality,项目质量,2,2,agency_en;agency_zh,project-management,Experiment Tracker;实验追踪员,产品设计;人力与组织;数据与 AI,agency_zh:project-management/project-management-experiment-tracker;agency_en:project-management/project-management-experiment-tracker
+role:project-quality/project-management-jira-workflow-steward,Jira工作流管家,Jira Workflow Steward,project-quality,项目质量,2,2,agency_en;agency_zh,project-management,Jira Workflow Steward;Jira工作流管家,安全合规;软件工程,agency_zh:project-management/project-management-jira-workflow-steward;agency_en:project-management/project-management-jira-workflow-steward
+role:project-quality/project-management-meeting-notes-specialist,会议纪要专家,Meeting Notes Specialist,project-quality,项目质量,2,2,agency_en;agency_zh,project-management,Meeting Notes Specialist;会议纪要专家,,agency_zh:project-management/project-management-meeting-notes-specialist;agency_en:project-management/project-management-meeting-notes-specialist
+role:project-quality/project-management-project-shepherd,项目牧羊人,Project Shepherd,project-quality,项目质量,2,2,agency_en;agency_zh,project-management,Project Shepherd;项目牧羊人,安全合规,agency_zh:project-management/project-management-project-shepherd;agency_en:project-management/project-management-project-shepherd
+role:project-quality/project-management-studio-operations,工作室运营,Studio Operations,project-quality,项目质量,2,2,agency_en;agency_zh,project-management,Studio Operations;工作室运营,产品设计;数据与 AI,agency_zh:project-management/project-management-studio-operations;agency_en:project-management/project-management-studio-operations
+role:project-quality/project-management-studio-producer,工作室制片人,Studio Producer,project-quality,项目质量,2,2,agency_en;agency_zh,project-management,Studio Producer;工作室制片人,,agency_zh:project-management/project-management-studio-producer;agency_en:project-management/project-management-studio-producer
+role:project-quality/project-manager-senior,高级项目经理,Senior Project Manager,project-quality,项目质量,2,2,agency_en;agency_zh,project-management,Senior Project Manager;高级项目经理,产品设计,agency_zh:project-management/project-manager-senior;agency_en:project-management/project-manager-senior
+role:project-quality/testing-accessibility-auditor,无障碍审核员,Accessibility Auditor,project-quality,项目质量,2,2,agency_en;agency_zh,testing,Accessibility Auditor;无障碍审核员,产品设计;安全合规;数据与 AI,agency_zh:testing/testing-accessibility-auditor;agency_en:testing/testing-accessibility-auditor
+role:project-quality/testing-api-tester,API 测试员,API Tester,project-quality,项目质量,2,2,agency_en;agency_zh,testing,API Tester;API 测试员,软件工程,agency_zh:testing/testing-api-tester;agency_en:testing/testing-api-tester
+role:project-quality/testing-embedded-qa-engineer,嵌入式测试工程师,嵌入式测试工程师,project-quality,项目质量,1,1,agency_zh,testing,嵌入式测试工程师,产品设计;软件工程,agency_zh:testing/testing-embedded-qa-engineer
+role:project-quality/testing-evidence-collector,证据收集者,Evidence Collector,project-quality,项目质量,2,2,agency_en;agency_zh,testing,Evidence Collector;证据收集者,产品设计,agency_zh:testing/testing-evidence-collector;agency_en:testing/testing-evidence-collector
+role:project-quality/testing-performance-benchmarker,性能基准师,Performance Benchmarker,project-quality,项目质量,2,2,agency_en;agency_zh,testing,Performance Benchmarker;性能基准师,数据与 AI;软件工程,agency_zh:testing/testing-performance-benchmarker;agency_en:testing/testing-performance-benchmarker
+role:project-quality/testing-reality-checker,现实检验者,Reality Checker,project-quality,项目质量,2,2,agency_en;agency_zh,testing,Reality Checker;现实检验者,产品设计,agency_zh:testing/testing-reality-checker;agency_en:testing/testing-reality-checker
+role:project-quality/testing-test-automation-engineer,Test Automation Engineer,Test Automation Engineer,project-quality,项目质量,1,1,agency_en,testing,Test Automation Engineer,数据与 AI,agency_en:testing/testing-test-automation-engineer
+role:project-quality/testing-test-results-analyzer,测试结果分析师,Test Results Analyzer,project-quality,项目质量,2,2,agency_en;agency_zh,testing,Test Results Analyzer;测试结果分析师,数据与 AI,agency_zh:testing/testing-test-results-analyzer;agency_en:testing/testing-test-results-analyzer
+role:project-quality/testing-tool-evaluator,工具评估师,Tool Evaluator,project-quality,项目质量,2,2,agency_en;agency_zh,testing,Tool Evaluator;工具评估师,产品设计;数据与 AI;软件工程,agency_zh:testing/testing-tool-evaluator;agency_en:testing/testing-tool-evaluator
+role:project-quality/testing-workflow-optimizer,工作流优化师,Workflow Optimizer,project-quality,项目质量,2,2,agency_en;agency_zh,testing,Workflow Optimizer;工作流优化师,产品设计;数据与 AI,agency_zh:testing/testing-workflow-optimizer;agency_en:testing/testing-workflow-optimizer
+role:sales-commerce/sales-account-strategist,客户拓展策略师,Account Strategist,sales-commerce,销售商务,2,2,agency_en;agency_zh,sales,Account Strategist;客户拓展策略师,人力与组织;销售,agency_zh:sales/sales-account-strategist;agency_en:sales/sales-account-strategist
+role:sales-commerce/sales-coach,销售教练,Sales Coach,sales-commerce,销售商务,3,3,agency_en;agency_zh;workbuddy,sales;销售商务,Sales Coach;单必成;销售教练,人力与组织;数据与 AI;销售,agency_zh:sales/sales-coach;agency_en:sales/sales-coach;workbuddy:SalesCoach
+role:sales-commerce/sales-deal-strategist,赢单策略师,Deal Strategist,sales-commerce,销售商务,2,2,agency_en;agency_zh,sales,Deal Strategist;赢单策略师,产品设计;安全合规;销售,agency_zh:sales/sales-deal-strategist;agency_en:sales/sales-deal-strategist
+role:sales-commerce/sales-discovery-coach,Discovery 教练,Discovery Coach,sales-commerce,销售商务,2,2,agency_en;agency_zh,sales,Discovery Coach;Discovery 教练,产品设计;销售,agency_zh:sales/sales-discovery-coach;agency_en:sales/sales-discovery-coach
+role:sales-commerce/sales-engineer,售前工程师,Sales Engineer,sales-commerce,销售商务,2,2,agency_en;agency_zh,sales,Sales Engineer;售前工程师,产品设计;供应链;软件工程;销售,agency_zh:sales/sales-engineer;agency_en:sales/sales-engineer
+role:sales-commerce/sales-offer-lead-gen-strategist,Offer 与 Lead Gen 策略师,Offer & Lead Gen Strategist,sales-commerce,销售商务,2,2,agency_en;agency_zh,sales,Offer & Lead Gen Strategist;Offer 与 Lead Gen 策略师,产品设计;人力与组织;销售,agency_zh:sales/sales-offer-lead-gen-strategist;agency_en:sales/sales-offer-lead-gen-strategist
+role:sales-commerce/sales-outbound-strategist,Outbound 策略师,Outbound Strategist,sales-commerce,销售商务,2,2,agency_en;agency_zh,sales,Outbound Strategist;Outbound 策略师,产品设计;人力与组织;教育学术;软件工程;销售,agency_zh:sales/sales-outbound-strategist;agency_en:sales/sales-outbound-strategist
+role:sales-commerce/sales-pipeline-analyst,Pipeline 分析师,Pipeline Analyst,sales-commerce,销售商务,3,3,agency_en;agency_zh;workbuddy,sales;销售商务,Pipeline Analyst;Pipeline 分析师;漏斗通,医疗健康;安全合规;数据与 AI;销售,agency_zh:sales/sales-pipeline-analyst;agency_en:sales/sales-pipeline-analyst;workbuddy:SalesPipelineAnalyst
+role:sales-commerce/sales-proposal-strategist,投标策略师,Proposal Strategist,sales-commerce,销售商务,2,2,agency_en;agency_zh,sales,Proposal Strategist;投标策略师,产品设计;安全合规;销售,agency_zh:sales/sales-proposal-strategist;agency_en:sales/sales-proposal-strategist
+role:strategy/accounts-payable-agent,应付账款智能体,Accounts Payable Agent,strategy,战略专项,2,2,agency_en;agency_zh,specialized,Accounts Payable Agent;应付账款智能体,数据与 AI;财务金融;销售,agency_zh:specialized/accounts-payable-agent;agency_en:specialized/accounts-payable-agent
+role:strategy/agentic-identity-trust,身份信任架构师,Agentic Identity & Trust Architect,strategy,战略专项,2,2,agency_en;agency_zh,specialized,Agentic Identity & Trust Architect;身份信任架构师,产品设计;数据与 AI,agency_zh:specialized/agentic-identity-trust;agency_en:specialized/agentic-identity-trust
+role:strategy/agents-orchestrator,智能体编排者,Agents Orchestrator,strategy,战略专项,2,2,agency_en;agency_zh,specialized,Agents Orchestrator;智能体编排者,软件工程;销售,agency_zh:specialized/agents-orchestrator;agency_en:specialized/agents-orchestrator
+role:strategy/authenticity-appraiser,鉴定评估师,鉴定评估师,strategy,战略专项,1,1,agency_zh,specialized,鉴定评估师,,agency_zh:specialized/authenticity-appraiser
+role:strategy/automation-governance-architect,自动化治理架构师,Automation Governance Architect,strategy,战略专项,2,2,agency_en;agency_zh,specialized,Automation Governance Architect;自动化治理架构师,安全合规;数据与 AI,agency_zh:specialized/automation-governance-architect;agency_en:specialized/automation-governance-architect
+role:strategy/business-strategist,商业战略家,Business Strategist,strategy,战略专项,2,2,agency_en;agency_zh,specialized,Business Strategist;商业战略家,产品设计;人力与组织;数据与 AI;营销,agency_zh:specialized/business-strategist;agency_en:specialized/business-strategist
+role:strategy/change-management-consultant,变革管理顾问,Change Management Consultant,strategy,战略专项,2,2,agency_en;agency_zh,specialized,Change Management Consultant;变革管理顾问,产品设计;人力与组织,agency_zh:specialized/change-management-consultant;agency_en:specialized/change-management-consultant
+role:strategy/chief-financial-officer,Chief Financial Officer,Chief Financial Officer,strategy,战略专项,1,1,agency_en,specialized,Chief Financial Officer,财务金融;软件工程,agency_en:specialized/chief-financial-officer
+role:strategy/corporate-training-designer,企业培训课程设计师,Corporate Training Designer,strategy,战略专项,2,2,agency_en;agency_zh,specialized,Corporate Training Designer;企业培训课程设计师,产品设计;教育学术;数据与 AI;软件工程,agency_zh:specialized/corporate-training-designer;agency_en:specialized/corporate-training-designer
+role:strategy/customer-service,Customer Service,Customer Service,strategy,战略专项,1,1,agency_en,specialized,Customer Service,产品设计;数据与 AI;销售,agency_en:specialized/customer-service
+role:strategy/customer-success-manager,客户成功经理,Customer Success Manager,strategy,战略专项,2,2,agency_en;agency_zh,specialized,Customer Success Manager;客户成功经理,医疗健康;销售,agency_zh:specialized/customer-success-manager;agency_en:specialized/customer-success-manager
+role:strategy/data-consolidation-agent,数据整合师,Data Consolidation Agent,strategy,战略专项,2,2,agency_en;agency_zh,specialized,Data Consolidation Agent;数据整合师,数据与 AI;销售,agency_zh:specialized/data-consolidation-agent;agency_en:specialized/data-consolidation-agent
+role:strategy/data-privacy-officer,数据隐私官,Data Privacy Officer,strategy,战略专项,2,2,agency_en;agency_zh,specialized,Data Privacy Officer;数据隐私官,产品设计;安全合规;数据与 AI,agency_zh:specialized/data-privacy-officer;agency_en:specialized/data-privacy-officer
+role:strategy/esg-sustainability-officer,ESG 与可持续发展官,ESG & Sustainability Officer,strategy,战略专项,2,2,agency_en;agency_zh,specialized,ESG & Sustainability Officer;ESG 与可持续发展官,产品设计;数据与 AI,agency_zh:specialized/esg-sustainability-officer;agency_en:specialized/esg-sustainability-officer
+role:strategy/gaokao-college-advisor,高考志愿填报顾问,高考志愿填报顾问,strategy,战略专项,1,1,agency_zh,specialized,高考志愿填报顾问,数据与 AI,agency_zh:specialized/gaokao-college-advisor
+role:strategy/government-digital-presales-consultant,政务数字化售前顾问,Government Digital Presales Consultant,strategy,战略专项,2,2,agency_en;agency_zh,specialized,Government Digital Presales Consultant;政务数字化售前顾问,产品设计;安全合规;销售,agency_zh:specialized/government-digital-presales-consultant;agency_en:specialized/government-digital-presales-consultant
+role:strategy/grant-writer,资助申请撰稿人,Grant Writer,strategy,战略专项,2,2,agency_en;agency_zh,specialized,Grant Writer;资助申请撰稿人,产品设计;人力与组织;教育学术;软件工程,agency_zh:specialized/grant-writer;agency_en:specialized/grant-writer
+role:strategy/healthcare-aging-parent-care-companion,Aging Parent Care Companion,Aging Parent Care Companion,strategy,战略专项,1,1,agency_en,specialized,Aging Parent Care Companion,,agency_en:specialized/healthcare-aging-parent-care-companion
+role:strategy/healthcare-customer-service,医疗客服专家,Healthcare Customer Service,strategy,战略专项,2,2,agency_en;agency_zh,specialized,Healthcare Customer Service;医疗客服专家,产品设计;医疗健康;数据与 AI,agency_zh:specialized/healthcare-customer-service;agency_en:specialized/healthcare-customer-service
+role:strategy/healthcare-marketing-compliance,医疗健康营销合规师,Healthcare Marketing Compliance Specialist,strategy,战略专项,2,2,agency_en;agency_zh,specialized,Healthcare Marketing Compliance Specialist;医疗健康营销合规师,内容;医疗健康;安全合规;营销,agency_zh:specialized/healthcare-marketing-compliance;agency_en:specialized/healthcare-marketing-compliance
+role:strategy/hospitality-guest-services,酒店宾客服务专家,Hospitality Guest Services,strategy,战略专项,2,2,agency_en;agency_zh,specialized,Hospitality Guest Services;酒店宾客服务专家,数据与 AI;营销,agency_zh:specialized/hospitality-guest-services;agency_en:specialized/hospitality-guest-services
+role:strategy/hr-onboarding,HR 入职管理专家,HR Onboarding,strategy,战略专项,2,2,agency_en;agency_zh,specialized,HR Onboarding;HR 入职管理专家,产品设计;人力与组织;安全合规;数据与 AI,agency_zh:specialized/hr-onboarding;agency_en:specialized/hr-onboarding
+role:strategy/identity-graph-operator,身份图谱操作员,Identity Graph Operator,strategy,战略专项,2,2,agency_en;agency_zh,specialized,Identity Graph Operator;身份图谱操作员,数据与 AI,agency_zh:specialized/identity-graph-operator;agency_en:specialized/identity-graph-operator
+role:strategy/language-translator,语言翻译专家,Language Translator,strategy,战略专项,2,2,agency_en;agency_zh,specialized,Language Translator;语言翻译专家,产品设计;人力与组织;销售,agency_zh:specialized/language-translator;agency_en:specialized/language-translator
+role:strategy/legal-billing-time-tracking,律所计费与工时专家,Legal Billing & Time Tracking,strategy,战略专项,2,2,agency_en;agency_zh,specialized,Legal Billing & Time Tracking;律所计费与工时专家,安全合规;数据与 AI;财务金融;销售,agency_zh:specialized/legal-billing-time-tracking;agency_en:specialized/legal-billing-time-tracking
+role:strategy/legal-client-intake,律所客户接案专家,Legal Client Intake,strategy,战略专项,2,2,agency_en;agency_zh,specialized,Legal Client Intake;律所客户接案专家,销售,agency_zh:specialized/legal-client-intake;agency_en:specialized/legal-client-intake
+role:strategy/legal-document-review,法律文书审查专家,Legal Document Review,strategy,战略专项,2,2,agency_en;agency_zh,specialized,Legal Document Review;法律文书审查专家,安全合规,agency_zh:specialized/legal-document-review;agency_en:specialized/legal-document-review
+role:strategy/livestock-archive-auditor,养殖档案核对员,养殖档案核对员,strategy,战略专项,1,1,agency_zh,specialized,养殖档案核对员,安全合规,agency_zh:specialized/livestock-archive-auditor
+role:strategy/loan-officer-assistant,信贷经理助手,Loan Officer Assistant,strategy,战略专项,2,2,agency_en;agency_zh,specialized,Loan Officer Assistant;信贷经理助手,安全合规;销售,agency_zh:specialized/loan-officer-assistant;agency_en:specialized/loan-officer-assistant
+role:strategy/lsp-index-engineer,LSP 索引工程师,LSP/Index Engineer,strategy,战略专项,2,2,agency_en;agency_zh,specialized,LSP 索引工程师;LSP/Index Engineer,产品设计;人力与组织;营销;软件工程;销售,agency_zh:specialized/lsp-index-engineer;agency_en:specialized/lsp-index-engineer
+role:strategy/ma-integration-manager,M&A 整合经理,M&A Integration Manager,strategy,战略专项,2,2,agency_en;agency_zh,specialized,M&A Integration Manager;M&A 整合经理,产品设计,agency_zh:specialized/ma-integration-manager;agency_en:specialized/ma-integration-manager
+role:strategy/medical-billing-coding-specialist,医疗账单与编码专员,Medical Billing & Coding Specialist,strategy,战略专项,2,2,agency_en;agency_zh,specialized,Medical Billing & Coding Specialist;医疗账单与编码专员,医疗健康;安全合规;数据与 AI,agency_zh:specialized/medical-billing-coding-specialist;agency_en:specialized/medical-billing-coding-specialist
+role:strategy/operations-manager,运营经理,Operations Manager,strategy,战略专项,2,2,agency_en;agency_zh,specialized,Operations Manager;运营经理,人力与组织,agency_zh:specialized/operations-manager;agency_en:specialized/operations-manager
+role:strategy/organizational-psychologist,组织心理学家,Organizational Psychologist,strategy,战略专项,2,2,agency_en;agency_zh,specialized,Organizational Psychologist;组织心理学家,产品设计;人力与组织;医疗健康;安全合规,agency_zh:specialized/organizational-psychologist;agency_en:specialized/organizational-psychologist
+role:strategy/personal-growth-mentor,个人成长导师,Personal Growth Mentor,strategy,战略专项,2,2,agency_en;agency_zh,specialized,Personal Growth Mentor;个人成长导师,产品设计;数据与 AI;营销;销售,agency_zh:specialized/personal-growth-mentor;agency_en:specialized/personal-growth-mentor
+role:strategy/prompt-engineer,提示词工程师,提示词工程师,strategy,战略专项,1,1,agency_zh,specialized,提示词工程师,产品设计;教育学术;数据与 AI;软件工程,agency_zh:specialized/prompt-engineer
+role:strategy/real-estate-buyer-seller,房地产经纪助手,Real Estate Buyer & Seller,strategy,战略专项,2,2,agency_en;agency_zh,specialized,Real Estate Buyer & Seller;房地产经纪助手,电商;财务金融;销售,agency_zh:specialized/real-estate-buyer-seller;agency_en:specialized/real-estate-buyer-seller
+role:strategy/recruitment-specialist,人才获取专家,Recruitment Specialist,strategy,战略专项,2,2,agency_en;agency_zh,specialized,Recruitment Specialist;人才获取专家,产品设计;人力与组织;安全合规;数据与 AI;营销,agency_zh:specialized/recruitment-specialist;agency_en:specialized/recruitment-specialist
+role:strategy/report-distribution-agent,报告分发师,Report Distribution Agent,strategy,战略专项,2,2,agency_en;agency_zh,specialized,Report Distribution Agent;报告分发师,数据与 AI;销售,agency_zh:specialized/report-distribution-agent;agency_en:specialized/report-distribution-agent
+role:strategy/resume-tailor,Resume Tailor,Resume Tailor,strategy,战略专项,1,1,agency_en,specialized,Resume Tailor,产品设计;数据与 AI,agency_en:specialized/resume-tailor
+role:strategy/retail-customer-returns,零售退货专家,Retail Customer Returns,strategy,战略专项,2,2,agency_en;agency_zh,specialized,Retail Customer Returns;零售退货专家,数据与 AI;销售,agency_zh:specialized/retail-customer-returns;agency_en:specialized/retail-customer-returns
+role:strategy/sales-data-extraction-agent,销售数据提取师,Sales Data Extraction Agent,strategy,战略专项,2,2,agency_en;agency_zh,specialized,Sales Data Extraction Agent;销售数据提取师,数据与 AI;销售,agency_zh:specialized/sales-data-extraction-agent;agency_en:specialized/sales-data-extraction-agent
+role:strategy/sales-outreach,Sales Outreach,Sales Outreach,strategy,战略专项,1,1,agency_en,specialized,Sales Outreach,产品设计;数据与 AI;销售,agency_en:specialized/sales-outreach
+role:strategy/specialized-ai-policy-writer,AI 治理政策专家,AI 治理政策专家,strategy,战略专项,1,1,agency_zh,specialized,AI 治理政策专家,人力与组织;安全合规;数据与 AI,agency_zh:specialized/specialized-ai-policy-writer
+role:strategy/specialized-chief-of-staff,Chief of Staff,Chief of Staff,strategy,战略专项,1,1,agency_en,specialized,Chief of Staff,,agency_en:specialized/specialized-chief-of-staff
+role:strategy/specialized-civil-engineer,土木工程师,Civil Engineer,strategy,战略专项,2,2,agency_en;agency_zh,specialized,Civil Engineer;土木工程师,产品设计;安全合规;数据与 AI;软件工程,agency_zh:specialized/specialized-civil-engineer;agency_en:specialized/specialized-civil-engineer
+role:strategy/specialized-codebase-archaeologist,Codebase Archaeologist,Codebase Archaeologist,strategy,战略专项,1,1,agency_en,specialized,Codebase Archaeologist,安全合规;数据与 AI;软件工程,agency_en:specialized/specialized-codebase-archaeologist
+role:strategy/specialized-cultural-intelligence-strategist,文化智能策略师,Cultural Intelligence Strategist,strategy,战略专项,2,2,agency_en;agency_zh,specialized,Cultural Intelligence Strategist;文化智能策略师,产品设计;教育学术;软件工程,agency_zh:specialized/specialized-cultural-intelligence-strategist;agency_en:specialized/specialized-cultural-intelligence-strategist
+role:strategy/specialized-developer-advocate,开发者布道师,Developer Advocate,strategy,战略专项,2,2,agency_en;agency_zh,specialized,Developer Advocate;开发者布道师,产品设计;人力与组织;内容;软件工程,agency_zh:specialized/specialized-developer-advocate;agency_en:specialized/specialized-developer-advocate
+role:strategy/specialized-document-generator,文档生成器,Document Generator,strategy,战略专项,2,2,agency_en;agency_zh,specialized,Document Generator;文档生成器,数据与 AI;软件工程,agency_zh:specialized/specialized-document-generator;agency_en:specialized/specialized-document-generator
+role:strategy/specialized-fedramp-rmf-compliance,FedRAMP & RMF Compliance Engineer,FedRAMP & RMF Compliance Engineer,strategy,战略专项,1,1,agency_en,specialized,FedRAMP & RMF Compliance Engineer,安全合规;软件工程,agency_en:specialized/specialized-fedramp-rmf-compliance
+role:strategy/specialized-focus-music-architect,Focus Music Architect,Focus Music Architect,strategy,战略专项,1,1,agency_en,specialized,Focus Music Architect,,agency_en:specialized/specialized-focus-music-architect
+role:strategy/specialized-french-consulting-market,法国咨询市场专家,French Consulting Market Navigator,strategy,战略专项,2,2,agency_en;agency_zh,specialized,French Consulting Market Navigator;法国咨询市场专家,数据与 AI,agency_zh:specialized/specialized-french-consulting-market;agency_en:specialized/specialized-french-consulting-market
+role:strategy/specialized-korean-business-navigator,韩国商务专家,Korean Business Navigator,strategy,战略专项,2,2,agency_en;agency_zh,specialized,Korean Business Navigator;韩国商务专家,销售,agency_zh:specialized/specialized-korean-business-navigator;agency_en:specialized/specialized-korean-business-navigator
+role:strategy/specialized-master-plan-architect,Master Plan Architect,Master Plan Architect,strategy,战略专项,1,1,agency_en,specialized,Master Plan Architect,安全合规;软件工程,agency_en:specialized/specialized-master-plan-architect
+role:strategy/specialized-mcp-builder,MCP 构建器,MCP Builder,strategy,战略专项,2,2,agency_en;agency_zh,specialized,MCP Builder;MCP 构建器,产品设计;数据与 AI;软件工程,agency_zh:specialized/specialized-mcp-builder;agency_en:specialized/specialized-mcp-builder
+role:strategy/specialized-meeting-assistant,会议效率专家,会议效率专家,strategy,战略专项,1,1,agency_zh,specialized,会议效率专家,产品设计;人力与组织,agency_zh:specialized/specialized-meeting-assistant
+role:strategy/specialized-model-qa,模型 QA 专家,Model QA Specialist,strategy,战略专项,2,2,agency_en;agency_zh,specialized,Model QA Specialist;模型 QA 专家,安全合规;教育学术;数据与 AI,agency_zh:specialized/specialized-model-qa;agency_en:specialized/specialized-model-qa
+role:strategy/specialized-pricing-analyst,定价分析师,Pricing Analyst,strategy,战略专项,2,2,agency_en;agency_zh,specialized,Pricing Analyst;定价分析师,人力与组织;教育学术;数据与 AI,agency_zh:specialized/specialized-pricing-analyst;agency_en:specialized/specialized-pricing-analyst
+role:strategy/specialized-pricing-optimizer,动态定价策略师,动态定价策略师,strategy,战略专项,1,1,agency_zh,specialized,动态定价策略师,电商,agency_zh:specialized/specialized-pricing-optimizer
+role:strategy/specialized-risk-assessor,企业风险评估师,企业风险评估师,strategy,战略专项,1,1,agency_zh,specialized,企业风险评估师,人力与组织;供应链;安全合规,agency_zh:specialized/specialized-risk-assessor
+role:strategy/specialized-salesforce-architect,Salesforce 架构师,Salesforce Architect,strategy,战略专项,2,2,agency_en;agency_zh,specialized,Salesforce Architect;Salesforce 架构师,产品设计;人力与组织;数据与 AI;销售,agency_zh:specialized/specialized-salesforce-architect;agency_en:specialized/specialized-salesforce-architect
+role:strategy/specialized-strategy-duel-agent,策略对决推演师,Strategy Duel Agent,strategy,战略专项,2,2,agency_en;agency_zh,specialized,Strategy Duel Agent;策略对决推演师,,agency_zh:specialized/specialized-strategy-duel-agent;agency_en:specialized/specialized-strategy-duel-agent
+role:strategy/specialized-workflow-architect,工作流架构师,Workflow Architect,strategy,战略专项,2,2,agency_en;agency_zh,specialized,Workflow Architect;工作流架构师,产品设计;数据与 AI;软件工程,agency_zh:specialized/specialized-workflow-architect;agency_en:specialized/specialized-workflow-architect
+role:strategy/study-abroad-advisor,留学规划顾问,Study Abroad Advisor,strategy,战略专项,2,2,agency_en;agency_zh,specialized,Study Abroad Advisor;留学规划顾问,教育学术,agency_zh:specialized/study-abroad-advisor;agency_en:specialized/study-abroad-advisor
+role:strategy/supply-chain-strategist,Supply Chain Strategist,Supply Chain Strategist,strategy,战略专项,1,1,agency_en,specialized,Supply Chain Strategist,产品设计;供应链;数据与 AI,agency_en:specialized/supply-chain-strategist
+role:strategy/technical-translator-agent,技术翻译专家,技术翻译专家,strategy,战略专项,1,1,agency_zh,specialized,技术翻译专家,数据与 AI;软件工程,agency_zh:specialized/technical-translator-agent
+role:strategy/travel-planner,旅行规划师,旅行规划师,strategy,战略专项,1,1,agency_zh,specialized,旅行规划师,产品设计;财务金融,agency_zh:specialized/travel-planner
+role:strategy/zk-steward,ZK 管家,ZK Steward,strategy,战略专项,2,2,agency_en;agency_zh,specialized,ZK Steward;ZK 管家,产品设计;数据与 AI,agency_zh:specialized/zk-steward;agency_en:specialized/zk-steward
+role:supply-chain/supply-chain-garment-factory-planning-engineer,服装工厂规划工程师,服装工厂规划工程师,supply-chain,供应链,1,1,agency_zh,supply-chain,服装工厂规划工程师,产品设计;供应链;安全合规;软件工程,agency_zh:supply-chain/supply-chain-garment-factory-planning-engineer
+role:supply-chain/supply-chain-inventory-forecaster,库存预测专家,库存预测专家,supply-chain,供应链,1,1,agency_zh,supply-chain,库存预测专家,供应链;安全合规;数据与 AI;电商;销售,agency_zh:supply-chain/supply-chain-inventory-forecaster
+role:supply-chain/supply-chain-route-optimizer,物流路线优化师,物流路线优化师,supply-chain,供应链,1,1,agency_zh,supply-chain,物流路线优化师,供应链,agency_zh:supply-chain/supply-chain-route-optimizer
+role:supply-chain/supply-chain-strategist,供应链采购策略师,供应链采购策略师,supply-chain,供应链,1,1,agency_zh,supply-chain,供应链采购策略师,供应链;软件工程,agency_zh:supply-chain/supply-chain-strategist
+role:supply-chain/supply-chain-vendor-evaluator,供应商评估专家,供应商评估专家,supply-chain,供应链,1,1,agency_zh,supply-chain,供应商评估专家,供应链,agency_zh:supply-chain/supply-chain-vendor-evaluator
+role:support/support-analytics-reporter,数据分析师,Analytics Reporter,support,客户支持,2,2,agency_en;agency_zh,support,Analytics Reporter;数据分析师,人力与组织;数据与 AI,agency_zh:support/support-analytics-reporter;agency_en:support/support-analytics-reporter
+role:support/support-executive-summary-generator,高管摘要师,Executive Summary Generator,support,客户支持,2,2,agency_en;agency_zh,support,Executive Summary Generator;高管摘要师,产品设计;数据与 AI,agency_zh:support/support-executive-summary-generator;agency_en:support/support-executive-summary-generator
+role:support/support-finance-tracker,财务追踪员,Finance Tracker,support,客户支持,2,2,agency_en;agency_zh,support,Finance Tracker;财务追踪员,人力与组织;医疗健康;数据与 AI;营销;财务金融,agency_zh:support/support-finance-tracker;agency_en:support/support-finance-tracker
+role:support/support-infrastructure-maintainer,基础设施运维师,Infrastructure Maintainer,support,客户支持,2,2,agency_en;agency_zh,support,Infrastructure Maintainer;基础设施运维师,安全合规;数据与 AI,agency_zh:support/support-infrastructure-maintainer;agency_en:support/support-infrastructure-maintainer
+role:support/support-legal-compliance-checker,法务合规员,Legal Compliance Checker,support,客户支持,2,2,agency_en;agency_zh,support,Legal Compliance Checker;法务合规员,内容;安全合规;数据与 AI,agency_zh:support/support-legal-compliance-checker;agency_en:support/support-legal-compliance-checker
+role:support/support-recruitment-specialist,招聘运营专家,招聘运营专家,support,客户支持,1,1,agency_zh,support,招聘运营专家,人力与组织;安全合规;营销,agency_zh:support/support-recruitment-specialist
+role:support/support-support-responder,客服响应者,Support Responder,support,客户支持,2,2,agency_en;agency_zh,support,Support Responder;客服响应者,产品设计;营销;销售,agency_zh:support/support-support-responder;agency_en:support/support-support-responder
+workbuddy:AIShifuExpert,AI师傅,AI-Shifu,content-creative,内容创作,1,1,workbuddy,内容创作,AI师傅,产品设计;内容;数据与 AI,workbuddy:AIShifuExpert
+workbuddy:APMPerformanceExpert,安迪,Andy,tencent,腾讯专区,1,1,workbuddy,腾讯专区,安迪,产品设计,workbuddy:APMPerformanceExpert
+workbuddy:AShareAnalysis,A股研究团队,A-Share Research Team,finance,金融投资,1,1,workbuddy,金融投资,A股研究团队,安全合规;教育学术;数据与 AI,workbuddy:AShareAnalysis
+workbuddy:AbExperimentAnalyst,贝安,Abby,tencent,腾讯专区,1,1,workbuddy,腾讯专区,贝安,数据与 AI,workbuddy:AbExperimentAnalyst
+workbuddy:AcademicJournalSelector,万方数据,Academic Journal Advisor v3.1,data-ai,数据智能,1,1,workbuddy,数据智能,万方数据,教育学术;数据与 AI;营销,workbuddy:AcademicJournalSelector
+workbuddy:AccessibilityAuditor,无碍碍,Geneva,project-quality,项目质量,1,1,workbuddy,项目质量,无碍碍,产品设计;安全合规,workbuddy:AccessibilityAuditor
+workbuddy:AccountsPayableAgent,付清清,Bree,finance,金融投资,1,1,workbuddy,金融投资,付清清,销售,workbuddy:AccountsPayableAgent
+workbuddy:AdCreativeStrategist,点睛睛,Hugo,marketing-growth,营销增长,1,1,workbuddy,营销增长,点睛睛,产品设计;营销,workbuddy:AdCreativeStrategist
+workbuddy:AdTrackingExpert,追踪踪,Ivy,marketing-growth,营销增长,1,1,workbuddy,营销增长,追踪踪,数据与 AI;营销;软件工程,workbuddy:AdTrackingExpert
+workbuddy:AdortDesignExpert,林觉初,Jax,product-design,产品设计,1,1,workbuddy,产品设计,林觉初,产品设计;软件工程,workbuddy:AdortDesignExpert
+workbuddy:AgentIdentityTrustExpert,信链链,Cash,legal-security,法务安全,1,1,workbuddy,法务安全,信链链,产品设计;数据与 AI,workbuddy:AgentIdentityTrustExpert
+workbuddy:AgentOrchestrator,调度达,Demi,project-quality,项目质量,1,1,workbuddy,项目质量,调度达,数据与 AI,workbuddy:AgentOrchestrator
+workbuddy:AiContentCreatorTeam,内容创作专家团,Content Creator Team,content-creative,内容创作,1,1,workbuddy,内容创作,内容创作专家团,产品设计;内容;数据与 AI;营销,workbuddy:AiContentCreatorTeam
+workbuddy:AiDataCopilot,智数分析专家团,AI Data Copilot,data-ai,数据智能,1,1,workbuddy,数据智能,智数分析专家团,数据与 AI,workbuddy:AiDataCopilot
+workbuddy:AiEngineer,深网网,Amy,data-ai,数据智能,1,1,workbuddy,数据智能,深网网,产品设计;教育学术;数据与 AI;软件工程,workbuddy:AiEngineer
+workbuddy:AiHot,数字生命卡兹克,Kazik,data-ai,数据智能,1,1,workbuddy,数据智能,数字生命卡兹克,产品设计;数据与 AI;软件工程,workbuddy:AiHot
+workbuddy:AiHumanizer,鹏城信息AI专家,AI Text Humanizer,content-creative,内容创作,1,1,workbuddy,内容创作,鹏城信息AI专家,数据与 AI,workbuddy:AiHumanizer
+workbuddy:AiImagePromptEngineer,画令令,Alex,product-design,产品设计,1,1,workbuddy,产品设计,画令令,数据与 AI;软件工程,workbuddy:AiImagePromptEngineer
+workbuddy:AiMeetingNotes,鹏城信息AI专家,AI Meeting Notes Extractor,project-quality,项目质量,1,1,workbuddy,项目质量,鹏城信息AI专家,人力与组织;数据与 AI,workbuddy:AiMeetingNotes
+workbuddy:AiShifu,AI师傅,AI-Shifu,content-creative,内容创作,1,1,workbuddy,内容创作,AI师傅,产品设计;内容;数据与 AI,workbuddy:AiShifu
+workbuddy:AiVideoScript,鹏城信息AI专家,AI Video Script Generator,content-creative,内容创作,1,1,workbuddy,内容创作,鹏城信息AI专家,内容;数据与 AI,workbuddy:AiVideoScript
+workbuddy:AicodingArchitectureExpertTeam,AICoding 架构专家团,AICoding Architecture Expert Team,engineering,技术工程,1,1,workbuddy,技术工程,AICoding 架构专家团,产品设计;安全合规;教育学术;数据与 AI,workbuddy:AicodingArchitectureExpertTeam
+workbuddy:AladinTestDesign,阿拉丁,Aladin,tencent,腾讯专区,1,1,workbuddy,腾讯专区,阿拉丁,产品设计;内容;数据与 AI,workbuddy:AladinTestDesign
+workbuddy:AndonQExpert,AndonQ,AndonQ,tencent,腾讯专区,1,1,workbuddy,腾讯专区,AndonQ,产品设计,workbuddy:AndonQExpert
+workbuddy:AntiScamAgent,天御金融反诈,Tianyu Financial Anti-Fraud,tencent,腾讯专区,1,1,workbuddy,腾讯专区,天御金融反诈,数据与 AI;财务金融,workbuddy:AntiScamAgent
+workbuddy:ApiDev,鹏城信息AI专家,API Development Expert,engineering,技术工程,1,1,workbuddy,技术工程,鹏城信息AI专家,产品设计;数据与 AI;软件工程,workbuddy:ApiDev
+workbuddy:ApiTestingExpert,接口探,Harper,project-quality,项目质量,1,1,workbuddy,项目质量,接口探,软件工程,workbuddy:ApiTestingExpert
+workbuddy:AppStoreOptimizationExpert,榜上上,Ella,marketing-growth,营销增长,1,1,workbuddy,营销增长,榜上上,,workbuddy:AppStoreOptimizationExpert
+workbuddy:ArxivWatcher,鹏城信息AI专家,ArXiv Paper Watcher,data-ai,数据智能,1,1,workbuddy,数据智能,鹏城信息AI专家,教育学术;数据与 AI,workbuddy:ArxivWatcher
+workbuddy:AskLiuxiaopai,AI 刘小排,AI Liu Xiaopai,industry-consulting,行业顾问,1,1,workbuddy,行业顾问,AI 刘小排,产品设计;数据与 AI,workbuddy:AskLiuxiaopai
+workbuddy:AutoConsultant,车赢赢,Auto Marketing Expert,marketing-growth,营销增长,1,1,workbuddy,营销增长,车赢赢,数据与 AI;营销,workbuddy:AutoConsultant
+workbuddy:AutonomousOptimizationArchitect,自进化,Dan,data-ai,数据智能,1,1,workbuddy,数据智能,自进化,产品设计,workbuddy:AutonomousOptimizationArchitect
+workbuddy:BackendArchitect,磐石石,Joy,engineering,技术工程,1,1,workbuddy,技术工程,磐石石,,workbuddy:BackendArchitect
+workbuddy:BaiduSeoExpert,度优优,Finn,marketing-growth,营销增长,1,1,workbuddy,营销增长,度优优,数据与 AI;营销,workbuddy:BaiduSeoExpert
+workbuddy:BehavioralNudgeEngine,助推推,Wren,product-design,产品设计,1,1,workbuddy,产品设计,助推推,产品设计,workbuddy:BehavioralNudgeEngine
+workbuddy:BelieveInLight,相信光么,Believe in Light,finance,金融投资,1,1,workbuddy,金融投资,相信光么,供应链;数据与 AI,workbuddy:BelieveInLight
+workbuddy:BiddingStrategist,投标策略师,Bidding Strategist,sales-commerce,销售商务,1,1,workbuddy,销售商务,投标策略师,人力与组织;销售,workbuddy:BiddingStrategist
+workbuddy:BilibiliContentStrategist,弹幕幕,Gabe,content-creative,内容创作,1,1,workbuddy,内容创作,弹幕幕,内容,workbuddy:BilibiliContentStrategist
+workbuddy:BlockchainSecurityAuditor,链审审,Elio,legal-security,法务安全,1,1,workbuddy,法务安全,链审审,安全合规;数据与 AI,workbuddy:BlockchainSecurityAuditor
+workbuddy:BookCoCreator,著书书,Hana,content-creative,内容创作,1,1,workbuddy,内容创作,著书书,内容,workbuddy:BookCoCreator
+workbuddy:BrandGuardian,盾卫卫,Ben,marketing-growth,营销增长,1,1,workbuddy,营销增长,盾卫卫,营销,workbuddy:BrandGuardian
+workbuddy:BrazilCompanyQuery,巴西商务拓展专家,Brazil Business Development Expert,global-development,全球发展,1,1,workbuddy,全球发展,巴西商务拓展专家,安全合规;数据与 AI;销售,workbuddy:BrazilCompanyQuery
+workbuddy:BrazilLegal,Brazil Legal Expert,Brazil Legal Expert,global-development,全球发展,1,1,workbuddy,全球发展,Brazil Legal Expert,产品设计;安全合规;数据与 AI,workbuddy:BrazilLegal
+workbuddy:BrazilRfbExpert,Brazil Finance & Tax Expert,Brazil Finance & Tax Expert,global-development,全球发展,1,1,workbuddy,全球发展,Brazil Finance & Tax Expert,产品设计;安全合规;数据与 AI;财务金融;软件工程,workbuddy:BrazilRfbExpert
+workbuddy:CATNetworkQualityAnalyst,亚伦,Aaron,engineering,技术工程,1,1,workbuddy,技术工程,亚伦,数据与 AI,workbuddy:CATNetworkQualityAnalyst
+workbuddy:CampusConversationCoach,社交搭子,Campus Conversation Buddy,education,教育学术,1,1,workbuddy,开学季,社交搭子,产品设计;人力与组织,workbuddy:CampusConversationCoach
+workbuddy:CampusEventNavigator,活动操盘手,Campus Event Navigator,education,教育学术,1,1,workbuddy,开学季,活动操盘手,数据与 AI;财务金融,workbuddy:CampusEventNavigator
+workbuddy:CampusJobSearchCoach,求职冲刺,Career Sprint,education,教育学术,1,1,workbuddy,开学季,求职冲刺,产品设计;人力与组织;数据与 AI,workbuddy:CampusJobSearchCoach
+workbuddy:CapacityExpert,CloudQ,CloudQ,tencent,腾讯专区,1,1,workbuddy,腾讯专区,CloudQ,产品设计,workbuddy:CapacityExpert
+workbuddy:CareerBroker,鹅厂职业经纪人,Tencent Career Broker,operations-hr,运营人力,1,1,workbuddy,运营人力,鹅厂职业经纪人,营销,workbuddy:CareerBroker
+workbuddy:CareerNavigator,生涯领航员,Career Navigator,education,教育学术,1,1,workbuddy,开学季,生涯领航员,人力与组织;教育学术;数据与 AI,workbuddy:CareerNavigator
+workbuddy:CarouselContentGrowthExpert,翻页页,Ian,marketing-growth,营销增长,1,1,workbuddy,营销增长,翻页页,产品设计;内容;营销,workbuddy:CarouselContentGrowthExpert
+workbuddy:ChaogeekKongming,ChaoGeek 0x孔明,ChaoGeek 0xKongming,industry-consulting,行业顾问,1,1,workbuddy,行业顾问,ChaoGeek 0x孔明,产品设计,workbuddy:ChaogeekKongming
+workbuddy:ChaosExpert,CloudQ,CloudQ,tencent,腾讯专区,1,1,workbuddy,腾讯专区,CloudQ,产品设计;软件工程,workbuddy:ChaosExpert
+workbuddy:CharityDocFinanceExpert,小益,Xiaoyi,tencent,腾讯专区,1,1,workbuddy,腾讯专区,小益,安全合规;财务金融,workbuddy:CharityDocFinanceExpert
+workbuddy:ChatLawTeam,中文法律咨询团,ChatLaw Team,legal-security,法务安全,1,1,workbuddy,法务安全,中文法律咨询团,教育学术;数据与 AI,workbuddy:ChatLawTeam
+workbuddy:ChatcutVideoEditor,一站式视频创作专家,All-in-one video creation expert,content-creative,内容创作,1,1,workbuddy,内容创作,一站式视频创作专家,数据与 AI;软件工程,workbuddy:ChatcutVideoEditor
+workbuddy:ChinaEcommerceOperationsExpert,卖得好,Jude,marketing-growth,营销增长,1,1,workbuddy,营销增长,卖得好,产品设计;电商,workbuddy:ChinaEcommerceOperationsExpert
+workbuddy:Citongshuopro,刺桐说Pro-投资社群嘉宾团,Citong Talk Pro,finance,金融投资,1,1,workbuddy,金融投资,刺桐说Pro-投资社群嘉宾团,教育学术;财务金融,workbuddy:Citongshuopro
+workbuddy:CloudOpsTeam,腾讯云技术支持,Cloud Ops Team,tencent,腾讯专区,1,1,workbuddy,腾讯专区,腾讯云技术支持,人力与组织;数据与 AI,workbuddy:CloudOpsTeam
+workbuddy:CloudRequirementExpert,甄需明,Zhen,product-design,产品设计,1,1,workbuddy,产品设计,甄需明,产品设计;数据与 AI,workbuddy:CloudRequirementExpert
+workbuddy:Code,鹏城信息AI专家,Code Development Workflow Expert,engineering,技术工程,1,1,workbuddy,技术工程,鹏城信息AI专家,数据与 AI;软件工程,workbuddy:Code
+workbuddy:CodeReviewExpert,火眼眼,Kim,engineering,技术工程,1,1,workbuddy,技术工程,火眼眼,产品设计;软件工程,workbuddy:CodeReviewExpert
+workbuddy:ComplianceAuditor,合规规,Fox,legal-security,法务安全,1,1,workbuddy,法务安全,合规规,安全合规,workbuddy:ComplianceAuditor
+workbuddy:ComputerOperationsAdvisor,小修同学,Xiaoxiu,education,教育学术,1,1,workbuddy,开学季,小修同学,安全合规;营销;软件工程,workbuddy:ComputerOperationsAdvisor
+workbuddy:ConsultingPartners,丁笃行,Ding,industry-consulting,行业顾问,1,1,workbuddy,行业顾问,丁笃行,产品设计;数据与 AI,workbuddy:ConsultingPartners
+workbuddy:ContentCreationExpertProd,汽车行业内容创作专家团,Automotive Industry Content Team,content-creative,内容创作,1,1,workbuddy,内容创作,汽车行业内容创作专家团,内容;教育学术,workbuddy:ContentCreationExpertProd
+workbuddy:ContentCreator,文博凯,Kai,content-creative,内容创作,1,1,workbuddy,内容创作,文博凯,内容;数据与 AI;营销,workbuddy:ContentCreator
+workbuddy:ContentDistributionTeam,全域内容分发专家团,Content Distribution Team,content-creative,内容创作,1,1,workbuddy,内容创作,全域内容分发专家团,内容;数据与 AI,workbuddy:ContentDistributionTeam
+workbuddy:ContentMonetizationTeam,内容变现商业化专家团,Content Monetization Team,marketing-growth,营销增长,1,1,workbuddy,营销增长,内容变现商业化专家团,内容;数据与 AI;营销,workbuddy:ContentMonetizationTeam
+workbuddy:ContentWriter,鹏城信息AI专家,Social Media Content Writer,content-creative,内容创作,1,1,workbuddy,内容创作,鹏城信息AI专家,内容;数据与 AI,workbuddy:ContentWriter
+workbuddy:ContractExpert,何同守,He,legal-security,法务安全,1,1,workbuddy,法务安全,何同守,安全合规,workbuddy:ContractExpert
+workbuddy:ContractLegalExpert,腾讯电子签合同法务专家,Tencent eSign Contract Legal Expert,legal-security,法务安全,1,1,workbuddy,法务安全,腾讯电子签合同法务专家,数据与 AI,workbuddy:ContractLegalExpert
+workbuddy:CordysCrm,Cordys CRM 助手,Cordys CRM Assistant,sales-commerce,销售商务,1,1,workbuddy,销售商务,Cordys CRM 助手,产品设计;安全合规;数据与 AI;销售,workbuddy:CordysCrm
+workbuddy:CorpCreditDueDiligence,天御对公信贷,Tianyu Corporate Credit,finance,金融投资,1,1,workbuddy,金融投资,天御对公信贷,安全合规;教育学术;财务金融,workbuddy:CorpCreditDueDiligence
+workbuddy:CorporateTrainingDesigner,育才才,Gwen,operations-hr,运营人力,1,1,workbuddy,运营人力,育才才,产品设计;人力与组织;教育学术;数据与 AI;软件工程,workbuddy:CorporateTrainingDesigner
+workbuddy:Cpq,CPQ 报价专家,CPQ Quote Expert,tencent,腾讯专区,1,1,workbuddy,腾讯专区,CPQ 报价专家,产品设计;数据与 AI;销售,workbuddy:Cpq
+workbuddy:CrossBorderEcommerceExpert,海跨洋,Hai,marketing-growth,营销增长,1,1,workbuddy,营销增长,海跨洋,数据与 AI;电商;营销,workbuddy:CrossBorderEcommerceExpert
+workbuddy:CulturalIntelligenceStrategist,知文文,Hazel,marketing-growth,营销增长,1,1,workbuddy,营销增长,知文文,营销,workbuddy:CulturalIntelligenceStrategist
+workbuddy:CustomerSupportExpert,暖心心,Olin,operations-hr,运营人力,1,1,workbuddy,运营人力,暖心心,人力与组织,workbuddy:CustomerSupportExpert
+workbuddy:DataAnalysisExpert,析数数,Dash,data-ai,数据智能,1,1,workbuddy,数据智能,析数数,数据与 AI,workbuddy:DataAnalysisExpert
+workbuddy:DataAnalyticsReporter,舒明析,Shu,data-ai,数据智能,1,1,workbuddy,数据智能,舒明析,产品设计;数据与 AI,workbuddy:DataAnalyticsReporter
+workbuddy:DataEngineer,管道通,Lily,data-ai,数据智能,1,1,workbuddy,数据智能,管道通,产品设计;数据与 AI;销售,workbuddy:DataEngineer
+workbuddy:DataExplorationExpert,探数数,Lake,data-ai,数据智能,1,1,workbuddy,数据智能,探数数,产品设计;数据与 AI,workbuddy:DataExplorationExpert
+workbuddy:DataIntegrationAgent,聚数数,Jett,data-ai,数据智能,1,1,workbuddy,数据智能,聚数数,产品设计;数据与 AI,workbuddy:DataIntegrationAgent
+workbuddy:DatabaseOperations,鹏城信息AI专家,Database Design & Tuning Expert,engineering,技术工程,1,1,workbuddy,技术工程,鹏城信息AI专家,产品设计;数据与 AI;软件工程,workbuddy:DatabaseOperations
+workbuddy:DatabaseOptimizationExpert,索引灵,Mia,data-ai,数据智能,1,1,workbuddy,数据智能,索引灵,数据与 AI;软件工程,workbuddy:DatabaseOptimizationExpert
+workbuddy:DatabrainAgentV2,DataBrain,DataBrain Agent 2.0,tencent,腾讯专区,1,1,workbuddy,腾讯专区,DataBrain,数据与 AI,workbuddy:DatabrainAgentV2
+workbuddy:DatabrainOpinionExpert,DataBrain舆情分析专家,DataBrain Opinion Expert,data-ai,数据智能,1,1,workbuddy,数据智能,DataBrain舆情分析专家,内容;数据与 AI,workbuddy:DatabrainOpinionExpert
+workbuddy:DealStrategist,赢单单,Orion,sales-commerce,销售商务,1,1,workbuddy,销售商务,赢单单,销售,workbuddy:DealStrategist
+workbuddy:DeepResearchExpert,深研研,Iris,data-ai,数据智能,1,1,workbuddy,数据智能,深研研,内容;教育学术,workbuddy:DeepResearchExpert
+workbuddy:DelightfulExperienceDesigner,惊喜喜,Leo,product-design,产品设计,1,1,workbuddy,产品设计,惊喜喜,营销,workbuddy:DelightfulExperienceDesigner
+workbuddy:DesignEngineTeam,设计原型专家团,Design Prototype Team,product-design,产品设计,1,1,workbuddy,产品设计,设计原型专家团,产品设计;数据与 AI;营销,workbuddy:DesignEngineTeam
+workbuddy:DesignMdArchitect,规范范,Diana,product-design,产品设计,1,1,workbuddy,产品设计,规范范,产品设计;数据与 AI;营销,workbuddy:DesignMdArchitect
+workbuddy:DesignPrototypeExpert,小花创意,Xiaohua Creative,product-design,产品设计,1,1,workbuddy,产品设计,小花创意,产品设计;数据与 AI,workbuddy:DesignPrototypeExpert
+workbuddy:DesignToCodeExpert,图变码,Pixel,product-design,产品设计,1,1,workbuddy,产品设计,图变码,产品设计;软件工程,workbuddy:DesignToCodeExpert
+workbuddy:DevOpsAutomationEngineer,一键达,Noah,engineering,技术工程,1,1,workbuddy,技术工程,一键达,软件工程,workbuddy:DevOpsAutomationEngineer
+workbuddy:DevPipelineOrchestrator,鹏城信息AI专家,Development Pipeline Orchestrator,engineering,技术工程,1,1,workbuddy,技术工程,鹏城信息AI专家,产品设计;数据与 AI;软件工程;销售,workbuddy:DevPipelineOrchestrator
+workbuddy:DeveloperEvangelist,布道道,Kip,marketing-growth,营销增长,1,1,workbuddy,营销增长,布道道,产品设计;软件工程,workbuddy:DeveloperEvangelist
+workbuddy:DiscoveryCoach,掘需需,Piper,sales-commerce,销售商务,1,1,workbuddy,销售商务,掘需需,数据与 AI;销售,workbuddy:DiscoveryCoach
+workbuddy:DiversityVisualExpert,多元元,Max,product-design,产品设计,1,1,workbuddy,产品设计,多元元,内容;数据与 AI,workbuddy:DiversityVisualExpert
+workbuddy:DockerfileGenExpert,容器器,Docker,engineering,技术工程,1,1,workbuddy,技术工程,容器器,数据与 AI,workbuddy:DockerfileGenExpert
+workbuddy:DocumentGenerationExpert,文档达,Lark,project-quality,项目质量,1,1,workbuddy,项目质量,文档达,,workbuddy:DocumentGenerationExpert
+workbuddy:DocumentProcessingExpert,理文文,Paige,project-quality,项目质量,1,1,workbuddy,项目质量,理文文,产品设计;数据与 AI,workbuddy:DocumentProcessingExpert
+workbuddy:DouyinStrategist,斗音音,Maya,content-creative,内容创作,1,1,workbuddy,内容创作,斗音音,内容,workbuddy:DouyinStrategist
+workbuddy:EarningsReviewer,季明辨,Earnings Reviewer,finance,金融投资,1,1,workbuddy,金融投资,季明辨,产品设计;教育学术;数据与 AI,workbuddy:EarningsReviewer
+workbuddy:EdgeoneMakersExperts,Makers 开发专家团,Makers Dev Team,engineering,技术工程,1,1,workbuddy,技术工程,Makers 开发专家团,产品设计;数据与 AI;软件工程,workbuddy:EdgeoneMakersExperts
+workbuddy:EgyptMarketing,埃及市场营销专家,Egypt Marketing Strategist,global-development,全球发展,1,1,workbuddy,全球发展,埃及市场营销专家,营销,workbuddy:EgyptMarketing
+workbuddy:EgyptPublicAffairs,Egypt Public Affairs,EG Public Affairs,global-development,全球发展,1,1,workbuddy,全球发展,Egypt Public Affairs,产品设计;数据与 AI,workbuddy:EgyptPublicAffairs
+workbuddy:EgyptStrategicAdvisory,Egypt Strategic Advisory,EG Strategic Advisory,global-development,全球发展,1,1,workbuddy,全球发展,Egypt Strategic Advisory,安全合规;数据与 AI;营销;财务金融;软件工程,workbuddy:EgyptStrategicAdvisory
+workbuddy:EmbeddedFirmwareEngineer,固件通,Owen,engineering,技术工程,1,1,workbuddy,技术工程,固件通,数据与 AI;软件工程,workbuddy:EmbeddedFirmwareEngineer
+workbuddy:EmpiricalResearchTeam,科研专家团,Scientific Research Team,data-ai,数据智能,1,1,workbuddy,数据智能,科研专家团,教育学术;数据与 AI,workbuddy:EmpiricalResearchTeam
+workbuddy:EngineeringAssuranceTeam,工程保障团队,Engineering Assurance Team,engineering,技术工程,1,1,workbuddy,技术工程,工程保障团队,产品设计;安全合规;软件工程,workbuddy:EngineeringAssuranceTeam
+workbuddy:EngineeringWorkflowSkills,工序达,Rex,engineering,技术工程,1,1,workbuddy,技术工程,工序达,产品设计;软件工程,workbuddy:EngineeringWorkflowSkills
+workbuddy:EnglishWritingCoach,Evan老师,Evan,education,教育学术,1,1,workbuddy,开学季,Evan老师,产品设计;人力与组织;教育学术,workbuddy:EnglishWritingCoach
+workbuddy:Eno,鹏城信息AI专家,Frontend Architecture Analyzer,engineering,技术工程,1,1,workbuddy,技术工程,鹏城信息AI专家,产品设计;安全合规;数据与 AI;软件工程,workbuddy:Eno
+workbuddy:EnterpriseAccountStrategist,拓客客,Quincy,sales-commerce,销售商务,1,1,workbuddy,销售商务,拓客客,产品设计;销售,workbuddy:EnterpriseAccountStrategist
+workbuddy:EnterpriseLegalTeam,企业法务专家团,Enterprise Legal Team,legal-security,法务安全,1,1,workbuddy,法务安全,企业法务专家团,产品设计;安全合规;数据与 AI,workbuddy:EnterpriseLegalTeam
+workbuddy:EntrepreneurshipCoach,林正刚,Lin Zhenggang,industry-consulting,行业顾问,1,1,workbuddy,行业顾问,林正刚,产品设计;数据与 AI;销售,workbuddy:EntrepreneurshipCoach
+workbuddy:EquityResearchExpert,严估深,Yan,finance,金融投资,1,1,workbuddy,金融投资,严估深,产品设计;安全合规;教育学术;数据与 AI;财务金融,workbuddy:EquityResearchExpert
+workbuddy:EvidenceCollector,截图图,Indigo,project-quality,项目质量,1,1,workbuddy,项目质量,截图图,,workbuddy:EvidenceCollector
+workbuddy:ExamPreparationPlanner,备考军师,Exam Strategist,education,教育学术,1,1,workbuddy,开学季,备考军师,产品设计;人力与组织;教育学术,workbuddy:ExamPreparationPlanner
+workbuddy:ExecutiveSummaryGenerator,简明明,Remy,project-quality,项目质量,1,1,workbuddy,项目质量,简明明,,workbuddy:ExecutiveSummaryGenerator
+workbuddy:ExperimentTrackingManager,实验通,Amber,project-quality,项目质量,1,1,workbuddy,项目质量,实验通,,workbuddy:ExperimentTrackingManager
+workbuddy:FamilyEducationCoach,庄老师,Coach Zhuang,operations-hr,运营人力,1,1,workbuddy,运营人力,庄老师,产品设计;人力与组织,workbuddy:FamilyEducationCoach
+workbuddy:FamilyEducationMa,马滢老师,Ma Ying,industry-consulting,行业顾问,1,1,workbuddy,行业顾问,马滢老师,营销,workbuddy:FamilyEducationMa
+workbuddy:FbsirAigcComplianceRedTeam,AIGC 合规红队,AIGC Compliance Red Team,legal-security,法务安全,1,1,workbuddy,法务安全,AIGC 合规红队,内容;安全合规;数据与 AI;营销,workbuddy:FbsirAigcComplianceRedTeam
+workbuddy:FbsirBeikeYi,福帮手,FBSir,operations-hr,运营人力,1,1,workbuddy,运营人力,福帮手,,workbuddy:FbsirBeikeYi
+workbuddy:FbsirBoardSecretaryAssistant,福帮手,FBSir,legal-security,法务安全,1,1,workbuddy,法务安全,福帮手,安全合规;财务金融,workbuddy:FbsirBoardSecretaryAssistant
+workbuddy:FbsirEightSeatBoard,独董会,Independent Review Board,industry-consulting,行业顾问,1,1,workbuddy,行业顾问,独董会,数据与 AI,workbuddy:FbsirEightSeatBoard
+workbuddy:FbsirIndustrySceneResearcher,行业场景研究员,Industry Scene Researcher,industry-consulting,行业顾问,1,1,workbuddy,行业顾问,行业场景研究员,教育学术,workbuddy:FbsirIndustrySceneResearcher
+workbuddy:FbsirMomDialogueExpert,福帮手,FBSir,content-creative,内容创作,1,1,workbuddy,内容创作,福帮手,,workbuddy:FbsirMomDialogueExpert
+workbuddy:FbsirSuperIndependentBoard,福帮手,FBSir,industry-consulting,行业顾问,1,1,workbuddy,行业顾问,福帮手,数据与 AI,workbuddy:FbsirSuperIndependentBoard
+workbuddy:FbsirSuperPartner,超级合伙人|魔镜行动,Super Partner,industry-consulting,行业顾问,1,1,workbuddy,行业顾问,超级合伙人|魔镜行动,数据与 AI,workbuddy:FbsirSuperPartner
+workbuddy:FeedbackSynthesisAnalyst,听声声,Xavi,product-design,产品设计,1,1,workbuddy,产品设计,听声声,,workbuddy:FeedbackSynthesisAnalyst
+workbuddy:FinResearchExpert,同舟股市投研专家,Tongzhou Equity Research Expert,finance,金融投资,1,1,workbuddy,金融投资,同舟股市投研专家,产品设计;教育学术,workbuddy:FinResearchExpert
+workbuddy:FinanceAccountingExpert,记账账,Finley,finance,金融投资,1,1,workbuddy,金融投资,记账账,安全合规;数据与 AI;财务金融;销售,workbuddy:FinanceAccountingExpert
+workbuddy:FinanceDataExpert,财数数,Neo,data-ai,数据智能,1,1,workbuddy,数据智能,财数数,数据与 AI;财务金融;软件工程,workbuddy:FinanceDataExpert
+workbuddy:FinancialModelingExpert,建模模,Morgan,finance,金融投资,1,1,workbuddy,金融投资,建模模,数据与 AI;财务金融,workbuddy:FinancialModelingExpert
+workbuddy:FinancialTracker,账清清,Silas,finance,金融投资,1,1,workbuddy,金融投资,账清清,数据与 AI;财务金融,workbuddy:FinancialTracker
+workbuddy:FinopsExpert,CloudQ,CloudQ,tencent,腾讯专区,1,1,workbuddy,腾讯专区,CloudQ,数据与 AI,workbuddy:FinopsExpert
+workbuddy:FortuneConsultant,运势分析师,Fortune Analyst,industry-consulting,行业顾问,1,1,workbuddy,行业顾问,运势分析师,数据与 AI,workbuddy:FortuneConsultant
+workbuddy:FortuneMaster,生辰命理大师,Fortune Master,industry-consulting,行业顾问,1,1,workbuddy,行业顾问,生辰命理大师,数据与 AI,workbuddy:FortuneMaster
+workbuddy:Frontend,鹏城信息AI专家,Frontend Interface Expert,engineering,技术工程,1,1,workbuddy,技术工程,鹏城信息AI专家,产品设计;数据与 AI;软件工程,workbuddy:Frontend
+workbuddy:FrontendDeveloper,像素匠,Paul,engineering,技术工程,1,1,workbuddy,技术工程,像素匠,产品设计;数据与 AI,workbuddy:FrontendDeveloper
+workbuddy:FrontendSlides,鹏城信息AI专家,HTML Slides Maker,content-creative,内容创作,1,1,workbuddy,内容创作,鹏城信息AI专家,产品设计;数据与 AI,workbuddy:FrontendSlides
+workbuddy:FsiMarketResearcher,严研行,Market Researcher,finance,金融投资,1,1,workbuddy,金融投资,严研行,教育学术;数据与 AI,workbuddy:FsiMarketResearcher
+workbuddy:FundResearchAnalyst,基金投研分析师,Fund Research Analyst,finance,金融投资,1,1,workbuddy,金融投资,基金投研分析师,人力与组织;教育学术;数据与 AI,workbuddy:FundResearchAnalyst
+workbuddy:FundusDiseaseAnalysis,腾讯健康-觅影-眼底彩照疾病分析专家,TENCENT AIMIS Fundus Disease Analyst Specialist,data-ai,数据智能,1,1,workbuddy,数据智能,腾讯健康-觅影-眼底彩照疾病分析专家,数据与 AI,workbuddy:FundusDiseaseAnalysis
+workbuddy:GPTResearcherTeam,深度研究团队,Deep Research Team,data-ai,数据智能,1,1,workbuddy,数据智能,深度研究团队,人力与组织;教育学术;数据与 AI,workbuddy:GPTResearcherTeam
+workbuddy:GameDevelopmentStudio,鹏城信息AI专家,Game Development Studio,game-spatial,游戏空间,1,1,workbuddy,游戏空间,鹏城信息AI专家,产品设计;人力与组织;数据与 AI;软件工程,workbuddy:GameDevelopmentStudio
+workbuddy:GaokaoAdvisor,专业高考顾问,Professional Gaokao Consultant,industry-consulting,行业顾问,1,1,workbuddy,行业顾问,专业高考顾问,产品设计;数据与 AI,workbuddy:GaokaoAdvisor
+workbuddy:GeoDiagnosisExpert,苍何,Cang He,marketing-growth,营销增长,1,1,workbuddy,营销增长,苍何,数据与 AI;营销;销售,workbuddy:GeoDiagnosisExpert
+workbuddy:GitWorkflowExpert,分支通,Ruby,engineering,技术工程,1,1,workbuddy,技术工程,分支通,,workbuddy:GitWorkflowExpert
+workbuddy:GlReconciler,钱对齐,GL Reconciler,finance,金融投资,1,1,workbuddy,金融投资,钱对齐,数据与 AI,workbuddy:GlReconciler
+workbuddy:GodotGameScriptEngineer,节点通,Earl,game-spatial,游戏空间,1,1,workbuddy,游戏空间,节点通,,workbuddy:GodotGameScriptEngineer
+workbuddy:GovernmentDigitalPresalesConsultant,政通通,Maren,sales-commerce,销售商务,1,1,workbuddy,销售商务,政通通,供应链,workbuddy:GovernmentDigitalPresalesConsultant
+workbuddy:GrowthHacker,裂变变,Nia,marketing-growth,营销增长,1,1,workbuddy,营销增长,裂变变,数据与 AI;营销;软件工程,workbuddy:GrowthHacker
+workbuddy:HealthcareMarketingComplianceExpert,医合合,Nico,legal-security,法务安全,1,1,workbuddy,法务安全,医合合,产品设计;内容;医疗健康;营销,workbuddy:HealthcareMarketingComplianceExpert
+workbuddy:HrDigitalExpert,HR数智专家,HR Digital Expert,tencent,腾讯专区,1,1,workbuddy,腾讯专区,HR数智专家,产品设计;人力与组织;数据与 AI;软件工程,workbuddy:HrDigitalExpert
+workbuddy:HrOperationsTeam,HR 运营团队,HR Operations Team,operations-hr,运营人力,1,1,workbuddy,运营人力,HR 运营团队,产品设计;人力与组织,workbuddy:HrOperationsTeam
+workbuddy:HskDevopsExpert,贝锐花生壳,AweShell,engineering,技术工程,1,1,workbuddy,技术工程,贝锐花生壳,,workbuddy:HskDevopsExpert
+workbuddy:HuashuDataPro,花叔数据分析专家团,Huashu Data Analysis Team,data-ai,数据智能,1,1,workbuddy,数据智能,花叔数据分析专家团,人力与组织;数据与 AI,workbuddy:HuashuDataPro
+workbuddy:HuashuDocReviewer,花叔文档审稿专家,Huashu Document Reviewer,legal-security,法务安全,1,1,workbuddy,法务安全,花叔文档审稿专家,数据与 AI,workbuddy:HuashuDocReviewer
+workbuddy:HubbleEvalExpert,哈勃AI评测专家,Hubble AI Evaluation Expert,tencent,腾讯专区,1,1,workbuddy,腾讯专区,哈勃AI评测专家,数据与 AI,workbuddy:HubbleEvalExpert
+workbuddy:HumanizePptTeam,PPT大纲、生成、视频、演示与交付专家团,"Presentation Planning, Production, Video, Presenter and Delivery Team",content-creative,内容创作,1,1,workbuddy,内容创作,PPT大纲、生成、视频、演示与交付专家团,产品设计;数据与 AI,workbuddy:HumanizePptTeam
+workbuddy:IdentityGraphOperator,识图图,Opal,marketing-growth,营销增长,1,1,workbuddy,营销增长,识图图,产品设计;数据与 AI,workbuddy:IdentityGraphOperator
+workbuddy:IhrAiInterviewer,AI面试官,AI Interviewer,operations-hr,运营人力,1,1,workbuddy,运营人力,AI面试官,产品设计;数据与 AI,workbuddy:IhrAiInterviewer
+workbuddy:IhrConference,i人事-利唐智语AI面谈官,iHR-LiTangZhiYu AI Talker,operations-hr,运营人力,1,1,workbuddy,运营人力,i人事-利唐智语AI面谈官,产品设计;人力与组织;数据与 AI,workbuddy:IhrConference
+workbuddy:IncidentResponseCommander,救火队,Sara,engineering,技术工程,1,1,workbuddy,技术工程,救火队,产品设计;数据与 AI,workbuddy:IncidentResponseCommander
+workbuddy:IndieFounderCoach,创迪,Indy,industry-consulting,行业顾问,1,1,workbuddy,行业顾问,创迪,产品设计,workbuddy:IndieFounderCoach
+workbuddy:IndonesiaBdExpert,印尼商务拓展专家,Indo Business,global-development,全球发展,1,1,workbuddy,全球发展,印尼商务拓展专家,产品设计;供应链;安全合规;数据与 AI;销售,workbuddy:IndonesiaBdExpert
+workbuddy:IndonesiaDigitalLawExpert,印尼法务合规专家,Indo Law,global-development,全球发展,1,1,workbuddy,全球发展,印尼法务合规专家,安全合规;数据与 AI;财务金融,workbuddy:IndonesiaDigitalLawExpert
+workbuddy:IndonesiaPaExpert,Indo Pub Affair,Indo Pub Affair,global-development,全球发展,1,1,workbuddy,全球发展,Indo Pub Affair,安全合规;数据与 AI,workbuddy:IndonesiaPaExpert
+workbuddy:IndustrialParkInvestmentAttractionExpert,福帮手,FBSir,sales-commerce,销售商务,1,1,workbuddy,销售商务,福帮手,数据与 AI,workbuddy:IndustrialParkInvestmentAttractionExpert
+workbuddy:IndustrySreTeam,腾讯云行业 SRE,Tencent Cloud Industry SRE,tencent,腾讯专区,1,1,workbuddy,腾讯专区,腾讯云行业 SRE,医疗健康;安全合规;数据与 AI;电商;财务金融,workbuddy:IndustrySreTeam
+workbuddy:InfrastructureOperationsExpert,运维通,Tia,engineering,技术工程,1,1,workbuddy,技术工程,运维通,,workbuddy:InfrastructureOperationsExpert
+workbuddy:InnovationStartupMentor,青创领航员,Startup Mentor,industry-consulting,行业顾问,1,1,workbuddy,行业顾问,青创领航员,产品设计,workbuddy:InnovationStartupMentor
+workbuddy:InspectionExpert,CloudQ,CloudQ,tencent,腾讯专区,1,1,workbuddy,腾讯专区,CloudQ,安全合规;数据与 AI,workbuddy:InspectionExpert
+workbuddy:InstagramOperationsExpert,晒图图,Otto,content-creative,内容创作,1,1,workbuddy,内容创作,晒图图,内容;营销,workbuddy:InstagramOperationsExpert
+workbuddy:InternalCommsExpert,传令令,Herald,project-quality,项目质量,1,1,workbuddy,项目质量,传令令,,workbuddy:InternalCommsExpert
+workbuddy:InterviewSimulator,鹏城信息AI专家,Interview Simulator,operations-hr,运营人力,1,1,workbuddy,运营人力,鹏城信息AI专家,产品设计;数据与 AI;销售,workbuddy:InterviewSimulator
+workbuddy:InvestmentBankingExpert,银拓远,Yin,finance,金融投资,1,1,workbuddy,金融投资,银拓远,数据与 AI;财务金融;软件工程,workbuddy:InvestmentBankingExpert
+workbuddy:InvestmentMastersTeam,投资大师专家团,Investment Masters Team,finance,金融投资,1,1,workbuddy,金融投资,投资大师专家团,安全合规;数据与 AI;财务金融,workbuddy:InvestmentMastersTeam
+workbuddy:InvoiceVerifyExpert,票证核验专家,Voucher Verification Expert,legal-security,法务安全,1,1,workbuddy,法务安全,票证核验专家,数据与 AI;财务金融;销售,workbuddy:InvoiceVerifyExpert
+workbuddy:InvoiceVerifyWorkbuddy,智能发票专家团,Intelligent Invoice Expert Team,legal-security,法务安全,1,1,workbuddy,法务安全,智能发票专家团,数据与 AI;财务金融,workbuddy:InvoiceVerifyWorkbuddy
+workbuddy:IpExpert,权知明,Quan,legal-security,法务安全,1,1,workbuddy,法务安全,权知明,产品设计;数据与 AI;软件工程,workbuddy:IpExpert
+workbuddy:JiayiAdsAnalyticsExpert,爆量君,BaoLiang,marketing-growth,营销增长,1,1,workbuddy,营销增长,爆量君,数据与 AI;营销;财务金融;软件工程,workbuddy:JiayiAdsAnalyticsExpert
+workbuddy:JinshujuExpert,金数据,Jinshuju,data-ai,数据智能,1,1,workbuddy,数据智能,金数据,产品设计;人力与组织;数据与 AI,workbuddy:JinshujuExpert
+workbuddy:JinshujuFormExpert,表单管理专家,Forms Expert,data-ai,数据智能,1,1,workbuddy,数据智能,表单管理专家,数据与 AI,workbuddy:JinshujuFormExpert
+workbuddy:JinshujuTableExpert,AI表格专家,AI Table Expert,data-ai,数据智能,1,1,workbuddy,数据智能,AI表格专家,产品设计;数据与 AI,workbuddy:JinshujuTableExpert
+workbuddy:JiraWorkflowAdmin,看板达,Briar,project-quality,项目质量,1,1,workbuddy,项目质量,看板达,产品设计,workbuddy:JiraWorkflowAdmin
+workbuddy:JobCompanionTeam,求职陪跑团,Job Companion Team,industry-consulting,行业顾问,1,1,workbuddy,行业顾问,求职陪跑团,人力与组织;供应链,workbuddy:JobCompanionTeam
+workbuddy:KdocsDataTable,金山文档智能建表助手,KDocs Smart Table Assistant,data-ai,数据智能,1,1,workbuddy,数据智能,金山文档智能建表助手,产品设计;数据与 AI,workbuddy:KdocsDataTable
+workbuddy:KdocsDocButler,金山文档文档管家助手,KDocs Doc Butler Assistant,content-creative,内容创作,1,1,workbuddy,内容创作,金山文档文档管家助手,数据与 AI,workbuddy:KdocsDocButler
+workbuddy:KdocsKnowledgeCollector,金山文档知识收藏助手,KDocs Knowledge Collector Assistant,content-creative,内容创作,1,1,workbuddy,内容创作,金山文档知识收藏助手,数据与 AI,workbuddy:KdocsKnowledgeCollector
+workbuddy:KdocsPdfToolbox,金山文档PDF处理助手,KDocs PDF Toolbox Assistant,content-creative,内容创作,1,1,workbuddy,内容创作,金山文档PDF处理助手,内容,workbuddy:KdocsPdfToolbox
+workbuddy:KdocsPptCreator,金山文档PPT创作助手,KDocs PPT Creator Assistant,content-creative,内容创作,1,1,workbuddy,内容创作,金山文档PPT创作助手,内容;数据与 AI,workbuddy:KdocsPptCreator
+workbuddy:KetPrepTeam,KET备考专家团,KET Prep Dream Team,industry-consulting,行业顾问,1,1,workbuddy,行业顾问,KET备考专家团,数据与 AI,workbuddy:KetPrepTeam
+workbuddy:KiddContentExpert,吟游诗人基德创作专家,Kidd Content Creation Expert,content-creative,内容创作,1,1,workbuddy,内容创作,吟游诗人基德创作专家,产品设计;内容;教育学术;数据与 AI;财务金融,workbuddy:KiddContentExpert
+workbuddy:KuaishouStrategist,老铁铁,Pax,content-creative,内容创作,1,1,workbuddy,内容创作,老铁铁,内容;数据与 AI,workbuddy:KuaishouStrategist
+workbuddy:KycScreener,查本源,KYC Screener,finance,金融投资,1,1,workbuddy,金融投资,查本源,安全合规;数据与 AI;销售,workbuddy:KycScreener
+workbuddy:LawStudentCoach,法学生陪练,Law Student Coach,legal-security,法务安全,1,1,workbuddy,法务安全,法学生陪练,教育学术,workbuddy:LawStudentCoach
+workbuddy:LazyTravelPlanner,懒人出游规划师,Lazy Travel Planner,industry-consulting,行业顾问,1,1,workbuddy,行业顾问,懒人出游规划师,数据与 AI;财务金融,workbuddy:LazyTravelPlanner
+workbuddy:LegalBuilderHubExpert,法律技能运营官,Legal Builder Hub,legal-security,法务安全,1,1,workbuddy,法务安全,法律技能运营官,产品设计;安全合规;数据与 AI;软件工程,workbuddy:LegalBuilderHubExpert
+workbuddy:LegalClinicSupervisor,法律诊所督导,Legal Clinic Supervisor,legal-security,法务安全,1,1,workbuddy,法务安全,法律诊所督导,教育学术;营销;销售,workbuddy:LegalClinicSupervisor
+workbuddy:LegalComplianceReviewer,律守正,Lü,legal-security,法务安全,1,1,workbuddy,法务安全,律守正,产品设计;安全合规,workbuddy:LegalComplianceReviewer
+workbuddy:LegalSearchPro,法检 Pro,LexFinder Pro,legal-security,法务安全,1,1,workbuddy,法务安全,法检 Pro,数据与 AI,workbuddy:LegalSearchPro
+workbuddy:LexiangPptExpert,腾讯云知（乐享）,Tencent Yunzhi,content-creative,内容创作,1,1,workbuddy,内容创作,腾讯云知（乐享）,产品设计;人力与组织;教育学术;销售,workbuddy:LexiangPptExpert
+workbuddy:LinkedInContentCreator,领英达,Quinn,marketing-growth,营销增长,1,1,workbuddy,营销增长,领英达,产品设计;内容,workbuddy:LinkedInContentCreator
+workbuddy:LinkfoxExpertAmazonListingSpecialist,Linkfox,Linkfox,sales-commerce,销售商务,1,1,workbuddy,销售商务,Linkfox,产品设计;安全合规;教育学术;数据与 AI;电商,workbuddy:LinkfoxExpertAmazonListingSpecialist
+workbuddy:LitigationLegalExpert,诉讼法务专家,Litigation Legal Expert,legal-security,法务安全,1,1,workbuddy,法务安全,诉讼法务专家,人力与组织;数据与 AI,workbuddy:LitigationLegalExpert
+workbuddy:LiuxueYanxueExpert,福帮手,FBSir,industry-consulting,行业顾问,1,1,workbuddy,行业顾问,福帮手,产品设计;安全合规;教育学术;财务金融,workbuddy:LiuxueYanxueExpert
+workbuddy:LivestreamEcommerceCoach,播旺旺,Ria,marketing-growth,营销增长,1,1,workbuddy,营销增长,播旺旺,人力与组织;数据与 AI;电商,workbuddy:LivestreamEcommerceCoach
+workbuddy:LlmWiki,知库库,LLM Wiki,data-ai,数据智能,1,1,workbuddy,数据智能,知库库,产品设计;数据与 AI,workbuddy:LlmWiki
+workbuddy:LongManuscriptExpert,福帮手,FBSir,content-creative,内容创作,1,1,workbuddy,内容创作,福帮手,,workbuddy:LongManuscriptExpert
+workbuddy:LspIndexEngineer,索引引,Priya,engineering,技术工程,1,1,workbuddy,技术工程,索引引,软件工程,workbuddy:LspIndexEngineer
+workbuddy:MacOsSpatialMetalEngineer,渲染师,Vale,game-spatial,游戏空间,1,1,workbuddy,游戏空间,渲染师,软件工程,workbuddy:MacOsSpatialMetalEngineer
+workbuddy:MaiDealAdvisor,MAI Lab并购交易Agent,MAI Lab M&A Deal Agent,finance,金融投资,1,1,workbuddy,金融投资,MAI Lab并购交易Agent,数据与 AI,workbuddy:MaiDealAdvisor
+workbuddy:MalaysiaFinanceTax,马来西亚财税金融专家,MY Finance & Tax,global-development,全球发展,1,1,workbuddy,全球发展,马来西亚财税金融专家,安全合规;数据与 AI;财务金融,workbuddy:MalaysiaFinanceTax
+workbuddy:MalaysiaHrAdmin,Malaysia HR & Administration,Malaysia HR & Administration,global-development,全球发展,1,1,workbuddy,全球发展,Malaysia HR & Administration,产品设计;人力与组织;安全合规;数据与 AI,workbuddy:MalaysiaHrAdmin
+workbuddy:MalaysiaLegal,Malaysia Legal & Compliance,Malaysia Legal & Compliance,global-development,全球发展,1,1,workbuddy,全球发展,Malaysia Legal & Compliance,产品设计;安全合规;数据与 AI,workbuddy:MalaysiaLegal
+workbuddy:MalaysiaMarketing,大马营销通,Da Ma Marketing Master,global-development,全球发展,1,1,workbuddy,全球发展,大马营销通,营销,workbuddy:MalaysiaMarketing
+workbuddy:MarketAnalysisCn,鹏城信息AI专家,Market Analysis Expert,marketing-growth,营销增长,1,1,workbuddy,营销增长,鹏城信息AI专家,数据与 AI,workbuddy:MarketAnalysisCn
+workbuddy:MarketingCampaignExpert,策动动,Macy,marketing-growth,营销增长,1,1,workbuddy,营销增长,策动动,内容;数据与 AI;营销,workbuddy:MarketingCampaignExpert
+workbuddy:MarketingCampaignTeam,营销战役团队,Marketing Campaign Team,marketing-growth,营销增长,1,1,workbuddy,营销增长,营销战役团队,内容;安全合规;数据与 AI;营销;财务金融,workbuddy:MarketingCampaignTeam
+workbuddy:MarketingGrowthTeam,营销增长专家团,Marketing Growth Team,marketing-growth,营销增长,1,1,workbuddy,营销增长,营销增长专家团,产品设计;内容;数据与 AI;营销;软件工程,workbuddy:MarketingGrowthTeam
+workbuddy:MarketingReviewer,营文稳,Vera,legal-security,法务安全,1,1,workbuddy,法务安全,营文稳,安全合规;数据与 AI;营销,workbuddy:MarketingReviewer
+workbuddy:McpBuildExpert,协议通,Rex,engineering,技术工程,1,1,workbuddy,技术工程,协议通,产品设计,workbuddy:McpBuildExpert
+workbuddy:MeetingPrepAgent,周备全,Meeting Prep,finance,金融投资,1,1,workbuddy,金融投资,周备全,营销;销售,workbuddy:MeetingPrepAgent
+workbuddy:MeituanLivingAssistant,40-20 外卖券,40-20 Food Delivery Coupons,sales-commerce,销售商务,1,1,workbuddy,销售商务,40-20 外卖券,数据与 AI,workbuddy:MeituanLivingAssistant
+workbuddy:MentougouBusinessGuide,门头沟营商顾问,Mentougou Business Guide,industry-consulting,行业顾问,1,1,workbuddy,行业顾问,门头沟营商顾问,产品设计;人力与组织,workbuddy:MentougouBusinessGuide
+workbuddy:MermaidDiagramExpert,绘灵,Mia,product-design,产品设计,1,1,workbuddy,产品设计,绘灵,数据与 AI,workbuddy:MermaidDiagramExpert
+workbuddy:MetamorphosisPractitioner,蜕变践行者,Metamorphosis Practitioner,industry-consulting,行业顾问,1,1,workbuddy,行业顾问,蜕变践行者,,workbuddy:MetamorphosisPractitioner
+workbuddy:MiZhenExpert,觅诊,MiZhen,tencent,腾讯专区,1,1,workbuddy,腾讯专区,觅诊,医疗健康,workbuddy:MiZhenExpert
+workbuddy:MibaoMediaArchivist,秘宝,MIBAO,data-ai,数据智能,1,1,workbuddy,数据智能,秘宝,产品设计,workbuddy:MibaoMediaArchivist
+workbuddy:MigraQExpert,MigraQ,MigraQ,tencent,腾讯专区,1,1,workbuddy,腾讯专区,MigraQ,数据与 AI,workbuddy:MigraQExpert
+workbuddy:Migraq,MigraQ,MigraQ,tencent,腾讯专区,1,1,workbuddy,腾讯专区,MigraQ,数据与 AI,workbuddy:Migraq
+workbuddy:MigraqTeam,腾讯云上云迁移专家团,Tencent Cloud Migration Team,tencent,腾讯专区,1,1,workbuddy,腾讯专区,腾讯云上云迁移专家团,产品设计,workbuddy:MigraqTeam
+workbuddy:MobileApplicationDeveloper,掌中灵,Tina,engineering,技术工程,1,1,workbuddy,技术工程,掌中灵,软件工程,workbuddy:MobileApplicationDeveloper
+workbuddy:ModelBuilder,莫百炼,Model Builder,finance,金融投资,1,1,workbuddy,金融投资,莫百炼,产品设计;人力与组织;安全合规;数据与 AI;财务金融,workbuddy:ModelBuilder
+workbuddy:ModelQualityAssuranceExpert,模检检,Sky,data-ai,数据智能,1,1,workbuddy,数据智能,模检检,安全合规;数据与 AI,workbuddy:ModelQualityAssuranceExpert
+workbuddy:ModernWebappExpert,速构构,Vite,engineering,技术工程,1,1,workbuddy,技术工程,速构构,产品设计;数据与 AI;软件工程,workbuddy:ModernWebappExpert
+workbuddy:MonthEndCloser,关月结,Month-End Closer,finance,金融投资,1,1,workbuddy,金融投资,关月结,财务金融,workbuddy:MonthEndCloser
+workbuddy:MultiCloudExpert,CloudQ,CloudQ,tencent,腾讯专区,1,1,workbuddy,腾讯专区,CloudQ,安全合规;数据与 AI,workbuddy:MultiCloudExpert
+workbuddy:MultiCloudManagementExpert,CloudQ,CloudQ,tencent,腾讯专区,1,1,workbuddy,腾讯专区,CloudQ,安全合规,workbuddy:MultiCloudManagementExpert
+workbuddy:MvpDevExpertTeam,MVP开发专家团,MVP Dev Expert Team,engineering,技术工程,1,1,workbuddy,技术工程,MVP开发专家团,产品设计;教育学术;软件工程,workbuddy:MvpDevExpertTeam
+workbuddy:NcreExpert,计算机等级考试专家团,NCRE Expert Team,engineering,技术工程,1,1,workbuddy,技术工程,计算机等级考试专家团,安全合规;教育学术;数据与 AI;软件工程,workbuddy:NcreExpert
+workbuddy:NewShareExpert,新股专家,New Share Expert,finance,金融投资,1,1,workbuddy,金融投资,新股专家,数据与 AI,workbuddy:NewShareExpert
+workbuddy:NewsBriefingExpert,新闻资讯专家,News Briefing Expert,content-creative,内容创作,1,1,workbuddy,内容创作,新闻资讯专家,数据与 AI;财务金融,workbuddy:NewsBriefingExpert
+workbuddy:NewsBuddy,懂秘,News Buddy,content-creative,内容创作,1,1,workbuddy,内容创作,懂秘,,workbuddy:NewsBuddy
+workbuddy:NgesHealthcareMarketingTeam,腾讯健康NGES医药营销专家团,Pharmaceutical Marketing Intelligence Team (Powered by Tencent Healthcare NGES),marketing-growth,营销增长,1,1,workbuddy,营销增长,腾讯健康NGES医药营销专家团,内容;医疗健康;安全合规;教育学术;数据与 AI;营销;销售,workbuddy:NgesHealthcareMarketingTeam
+workbuddy:NgoChallengeAdvisor,卡仔,Kaazai,product-design,产品设计,1,1,workbuddy,产品设计,卡仔,人力与组织;数据与 AI,workbuddy:NgoChallengeAdvisor
+workbuddy:NoteClassRepresentative,小记同学,NoteMate,education,教育学术,1,1,workbuddy,开学季,小记同学,,workbuddy:NoteClassRepresentative
+workbuddy:NovelCreator,小说故事创作专家,Novel & Story Creator,content-creative,内容创作,1,1,workbuddy,内容创作,小说故事创作专家,产品设计;数据与 AI,workbuddy:NovelCreator
+workbuddy:NovelGenerator,鹏城信息AI专家,Web Novel Generator,content-creative,内容创作,1,1,workbuddy,内容创作,鹏城信息AI专家,产品设计;数据与 AI,workbuddy:NovelGenerator
+workbuddy:Nuwa,女娲,Nuwa,data-ai,数据智能,1,1,workbuddy,数据智能,女娲,数据与 AI;销售,workbuddy:Nuwa
+workbuddy:OmicsBioinfoExpert,组小学,omics-expert,data-ai,数据智能,1,1,workbuddy,数据智能,组小学,数据与 AI,workbuddy:OmicsBioinfoExpert
+workbuddy:OmicsCdgptExpert,组小学,omics-expert,data-ai,数据智能,1,1,workbuddy,数据智能,组小学,数据与 AI,workbuddy:OmicsCdgptExpert
+workbuddy:OmicsDiagnosisExpert,组小学,omics-expert,data-ai,数据智能,1,1,workbuddy,数据智能,组小学,产品设计;数据与 AI,workbuddy:OmicsDiagnosisExpert
+workbuddy:OmicsHpcExpert,组小学,omics-expert,engineering,技术工程,1,1,workbuddy,技术工程,组小学,,workbuddy:OmicsHpcExpert
+workbuddy:OmicsIggmExpert,组小学,omics-expert,data-ai,数据智能,1,1,workbuddy,数据智能,组小学,产品设计;数据与 AI,workbuddy:OmicsIggmExpert
+workbuddy:OmicsOriExpert,组小学,omics-expert,data-ai,数据智能,1,1,workbuddy,数据智能,组小学,产品设计,workbuddy:OmicsOriExpert
+workbuddy:OmicsScbertExpert,组小学,omics-expert,data-ai,数据智能,1,1,workbuddy,数据智能,组小学,人力与组织;教育学术;数据与 AI,workbuddy:OmicsScbertExpert
+workbuddy:OmicsScproteinExpert,组小学,omics-expert,data-ai,数据智能,1,1,workbuddy,数据智能,组小学,数据与 AI,workbuddy:OmicsScproteinExpert
+workbuddy:OmicsTfoldExpert,组小学,omics-expert,data-ai,数据智能,1,1,workbuddy,数据智能,组小学,数据与 AI,workbuddy:OmicsTfoldExpert
+workbuddy:OpcTeam,一人公司专家团,One-Person Company Team,industry-consulting,行业顾问,1,1,workbuddy,行业顾问,一人公司专家团,产品设计;人力与组织;安全合规,workbuddy:OpcTeam
+workbuddy:OpenSpecDocTeam,专业文档生成团队,Professional Document Generation Team,project-quality,项目质量,1,1,workbuddy,项目质量,专业文档生成团队,内容;安全合规;教育学术,workbuddy:OpenSpecDocTeam
+workbuddy:OutboundStrategist,拨必通,Raven,sales-commerce,销售商务,1,1,workbuddy,销售商务,拨必通,销售,workbuddy:OutboundStrategist
+workbuddy:PanshiCustomerVisitAgent,磐石CRM跟进拜访助手,Panshi CRM Visit Assistant,industry-consulting,行业顾问,1,1,workbuddy,行业顾问,磐石CRM跟进拜访助手,内容;数据与 AI;销售,workbuddy:PanshiCustomerVisitAgent
+workbuddy:PaperTopicSelection,选题顾问（WANFANG TOPIC）,Topic Advisor (WANFANG TOPIC),industry-consulting,行业顾问,1,1,workbuddy,行业顾问,选题顾问（WANFANG TOPIC）,数据与 AI,workbuddy:PaperTopicSelection
+workbuddy:PatientEducationContentReviewWordAssistant,腾讯健康药箱-私域患教内容审核助手,Tencent Health Pill-Box - Private Domain Patient Education Content Review Assistant (Word),tencent,腾讯专区,1,1,workbuddy,腾讯专区,腾讯健康药箱-私域患教内容审核助手,内容;医疗健康;数据与 AI,workbuddy:PatientEducationContentReviewWordAssistant
+workbuddy:PerfManagementExpert,绩效管理专家,Performance Management Expert,tencent,腾讯专区,1,1,workbuddy,腾讯专区,绩效管理专家,人力与组织;数据与 AI,workbuddy:PerfManagementExpert
+workbuddy:PerformanceTestingExpert,压测测,Jasper,project-quality,项目质量,1,1,workbuddy,项目质量,压测测,数据与 AI,workbuddy:PerformanceTestingExpert
+workbuddy:PersonalFitnessCoach,私人健身教练,Personal Fitness Coach,industry-consulting,行业顾问,1,1,workbuddy,行业顾问,私人健身教练,产品设计;安全合规;数据与 AI,workbuddy:PersonalFitnessCoach
+workbuddy:PersonalKnowledgeArchitect,个人知识库架构师,Personal Knowledge Architect,data-ai,数据智能,1,1,workbuddy,数据智能,个人知识库架构师,产品设计;数据与 AI,workbuddy:PersonalKnowledgeArchitect
+workbuddy:PitchAgent,白必得,Pitch Agent,finance,金融投资,1,1,workbuddy,金融投资,白必得,产品设计;数据与 AI;营销,workbuddy:PitchAgent
+workbuddy:PneumoniaAiAnalyst,腾讯健康-觅影-肺部CT影像的肺炎辅助评估专家,Tencent Health Miying - Lung CT Pneumonia Assessment Expert,data-ai,数据智能,1,1,workbuddy,数据智能,腾讯健康-觅影-肺部CT影像的肺炎辅助评估专家,医疗健康;数据与 AI,workbuddy:PneumoniaAiAnalyst
+workbuddy:PodcastStrategist,声浪浪,Sia,content-creative,内容创作,1,1,workbuddy,内容创作,声浪浪,产品设计;人力与组织;内容;营销,workbuddy:PodcastStrategist
+workbuddy:PpcBiddingStrategist,竞高高,Kira,marketing-growth,营销增长,1,1,workbuddy,营销增长,竞高高,产品设计;数据与 AI,workbuddy:PpcBiddingStrategist
+workbuddy:PptCreationExpert,腾讯云知（乐享）,Tencent Yunzhi,content-creative,内容创作,1,1,workbuddy,内容创作,腾讯云知（乐享）,产品设计;数据与 AI,workbuddy:PptCreationExpert
+workbuddy:PresalesTechnicalConsultant,方案通,Sage,sales-commerce,销售商务,1,1,workbuddy,销售商务,方案通,销售,workbuddy:PresalesTechnicalConsultant
+workbuddy:PrivateDomainMarketingExpert,司玉琦,Magic,marketing-growth,营销增长,1,1,workbuddy,营销增长,司玉琦,人力与组织;数据与 AI;营销,workbuddy:PrivateDomainMarketingExpert
+workbuddy:PrivateDomainOperationsExpert,留客客,Taj,marketing-growth,营销增长,1,1,workbuddy,营销增长,留客客,数据与 AI,workbuddy:PrivateDomainOperationsExpert
+workbuddy:PrivateEquityExpert,募资资,Greyson,finance,金融投资,1,1,workbuddy,金融投资,募资资,产品设计;数据与 AI,workbuddy:PrivateEquityExpert
+workbuddy:ProductManagementExpert,产品通,Vera,product-design,产品设计,1,1,workbuddy,产品设计,产品通,产品设计;教育学术;数据与 AI,workbuddy:ProductManagementExpert
+workbuddy:ProductStrategyTeam,产品战略团队,Product Strategy Team,product-design,产品设计,1,1,workbuddy,产品设计,产品战略团队,产品设计;教育学术;数据与 AI,workbuddy:ProductStrategyTeam
+workbuddy:ProgrammaticAdBuyer,算法投,Luna,marketing-growth,营销增长,1,1,workbuddy,营销增长,算法投,人力与组织;营销,workbuddy:ProgrammaticAdBuyer
+workbuddy:ProjectShepherd,牧羊羊,Cleo,project-quality,项目质量,1,1,workbuddy,项目质量,牧羊羊,产品设计;数据与 AI,workbuddy:ProjectShepherd
+workbuddy:PromoCreatorTeam,袋鼠帝宣传片创作团队,Promo Creator Team,content-creative,内容创作,1,1,workbuddy,内容创作,袋鼠帝宣传片创作团队,产品设计,workbuddy:PromoCreatorTeam
+workbuddy:PromptEngineer,提示词工程师,Prompt Engineer,engineering,技术工程,1,1,workbuddy,技术工程,提示词工程师,产品设计;数据与 AI;软件工程,workbuddy:PromptEngineer
+workbuddy:PromptEngineeringExpert,鹏城信息AI专家,Prompt Engineering Expert,data-ai,数据智能,1,1,workbuddy,数据智能,鹏城信息AI专家,产品设计;数据与 AI;软件工程,workbuddy:PromptEngineeringExpert
+workbuddy:ProposalStrategist,策必中,Tatum,sales-commerce,销售商务,1,1,workbuddy,销售商务,策必中,产品设计;销售,workbuddy:ProposalStrategist
+workbuddy:PythonFullstackEngineer,Python 全栈工程师,Python Full-Stack Engineer,engineering,技术工程,1,1,workbuddy,技术工程,Python 全栈工程师,产品设计;安全合规;数据与 AI;软件工程,workbuddy:PythonFullstackEngineer
+workbuddy:QingflowHrExpert,小Q,小Q,operations-hr,运营人力,1,1,workbuddy,运营人力,小Q,产品设计;人力与组织;数据与 AI,workbuddy:QingflowHrExpert
+workbuddy:RapidPrototypingEngineer,闪造造,Uma,engineering,技术工程,1,1,workbuddy,技术工程,闪造造,产品设计,workbuddy:RapidPrototypingEngineer
+workbuddy:RealityChecker,验真真,Koa,project-quality,项目质量,1,1,workbuddy,项目质量,验真真,产品设计,workbuddy:RealityChecker
+workbuddy:RecruitmentExpert,伯乐乐,Tess,operations-hr,运营人力,1,1,workbuddy,运营人力,伯乐乐,产品设计;人力与组织,workbuddy:RecruitmentExpert
+workbuddy:RedditCommunityBuilder,红迪迪,Una,marketing-growth,营销增长,1,1,workbuddy,营销增长,红迪迪,产品设计,workbuddy:RedditCommunityBuilder
+workbuddy:RemotionVideoExpert,动画画,Motio,content-creative,内容创作,1,1,workbuddy,内容创作,动画画,产品设计;内容;数据与 AI,workbuddy:RemotionVideoExpert
+workbuddy:ReportDistributionAgent,送报报,Urban,project-quality,项目质量,1,1,workbuddy,项目质量,送报报,,workbuddy:ReportDistributionAgent
+workbuddy:ResumeAssistant,鹏城信息AI专家,Resume Optimization Expert,operations-hr,运营人力,1,1,workbuddy,运营人力,鹏城信息AI专家,内容;数据与 AI,workbuddy:ResumeAssistant
+workbuddy:RoadshowResearchTeam,资本市场路演研究团,Capital Markets Roadshow Research Team,finance,金融投资,1,1,workbuddy,金融投资,资本市场路演研究团,产品设计;人力与组织;教育学术;财务金融;软件工程,workbuddy:RoadshowResearchTeam
+workbuddy:RobloxSystemScriptEngineer,脚本通,Nora,game-spatial,游戏空间,1,1,workbuddy,游戏空间,脚本通,安全合规;数据与 AI;销售,workbuddy:RobloxSystemScriptEngineer
+workbuddy:RumFullstackTeam,腾讯云 RUM 全链路专家团,Tencent Cloud RUM Full-Lifecycle Team,engineering,技术工程,1,1,workbuddy,技术工程,腾讯云 RUM 全链路专家团,数据与 AI;软件工程,workbuddy:RumFullstackTeam
+workbuddy:SaLegalCompliance,南非法务合规专家,South African Legal,legal-security,法务安全,1,1,workbuddy,法务安全,南非法务合规专家,产品设计;安全合规;数据与 AI,workbuddy:SaLegalCompliance
+workbuddy:SalesBattleTeam,销售作战团队,Sales Battle Team,sales-commerce,销售商务,1,1,workbuddy,销售商务,销售作战团队,安全合规;教育学术;销售,workbuddy:SalesBattleTeam
+workbuddy:SalesDataExtractionAgent,拉数数,Val,data-ai,数据智能,1,1,workbuddy,数据智能,拉数数,数据与 AI;销售,workbuddy:SalesDataExtractionAgent
+workbuddy:SdkLogExpert,CloudQ,CloudQ,tencent,腾讯专区,1,1,workbuddy,腾讯专区,CloudQ,产品设计;软件工程;销售,workbuddy:SdkLogExpert
+workbuddy:SearchTermAnalyst,词探探,Milo,marketing-growth,营销增长,1,1,workbuddy,营销增长,词探探,数据与 AI,workbuddy:SearchTermAnalyst
+workbuddy:SecurityEngineer,盾甲甲,Vic,engineering,技术工程,1,1,workbuddy,技术工程,盾甲甲,安全合规,workbuddy:SecurityEngineer
+workbuddy:SeniorDeveloper,吴八哥,Will,engineering,技术工程,1,1,workbuddy,技术工程,吴八哥,产品设计;软件工程,workbuddy:SeniorDeveloper
+workbuddy:SeniorProjectManager,关德豪,Dylan,project-quality,项目质量,1,1,workbuddy,项目质量,关德豪,,workbuddy:SeniorProjectManager
+workbuddy:SeoContentTeam,SEO 内容营销团队,SEO Content Team,marketing-growth,营销增长,1,1,workbuddy,营销增长,SEO 内容营销团队,内容;教育学术;数据与 AI;营销,workbuddy:SeoContentTeam
+workbuddy:SeoExpert,搜霸霸,Vega,marketing-growth,营销增长,1,1,workbuddy,营销增长,搜霸霸,营销,workbuddy:SeoExpert
+workbuddy:SgBizDev,Sg Business,Sg Business,global-development,全球发展,1,1,workbuddy,全球发展,Sg Business,销售,workbuddy:SgBizDev
+workbuddy:SgFinanceTax,Sg Finance & Tax,Sg Finance & Tax,global-development,全球发展,1,1,workbuddy,全球发展,Sg Finance & Tax,内容;安全合规;财务金融;销售,workbuddy:SgFinanceTax
+workbuddy:SgHrAdminExpert,Sg HR & Admin,Sg HR & Admin,global-development,全球发展,1,1,workbuddy,全球发展,Sg HR & Admin,产品设计;人力与组织;内容,workbuddy:SgHrAdminExpert
+workbuddy:ShortVideoEditingCoach,剪神神,Wyatt,content-creative,内容创作,1,1,workbuddy,内容创作,剪神神,,workbuddy:ShortVideoEditingCoach
+workbuddy:SiteReliabilityEngineer,稳如山,Xena,engineering,技术工程,1,1,workbuddy,技术工程,稳如山,数据与 AI;软件工程,workbuddy:SiteReliabilityEngineer
+workbuddy:SkillSmith,技能匠人,Skill Smith,education,教育学术,1,1,workbuddy,开学季,技能匠人,产品设计,workbuddy:SkillSmith
+workbuddy:SkillhubCharityExpertTeam,技术公益专家团,Tech for Good Expert Team,industry-consulting,行业顾问,1,1,workbuddy,行业顾问,技术公益专家团,数据与 AI,workbuddy:SkillhubCharityExpertTeam
+workbuddy:SmartStockAnalyst,星辰,Stellar,finance,金融投资,1,1,workbuddy,金融投资,星辰,数据与 AI;财务金融,workbuddy:SmartStockAnalyst
+workbuddy:SmbCompliance,严守约,Yan,legal-security,法务安全,1,1,workbuddy,法务安全,严守约,安全合规;数据与 AI;销售,workbuddy:SmbCompliance
+workbuddy:SmbFinance,钱守通,Qian,finance,金融投资,1,1,workbuddy,金融投资,钱守通,数据与 AI;财务金融,workbuddy:SmbFinance
+workbuddy:SmbOperations,毕运营,Bi,operations-hr,运营人力,1,1,workbuddy,运营人力,毕运营,人力与组织,workbuddy:SmbOperations
+workbuddy:SmbRevenue,甄客来,Zhen,sales-commerce,销售商务,1,1,workbuddy,销售商务,甄客来,内容;数据与 AI;营销,workbuddy:SmbRevenue
+workbuddy:SmbTeam,小企业经营团队,Small Business Team,industry-consulting,行业顾问,1,1,workbuddy,行业顾问,小企业经营团队,安全合规;数据与 AI;营销;财务金融;销售,workbuddy:SmbTeam
+workbuddy:SocialAdStrategist,精投投,Nola,marketing-growth,营销增长,1,1,workbuddy,营销增长,精投投,产品设计;人力与组织;营销,workbuddy:SocialAdStrategist
+workbuddy:SocialEngagementTeam,社媒互动增长专家团,Social Engagement Growth Team,marketing-growth,营销增长,1,1,workbuddy,营销增长,社媒互动增长专家团,人力与组织;安全合规;数据与 AI;营销,workbuddy:SocialEngagementTeam
+workbuddy:SocialMediaStrategist,传声声,Ari,marketing-growth,营销增长,1,1,workbuddy,营销增长,传声声,营销,workbuddy:SocialMediaStrategist
+workbuddy:Soe,腾讯云安全运营专家,Security Operations Expert,tencent,腾讯专区,1,1,workbuddy,腾讯专区,腾讯云安全运营专家,产品设计;安全合规;数据与 AI;销售,workbuddy:Soe
+workbuddy:SoftwareArchitect,架构通,Yara,engineering,技术工程,1,1,workbuddy,技术工程,架构通,产品设计;数据与 AI;软件工程,workbuddy:SoftwareArchitect
+workbuddy:SoftwareCompany,软件开发团队,Software Company,engineering,技术工程,1,1,workbuddy,技术工程,软件开发团队,产品设计;软件工程,workbuddy:SoftwareCompany
+workbuddy:SoftwareWorkshop,软件工坊,Software Workshop,engineering,技术工程,1,1,workbuddy,技术工程,软件工坊,产品设计;安全合规;软件工程,workbuddy:SoftwareWorkshop
+workbuddy:SoliditySmartContractEngineer,链合约,Zane,engineering,技术工程,1,1,workbuddy,技术工程,链合约,安全合规,workbuddy:SoliditySmartContractEngineer
+workbuddy:SouthAfricaHrAdmin,South Africa HR,South Africa HR,operations-hr,运营人力,1,1,workbuddy,运营人力,South Africa HR,产品设计;人力与组织;安全合规,workbuddy:SouthAfricaHrAdmin
+workbuddy:SouthAfricaStrategyAdvisor,South African Strategy,South African Strategy,industry-consulting,行业顾问,1,1,workbuddy,行业顾问,South African Strategy,安全合规;数据与 AI;财务金融,workbuddy:SouthAfricaStrategyAdvisor
+workbuddy:SprintPriorityManager,排序序,Yuri,product-design,产品设计,1,1,workbuddy,产品设计,排序序,,workbuddy:SprintPriorityManager
+workbuddy:SreExpert,CloudQ,CloudQ,tencent,腾讯专区,1,1,workbuddy,腾讯专区,CloudQ,人力与组织;数据与 AI,workbuddy:SreExpert
+workbuddy:StatementAuditor,审细明,Statement Auditor,finance,金融投资,1,1,workbuddy,金融投资,审细明,安全合规;软件工程;销售,workbuddy:StatementAuditor
+workbuddy:StockPartnerTeam,腾讯自选股股票投研专家团,Tencent WeStock Equity Research Team,finance,金融投资,1,1,workbuddy,金融投资,腾讯自选股股票投研专家团,产品设计;教育学术;数据与 AI;财务金融,workbuddy:StockPartnerTeam
+workbuddy:StrategyBacktestExpert,回测明算,Strategy Backtest Expert,finance,金融投资,1,1,workbuddy,金融投资,回测明算,数据与 AI,workbuddy:StrategyBacktestExpert
+workbuddy:StudioOperationsManager,统筹筹,Ellie,project-quality,项目质量,1,1,workbuddy,项目质量,统筹筹,数据与 AI,workbuddy:StudioOperationsManager
+workbuddy:StudioProducer,制片达,Felix,project-quality,项目质量,1,1,workbuddy,项目质量,制片达,财务金融,workbuddy:StudioProducer
+workbuddy:StudyAbroadConsultant,留洋洋,Wrenn,operations-hr,运营人力,1,1,workbuddy,运营人力,留洋洋,教育学术,workbuddy:StudyAbroadConsultant
+workbuddy:StudyFortuneCompass,学运趋势解读师,Academic Trend Reader,education,教育学术,1,1,workbuddy,开学季,学运趋势解读师,人力与组织;教育学术;数据与 AI,workbuddy:StudyFortuneCompass
+workbuddy:StudyPlanner,学习规划师,Study Planner,industry-consulting,行业顾问,1,1,workbuddy,行业顾问,学习规划师,教育学术,workbuddy:StudyPlanner
+workbuddy:SuperpowersZh,AI编程方法论专家,AI Coding Methodology Expert,engineering,技术工程,1,1,workbuddy,技术工程,AI编程方法论专家,产品设计;数据与 AI;软件工程,workbuddy:SuperpowersZh
+workbuddy:SupplyChainStrategist,链优优,Abel,operations-hr,运营人力,1,1,workbuddy,运营人力,链优优,供应链;数据与 AI,workbuddy:SupplyChainStrategist
+workbuddy:TanyuanCulturalHeritageExpert,文博领域AI顾问,Cultural Heritage AI Consultant,industry-consulting,行业顾问,1,1,workbuddy,行业顾问,文博领域AI顾问,产品设计;教育学术;数据与 AI,workbuddy:TanyuanCulturalHeritageExpert
+workbuddy:TaxComplianceTeam,财税合规专家团,Tax Compliance Team,legal-security,法务安全,1,1,workbuddy,法务安全,财税合规专家团,安全合规;财务金融,workbuddy:TaxComplianceTeam
+workbuddy:TcSec,腾讯云安全专家,Tencent Cloud Security Expert,legal-security,法务安全,1,1,workbuddy,法务安全,腾讯云安全专家,产品设计;人力与组织;安全合规;数据与 AI;软件工程,workbuddy:TcSec
+workbuddy:TdxStockDiagnostician,通达信诊断师,Tongdaxin Diagnostician,finance,金融投资,1,1,workbuddy,金融投资,通达信诊断师,数据与 AI;软件工程,workbuddy:TdxStockDiagnostician
+workbuddy:TdxStockHunter,通达信选股猎手,Tongdaxin Stock Hunter,finance,金融投资,1,1,workbuddy,金融投资,通达信选股猎手,数据与 AI;软件工程,workbuddy:TdxStockHunter
+workbuddy:TdxValueAssessor,通达信评估师,Tongdaxin Value Assessor,finance,金融投资,1,1,workbuddy,金融投资,通达信评估师,产品设计;安全合规;数据与 AI,workbuddy:TdxValueAssessor
+workbuddy:TechnicalDocumentationEngineer,文通通,Anna,project-quality,项目质量,1,1,workbuddy,项目质量,文通通,,workbuddy:TechnicalDocumentationEngineer
+workbuddy:TencentCharityExpert,小益,XiaoYi,tencent,腾讯专区,1,1,workbuddy,腾讯专区,小益,产品设计;人力与组织;数据与 AI,workbuddy:TencentCharityExpert
+workbuddy:TencentCloudPriceExpert,腾讯云刊例价查询助手,Tencent Cloud Price Inquiry Assistant,tencent,腾讯专区,1,1,workbuddy,腾讯专区,腾讯云刊例价查询助手,产品设计;安全合规;数据与 AI;软件工程;销售,workbuddy:TencentCloudPriceExpert
+workbuddy:TencentCloudQuoteAssistant,腾讯云报价助手,Tencent Cloud Quote Assistant,tencent,腾讯专区,1,1,workbuddy,腾讯专区,腾讯云报价助手,产品设计;供应链;销售,workbuddy:TencentCloudQuoteAssistant
+workbuddy:TencentRtcExpert,CloudQ,CloudQ,tencent,腾讯专区,1,1,workbuddy,腾讯专区,CloudQ,,workbuddy:TencentRtcExpert
+workbuddy:TencentSecurityExpert,云鼎安全专家,YunDing Security Expert,tencent,腾讯专区,1,1,workbuddy,腾讯专区,云鼎安全专家,产品设计;人力与组织;安全合规;软件工程,workbuddy:TencentSecurityExpert
+workbuddy:TencentcloudApi,腾讯云API专家,Tencent Cloud API Expert,engineering,技术工程,1,1,workbuddy,技术工程,腾讯云API专家,产品设计;安全合规;数据与 AI;软件工程,workbuddy:TencentcloudApi
+workbuddy:TerminalIntegrationExpert,终端通,Willa,engineering,技术工程,1,1,workbuddy,技术工程,终端通,,workbuddy:TerminalIntegrationExpert
+workbuddy:TerminalVeteran,终端老兵专家（陈丰伟）,Terminal Veteran,industry-consulting,行业顾问,1,1,workbuddy,行业顾问,终端老兵专家（陈丰伟）,数据与 AI;财务金融,workbuddy:TerminalVeteran
+workbuddy:TestResultsAnalyst,析测测,Lyra,project-quality,项目质量,1,1,workbuddy,项目质量,析测测,数据与 AI,workbuddy:TestResultsAnalyst
+workbuddy:ThaiMarketingCreative,泰国市场营销专家,Thai Marketing,global-development,全球发展,1,1,workbuddy,全球发展,泰国市场营销专家,数据与 AI;营销,workbuddy:ThaiMarketingCreative
+workbuddy:ThailandHrAdmin,Thai HR&Admin,Thai HR&Admin,global-development,全球发展,1,1,workbuddy,全球发展,Thai HR&Admin,产品设计;人力与组织;安全合规;数据与 AI,workbuddy:ThailandHrAdmin
+workbuddy:ThesisWritingMentor,论小舟,ThesisMate,education,教育学术,1,1,workbuddy,开学季,论小舟,产品设计;教育学术,workbuddy:ThesisWritingMentor
+workbuddy:ThreatDetectionEngineer,猎威威,Blake,engineering,技术工程,1,1,workbuddy,技术工程,猎威威,产品设计;人力与组织,workbuddy:ThreatDetectionEngineer
+workbuddy:TianyuAccountGuardian,天御账号保护,Tianyu Account Guardian,tencent,腾讯专区,1,1,workbuddy,腾讯专区,天御账号保护,数据与 AI;销售,workbuddy:TianyuAccountGuardian
+workbuddy:TianyuMarketingGuardian,天御营销保护,Tianyu Marketing Guardian,tencent,腾讯专区,1,1,workbuddy,腾讯专区,天御营销保护,医疗健康;数据与 AI;营销;财务金融,workbuddy:TianyuMarketingGuardian
+workbuddy:TideriderSentiment,DataBrain X TideRider,DataBrain X TideRider,data-ai,数据智能,1,1,workbuddy,数据智能,DataBrain X TideRider,数据与 AI,workbuddy:TideriderSentiment
+workbuddy:TietuToutiao,贴图头条,Tietu Toutiao,content-creative,内容创作,1,1,workbuddy,内容创作,贴图头条,,workbuddy:TietuToutiao
+workbuddy:TikTokStrategist,拓刻刻,Bea,content-creative,内容创作,1,1,workbuddy,内容创作,拓刻刻,营销,workbuddy:TikTokStrategist
+workbuddy:ToolEvaluationExpert,选品品,Morgan,project-quality,项目质量,1,1,workbuddy,项目质量,选品品,,workbuddy:ToolEvaluationExpert
+workbuddy:TopicEvaluator,科技侠来了,科技侠来了,content-creative,内容创作,1,1,workbuddy,内容创作,科技侠来了,安全合规;教育学术,workbuddy:TopicEvaluator
+workbuddy:TradingAgentTeam,交易分析团队,Trading Analysis Team,finance,金融投资,1,1,workbuddy,金融投资,交易分析团队,安全合规;数据与 AI;财务金融,workbuddy:TradingAgentTeam
+workbuddy:TrendHunter,热点猎手,Trend Hunter,marketing-growth,营销增长,1,1,workbuddy,营销增长,热点猎手,内容,workbuddy:TrendHunter
+workbuddy:TrendResearcher,风向标,Zara,data-ai,数据智能,1,1,workbuddy,数据智能,风向标,产品设计,workbuddy:TrendResearcher
+workbuddy:TripStarAgent,路小鲜,Leo,industry-consulting,行业顾问,1,1,workbuddy,行业顾问,路小鲜,财务金融,workbuddy:TripStarAgent
+workbuddy:TwitterOperationsExpert,推文文,Cole,content-creative,内容创作,1,1,workbuddy,内容创作,推文文,营销,workbuddy:TwitterOperationsExpert
+workbuddy:Txzhaopin,腾讯招聘专家,Tencent Recruitment Expert,operations-hr,运营人力,1,1,workbuddy,运营人力,腾讯招聘专家,产品设计;人力与组织;安全合规;教育学术;数据与 AI;营销,workbuddy:Txzhaopin
+workbuddy:UaeMarketingAdvisor,UAE Marketing Expert,UAE Marketing Expert,global-development,全球发展,1,1,workbuddy,全球发展,UAE Marketing Expert,数据与 AI;营销,workbuddy:UaeMarketingAdvisor
+workbuddy:UaePublicAffairs,阿联酋公共事务专家,UAE Public Affairs Expert,global-development,全球发展,1,1,workbuddy,全球发展,阿联酋公共事务专家,安全合规;数据与 AI;财务金融,workbuddy:UaePublicAffairs
+workbuddy:UaeStrategicAdvisor,阿联酋战略顾问专家,UAE Strategic Advisor,global-development,全球发展,1,1,workbuddy,全球发展,阿联酋战略顾问专家,安全合规;财务金融,workbuddy:UaeStrategicAdvisor
+workbuddy:UiDesigner,像素君,Sam,product-design,产品设计,1,1,workbuddy,产品设计,像素君,产品设计,workbuddy:UiDesigner
+workbuddy:UnrealSystemEngineer,虚幻通,Wade,game-spatial,游戏空间,1,1,workbuddy,游戏空间,虚幻通,,workbuddy:UnrealSystemEngineer
+workbuddy:UserExperienceArchitect,体验达,Tom,product-design,产品设计,1,1,workbuddy,产品设计,体验达,产品设计;软件工程,workbuddy:UserExperienceArchitect
+workbuddy:UserExperienceResearcher,探真真,Zoe,product-design,产品设计,1,1,workbuddy,产品设计,探真真,产品设计;数据与 AI,workbuddy:UserExperienceResearcher
+workbuddy:UuptDelivery,UU跑腿,UU Delivery,sales-commerce,销售商务,1,1,workbuddy,销售商务,UU跑腿,数据与 AI,workbuddy:UuptDelivery
+workbuddy:ValuationReviewer,顾估衡,Valuation Reviewer,finance,金融投资,1,1,workbuddy,金融投资,顾估衡,财务金融;销售,workbuddy:ValuationReviewer
+workbuddy:VibeknowDesignVideo,一份文档，排成一条成片,"One document, laid out into a finished video",content-creative,内容创作,1,1,workbuddy,内容创作,一份文档，排成一条成片,产品设计;数据与 AI;销售,workbuddy:VibeknowDesignVideo
+workbuddy:VibeknowHanddraw,把专业内容画给外行看懂,Makes expert content land with outsiders,content-creative,内容创作,1,1,workbuddy,内容创作,把专业内容画给外行看懂,内容;数据与 AI;软件工程,workbuddy:VibeknowHanddraw
+workbuddy:VibeknowPptExplain,逐页讲解，一键成片,"Page-by-page, one click",content-creative,内容创作,1,1,workbuddy,内容创作,逐页讲解，一键成片,数据与 AI,workbuddy:VibeknowPptExplain
+workbuddy:VideoDissection,苍何视频解剖,Video Dissection,content-creative,内容创作,1,1,workbuddy,内容创作,苍何视频解剖,内容;数据与 AI,workbuddy:VideoDissection
+workbuddy:VideoGenTeam,苍何视频生成团队,VideoGenTeam,content-creative,内容创作,1,1,workbuddy,内容创作,苍何视频生成团队,产品设计;人力与组织;数据与 AI,workbuddy:VideoGenTeam
+workbuddy:VietnamFinanceTaxExpert,Vietnam Finance & Tax Expert,Vietnam Finance & Tax Expert,finance,金融投资,1,1,workbuddy,金融投资,Vietnam Finance & Tax Expert,安全合规;财务金融;销售,workbuddy:VietnamFinanceTaxExpert
+workbuddy:VietnamPublicAffairs,VN Pub Affair,VN Pub Affair,industry-consulting,行业顾问,1,1,workbuddy,行业顾问,VN Pub Affair,安全合规;数据与 AI,workbuddy:VietnamPublicAffairs
+workbuddy:ViralTopicMaster,爆款炼金师,Viral Topic Master,content-creative,内容创作,1,1,workbuddy,内容创作,爆款炼金师,内容,workbuddy:ViralTopicMaster
+workbuddy:VisionOsSpatialEngineer,空间通,Xerxes,game-spatial,游戏空间,1,1,workbuddy,游戏空间,空间通,产品设计;软件工程,workbuddy:VisionOsSpatialEngineer
+workbuddy:VisualStorytellingExpert,图说说,Eva,product-design,产品设计,1,1,workbuddy,产品设计,图说说,,workbuddy:VisualStorytellingExpert
+workbuddy:VocabCraftExpert,词力,Lexi,data-ai,数据智能,1,1,workbuddy,数据智能,词力,数据与 AI,workbuddy:VocabCraftExpert
+workbuddy:WeChatMiniProgramDeveloper,小程达,Cody,engineering,技术工程,1,1,workbuddy,技术工程,小程达,软件工程,workbuddy:WeChatMiniProgramDeveloper
+workbuddy:WealthManagementExpert,理财财,Harlan,finance,金融投资,1,1,workbuddy,金融投资,理财财,财务金融;销售,workbuddy:WealthManagementExpert
+workbuddy:WebappTestingExpert,端测测,Cypress,project-quality,项目质量,1,1,workbuddy,项目质量,端测测,产品设计;人力与组织,workbuddy:WebappTestingExpert
+workbuddy:WechatChannelsStrategist,微信视频号运营策略师,WeChat Channels Growth Strategist,marketing-growth,营销增长,1,1,workbuddy,营销增长,微信视频号运营策略师,内容;数据与 AI;营销;销售,workbuddy:WechatChannelsStrategist
+workbuddy:WechatOfficialAccountExpert,郝文昌,Hao,content-creative,内容创作,1,1,workbuddy,内容创作,郝文昌,产品设计;内容;营销;销售,workbuddy:WechatOfficialAccountExpert
+workbuddy:WeiboStrategist,热搜搜,Emi,content-creative,内容创作,1,1,workbuddy,内容创作,热搜搜,人力与组织;营销,workbuddy:WeiboStrategist
+workbuddy:WellArchExpert,CloudQ,CloudQ,tencent,腾讯专区,1,1,workbuddy,腾讯专区,CloudQ,安全合规,workbuddy:WellArchExpert
+workbuddy:Wentu,问图,WenTu,data-ai,数据智能,1,1,workbuddy,数据智能,问图,数据与 AI,workbuddy:Wentu
+workbuddy:WorkbuddyUniversalMentor,欧明智,Ou Mingzhi,industry-consulting,行业顾问,1,1,workbuddy,行业顾问,欧明智,软件工程,workbuddy:WorkbuddyUniversalMentor
+workbuddy:WorkflowAssistant,流通通,Fluent Flow,tencent,腾讯专区,1,1,workbuddy,腾讯专区,流通通,产品设计;数据与 AI,workbuddy:WorkflowAssistant
+workbuddy:WorkflowOptimizationExpert,流畅畅,Nova,project-quality,项目质量,1,1,workbuddy,项目质量,流畅畅,,workbuddy:WorkflowOptimizationExpert
+workbuddy:WorkspaceBuilder,小台,DeskCraft,engineering,技术工程,1,1,workbuddy,技术工程,小台,产品设计;教育学术;数据与 AI,workbuddy:WorkspaceBuilder
+workbuddy:WorldcupBuddy,看球搭子,Match Buddy,industry-consulting,行业顾问,1,1,workbuddy,行业顾问,看球搭子,,workbuddy:WorldcupBuddy
+workbuddy:XiaofaLitigationAssistant,小法同学,Xiaofa Litigation Assistant,legal-security,法务安全,1,1,workbuddy,法务安全,小法同学,产品设计;数据与 AI,workbuddy:XiaofaLitigationAssistant
+workbuddy:XiaohongshuOperationsExpert,薛红笙,Xue,content-creative,内容创作,1,1,workbuddy,内容创作,薛红笙,内容,workbuddy:XiaohongshuOperationsExpert
+workbuddy:Xiaot,小T HR智能助手,Xiao T HR Assistant,tencent,腾讯专区,1,1,workbuddy,腾讯专区,小T HR智能助手,人力与组织,workbuddy:Xiaot
+workbuddy:XrCockpitInteractionExpert,座舱师,Yvaine,game-spatial,游戏空间,1,1,workbuddy,游戏空间,座舱师,产品设计;数据与 AI,workbuddy:XrCockpitInteractionExpert
+workbuddy:YahooFinanceCli,鹏城信息AI专家,Market Insights & Trend Discovery Expert,finance,金融投资,1,1,workbuddy,金融投资,鹏城信息AI专家,产品设计;数据与 AI;财务金融,workbuddy:YahooFinanceCli
+workbuddy:YunzhiDocQualityExpert,腾讯云知知识评审专家,Tencent Cloud Knowledge Review Expert,project-quality,项目质量,1,1,workbuddy,项目质量,腾讯云知知识评审专家,产品设计;安全合规;数据与 AI,workbuddy:YunzhiDocQualityExpert
+workbuddy:YunzhiQaAssistant,腾讯云知（乐享）,Tencent Yunzhi,data-ai,数据智能,1,1,workbuddy,数据智能,腾讯云知（乐享）,产品设计,workbuddy:YunzhiQaAssistant
+workbuddy:ZeroKnowledgeProofAdmin,零知知,Beth,legal-security,法务安全,1,1,workbuddy,法务安全,零知知,,workbuddy:ZeroKnowledgeProofAdmin
+workbuddy:ZhihuStrategist,答有道,Gia,content-creative,内容创作,1,1,workbuddy,内容创作,答有道,产品设计;人力与组织;营销,workbuddy:ZhihuStrategist

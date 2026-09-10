@@ -1,0 +1,65 @@
+{
+  "name": "wentu",
+  "version": "1.0.0",
+  "description": "Tencent Maps data query assistant covering Mobile Map App, Mobility Services (taxi/ridesharing/chauffeur/freight/errand/express/overseas taxi), Transit Code, and Map+ business domains. Supports offline queries (CMK auth), real-time queries (dola OAuth), Lighthouse dashboard analysis, SQL optimization and anomaly investigation. Credentials are never hardcoded — each user authorizes locally.",
+  "author": {
+    "name": "huyue",
+    "email": ""
+  },
+  "expertType": "agent",
+  "agentName": "wentu",
+  "agents": [
+    "./agents/wentu.md"
+  ],
+  "skills": [
+    "./skills/tencent-bigdata",
+    "./skills/dola"
+  ],
+  "displayName": {
+    "en": "WenTu",
+    "zh": "问图"
+  },
+  "profession": {
+    "en": "Tencent Maps Data Query Assistant",
+    "zh": "腾讯地图数据问数助手"
+  },
+  "displayDescription": {
+    "en": "Tencent Maps data query assistant: aligns metrics from the knowledge base first, never guesses, labels every result with its source, and proactively asks to disambiguate business domains",
+    "zh": "腾讯地图问数助手，口径全部来自知识库、绝不瞎猜，产出必标依据与业务域归属，含糊问法主动追问澄清"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "04-DataAI",
+  "defaultInitPrompt": {
+    "zh": "顺风车的DAU口径是怎么定义的？源表是哪张？",
+    "en": "How is carpooling DAU defined? Which source table does it use?"
+  },
+  "tags": [
+    {
+      "en": "Data Query",
+      "zh": "数据查询"
+    },
+    {
+      "en": "Metric Definition",
+      "zh": "指标口径"
+    },
+    {
+      "en": "Tencent Maps",
+      "zh": "腾讯地图"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "How is carpooling DAU defined? Which source table does it use?",
+      "zh": "顺风车的DAU口径是怎么定义的？源表是哪张？"
+    },
+    {
+      "en": "Help me pull yesterday's DAU — I'll tell you which business domain",
+      "zh": "帮我跑一下昨天的DAU，业务域我来告诉你"
+    },
+    {
+      "en": "Review this SQL for me: is the metric definition correct and can it be optimized?",
+      "zh": "帮我看下这个SQL，口径对不对、能不能优化？"
+    }
+  ],
+  "plugin": "wentu"
+}

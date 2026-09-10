@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Mibao media record",
+  "type": "object",
+  "required": ["assetId", "path", "name", "mediaType", "size", "indexedAt"],
+  "properties": {
+    "assetId": {"type": "string"},
+    "path": {"type": "string"},
+    "relativePath": {"type": "string"},
+    "name": {"type": "string"},
+    "extension": {"type": "string"},
+    "mediaType": {"enum": ["image", "video", "audio", "subtitle", "other"]},
+    "mimeType": {"type": "string"},
+    "size": {"type": "integer", "minimum": 0},
+    "modifiedAt": {"type": "string"},
+    "indexedAt": {"type": "string"},
+    "sha256": {"type": "string"}
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "name": "tietu-toutiao",
+  "version": "26.9.6",
+  "description": "A WeChat pictorial-post editor for media teams and creators, producing traceable image groups, captions and local delivery bundles with legacy cover continuity.",
+  "author": {
+    "name": "福帮手 FBSir",
+    "email": "fbsir@u3w.com"
+  },
+  "expertType": "agent",
+  "agentName": "tietu-toutiao",
+  "agents": [
+    "./agents/tietu-toutiao.md"
+  ],
+  "skills": [
+    "./skills/tietu-toutiao"
+  ],
+  "displayName": {
+    "en": "Tietu Toutiao",
+    "zh": "贴图头条"
+  },
+  "profession": {
+    "en": "WeChat Pictorial Content Editor",
+    "zh": "微信贴图内容编辑"
+  },
+  "displayDescription": {
+    "en": "Turns newspapers, reports, photos and notes into ordered pictorial posts with independent captions, scoped revisions and source-aware previews.",
+    "zh": "面向微信贴图号，优先帮助媒体编辑，也支持创作者，把报道与照片制成有序图组、配文和可核查作品。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "06-ContentCreative",
+  "defaultInitPrompt": {
+    "zh": "上传这张报纸版面，生成 3 个贴图头条方案",
+    "en": "Upload this newspaper page and create three Tietu Toutiao cover concepts."
+  },
+  "tags": [
+    {
+      "en": "Newspaper Layout Understanding",
+      "zh": "整期报纸编辑"
+    },
+    {
+      "en": "Pictorial Posts and Captions",
+      "zh": "贴图图组与配文"
+    },
+    {
+      "en": "Chinese Headline Typesetting",
+      "zh": "可追溯头图制作"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Upload this newspaper page and create three Tietu Toutiao cover concepts.",
+      "zh": "上传这张报纸版面，生成 3 个贴图头条方案"
+    },
+    {
+      "en": "Turn these newspaper pages or photos into a WeChat pictorial post with images and a caption.",
+      "zh": "把这批报道或照片做成微信贴图作品，带图组和配文"
+    },
+    {
+      "en": "Revise the previous version: tell me what you are not happy with.",
+      "zh": "修改上一版：说哪里不满意就行"
+    }
+  ],
+  "plugin": "tietu-toutiao"
+}

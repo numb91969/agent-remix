@@ -1,0 +1,45 @@
+{
+  "mcpServers": {
+    "recruit-mcp": {
+      "type": "http",
+      "url": "https://zhaopin.mcp.it.woa.com",
+      "headers": {
+        "Authorization": "Bearer ${user_config.TAIHU_TOKEN}"
+      },
+      "x-workbuddy": {
+        "displayName": {
+          "en": "Tencent Recruitment",
+          "zh": "腾讯招聘"
+        },
+        "description": {
+          "en": "Tencent recruitment platform APIs — resume search, interview arrangement, offer, campus/social recruitment flows, AI outbound call.",
+          "zh": "腾讯招聘平台接口——简历搜索、面试安排、offer、校招/社招流程、AI外呼等招聘全链路能力。"
+        },
+        "auth": {
+          "type": "user_config",
+          "fields": [
+            "TAIHU_TOKEN"
+          ]
+        }
+      }
+    },
+    "hr_data_service_v1": {
+      "type": "http",
+      "url": "https://dos-dataview.mcp.it.woa.com/mcp",
+      "protocol": "streamable-http",
+      "x-workbuddy": {
+        "displayName": {
+          "en": "HR Data Warehouse",
+          "zh": "HR数仓查询"
+        },
+        "description": {
+          "en": "Tencent HR StarRocks data warehouse — query employee info, org structure, movements, performance and more.",
+          "zh": "腾讯HR数仓StarRocks查询服务，覆盖员工信息、组织架构、异动、绩效等宽表。"
+        },
+        "auth": {
+          "type": "none"
+        }
+      }
+    }
+  }
+}

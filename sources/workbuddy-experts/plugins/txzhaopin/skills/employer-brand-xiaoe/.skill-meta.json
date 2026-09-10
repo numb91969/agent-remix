@@ -1,0 +1,14 @@
+{
+  "slug": "xiaoe",
+  "version": "1.0.0",
+  "released_at": null,
+  "sha256": "6a643c1e88d1dbea59aa8a693626dc6606e3e4ee30d31cd7e7673bee99901e24",
+  "source": "https://campus123.woa.com/skills",
+  "install_dir": "xiaoe",
+  "files": {
+    "xiaoe/references/bg-stewards.yaml": "e69a1bc366e52a41f4b61083ced72997304c380fd59ae37fce9b81eea7aaa653",
+    "xiaoe/references/compliance-redlines.txt": "97901106e86779b6dd31c4326688a788bdc5171b69bd5a94259948dad655eb95",
+    "xiaoe/SKILL.md": "decdb6d3ec8a5ac3a15093c4ce582903f458c864d413346e3d4436230b2f675c",
+    "xiaoe/使用指南.md": "6cbdc185fb53c01abd6eb5ead8a4ac67d93f4b049fd34b8c103473b951f4536a"
+  }
+}

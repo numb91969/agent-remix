@@ -1,0 +1,14 @@
+{
+  "slug": "lulu",
+  "version": "2.0.0",
+  "released_at": null,
+  "sha256": "2b32c5f0518c19d30761e7cbc1a32fa9eb8028dcd8012db55d1ca24b8531c181",
+  "source": "https://campus123.woa.com/skills",
+  "install_dir": "lulu",
+  "files": {
+    "lulu/references/qingyun_rules.md": "86ed851eaffc488a89ab67d59dda0bf985f8138c1ee0963f145098185652a4ad",
+    "lulu/references/six_donts.md": "a2ba6e35e3e823bbe82848c304254f5b04aaf44c28915ac78a5fcdb68172ddca",
+    "lulu/references/terminology.yaml": "312dab03b71cd3e8b03145d1e8ba722ad564e946a4b599654e1db3e8d74a6bcb",
+    "lulu/SKILL.md": "b928328da2ff073484401322837085d254f526354d6ae7c590ec3ebbb854bd02"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "name": "cloud-requirement-expert",
+  "version": "1.0.0",
+  "description": "Cloud product requirement expert — intelligent generation, structured enrichment, AI-read layer creation, and requirement splitting via requirement-assistant MCP Server.",
+  "author": {
+    "name": "selinaywu",
+    "email": "selinaywu@tencent.com"
+  },
+  "expertType": "agent",
+  "agentName": "cloud-requirement-expert",
+  "agents": [
+    "./agents/cloud-requirement-expert.md"
+  ],
+  "skills": [
+    "./skills/requirement-assistant"
+  ],
+  "displayName": {
+    "en": "Zhen",
+    "zh": "甄需明"
+  },
+  "profession": {
+    "en": "Cloud Product Requirement Expert",
+    "zh": "云产品需求专家"
+  },
+  "displayDescription": {
+    "en": "Specializes in cloud product requirement generation, structured enrichment, AI-read layer creation, and requirement splitting — covering the full workflow from ideation to delivery.",
+    "zh": "专注云产品需求的智能生成、结构化补全、AI读层生成与需求拆分，完整覆盖从想法到交付的全流程管理。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "01-ProductDesign",
+  "defaultInitPrompt": {
+    "zh": "用户希望能够批量导入数据，帮我整理成需求",
+    "en": "Users want to batch import data, help me structure this requirement"
+  },
+  "tags": [
+    {
+      "en": "Requirement Generation",
+      "zh": "需求生成"
+    },
+    {
+      "en": "Requirement Enrichment",
+      "zh": "需求补全"
+    },
+    {
+      "en": "Requirement Splitting",
+      "zh": "需求拆分"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Users want to batch import data, help me structure this requirement",
+      "zh": "用户希望能够批量导入数据，帮我整理成需求"
+    },
+    {
+      "en": "Help me complete the background, goals, and acceptance criteria for an existing requirement",
+      "zh": "帮我补全已有需求的背景、目标和验收标准"
+    },
+    {
+      "en": "Help me analyze this complex requirement and split it into independent sub-requirements",
+      "zh": "帮我分析这个复杂需求并拆分成可独立交付的子需求"
+    }
+  ],
+  "dependencies": {
+    "mcpServers": "./.mcp.json"
+  },
+  "plugin": "cloud-requirement-expert"
+}

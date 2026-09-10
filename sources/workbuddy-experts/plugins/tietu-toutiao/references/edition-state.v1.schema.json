@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "tietu-edition.v1",
+  "title": "Tietu Toutiao edition editorial state",
+  "type": "object",
+  "required": ["schema_version", "edition_id", "revision_id", "parent_revision_id", "sources", "candidates", "relations", "plans"],
+  "properties": {
+    "schema_version": { "const": "tietu-edition.v1" },
+    "edition_id": { "type": "string", "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]{0,127}$" },
+    "revision_id": { "type": "string", "minLength": 1 },
+    "parent_revision_id": { "type": ["string", "null"] },
+    "sources": {"type": "array", "minItems": 1, "items": {
+      "type": "object", "required": ["id", "relative_path", "sha256", "pages"],
+      "properties": {
+        "id": {"type": "string", "minLength": 1},
+        "relative_path": {"type": "string", "minLength": 1},
+        "sha256": {"type": "string", "pattern": "^[0-9a-fA-F]{64}$"},
+        "pages": {"type": "array", "minItems": 1, "items": {"type": "integer", "minimum": 1}}
+      }
+    }},
+    "candidates": {"type": "array", "minItems": 1, "items": {
+      "type": "object", "required": ["id", "headline", "source_refs"],
+      "properties": {
+        "id": {"type": "string", "minLength": 1},
+        "headline": {"type": "string", "minLength": 1},
+        "source_refs": {"type": "array", "minItems": 1, "items": {
+          "type": "object", "required": ["source_id", "page", "quote"],
+          "properties": {"source_id": {"type": "string"}, "page": {"type": "integer", "minimum": 1}, "quote": {"type": "string", "minLength": 1}}
+        }}
+      }
+    }},
+    "relations": { "type": "array" },
+    "plans": {"type": "array", "minItems": 1, "items": {
+      "type": "object", "required": ["id", "direction", "audience", "rationale", "headline", "selected", "on_cover"],
+      "properties": {
+        "id": {"type": "string", "minLength": 1},
+        "direction": {"enum": ["news_roundup", "theme_thread", "service_digest"]},
+        "audience": {"type": "string", "minLength": 1},
+        "rationale": {"type": "string", "minLength": 1},
+        "headline": {"type": "string", "minLength": 1},
+        "selected": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string"}},
+        "on_cover": {"type": "array", "minItems": 1, "maxItems": 4, "uniqueItems": true, "items": {"type": "string"}},
+        "digest": {"type": "array", "default": [], "uniqueItems": true, "items": {"type": "string"}}
+      },
+      "description": "digest is optional and defaults to an empty list. Runtime additionally validates source bytes, path boundaries, IDs, selections and conditional headline confirmation."
+    }}
+  }
+}

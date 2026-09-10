@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema", "$id": "tietu-post-patch.v1", "type": "object",
+  "required": ["base_revision_id", "revision_id", "operation"],
+  "properties": {
+    "base_revision_id": {"type": "string"}, "revision_id": {"type": "string"},
+    "operation": {"enum": ["edit_post", "edit_card", "reorder", "add_card", "remove_card", "add_source", "lock", "unlock", "confirm"]},
+    "card_id": {"type": "string", "description": "post or a stable card ID; not a mutable page number"},
+    "set": {"type": "object"}, "order": {"type": "array", "items": {"type": "string"}},
+    "card": {"type": "object"}, "source": {"type": "object"},
+    "expected_digest": {"type": "string"}, "actor": {"type": "string"}, "note": {"type": "string"}
+  },
+  "description": "One top-level operation per immutable revision; operation-specific fields, lock and confirmation rules are checked by post_state.apply_edit."
+}

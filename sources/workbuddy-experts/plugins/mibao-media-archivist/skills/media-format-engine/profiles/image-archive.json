@@ -1,0 +1,7 @@
+{
+  "id": "image-archive",
+  "purpose": "Archive derivative without changing the source",
+  "format": "tiff",
+  "compression": "lzw",
+  "preserveOriginal": true
+}

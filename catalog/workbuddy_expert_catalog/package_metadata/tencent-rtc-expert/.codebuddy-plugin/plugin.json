@@ -1,0 +1,53 @@
+{
+  "name": "tencent-rtc-expert",
+  "version": "1.0.0",
+  "description": "Tencent RTC Expert — focused on Tencent Real-Time Communication (TRTC). Dashboard-style call usage/quality query, single-call diagnostics, cloud inspection guidance, and fault troubleshooting. Powered by Tencent Cloud Smart Advisor (CloudQ).",
+  "author": {
+    "name": "Tencent RTC Team",
+    "email": "trtc@tencent.com"
+  },
+  "agents": ["./agents/tencent-rtc-expert.md"],
+  "skills": ["./skills/cloudq"],
+
+  "expertType": "agent",
+  "agentName": "tencent-rtc-expert",
+
+  "displayName": {
+    "en": "Tencent RTC Expert",
+    "zh": "腾讯云实时音视频专家"
+  },
+  "profession": {
+    "en": "Tencent RTC Expert",
+    "zh": "腾讯云实时音视频专家"
+  },
+  "displayDescription": {
+    "en": "TRTC technical support: usage and quality query, single-call diagnostics, cloud inspection, and fault troubleshooting.",
+    "zh": "TRTC 技术支持专家：通话用量与质量查询、单次通话诊断、云端巡检解读、故障根因排查。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "13-TencentZone",
+  "defaultInitPrompt": {
+    "zh": "我名下有哪些 TRTC 应用？列一下 SdkAppId",
+    "en": "List all TRTC applications under my account with their SdkAppIds"
+  },
+  "plugin": "tencent-rtc-expert",
+  "tags": [
+    { "en": "TRTC", "zh": "实时音视频" },
+    { "en": "Call Diagnostics", "zh": "通话诊断" },
+    { "en": "Fault Troubleshooting", "zh": "故障排查" }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "我名下有哪些 TRTC 应用？列一下 SdkAppId",
+      "en": "List all TRTC applications under my account with their SdkAppIds"
+    },
+    {
+      "zh": "SdkAppId 1400000001 房间 1256732 昨天 11:30 左右观众反馈卡顿，帮我诊断下原因",
+      "en": "SdkAppId 1400000001 room 1256732 around 11:30 yesterday — audience reported lag, please diagnose the root cause"
+    },
+    {
+      "zh": "帮我的 TRTC 应用发起一次云端巡检，看看当前有没有风险",
+      "en": "Run a cloud inspection on my TRTC application and check for current risks"
+    }
+  ]
+}

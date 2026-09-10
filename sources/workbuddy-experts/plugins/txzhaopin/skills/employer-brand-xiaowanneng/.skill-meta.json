@@ -1,0 +1,20 @@
+{
+  "slug": "xiaowanneng",
+  "version": "0.2.0",
+  "released_at": null,
+  "sha256": "39793ab54d8dd9f0b34cab402c0493e97f65ea556ba552837e0a051aa223eeda",
+  "source": "https://campus123.woa.com/skills",
+  "install_dir": "xiaowanneng",
+  "files": {
+    "xiaowanneng/agents/openai.yaml": "3a595b4bf44ab047d17a87bd52b285e88a44b5c8fbed1c4912662f18baf4801d",
+    "xiaowanneng/references/brand-editorial-core.md": "08e1b4d07f93a36c9f22b169bfe47740b60e594c9484342b1658c4909fa88a30",
+    "xiaowanneng/references/case-lessons.md": "dc52d8bf4a4cca0ee8db9a5c5e18b004b98a99e57db45ce6e0ac0f632b97a248",
+    "xiaowanneng/references/risk-checklist.md": "37c6c18425722e6380f0276338d65ae4e9212c2fe01081b4173607616b0835e7",
+    "xiaowanneng/references/social-media-style.md": "da4ee1913522f0aaa9c8541c44a718b6a4ca105d6c0142f7fc63884b9f9d0702",
+    "xiaowanneng/references/style-qingyun.md": "b1309cc687a50ea902bbe238030b272c7557a3407f4595194ef7ca3585fa8838",
+    "xiaowanneng/references/style-youe-iege.md": "1afe4ed4823aaec751d3f64d9218cacddbfcedf93fe420080cb6fb723bfdbec0",
+    "xiaowanneng/references/style-youe.md": "bcac6c62d172f0a630ce7af4b09c0ac8ad2819163baa6f00efe550e9e8034961",
+    "xiaowanneng/references/task-workflows.md": "6f94cfc35e28ccdbcad83c773129d5f2d5164f0fd65f6a738b330dd0f96f2195",
+    "xiaowanneng/SKILL.md": "40523e061f52d4cc40312d35d1d361010577e3c2c751368c3991f7a17284c069"
+  }
+}

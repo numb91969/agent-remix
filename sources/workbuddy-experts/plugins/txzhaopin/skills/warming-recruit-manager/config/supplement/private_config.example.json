@@ -1,0 +1,24 @@
+{
+  "_comment": "字段补充场景的本地私有配置示例。复制到本机私有路径使用，真实 webhook/token 不得提交到仓库。",
+  "webhook": "",
+  "automation": {
+    "id": "",
+    "enabled": false,
+    "status": "PAUSED"
+  },
+  "scope": {
+    "priority": ["hr_salary_man_en", "recruit_manager_name", "current_user_permission"],
+    "default_limit": 10
+  },
+  "recruit_mcp": {
+    "server": "recruit-mcp",
+    "detail_query": "录用详情",
+    "update_query": "录用更新",
+    "verify_query": "录用校验"
+  },
+  "writeback": {
+    "dry_run_first": true,
+    "require_confirmed_payload": true,
+    "overwrite_existing_detail_value": false
+  }
+}

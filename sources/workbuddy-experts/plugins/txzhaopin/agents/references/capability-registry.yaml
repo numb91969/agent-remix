@@ -1,0 +1,805 @@
+{
+  "schema_version": "1.0",
+  "risk_policy": {
+    "R0": "不涉及可识别自然人的公开行业、公司、岗位或政策信息，只读",
+    "R1": "涉及腾讯内部数据、内部评估资产，或任何可识别员工/候选人的信息，只读",
+    "R2": "对外发送、业务回写、流程推进、约面、改面、取消、面评提交、消息或外呼等副作用操作"
+  },
+  "coverage_policy": {
+    "purpose": "route-decision 的 coverage 字段必须按本判据判定，不得凭直觉。缺少统一判据时模型会倾向填 full，导致 fallback 形同虚设。",
+    "full_when": [
+      "用户请求的每个动作都能在命中 Skill 的 summary、flows 或输出契约里找到对应项",
+      "不需要该 Skill 未定义的任何实时查询或平台动作"
+    ],
+    "partial_when": [
+      "至少一个核心动作由命中 Skill 覆盖，且该 Skill 仍是流程 owner",
+      "缺失部分属于腾讯招聘平台的实时查询或动作，而非方法论、内容生成或数仓指标"
+    ],
+    "none_when": [
+      "用户目标中没有任何核心动作属于现有 Skill",
+      "注册表召回的前 3 个能力与多 Skill 组合都无法覆盖"
+    ],
+    "undetermined_when": [
+      "用户尚未说明要执行的动作或业务对象",
+      "多个业务方向都成立，必须先用一个高信息量问题澄清"
+    ],
+    "must_not_fallback_when": [
+      "命中 Skill 已完整覆盖（coverage=full）",
+      "缺口属于「当前已知不覆盖」清单（如入职材料办理、Offer 审批流本身）",
+      "缺口属于纯方法论、内容生成、HR 数仓指标、前端开发或外部互联网研究"
+    ],
+    "must_not_fallback_categories": [
+      "full_coverage",
+      "known_unsupported",
+      "methodology_or_content",
+      "hr_data_or_metrics",
+      "frontend_or_file",
+      "external_research"
+    ],
+    "known_unsupported": [
+      "入职材料办理",
+      "Offer 审批流本身",
+      "测验平台出题和阅卷写回",
+      "校招猎头推荐"
+    ],
+    "owner_by_coverage": {
+      "full": "selected_skill",
+      "partial": "selected_skill",
+      "none": null,
+      "undetermined": null
+    },
+    "owner_rule": "coverage=partial 时 owner_skill 必须保留为命中的业务 Skill；coverage=none|undetermined 时 owner_skill 为 null",
+    "default_when_uncertain": "partial 与 full 难以区分时按 partial 处理（宁可多查一次实时能力，也不要谎称已覆盖）"
+  },
+  "mcp_fallback_policy": {
+    "skill": "mcp-capability-explorer",
+    "server": "recruit-mcp",
+    "activation": ["partial_skill_coverage", "no_skill_coverage"],
+    "eligible_need": "缺失部分需要腾讯招聘平台的实时数据或业务动作",
+    "clarification_gate": {
+      "required_before_discovery": ["action", "business_object", "platform_need"],
+      "max_clarification_rounds": 1,
+      "on_missing": "ask_one_high_information_question",
+      "fallback_while_unclear": false
+    },
+    "discovery_tool": "SearchAPI",
+    "require_detail_before_call": true,
+    "discovery_budget": {
+      "scope": "user_task",
+      "max_query_calls": 2,
+      "max_detail_calls": 3,
+      "max_total_searchapi_calls": 5,
+      "soft_deadline_seconds": 45,
+      "hard_deadline_seconds": 90,
+      "candidate_expansion": "top_1_then_on_demand",
+      "stop_on_repeated_query": true,
+      "stop_on_repeated_candidate_set": true,
+      "max_consecutive_no_information_gain": 2
+    },
+    "max_business_steps": 5,
+    "dynamic_read_execution": true,
+    "dynamic_write_execution": "handoff_to_registered_owner",
+    "fail_closed": true,
+    "excludes": [
+      "已被现有 Skill 完整覆盖",
+      "纯方法论或内容生成",
+      "HR 数仓和治理指标查询",
+      "前端开发或文件处理",
+      "外部互联网研究"
+    ]
+  },
+  "routing_schema_version": "1.0",
+  "domains": {
+    "recruitment_core": "招聘需求、制度问询、校招保温和横切能力",
+    "interview": "对已知候选人、面试、题目、面评和测验执行或评估",
+    "search": "从内部简历库或外部公开信息把人找出来，并承接社招外呼与实时流程",
+    "data": "数仓沉淀数据、治理指标、SQL、权限和前端取数能力",
+    "channel": "猎头与外部供应商选择",
+    "brand": "雇主品牌策划、文案、审核、舆情和调研",
+    "automation": "将业务能力变成周期任务",
+    "internal": "只供其他 Skill 调用的公共能力"
+  },
+  "routing_capabilities": {
+    "requirement.communication": {
+      "domain": "recruitment_core",
+      "skill": "requirement-communication-assistant",
+      "summary": "仅社招：需求识别、人才画像、胜任力模型与可发布 JD 的端到端沟通链路",
+      "commands": ["/需求沟通"],
+      "strong_signals": ["招聘需求", "新开HC", "人才画像", "写JD", "生成JD", "岗位描述"],
+      "examples": ["我有一个新的社招需求", "帮我把这个岗位写成 JD"],
+      "excludes": ["审核已有JD", "搜简历", "招聘数据统计"],
+      "ambiguity_groups": [],
+      "dependencies": [],
+      "risk_levels": ["R1"],
+      "side_effects": false,
+      "routable": true
+    },
+    "assessment.quality": {
+      "domain": "interview",
+      "skill": "assessment-quality-expert",
+      "summary": "甄选方法论、胜任力建模、面试设计、题目/面评审核与测评方案；含「基于已有胜任力模型派生 JD」的窄意图",
+      "commands": ["/搭模型", "/出套题", "/审面评"],
+      "strong_signals": ["胜任力模型", "整套题本", "审核面试题", "审面评", "测评方案", "基于模型生成JD", "按模型写JD"],
+      "examples": ["给产品经理搭一套胜任力模型", "审核这套面试题", "用刚搭好的模型派生一份 JD"],
+      "excludes": ["基于面评数据反推模型", "针对单个候选人出题", "测验平台阅卷", "从零写JD", "需求沟通后出JD"],
+      "preconditions": ["JD 派生仅在本 Skill 已产出或已加载活跃胜任力模型时适用；没有模型时属于 requirement.communication"],
+      "ambiguity_groups": ["modeling_source", "question_scope", "evaluation_action"],
+      "dependencies": [],
+      "risk_levels": ["R1"],
+      "side_effects": false,
+      "routable": true
+    },
+    "search.campus_resume": {
+      "domain": "search",
+      "skill": "zhaopin-operations",
+      "summary": "在腾讯校招简历库搜索、筛选、粗读精读和收藏候选人",
+      "commands": ["/搜简历"],
+      "strong_signals": ["校招简历", "应届生", "实习生", "毕业生", "届候选人"],
+      "examples": ["找 2027 届算法实习生", "按学校和专业筛校招简历"],
+      "excludes": ["社招简历", "外部人才寻访", "猎头推荐", "单份简历评估"],
+      "ambiguity_groups": ["recruit_type", "sourcing_channel"],
+      "coverage_hints": {
+        "mcp_extension_allowed": true,
+        "partial_gap_examples": [
+          "校招简历库之外的实时平台查询（如岗位/项目元数据、投递渠道明细）"
+        ]
+      },
+      "dependencies": ["recruit-mcp"],
+      "risk_levels": ["R1", "R2"],
+      "side_effects": true,
+      "routable": true
+    },
+    "search.social_resume": {
+      "domain": "search",
+      "skill": "zhaopin-social-operations",
+      "summary": "在腾讯社招简历库搜索、粗筛、精读和收藏有工作经验的候选人",
+      "commands": ["/社招搜索"],
+      "strong_signals": ["社招简历", "工作年限", "在职候选人", "目标公司", "跳槽"],
+      "examples": ["找有 3 到 5 年经验的后端工程师", "按这份 JD 搜社招候选人"],
+      "excludes": ["校招简历", "外部人才寻访", "猎头推荐", "社招流程进度"],
+      "ambiguity_groups": ["recruit_type", "sourcing_channel"],
+      "coverage_hints": {
+        "mcp_extension_allowed": true,
+        "partial_gap_examples": [
+          "社招简历库之外的实时平台查询（如岗位配置、渠道来源明细）"
+        ]
+      },
+      "dependencies": ["recruit-mcp"],
+      "risk_levels": ["R1", "R2"],
+      "side_effects": true,
+      "routable": true
+    },
+    "interview.operations": {
+      "domain": "interview",
+      "skill": "interview-assistant",
+      "summary": "面试待办、发起流程、安排/改期/取消、单份简历、出题、面评和面试官复盘",
+      "commands": ["/待办", "/面试安排", "/评简历", "/面试计划", "/填面评"],
+      "strong_signals": ["面试待办", "发起面试", "约面", "改期", "评简历", "写面评", "面试官复盘"],
+      "examples": ["查下我的面试待办", "给这位候选人安排面试"],
+      "excludes": ["批量搜简历", "历史面试通过率", "审核面评质量", "测验成绩单"],
+      "ambiguity_groups": ["recruit_type", "question_scope", "evaluation_action", "progress_source"],
+      "coverage_hints": {
+        "mcp_extension_allowed": true,
+        "partial_gap_examples": [
+          "面试业务之外的录用单、Offer 或入职单据字段查询"
+        ]
+      },
+      "dependencies": ["recruit-mcp"],
+      "risk_levels": ["R1", "R2"],
+      "side_effects": true,
+      "routable": true,
+      "flows": ["T", "T2", "T4", "SI", "SC", "S", "A", "B", "B2", "C", "D", "SE", "E", "G", "H"]
+    },
+    "interview.data_process": {
+      "domain": "interview",
+      "skill": "interview-data-processor",
+      "summary": "将面评 Excel/CSV 清洗为标准化 JSON",
+      "commands": ["/清洗面评"],
+      "strong_signals": ["清洗面评", "面评Excel", "面评CSV", "标准化JSON"],
+      "examples": ["把这批面评 Excel 清洗一下"],
+      "excludes": ["写单场面评", "审核面评", "基于面评生成模型"],
+      "ambiguity_groups": ["evaluation_action"],
+      "dependencies": [],
+      "risk_levels": ["R1"],
+      "side_effects": false,
+      "routable": true
+    },
+    "interview.talent_model": {
+      "domain": "interview",
+      "skill": "interview-talent-modeler",
+      "summary": "基于清洗后的批量面评数据反推岗位能力模型",
+      "commands": ["/建岗位模型"],
+      "strong_signals": ["面评数据建模", "从面评反推模型", "部门能力画像"],
+      "examples": ["根据过去一年的面评数据生成岗位模型"],
+      "excludes": ["新岗位胜任力设计", "人才画像和JD"],
+      "ambiguity_groups": ["modeling_source"],
+      "dependencies": [],
+      "risk_levels": ["R1"],
+      "side_effects": false,
+      "routable": true
+    },
+    "inquiry.recruitment_rules": {
+      "domain": "recruitment_core",
+      "skill": "recruitment-inquiry-bot",
+      "summary": "查询招聘制度、规则、奖金、协议和系统操作知识",
+      "commands": ["/招聘问询"],
+      "strong_signals": ["活水规则", "伯乐奖金", "三方协议", "Offer规则", "系统怎么操作"],
+      "examples": ["伯乐推荐奖金怎么算", "三方协议有什么规则"],
+      "excludes": ["执行招聘动作", "招聘数据统计", "候选人实时流程"],
+      "ambiguity_groups": ["rule_or_action"],
+      "coverage_hints": {
+        "mcp_extension_allowed": true,
+        "partial_gap_examples": [
+          "知识库未收录、但平台接口可查的实时配置或状态"
+        ]
+      },
+      "dependencies": ["recruit-mcp"],
+      "risk_levels": ["R1"],
+      "side_effects": false,
+      "routable": true
+    },
+    "process.social_recruitment": {
+      "domain": "search",
+      "skill": "recruitment-process-tracker",
+      "summary": "仅社招：查看招聘经理负责的实时流程、候选人卡点和偏慢预警",
+      "commands": ["/流程跟踪", "/招聘进度"],
+      "strong_signals": ["社招流程", "卡在哪一步", "我负责的流程", "偏慢预警"],
+      "examples": ["查我负责的社招流程", "这个候选人卡在哪一步"],
+      "excludes": ["校招事项", "招聘历史统计", "面试待办"],
+      "ambiguity_groups": ["recruit_type", "progress_source"],
+      "coverage_hints": {
+        "mcp_extension_allowed": true,
+        "partial_gap_examples": [
+          "进度条之外的单据明细字段（如录用单入职岗位、导师、直接上级）"
+        ]
+      },
+      "dependencies": ["recruit-mcp"],
+      "risk_levels": ["R1"],
+      "side_effects": false,
+      "routable": true
+    },
+    "warming.campus": {
+      "domain": "recruitment_core",
+      "skill": "warming-recruit-manager",
+      "summary": "仅校招签约后：待入职名单、毁约风险、保温话术、建联和通知",
+      "commands": ["/校招保温"],
+      "strong_signals": ["校招保温", "待入职学生", "毁约风险", "重点关注名单", "通知导师"],
+      "examples": ["看看校招待入职学生的保温情况"],
+      "excludes": ["社招", "面试阶段待办", "纯搜简历"],
+      "ambiguity_groups": [],
+      "dependencies": ["hr_data_service_v1", "hrclaw-optional"],
+      "risk_levels": ["R1", "R2"],
+      "side_effects": true,
+      "routable": true
+    },
+    "data.hr_query": {
+      "domain": "data",
+      "skill": "hr-data-router",
+      "summary": "数据域 fallback 入口：recruit-data-dashboard 未命中后承接基础 HR、招聘历史数据、通用预置指标、权限和前端取数编排",
+      "commands": ["/HR数据"],
+      "strong_signals": ["员工数据", "组织架构", "编制", "职级分布", "招聘历史", "数仓查询", "离职率", "流入率", "平均司龄", "上级组织对比"],
+      "examples": ["查一下这个部门的编制和在职人数", "看近三年的校招学校分布", "看我部门离职率并和上级线对比"],
+      "excludes": ["实时招聘流程", "社招治理指标", "招聘制度问询"],
+      "ambiguity_groups": ["progress_source"],
+      "dependencies": ["hr_data_service_v1"],
+      "risk_levels": ["R1"],
+      "side_effects": false,
+      "routable": true,
+      "flows": ["Q", "I", "P", "F-api", "F-indicator-api", "F-vue", "F-page"],
+      "entry_type": "domain_fallback",
+      "entry_note": "🔴 用户约定（2026-08-26）：不再是数据域的默认第一站。除精确斜杠命令 /HR数据、纯前端代码类(F-*)、权限排查(P)、同主题连续追问外，必须先经 recruit-data-dashboard 判断未命中、并已向用户告知口径降级后才进入。上表 strong_signals 命中也应先过一次 dashboard 判断（员工/组织/编制类可快速判定未命中）。"
+    },
+    "data.sql": {
+      "domain": "data",
+      "skill": "hr-data-sql-builder",
+      "summary": "将 HR 数据需求转换为只读 StarRocks SQL",
+      "commands": ["/HR SQL"],
+      "strong_signals": ["生成SQL", "StarRocks SQL", "给我SQL", "审查SQL"],
+      "examples": ["给我生成查询在职人数的 SQL"],
+      "excludes": ["只要查询结果", "后端调用数仓HTTP接口"],
+      "ambiguity_groups": ["query_or_sql"],
+      "dependencies": ["hr_data_service_v1"],
+      "risk_levels": ["R1"],
+      "side_effects": false,
+      "routable": true,
+      "entry_type": "command_only",
+      "entry_note": "仅接受精确斜杠命令或用户显式点名；模糊数据请求必须先走 hr-data-router 由其内部调用"
+    },
+    "data.permission": {
+      "domain": "data",
+      "skill": "data-table-permission-checker",
+      "summary": "排查 HR 数仓权限、脱敏值和字段不可见原因",
+      "commands": ["/数据权限"],
+      "strong_signals": ["没有权限", "字段是星号", "数据是0", "1970-01-01", "查不到数据"],
+      "examples": ["为什么这个字段都是星号", "我有哪些数据权限"],
+      "excludes": ["SQL语法错误", "业务上真实为0"],
+      "ambiguity_groups": ["no_data_reason"],
+      "dependencies": ["hr_data_service_v1"],
+      "risk_levels": ["R1"],
+      "side_effects": false,
+      "routable": true,
+      "entry_type": "command_only",
+      "entry_note": "仅接受精确斜杠命令或用户显式点名；模糊数据请求必须先走 hr-data-router 由其内部调用"
+    },
+    "data.indicator": {
+      "domain": "data",
+      "skill": "indicator-query",
+      "summary": "调用 HR 预置指标 API 查询离职率、流入流出率、人员结构占比、平均年龄/工龄/司龄及上级组织对比",
+      "commands": [],
+      "strong_signals": ["离职率", "流入率", "流出率", "平均年龄", "平均司龄", "上级组织对比"],
+      "examples": ["看我部门离职率并和上级线对比"],
+      "excludes": ["社招Offer接受率", "社招招聘漏斗", "员工明细", "只要SQL"],
+      "ambiguity_groups": [],
+      "dependencies": ["hr_data_service_v1"],
+      "risk_levels": ["R1"],
+      "side_effects": false,
+      "routable": false,
+      "entry_type": "internal_only",
+      "entry_note": "由 hr-data-router 的 I 流程内部调用；社招招聘过程 KPI 仍优先 recruit-data-dashboard"
+    },
+    "data.indicator_frontend_api": {
+      "domain": "data",
+      "skill": "indicator-api-codegen",
+      "summary": "生成浏览器端调用 HR 预置指标 HTTP API 的代码",
+      "commands": [],
+      "strong_signals": ["指标前端代码", "前端调指标API", "indicator接口代码"],
+      "examples": ["给前端生成离职率指标接口代码"],
+      "excludes": ["普通查指标", "后端调用指标", "数仓SQL接口代码"],
+      "ambiguity_groups": [],
+      "dependencies": ["hr_data_service_v1"],
+      "risk_levels": ["R1"],
+      "side_effects": false,
+      "routable": false,
+      "entry_type": "internal_only",
+      "entry_note": "由 hr-data-router 的 F-indicator-api 流程内部调用，apiCode 和参数必须先由 indicator-query 解析"
+    },
+    "data.frontend_api": {
+      "domain": "data",
+      "skill": "data-warehouse-api-codegen",
+      "summary": "仅生成浏览器前端调用 HR 数仓 HTTP 接口的代码",
+      "commands": ["/数仓前端代码"],
+      "strong_signals": ["前端调数仓", "fetch数仓", "axios数仓", "生成取数代码"],
+      "examples": ["给这个前端页面生成调用数仓的代码"],
+      "excludes": ["后端调用数仓接口", "只要SQL", "只要查询结果"],
+      "ambiguity_groups": ["query_or_code"],
+      "dependencies": ["hr_data_service_v1"],
+      "risk_levels": ["R1"],
+      "side_effects": false,
+      "routable": true,
+      "entry_type": "command_only",
+      "entry_note": "仅接受精确斜杠命令或用户显式点名；模糊数据请求必须先走 hr-data-router 由其内部调用"
+    },
+    "data.vue_components": {
+      "domain": "data",
+      "skill": "hr-vue-next",
+      "summary": "HR Vue 3/TDesign 业务组件库，包括员工、组织和岗位选择器",
+      "commands": ["/HR组件"],
+      "strong_signals": ["HR Vue组件", "员工选择器", "组织选择器", "岗位选择器"],
+      "examples": ["这个 Vue 页面接一个员工选择器"],
+      "excludes": ["纯数据查询", "非HR通用前端组件"],
+      "ambiguity_groups": [],
+      "dependencies": [],
+      "risk_levels": ["R0"],
+      "side_effects": false,
+      "routable": true,
+      "entry_type": "command_only",
+      "entry_note": "仅接受精确斜杠命令或用户显式点名；模糊数据请求必须先走 hr-data-router 由其内部调用"
+    },
+    "data.social_dashboard": {
+      "domain": "data",
+      "skill": "recruit-data-dashboard",
+      "summary": "数据域默认第一入口：任何要数请求先在此判断是否命中 44 个治理级社招指标，命中则用治理口径查询并交付",
+      "commands": ["/社招看板"],
+      "strong_signals": ["社招看板", "社招漏斗", "社招Offer接受率", "社招入职", "在招需求", "招了多少人", "面试中人数", "评估中人数", "offer中人数", "需求完成率", "通过率", "转化率", "接受率", "入职率", "招聘数据", "招聘进展"],
+      "examples": ["看一下社招漏斗", "查本月社招 Offer 接受率", "这个部门今年招了多少人", "我们部门招聘整体进展怎么样"],
+      "excludes": ["实时候选人流程"],
+      "ambiguity_groups": ["progress_source"],
+      "dependencies": ["hr_data_service_v1"],
+      "risk_levels": ["R1"],
+      "side_effects": false,
+      "routable": true,
+      "entry_type": "domain_default",
+      "entry_note": "🔴 用户约定（2026-08-26）：数据域一切要数请求默认先 use_skill 本 skill 做治理指标命中判断。未命中时必须先向用户显式告知『不在 44 治理指标库内，改走数仓通用查询』，再转 hr-data-router，禁止静默切换、禁止绕过 skill 直接调 starrocks_query。已知必然未命中并直接 fallback 的类型：step_name 环节粒度、活水专项(flow_id=5 单独看)、校招、员工/组织/编制等通用 HR 数据。仅精确斜杠命令、纯前端代码类、权限排查症状、同主题连续追问可绕过。"
+    },
+    "mapping.external_talent": {
+      "domain": "search",
+      "skill": "mapping",
+      "summary": "基于外部公开信息做竞对人才、组织和行业人才研究",
+      "commands": ["/人才mapping"],
+      "strong_signals": ["人才Mapping", "竞对人才", "组织架构调研", "人才地图", "挖某团队", "行研"],
+      "examples": ["做一份某大模型团队的人才 Mapping"],
+      "excludes": ["内部简历库搜索", "猎头供应商推荐", "招聘数据统计"],
+      "ambiguity_groups": ["sourcing_channel", "competitor_view"],
+      "dependencies": ["external-research", "iWiki-optional"],
+      "risk_levels": ["R0", "R1"],
+      "side_effects": false,
+      "routable": true
+    },
+    "channel.headhunter": {
+      "domain": "channel",
+      "skill": "headhunter-recommend",
+      "summary": "仅社招：根据岗位 JD、历史合作数据和能力标签推荐猎头供应商",
+      "commands": ["/猎头推荐"],
+      "strong_signals": ["推荐猎头", "找哪家猎头", "委外找人", "供应商匹配"],
+      "examples": ["这个社招岗位找哪家猎头比较合适"],
+      "excludes": ["校招猎头", "内部简历库搜索", "猎头渠道统计", "猎头费规则"],
+      "ambiguity_groups": ["sourcing_channel", "rule_or_action"],
+      "dependencies": ["headhunter-data"],
+      "risk_levels": ["R1"],
+      "side_effects": false,
+      "routable": true
+    },
+    "automation.routine": {
+      "domain": "automation",
+      "skill": "daily-routine-builder",
+      "summary": "创建、修改、暂停或删除每天/每周/每月自动执行的招聘任务",
+      "commands": ["/定时任务"],
+      "strong_signals": ["创建定时任务", "每天自动", "每周自动", "每月提醒", "暂停任务"],
+      "examples": ["每周一自动发招聘漏斗给我"],
+      "excludes": ["本轮现在执行一次", "只是描述日常工作"],
+      "ambiguity_groups": ["schedule_or_now"],
+      "dependencies": ["automation_update"],
+      "risk_levels": ["R2"],
+      "side_effects": true,
+      "routable": true
+    },
+    "internal.hrclaw_message": {
+      "domain": "internal",
+      "skill": "hrclaw-messenger",
+      "summary": "供其他 Skill 调用的 HRClaw 邮件和企微 Tips 发送通道",
+      "commands": [],
+      "strong_signals": [],
+      "examples": [],
+      "excludes": ["直接用户入口"],
+      "ambiguity_groups": [],
+      "dependencies": ["playwright-cli", "OA-SSO"],
+      "risk_levels": ["R2"],
+      "side_effects": true,
+      "routable": false,
+      "entry_type": "internal_only",
+      "entry_note": "内部通道：仅由业务 Skill 在自身流程内调用（如 warming-recruit-manager 通知导师），任何情况下都不接受用户直接路由"
+    },
+    "internal.mcp_capability_explorer": {
+      "domain": "internal",
+      "skill": "mcp-capability-explorer",
+      "summary": "现有 Skill 部分覆盖或无覆盖时，按当前用户权限动态发现并组合 recruit-mcp 能力；只读可受控执行，写入仅允许已登记 owner Skill",
+      "commands": [],
+      "strong_signals": [],
+      "examples": [],
+      "excludes": ["直接用户入口", "完整 Skill 已覆盖", "HR 数仓查询", "纯方法论和内容生成"],
+      "ambiguity_groups": [],
+      "dependencies": ["recruit-mcp"],
+      "risk_levels": ["R1"],
+      "side_effects": false,
+      "routable": false,
+      "entry_type": "internal_only",
+      "entry_note": "内部 fallback，且是严格只读执行器：一级 Agent 必须先确认动作、业务对象和招聘平台需求均明确，再判定 coverage=partial|none、discovery_readiness=ready、fallback_eligibility=eligible 后调用；模糊输入与 none 本身都不自动触发探索。共享预算按整个用户任务计数，不因 Skill 重入或换词重置。只读能力可自行执行；发现写能力时只返回候选与当前 Schema 并移交已登记 owner Skill，自身绝不执行任何副作用 —— 故 side_effects=false，副作用归属 owner Skill。不含 R0：能力元数据与 recruit-mcp 返回均为腾讯内部信息，最低按 R1 处理。禁止展示全量能力目录。"
+    },
+    "outbound.social_job_intention": {
+      "domain": "search",
+      "skill": "recruiting-ai-outbound-call",
+      "summary": "仅社招岗位意向：AI 电话外呼候选人或查询外呼结果",
+      "commands": ["/AI外呼"],
+      "strong_signals": ["AI外呼", "AI打电话", "岗位意向外呼", "外呼结果"],
+      "examples": ["对这位社招候选人发起岗位意向外呼"],
+      "excludes": ["校招提醒", "面试邀约", "Offer跟进", "回显手机号"],
+      "ambiguity_groups": ["contact_channel", "recruit_type"],
+      "coverage_hints": {
+        "mcp_extension_allowed": true,
+        "partial_gap_examples": [
+          "外呼任务之外的实时状态或配置查询"
+        ]
+      },
+      "dependencies": ["recruit-mcp"],
+      "risk_levels": ["R1", "R2"],
+      "side_effects": true,
+      "routable": true
+    },
+    "quiz.evaluation": {
+      "domain": "interview",
+      "skill": "quiz-deliverable-evaluator",
+      "summary": "测验平台阅卷建议、成绩单、重评和导出；当前不写回",
+      "commands": ["/测验平台", "/阅卷", "/重评"],
+      "strong_signals": ["阅卷待办", "测验成绩单", "场次重评", "导出成绩单"],
+      "examples": ["读一下我的阅卷待办并给建议分"],
+      "excludes": ["面试题审核", "面试评价", "测验出题", "写回分数"],
+      "ambiguity_groups": ["scoring_context"],
+      "coverage_hints": {
+        "mcp_extension_allowed": true,
+        "partial_gap_examples": [
+          "测验平台场次/考生维度中本 Skill 未定义的实时查询"
+        ]
+      },
+      "dependencies": ["recruit-mcp"],
+      "risk_levels": ["R1"],
+      "side_effects": false,
+      "routable": true
+    },
+    "brand.strategy": {
+      "domain": "brand",
+      "skill": "employer-brand-xiaoe",
+      "summary": "雇主品牌、传播、Campaign、活动和 BG 招聘营销统筹策划",
+      "commands": ["/雇主品牌"],
+      "strong_signals": ["雇主品牌策划", "校招Campaign", "传播方案", "活动策划", "KV创意"],
+      "examples": ["策划一套校招传播 Campaign"],
+      "excludes": ["直接写成稿", "独立物料审核", "舆情处置", "招聘数据统计"],
+      "ambiguity_groups": ["strategy_or_copy"],
+      "dependencies": [],
+      "risk_levels": ["R0", "R1"],
+      "side_effects": false,
+      "routable": true
+    },
+    "brand.copywriting": {
+      "domain": "brand",
+      "skill": "employer-brand-xiaowanneng",
+      "summary": "招聘推文、标题、摘要、社媒短文案和保留原意的润色",
+      "commands": ["/招聘文案"],
+      "strong_signals": ["写推文", "润色文案", "优化标题", "社媒文案", "公众号文案"],
+      "examples": ["把这段招聘文案润色成公众号风格"],
+      "excludes": ["整体传播策略", "物料合规审核", "舆情研判"],
+      "ambiguity_groups": ["strategy_or_copy"],
+      "dependencies": [],
+      "risk_levels": ["R0"],
+      "side_effects": false,
+      "routable": true
+    },
+    "brand.material_review": {
+      "domain": "brand",
+      "skill": "employer-brand-lulu",
+      "summary": "审核 JD、PPT、海报、推文、短信和课题的事实、文字与合规",
+      "commands": ["/审核"],
+      "strong_signals": ["审核JD", "审核PPT", "审核海报", "检查合规", "物料审核"],
+      "examples": ["帮我审一下这份招聘海报"],
+      "excludes": ["写JD", "发出去会不会被骂", "取消Offer沟通"],
+      "ambiguity_groups": ["brand_review", "write_or_review_jd"],
+      "dependencies": [],
+      "risk_levels": ["R0", "R1"],
+      "side_effects": false,
+      "routable": true
+    },
+    "brand.sentiment": {
+      "domain": "brand",
+      "skill": "employer-brand-amy",
+      "summary": "雇主舆情、负面、投诉、取消 Offer 沟通和对外发声风险建议",
+      "commands": ["/舆情"],
+      "strong_signals": ["舆情", "负面处理", "口碑", "面试投诉", "取消Offer话术", "删帖"],
+      "examples": ["这段回应发出去会不会引发负面"],
+      "excludes": ["物料错别字和格式审核", "直接代用户对外发布"],
+      "ambiguity_groups": ["brand_review"],
+      "dependencies": [],
+      "risk_levels": ["R0", "R1", "R2"],
+      "side_effects": false,
+      "routable": true
+    },
+    "brand.research": {
+      "domain": "brand",
+      "skill": "employer-brand-rita",
+      "summary": "招聘调研、问卷、技术影响力、候选人体验、拒 Offer 和竞品人才策略",
+      "commands": ["/招聘调研"],
+      "strong_signals": ["招聘调研", "候选人体验问卷", "技术影响力", "拒Offer分析", "竞品人才策略"],
+      "examples": ["设计一份候选人体验问卷", "对比几个竞品的技术影响力"],
+      "excludes": ["竞对团队有哪些人", "招聘漏斗和转化率", "无数据时编造结论"],
+      "ambiguity_groups": ["competitor_view", "research_or_metrics"],
+      "dependencies": ["rita-optional"],
+      "risk_levels": ["R0", "R1"],
+      "side_effects": false,
+      "routable": true
+    }
+  },
+  "capabilities": {
+    "resume_evaluation_batch": {
+      "skill": "interview-assistant",
+      "flow": "B2",
+      "allowed_intents": [
+        "batch_resume_evaluation"
+      ],
+      "subject_type": "candidate",
+      "minimum_risk_level": "R1",
+      "side_effects": false,
+      "execution_mode": "controlled_batch",
+      "minimum_items": 3,
+      "maximum_items": 10,
+      "required_prerequisites": [
+        "M-Auto",
+        "B1-per-candidate"
+      ],
+      "input_schema": "task-envelope.schema.json",
+      "output_schema": "resume-evaluation-data.schema.json",
+      "result_envelope_schema": "result-envelope.schema.json",
+      "reducer": "resume_evaluation",
+      "cross_subject_sharing": false
+    },
+    "question_audit_batch": {
+      "skill": "assessment-quality-expert",
+      "flow": "A-2",
+      "allowed_intents": [
+        "batch_question_audit"
+      ],
+      "subject_type": "question",
+      "minimum_risk_level": "R1",
+      "side_effects": false,
+      "execution_mode": "controlled_batch",
+      "minimum_items": 3,
+      "maximum_items": 100,
+      "required_prerequisites": [
+        "active-model-or-user-model",
+        "A-2-per-question"
+      ],
+      "input_schema": "task-envelope.schema.json",
+      "output_schema": "question-audit-data.schema.json",
+      "result_envelope_schema": "result-envelope.schema.json",
+      "reducer": "question_audit",
+      "cross_subject_sharing": false
+    }
+  },
+  "write_actions": {
+    "social_interview_start": {
+      "skill": "interview-assistant",
+      "action_type": "start_social_interview",
+      "target_type": "candidate_post",
+      "maximum_targets": 1,
+      "risk_level": "R2",
+      "side_effects": true,
+      "confirmation_ttl_seconds": 600,
+      "backend_binding": {
+        "kind": "mcp",
+        "server": "recruit-mcp",
+        "capability_id": "recruit.admin-test.start_interview",
+        "discovery_required": true
+      },
+      "payload_fields": [
+        "CandidateId",
+        "RecruitPostId",
+        "RecruitDeptId",
+        "Candidate",
+        "IsReborn",
+        "RebornEngName",
+        "RebornSuggestion",
+        "RebornMemo",
+        "RebornMemoId",
+        "RebornRemark",
+        "DimissionReason",
+        "IsReBornContinue",
+        "FlowStepGroup",
+        "IsSecret",
+        "SecretType",
+        "SecretPost",
+        "SecretFlow",
+        "InputFrom",
+        "IsDelayBackground",
+        "Viewers",
+        "IFCFlowMainId",
+        "TraceId"
+      ],
+      "backend_deduplication": "business_dedup_only",
+      "audit_success_field": "FlowMainId",
+      "schema": "write-action-envelope.schema.json"
+    },
+    "campus_interview_start": {
+      "skill": "interview-assistant",
+      "action_type": "start_campus_interview",
+      "target_type": "candidate_resume",
+      "maximum_targets": 20,
+      "risk_level": "R2",
+      "side_effects": true,
+      "confirmation_ttl_seconds": 600,
+      "backend_binding": {
+        "kind": "mcp",
+        "server": "recruit-mcp",
+        "capability_id": "recruit.campus-interview-service.start_campus_interview",
+        "discovery_required": true
+      },
+      "payload_fields": [
+        "resumeIds",
+        "recruitType",
+        "recruitYear",
+        "recruitProject",
+        "recruitCity",
+        "stepId",
+        "subDepartment",
+        "position",
+        "positionOuterTitle",
+        "staffId",
+        "jobFamily",
+        "unitOwnershipTypeId"
+      ],
+      "backend_deduplication": "business_dedup_only",
+      "audit_success_field": "interview_id",
+      "schema": "write-action-envelope.schema.json"
+    },
+    "campus_evaluation_submit": {
+      "skill": "interview-assistant",
+      "action_type": "submit_campus_interview_evaluation",
+      "target_type": "interview_trace",
+      "maximum_targets": 1,
+      "risk_level": "R2",
+      "side_effects": true,
+      "confirmation_ttl_seconds": 600,
+      "backend_binding": {
+        "kind": "mcp",
+        "server": "recruit-mcp",
+        "capability_id": "recruit.campus-interview-service.submit_interview_flow_trace",
+        "discovery_required": true
+      },
+      "payload_fields": [
+        "traceId",
+        "result",
+        "rankId",
+        "rankName",
+        "comment",
+        "workCity",
+        "workCityName",
+        "draftFlag",
+        "nextSteps",
+        "resultName",
+        "aiCodingEvaluateItems"
+      ],
+      "backend_deduplication": "business_dedup_only",
+      "audit_success_field": "traceId",
+      "schema": "write-action-envelope.schema.json"
+    },
+    "social_job_intention_outbound": {
+      "skill": "recruiting-ai-outbound-call",
+      "action_type": "ai_outbound_call",
+      "target_type": "candidate_post",
+      "maximum_targets": 1,
+      "risk_level": "R2",
+      "side_effects": true,
+      "confirmation_ttl_seconds": 600,
+      "backend_binding": {
+        "kind": "mcp",
+        "server": "recruit-mcp",
+        "capability_id": "recruit.admin-test.post_api_ai_call_submit",
+        "discovery_required": true
+      },
+      "payload_fields": [
+        "employeeId",
+        "recruitPostId",
+        "contactItems",
+        "startTime",
+        "forceSubmit"
+      ],
+      "backend_deduplication": "business_dedup_only",
+      "audit_success_field": "aiCallTaskId",
+      "schema": "write-action-envelope.schema.json"
+    },
+    "hrclaw_mail_send": {
+      "skill": "hrclaw-messenger",
+      "action_type": "hrclaw_mail",
+      "target_type": "employees",
+      "maximum_targets": 200,
+      "risk_level": "R2",
+      "side_effects": true,
+      "confirmation_ttl_seconds": 600,
+      "payload_fields": [
+        "channel",
+        "receivers",
+        "cc",
+        "bcc",
+        "subject",
+        "content"
+      ],
+      "backend_deduplication": "none",
+      "audit_success_field": "msgId",
+      "schema": "write-action-envelope.schema.json"
+    },
+    "hrclaw_tips_send": {
+      "skill": "hrclaw-messenger",
+      "action_type": "hrclaw_tips",
+      "target_type": "employees",
+      "maximum_targets": 100,
+      "risk_level": "R2",
+      "side_effects": true,
+      "confirmation_ttl_seconds": 600,
+      "payload_fields": [
+        "channel",
+        "receivers",
+        "title",
+        "content"
+      ],
+      "backend_deduplication": "none",
+      "audit_success_field": "msgId",
+      "schema": "write-action-envelope.schema.json"
+    }
+  }
+}

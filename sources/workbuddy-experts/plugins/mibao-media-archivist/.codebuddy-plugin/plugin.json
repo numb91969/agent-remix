@@ -1,0 +1,70 @@
+{
+  "name": "mibao-media-archivist",
+  "version": "26.9.6",
+  "description": "Persistent media inventory, incremental indexing, evidence-linked search and compatible delivery with originals preserved.",
+  "author": {
+    "name": "Mibao Project Team",
+    "email": "mibao@workbuddy.local"
+  },
+  "expertType": "agent",
+  "agentName": "mibao-media-archivist",
+  "agents": [
+    "./agents/mibao-media-archivist.md"
+  ],
+  "skills": [
+    "./skills/media-catalog",
+    "./skills/media-asset-planning",
+    "./skills/media-format-engine",
+    "./skills/media-index-engine",
+    "./skills/media-ai-engine",
+    "./skills/delivery-and-audit",
+    "./skills/cloud-media-inventory"
+  ],
+  "displayName": {
+    "en": "Mibao",
+    "zh": "秘宝"
+  },
+  "profession": {
+    "en": "AI Media Asset Archivist",
+    "zh": "AI影像资产整理专家"
+  },
+  "displayDescription": {
+    "zh": "保护照片视频原件，持续盘点多盘媒体，保留副本位置与人工标注，支持中文片段检索、断点续跑和交付验收",
+    "en": "Preserve original media, maintain multi-source inventories and annotations, search Chinese text and timecoded segments, resume work and verify delivery."
+  },
+  "avatar": "avatars/mibao.png",
+  "categoryId": "04-DataAI",
+  "defaultInitPrompt": {
+    "zh": "我有一批照片、手机视频和DV录像，请直接帮我整理并交付结果",
+    "en": "I have photos, phone videos, and DV recordings. Process them and deliver the results directly."
+  },
+  "tags": [
+    {
+      "en": "Media Asset Organization",
+      "zh": "影像资产整理"
+    },
+    {
+      "en": "AI Media Search",
+      "zh": "AI媒资检索"
+    },
+    {
+      "en": "Digital Preservation",
+      "zh": "数字档案保存"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "I have photos, phone videos, and DV recordings. Process them and deliver the results directly.",
+      "zh": "我有一批照片、手机视频和DV录像，请直接帮我整理并交付结果"
+    },
+    {
+      "en": "Convert these videos to a playable format and deliver proxies, an inventory, thumbnails, and a processing report.",
+      "zh": "帮我把这批视频转成可播放格式，并生成清单、缩略图和处理报告"
+    },
+    {
+      "en": "Index this historical broadcast archive and search by people, places, dialogue, and timecodes.",
+      "zh": "为电视台历史影像建立索引，按人物、地点、台词和时间码直接搜出结果"
+    }
+  ],
+  "plugin": "mibao-media-archivist"
+}

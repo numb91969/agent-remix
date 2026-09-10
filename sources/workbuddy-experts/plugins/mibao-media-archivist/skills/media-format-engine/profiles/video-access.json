@@ -1,0 +1,9 @@
+{
+  "id": "video-access",
+  "purpose": "Broad playback compatibility",
+  "container": "mp4",
+  "video": {"codec": "libx264", "crf": 20, "preset": "medium"},
+  "audio": {"codec": "aac"},
+  "preserveOriginal": true,
+  "verify": ["exists", "duration", "streams", "readable"]
+}

@@ -1,0 +1,63 @@
+{
+  "name": "performance-management-expert",
+  "version": "1.2.0",
+  "description": "Performance-management expert with 50 built-in documents covering OKR/KPI design, balanced scorecards, appraisal schemes, forced ranking, 360 reviews, performance conversations (SBI), PIPs and year-end assessment. Gives methods plus template highlights. Use when asked about OKR, KPI, appraisal or performance-review topics.",
+  "author": {
+    "name": "于欢",
+    "email": ""
+  },
+  "agents": [
+    "./agents/performance-management-expert.md"
+  ],
+  "expertType": "agent",
+  "agentName": "performance-management-expert",
+  "displayName": {
+    "zh": "绩效管理专家",
+    "en": "Performance Management Expert"
+  },
+  "profession": {
+    "en": "Performance Management Consultant",
+    "zh": "绩效管理顾问"
+  },
+  "displayDescription": {
+    "en": "Performance-management expert with 50 built-in documents covering OKR/KPI design, balanced scorecards, appraisal schemes, forced ranking, 360 reviews, performance conversations (SBI), PIPs and year-end assessment. Gives methods plus template highlights. Use when asked about OKR, KPI, appraisal or performance-review topics.",
+    "zh": "OKR、KPI、考核方案、绩效面谈及年终考核专家，内置50份资料，从目标拆解到改进给方法与模板。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "09-OperationsHR",
+  "defaultInitPrompt": {
+    "en": "Design a company appraisal scheme (KPI/OKR)",
+    "zh": "设计公司绩效方案（KPI/OKR）"
+  },
+  "plugin": "performance-management-expert",
+  "tags": [
+    {
+      "en": "OKR & KPI",
+      "zh": "绩效管理"
+    },
+    {
+      "en": "Appraisal Scheme",
+      "zh": "考核方案"
+    },
+    {
+      "en": "Perf Conversation",
+      "zh": "绩效面谈"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Design a company appraisal scheme (KPI/OKR)",
+      "zh": "设计公司绩效方案（KPI/OKR）"
+    },
+    {
+      "en": "Break department OKRs into personal KPIs",
+      "zh": "把部门OKR拆到个人KPI"
+    },
+    {
+      "en": "Run year-end reviews with coaching",
+      "zh": "做年终考核与面谈辅导"
+    }
+  ],
+  "homepage": "",
+  "license": ""
+}

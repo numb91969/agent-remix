@@ -1,0 +1,55 @@
+[
+  {
+    "source_id": "agency_zh",
+    "label": "Agency Agents 中文仓库",
+    "repository": "https://github.com/jnmetacode/AGENCY-AGENTS-ZH",
+    "commit": "b08f35c07c62d985d0c60a4faaa7304ad4aee686",
+    "snapshot_path": "sources/AGENCY-AGENTS-ZH",
+    "record_count": 278,
+    "metadata": {
+      "repository": "https://github.com/jnmetacode/AGENCY-AGENTS-ZH",
+      "owner": "jnmetacode",
+      "repo": "AGENCY-AGENTS-ZH",
+      "commit": "b08f35c07c62d985d0c60a4faaa7304ad4aee686",
+      "tree_entries": 366,
+      "downloaded": 0,
+      "skipped": 366,
+      "present": 366,
+      "complete": true,
+      "failures": [],
+      "fetched_at": "2026-09-09T16:51:14+00:00"
+    }
+  },
+  {
+    "source_id": "agency_en",
+    "label": "Agency Agents 英文仓库",
+    "repository": "https://github.com/msitarzewski/AGENCY-AGENTS",
+    "commit": "6d29a9b08785a0e49ffc9818bbdd381164c2df5f",
+    "snapshot_path": "sources/AGENCY-AGENTS",
+    "record_count": 280,
+    "metadata": {
+      "repository": "https://github.com/msitarzewski/AGENCY-AGENTS",
+      "owner": "msitarzewski",
+      "repo": "AGENCY-AGENTS",
+      "commit": "6d29a9b08785a0e49ffc9818bbdd381164c2df5f",
+      "tree_entries": 362,
+      "downloaded": 0,
+      "skipped": 362,
+      "present": 362,
+      "complete": true,
+      "failures": [],
+      "fetched_at": "2026-09-09T16:51:13+00:00"
+    }
+  },
+  {
+    "source_id": "workbuddy",
+    "label": "WorkBuddy 本地专家包",
+    "repository": "local:sources/workbuddy-experts",
+    "commit": "",
+    "snapshot_path": "catalog/workbuddy_expert_catalog/experts.db",
+    "record_count": 446,
+    "metadata": {
+      "database": "catalog/workbuddy_expert_catalog/experts.db"
+    }
+  }
+]

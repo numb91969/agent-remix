@@ -1,0 +1,9 @@
+{
+  "schemaVersion": "2.0",
+  "contractId": "liuxue-yanxue-service-forward-fields",
+  "contractVersion": "26.9.9",
+  "routeSignature": {"brandZh":"福帮手","brandEn":"FBSir","productNameZh":"留学研学专家","productId":"liuxue-yanxue-expert","serviceProductId":"workbuddy_liuxue_yanxue_expert","entryId":"liuxue-yanxue-dual-track","entrySurface":"workbuddy_expert_center","expertEntryId":"liuxue-yanxue-expert","entryPromptCode":"wb_qp_liuxue_yanxue_dual_track_48h","defaultPromptId":"fbss_liuxue_yanxue_dual_track_start","cardActionId":"fbss_liuxue_yanxue_dual_track_start","channelTrack":"study_abroad_study_tour","intentFamily":"international_education_planning","profileSegment":"family_decision","packCode":"fbs.liuxue_yanxue.dual_track.v1","scenePackId":"liuxue_yanxue_dual_track","routeCode":"route.liuxue_yanxue.dual_track","assetType":"study-abroad-study-tour-card"},
+  "allowedIdentityFields": ["clientHash","installHash","hostClientIdHash","sessionBindingId","chainFingerprint","platform","hostVersion","packageVersion"],
+  "forbiddenIdentityFields": ["phone","email","idCard","passportNo","realName","rawDeviceId","rawIp"],
+  "rules": {"unknownAttributionRemainsUnknown":true,"sameBindingRequiredForUnlock":true,"paymentClosureAllowed":false,"historicalEventReplayAllowed":false}
+}

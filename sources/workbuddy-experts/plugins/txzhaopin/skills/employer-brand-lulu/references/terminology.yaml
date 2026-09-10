@@ -1,0 +1,137 @@
+# 招聘物料审核 - 术语词库
+# 版本：v1.0 | 更新日期：2026-05-28
+
+# ===== 友商清单（对外场景零容忍） =====
+competitors:
+  # 字节系
+  - 字节
+  - 字节跳动
+  - 豆包
+  - 火山引擎
+  - Coze
+  - 扣子
+  # 阿里系
+  - 阿里巴巴
+  - 阿里云
+  - 通义千问
+  - 千问
+  # 百度系
+  - 百度
+  - 文心一言
+  # 华为系
+  - 华为
+  - 盘古
+  # 其他
+  - 商汤
+  - 快手
+  - 百川
+  - 智谱
+  - 零一万物
+  - 月之暗面
+  - Kimi
+  - 讯飞
+  - MiniMax
+  - minimax
+  - 深度求索
+  - DeepSeek
+
+# 技术语境可能豁免的词（需AI语义层判断上下文）
+context_dependent:
+  - Meta          # metadata语境可接受，"Meta公司"要标记
+  - OpenAI        # "OpenAI GPT"等模型名语境可接受
+  - Google        # "Google Scholar"学术语境可接受
+  - Anthropic     # 学术引用语境可接受
+  - Claude        # 模型名引用语境可接受
+  - GPT-4o        # benchmark对比中闭门场景可接受
+  - Qwen          # benchmark对比中闭门场景可接受
+  - Step-Audio    # benchmark对比中闭门场景可接受
+
+# 腾讯自有产品（不标记为友商）
+tencent_products:
+  - 混元
+  - 腾讯云
+  - TDSQL
+  - 腾讯会议
+  - SeeDance
+  - 微信
+  - QQ
+  - 腾讯视频
+  - 腾讯地图
+  - 腾讯文档
+  - 企业微信
+  - 元宝
+  - CodeBuddy
+  - ima
+
+# ===== 军事化/狼性禁用词 =====
+military_banned:
+  - 战友
+  - 部队
+  - 战场
+  - 战位
+  - 打仗
+  - 硝烟
+  - 特种部队
+  - 冲锋
+  - 攻坚战
+  - 战役
+  - 以...为矛
+  - 战斗力
+
+# 军事化词汇替换建议
+military_replacements:
+  战友: 同学/同行者
+  部队: 团队
+  战场: 领域/主场
+  战位: 岗位
+  打仗: 攻关/挑战
+  特种部队: 精锐技术团队
+  硝烟: （删除）
+  冲锋: 推进
+  攻坚战: 技术攻关
+  战役: 项目
+
+# ===== 拼写错误词库 =====
+typo_corrections:
+  NearlPS: NeurIPS
+  Nearlps: NeurIPS
+  transfomers: transformers
+  trasformer: Transformer
+  Tansformer: Transformer
+  Meatron-LM: Megatron-LM
+  verifiy: verify
+  CoDesgin: CoDesign
+  cosyvocie2: cosyvoice2
+
+# ===== 大小写规范 =====
+case_conventions:
+  pytorch: PyTorch
+  Pytorch: PyTorch
+  tensorflow: TensorFlow
+  Tensorflow: TensorFlow
+  deepspeed: DeepSpeed
+  Deepspeed: DeepSpeed
+  megatron: Megatron
+  JAVA: Java
+
+# ===== 院校歧视词库 =====
+school_discrimination:
+  - 重点高校
+  - "985"
+  - "211"
+  - 双一流
+  - C9
+  - 顶尖院校
+  - 知名院校
+  - 名校
+  - 一流大学
+  - 重点大学
+  - QS排名前
+
+# ===== 高频AI/Al混淆 =====
+# 大写A+小写L 容易被误认为 AI
+ai_typo_patterns:
+  - "Al "     # 大写A小写L+空格
+  - "Al+"     # 大写A小写L+加号
+  - "Al产品"
+  - "Al技术"

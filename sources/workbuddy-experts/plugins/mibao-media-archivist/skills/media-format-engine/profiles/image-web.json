@@ -1,0 +1,8 @@
+{
+  "id": "image-web",
+  "purpose": "Web and sharing derivative",
+  "format": "jpeg",
+  "maxLongEdge": 2400,
+  "quality": 90,
+  "preserveOriginal": true
+}

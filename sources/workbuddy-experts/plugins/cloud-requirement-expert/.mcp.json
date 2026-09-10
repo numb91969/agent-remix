@@ -1,0 +1,22 @@
+{
+  "mcpServers": {
+    "requirement-assistant": {
+      "transportType": "streamable-http",
+      "url": "https://cpeo.mcp.it.woa.com",
+      "x-workbuddy": {
+        "displayName": {
+          "zh": "需求助手 MCP 服务",
+          "en": "Requirement Assistant MCP Server"
+        },
+        "description": {
+          "zh": "连接后可支持需求智能生成、结构化补全、需求拆分与写回，覆盖从想法到交付的完整流程",
+          "en": "Enable intelligent requirement generation, structured enrichment, splitting and write-back, covering the full workflow from ideation to delivery"
+        },
+        "icon": "./avatars/expert.png",
+        "auth": {
+          "type": "oauth"
+        }
+      }
+    }
+  }
+}

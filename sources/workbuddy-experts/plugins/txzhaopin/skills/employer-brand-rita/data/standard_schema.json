@@ -1,0 +1,115 @@
+{
+  "_doc": "雇主品牌/招聘调研数据规范 v2.0 — 所有团队使用 Rita 产出的调研数据必须遵循此规范。v2.0 起数据统一存放于校招数据 MCP 后端（rita），维度采用 A/B/C 三组标准 snake_case ID。",
+  "_version": "2.0",
+  "_updated": "2026-07-02",
+  "_changelog": "v2.0：由 v1.0 的 8 维度升级为 A组技术影响力13维度 + B组择业因素13项 + C组雇主品牌吸引力9维度 + 2个综合指标，共 37 个标准维度；与 _company_benchmark、research.db.questions 实际使用的 snake_case ID 完全对齐；废弃 v1.0 的 awareness/tech_strength/compensation/growth/work_life_balance/ai_frontier/culture/stability 旧维度。",
+
+  "standard_dimensions": {
+    "tech_influence_a_group": [
+      {"id": "tech_influence", "label": "综合技术影响力", "group": "A", "description": "公司在技术圈的综合影响力认知"},
+      {"id": "brand_awareness", "label": "知名度", "group": "A", "description": "品牌/技术知名度"},
+      {"id": "rd_resources", "label": "研发资源", "group": "A", "description": "研发投入与资源丰富度"},
+      {"id": "tech_value", "label": "技术价值", "group": "A", "description": "技术工作的价值感与意义"},
+      {"id": "tech_challenge", "label": "技术挑战", "group": "A", "description": "技术问题的挑战性"},
+      {"id": "tech_accumulation", "label": "技术积累", "group": "A", "description": "公司的技术沉淀与积累"},
+      {"id": "infrastructure", "label": "基础建设", "group": "A", "description": "工程基础设施完善度"},
+      {"id": "tech_patience", "label": "投入耐心", "group": "A", "description": "对长期技术投入的耐心"},
+      {"id": "research_freedom", "label": "科研自由度", "group": "A", "description": "研究方向的自主与自由度"},
+      {"id": "tech_innovation", "label": "技术创新", "group": "A", "description": "技术创新能力与氛围"},
+      {"id": "tech_output", "label": "技术产出", "group": "A", "description": "技术成果产出水平"},
+      {"id": "talent_quality", "label": "优秀人才", "group": "A", "description": "团队人才密度与质量"},
+      {"id": "tech_atmosphere", "label": "技术氛围", "group": "A", "description": "整体技术氛围与工程师文化"}
+    ],
+    "career_factors_b_group": [
+      {"id": "cf_salary", "label": "薪酬", "group": "B", "description": "薪资水平"},
+      {"id": "cf_prospect", "label": "前景", "group": "B", "description": "行业与公司发展前景"},
+      {"id": "cf_reputation", "label": "名气", "group": "B", "description": "公司名气/品牌"},
+      {"id": "cf_unemployment_risk", "label": "失业风险", "group": "B", "description": "裁员/失业风险"},
+      {"id": "cf_work_experience", "label": "工作体验", "group": "B", "description": "日常工作体验"},
+      {"id": "cf_overtime", "label": "加班", "group": "B", "description": "加班强度"},
+      {"id": "cf_atmosphere", "label": "氛围", "group": "B", "description": "团队氛围"},
+      {"id": "cf_benefits", "label": "福利", "group": "B", "description": "福利待遇"},
+      {"id": "cf_promotion", "label": "晋升", "group": "B", "description": "晋升通道"},
+      {"id": "cf_value_orientation", "label": "价值导向", "group": "B", "description": "公司价值观导向"},
+      {"id": "cf_autonomy", "label": "自主空间", "group": "B", "description": "工作自主空间"},
+      {"id": "cf_job_seeking_experience", "label": "求职体验", "group": "B", "description": "求职/面试体验"},
+      {"id": "cf_city", "label": "城市", "group": "B", "description": "工作城市"}
+    ],
+    "employer_attractiveness_c_group": [
+      {"id": "ea_salary", "label": "薪酬", "group": "C", "description": "雇主品牌-薪酬吸引力"},
+      {"id": "ea_benefits", "label": "福利", "group": "C", "description": "雇主品牌-福利吸引力"},
+      {"id": "ea_growth", "label": "成长", "group": "C", "description": "雇主品牌-成长吸引力"},
+      {"id": "ea_environment", "label": "环境", "group": "C", "description": "雇主品牌-环境吸引力"},
+      {"id": "ea_reputation", "label": "名气", "group": "C", "description": "雇主品牌-名气吸引力"},
+      {"id": "ea_business", "label": "业务", "group": "C", "description": "雇主品牌-业务吸引力"},
+      {"id": "ea_prospect", "label": "前景", "group": "C", "description": "雇主品牌-前景吸引力"},
+      {"id": "ea_intensity", "label": "强度", "group": "C", "description": "雇主品牌-工作强度"},
+      {"id": "ea_brand", "label": "品牌", "group": "C", "description": "雇主品牌-品牌吸引力"}
+    ],
+    "composite_indicators": [
+      {"id": "overall_favorability", "label": "整体好感度", "group": "composite", "description": "对公司的整体好感度（5 级量表）"},
+      {"id": "employer_attractiveness", "label": "整体雇主吸引力", "group": "composite", "description": "综合雇主吸引力评分"}
+    ]
+  },
+
+  "dimension_name_map": {
+    "_note": "中文标签 ↔ snake_case ID 双向映射（供 skill 路由表与分析报告使用，避免再出现 tech_influence_01 这类错配）",
+    "综合技术影响力": "tech_influence",
+    "技术影响力": "tech_influence",
+    "知名度": "brand_awareness",
+    "品牌知名度": "brand_awareness",
+    "研发资源": "rd_resources",
+    "技术价值": "tech_value",
+    "技术挑战": "tech_challenge",
+    "技术积累": "tech_accumulation",
+    "基础建设": "infrastructure",
+    "基础设施": "infrastructure",
+    "投入耐心": "tech_patience",
+    "技术耐心": "tech_patience",
+    "科研自由度": "research_freedom",
+    "研究自由度": "research_freedom",
+    "技术创新": "tech_innovation",
+    "技术产出": "tech_output",
+    "优秀人才": "talent_quality",
+    "人才质量": "talent_quality",
+    "技术氛围": "tech_atmosphere",
+    "整体好感度": "overall_favorability"
+  },
+
+  "standard_competitors": {
+    "benchmark_2026": ["腾讯", "字节跳动", "阿里", "京东", "小红书", "月之暗面(KIMI)", "DeepSeek"],
+    "_note": "EB2026 雇主品牌调研实际覆盖的 7 家 benchmark 公司；技术影响力 A 组 13 维度对这 7 家分别打分。"
+  },
+
+  "rating_scale": {
+    "default": {"min": 1, "max": 5, "labels": {"1": "非常不满意/非常弱", "2": "不满意/较弱", "3": "一般", "4": "满意/较强", "5": "非常满意/非常强"}},
+    "six_level": {"min": 0, "max": 100, "type": "6level", "labels": {"0": "非常差", "20": "比较差", "40": "一般", "60": "还不错", "80": "比较好", "100": "非常好"}},
+    "nps": {"min": 0, "max": 10, "type": "NPS", "labels": {"0-6": "贬损者", "7-8": "中立者", "9-10": "推荐者"}}
+  },
+
+  "required_metadata": {
+    "survey_id": {"type": "string", "format": "BG_TYPE_YYYYQN", "example": "CSIG_EB_2026Q2", "description": "BG缩写_调研类型缩写_年份季度"},
+    "title": {"type": "string", "description": "调研名称"},
+    "client_bg": {"type": "string", "enum": ["CSIG", "TEG", "IEG", "WXG", "PCG", "CDG", "S线", "集团"], "description": "委托BG"},
+    "survey_type": {"type": "string", "enum": ["employer_brand", "campus_recruit", "intern_experience", "fall_recruitment", "employee_engagement", "exit_survey"], "description": "调研类型"},
+    "target_audience": {"type": "string", "enum": ["social_candidate", "campus_student", "intern", "current_employee", "alumni"], "description": "受众类型"},
+    "sample_size": {"type": "integer", "description": "有效样本量"},
+    "survey_date_start": {"type": "date", "format": "YYYY-MM-DD"},
+    "survey_date_end": {"type": "date", "format": "YYYY-MM-DD"},
+    "source": {"type": "string", "enum": ["tencent_survey", "manual_import", "third_party"], "description": "数据来源"},
+    "collector": {"type": "string", "description": "执行人/团队"}
+  },
+
+  "output_format": {
+    "encoding": "UTF-8",
+    "file_type": "CSV",
+    "header": "首行为列名，与 questions 表 question_id 对应",
+    "delimiter": ","
+  },
+
+  "interview_schema": {
+    "required_fields": ["interview_id", "survey_id", "interviewee_code", "role", "date", "duration_min", "raw_text"],
+    "optional_fields": ["key_quotes", "themes", "sentiment", "interviewer"],
+    "themes_taxonomy": ["品牌认知", "技术评价", "薪酬感受", "成长期望", "文化体验", "AI相关", "竞品对比", "求职决策因素"]
+  }
+}

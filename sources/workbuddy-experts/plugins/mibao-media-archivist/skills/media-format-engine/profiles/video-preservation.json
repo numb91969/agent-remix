@@ -1,0 +1,9 @@
+{
+  "id": "video-preservation",
+  "purpose": "Preservation-oriented derivative profile",
+  "container": "mkv",
+  "video": {"codec": "ffv1", "level": 3},
+  "audio": {"codec": "flac"},
+  "preserveOriginal": true,
+  "verify": ["exists", "duration", "streams", "readable", "checksum"]
+}

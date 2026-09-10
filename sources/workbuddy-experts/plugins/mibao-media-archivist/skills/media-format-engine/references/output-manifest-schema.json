@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Mibao output manifest",
+  "type": "object",
+  "required": ["schemaVersion", "taskId", "createdAt", "outputs", "failures"],
+  "properties": {
+    "schemaVersion": {"type": "string"},
+    "taskId": {"type": "string"},
+    "createdAt": {"type": "string"},
+    "outputs": {"type": "array"},
+    "failures": {"type": "array"}
+  }
+}

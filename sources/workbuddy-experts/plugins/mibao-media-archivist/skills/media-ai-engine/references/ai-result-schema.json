@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Mibao AI result",
+  "type": "object",
+  "required": ["assetId", "task", "status", "model", "createdAt"],
+  "properties": {
+    "assetId": {"type": "string"},
+    "task": {"enum": ["transcribe", "ocr", "embed", "enrich"]},
+    "status": {"enum": ["completed", "partial", "blocked", "failed"]},
+    "model": {"type": "string"},
+    "modelVersion": {"type": "string"},
+    "language": {"type": "string"},
+    "segments": {"type": "array"},
+    "confidence": {"type": ["number", "null"]},
+    "reviewStatus": {"enum": ["unreviewed", "reviewed", "rejected"]},
+    "createdAt": {"type": "string"}
+  }
+}

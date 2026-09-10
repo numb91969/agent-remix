@@ -1,0 +1,87 @@
+# BG 接口人配置（Stewards）
+#
+# 用途：
+# 当用户向「雇主品牌小鹅」投喂某个 BG 的资料时，小鹅会自动识别 BG，
+# 并提示用户将「投喂消化简报」回传给该 BG 的雇主品牌接口人审核入库。
+# 接口人对自己 BG 的资料负责，Effy 作为总负责人做品牌调性 + 红线把关。
+#
+# 维护规则：
+# 1. 任何时候都可以动态新增/修改 steward
+# 2. 一个 BG 至少配 1 个 primary，可选 1-2 个 backup
+# 3. 删除接口人时，请同步告知该 BG 同事另寻接口人
+# 4. owner 字段是该专家的总把关人，不可删除
+# 5. 字段说明：
+#    - displayName: 用于对外展示的称呼
+#    - contact: 联系方式（企业微信/邮箱/工号，自由格式）
+#    - scope: 该接口人负责的内容范围
+#
+# ⚠️ 注意：这个配置文件不上传外部公开渠道，仅用于专家内部路由
+
+version: "1.0"
+lastUpdated: "2026-06-01"
+
+# 总负责人（专家 owner）
+owner:
+  displayName: "Effy"
+  role: "雇主品牌团队 - 总负责人"
+  contact: "（请补充）"
+  responsibility:
+    - "品牌调性把关：所有入库内容是否符合小鹅人设"
+    - "红线把关：敏感数字、人员信息、政治敏感内容拦截"
+    - "跨 BG 通用方法论归纳"
+    - "接口人名单维护"
+
+# BG 接口人（Stewards）
+stewards:
+  WXG:
+    displayName: "（待补充）"
+    contact: "（待补充）"
+    scope: "微信事业群所有雇主品牌内容"
+    status: "owner-self"  # Effy 自己暂代
+
+  IEG:
+    displayName: "（待补充）"
+    contact: "（待补充）"
+    scope: "互娱事业群所有雇主品牌内容（含天美/魔方/光子/北极光/发行/技术公线/美术专项/青云）"
+    status: "owner-self"  # Effy 自己暂代
+
+  CDG:
+    displayName: "（待补充）"
+    contact: "（待补充）"
+    scope: "企业发展事业群（腾讯广告/金融科技/投资）"
+    status: "vacant"  # 待招募
+
+  PCG:
+    displayName: "（待补充）"
+    contact: "（待补充）"
+    scope: "平台与内容事业群（QQ/腾讯视频/腾讯新闻/应用宝/QQ音乐/阅文）"
+    status: "vacant"
+
+  CSIG:
+    displayName: "（待补充）"
+    contact: "（待补充）"
+    scope: "云与智慧产业事业群（腾讯云/企微/腾讯会议/教育/医疗/政务）"
+    status: "vacant"
+
+  TEG:
+    displayName: "（待补充）"
+    contact: "（待补充）"
+    scope: "技术工程事业群（基础架构/AI Lab/安全/运维/混元大模型）"
+    status: "vacant"
+
+  S-line:
+    displayName: "（待补充）"
+    contact: "（待补充）"
+    scope: "职能线（HR/财务/法务/行政/市场公关）"
+    status: "vacant"
+
+  HQ-Campus:
+    displayName: "（待补充）"
+    contact: "（待补充）"
+    scope: "总部校招（星海计划/青云/技术大咖/产品集训生等统招项目）"
+    status: "vacant"
+
+# 状态枚举说明：
+# - active: 接口人已确认上岗
+# - owner-self: Effy 暂代（小鹅会建议用户直接对接 Effy）
+# - vacant: 该 BG 尚无接口人（小鹅会建议用户暂时只在当前对话使用资料，不入主版本）

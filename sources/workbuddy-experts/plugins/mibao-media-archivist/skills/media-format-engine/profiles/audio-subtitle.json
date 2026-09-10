@@ -1,0 +1,7 @@
+{
+  "id": "audio-subtitle",
+  "purpose": "Extract audio and preserve subtitle sidecars",
+  "audio": {"format": "wav", "sampleRate": 48000, "channels": 2},
+  "subtitles": ["srt", "vtt"],
+  "preserveOriginal": true
+}

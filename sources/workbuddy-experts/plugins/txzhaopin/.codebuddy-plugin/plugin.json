@@ -1,0 +1,207 @@
+{
+  "name": "txzhaopin",
+  "version": "1.39.0",
+  "description": "腾讯招聘专家 — 单 Agent 薄路由 + 30 个按需 Skills，覆盖招聘全流程、HR 数仓、预置指标、人才 Mapping、招聘渠道、雇主品牌、定时任务与权限范围内的 MCP 动态能力发现；通过结构化能力注册表、消歧组和按需规则装载降低上下文开销。",
+  "author": {
+    "name": "腾讯招聘",
+    "email": "elioyao@tencent.com"
+  },
+  "license": "UNLICENSED",
+  "keywords": [
+    "recruitment",
+    "hiring",
+    "hr",
+    "campus-hiring",
+    "social-hiring",
+    "interview",
+    "resume-screening",
+    "competency-model",
+    "requirement-clarification",
+    "jd-generation",
+    "recruitment-qa",
+    "knowledge-search",
+    "process-tracker",
+    "pipeline",
+    "headhunter",
+    "hiring-channel",
+    "猎头推荐",
+    "招聘渠道",
+    "employer-brand",
+    "recruitment-marketing",
+    "copywriting",
+    "content-review",
+    "sentiment",
+    "research",
+    "雇主品牌",
+    "招聘文案",
+    "文案审核",
+    "舆情口碑",
+    "招聘调研",
+    "招聘流程跟踪",
+    "tencent",
+    "腾讯招聘专家",
+    "招聘专家",
+    "招聘问询",
+    "需求沟通",
+    "需求识别",
+    "测验平台",
+    "阅卷",
+    "成绩单",
+    "quiz",
+    "考试评估"
+  ],
+  "expertType": "agent",
+  "agentName": "recruitment-expert",
+  "agents": [
+    "./agents/recruitment-expert.md"
+  ],
+  "skills": [
+    "./skills/requirement-communication-assistant",
+    "./skills/assessment-quality-expert",
+    "./skills/zhaopin-operations",
+    "./skills/zhaopin-social-operations",
+    "./skills/interview-assistant",
+    "./skills/interview-data-processor",
+    "./skills/interview-talent-modeler",
+    "./skills/recruitment-inquiry-bot",
+    "./skills/recruitment-process-tracker",
+    "./skills/warming-recruit-manager",
+    "./skills/hr-data-router",
+    "./skills/hr-data-sql-builder",
+    "./skills/data-table-permission-checker",
+    "./skills/indicator-query",
+    "./skills/indicator-api-codegen",
+    "./skills/data-warehouse-api-codegen",
+    "./skills/hr-vue-next",
+    "./skills/recruit-data-dashboard",
+    "./skills/mapping",
+    "./skills/headhunter-recommend",
+    "./skills/daily-routine-builder",
+    "./skills/hrclaw-messenger",
+    "./skills/mcp-capability-explorer",
+    "./skills/recruiting-ai-outbound-call",
+    "./skills/quiz-deliverable-evaluator",
+    "./skills/employer-brand-xiaoe",
+    "./skills/employer-brand-xiaowanneng",
+    "./skills/employer-brand-lulu",
+    "./skills/employer-brand-amy",
+    "./skills/employer-brand-rita"
+  ],
+  "displayName": {
+    "en": "Tencent Recruitment Expert",
+    "zh": "腾讯招聘专家"
+  },
+  "profession": {
+    "en": "Tencent Recruitment Expert",
+    "zh": "腾讯招聘专家"
+  },
+  "displayDescription": {
+    "en": "Official Tencent recruitment agent: campus & social hiring end-to-end — requirement clarification, talent search & headhunter recommendation, interview initiation/scheduling/evaluation submission, employer branding (copywriting, compliance review, sentiment, research), recruitment data and scheduled automations.",
+    "zh": "腾讯官方招聘助手：覆盖校招/社招全流程——需求沟通、搜简历、猎头推荐、发起面试、面试安排、面评填写与提交、雇主品牌（文案/物料审核/舆情/调研）、招聘数据与定时任务。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "09-OperationsHR",
+  "defaultInitPrompt": {
+    "en": "Check my interview todos",
+    "zh": "查下我的面试待办"
+  },
+  "tags": [
+    {
+      "en": "Recruitment",
+      "zh": "招聘"
+    },
+    {
+      "en": "Talent Search",
+      "zh": "人才搜索"
+    },
+    {
+      "en": "Interview",
+      "zh": "面试"
+    },
+    {
+      "en": "Hiring Channels",
+      "zh": "招聘渠道"
+    },
+    {
+      "en": "Employer Brand",
+      "zh": "雇主品牌"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Check my interview todos",
+      "zh": "查下我的面试待办"
+    },
+    {
+      "en": "Find me some candidate resumes",
+      "zh": "帮我找简历"
+    },
+    {
+      "en": "Which headhunter fits this role",
+      "zh": "这个岗位找哪家猎头"
+    },
+    {
+      "en": "Review this JD for compliance",
+      "zh": "帮我审一下这份 JD"
+    }
+  ],
+  "userConfig": {
+    "TAIHU_TOKEN": {
+      "type": "string",
+      "label": "太湖 PAT（集团统一鉴权 · 可选）",
+      "description": "recruit-mcp 现已支持在 WorkBuddy 直接弹窗连接授权（点「连接」用太湖 SSO 授权即可，无需在此手填）。仅当你的客户端不支持弹窗连接、需手动配置时，才在此填太湖 PAT：https://tai.it.woa.com/user/pat 创建 Personal Access Token，粘贴进来（不要带 Bearer 前缀）。",
+      "required": false,
+      "sensitive": true
+    },
+    "TRAG_TOKEN": {
+      "type": "string",
+      "label": "tRAG PAT（员工 profile 向量库鉴权）",
+      "description": "仅用于 requirement-communication-assistant skill 调用 tRAG 检索员工 profile（参照人法 / 内部盘活）。申请：tRAG 控制台 → 个人中心 → PAT 管理（http://api.trag.woa.com）。把 PAT 字符串直接粘贴进来（不要带 Bearer 前缀）。如果不使用'参照人法 / 内部盘活'功能，留空即可。",
+      "required": false,
+      "sensitive": true
+    }
+  },
+  "mcpServers": {
+    "recruit-mcp": {
+      "type": "http",
+      "url": "https://zhaopin.mcp.it.woa.com",
+      "headers": {
+        "Authorization": "Bearer ${user_config.TAIHU_TOKEN}"
+      },
+      "x-workbuddy": {
+        "displayName": {
+          "en": "Tencent Recruitment",
+          "zh": "腾讯招聘"
+        },
+        "description": {
+          "en": "Tencent recruitment platform APIs — resume search, interview arrangement, offer, campus/social recruitment flows, AI outbound call.",
+          "zh": "腾讯招聘平台接口——简历搜索、面试安排、offer、校招/社招流程、AI外呼等招聘全链路能力。"
+        },
+        "auth": {
+          "type": "user_config",
+          "fields": [
+            "TAIHU_TOKEN"
+          ]
+        }
+      }
+    },
+    "hr_data_service_v1": {
+      "type": "http",
+      "url": "https://dos-dataview.mcp.it.woa.com/mcp",
+      "protocol": "streamable-http",
+      "x-workbuddy": {
+        "displayName": {
+          "en": "HR Data Warehouse",
+          "zh": "HR数仓查询"
+        },
+        "description": {
+          "en": "Tencent HR StarRocks data warehouse — query employee info, org structure, movements, performance and more.",
+          "zh": "腾讯HR数仓StarRocks查询服务，覆盖员工信息、组织架构、异动、绩效等宽表。"
+        },
+        "auth": {
+          "type": "none"
+        }
+      }
+    }
+  }
+}

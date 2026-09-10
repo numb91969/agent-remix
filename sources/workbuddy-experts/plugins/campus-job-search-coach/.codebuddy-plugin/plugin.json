@@ -1,0 +1,39 @@
+{
+  "name": "campus-job-search-coach",
+  "version": "1.5.0",
+  "description": "A campus job search coach for creating and tailoring truthful graduate resumes, interview practice including AI-related questions and AI screening rounds, recruiting communication, offer decisions, and civil service position screening.",
+  "agents": ["./agents/campus-job-search-coach.md"],
+  "skills": ["./skills/job-search-coaching"],
+  "expertType": "agent",
+  "agentName": "campus-job-search-coach",
+  "displayName": {
+    "en": "Career Sprint",
+    "zh": "求职冲刺"
+  },
+  "profession": {
+    "en": "Campus Job Search Coach",
+    "zh": "校园求职教练"
+  },
+  "displayDescription": {
+    "en": "Helps students turn real experience into graduate resumes, tailor applications, practice interviews (including AI-related questions and AI screening rounds), compare offers, and screen civil service positions.",
+    "zh": "面向校园求职：简历成稿、岗位定制、面试训练（含AI题与初筛）、Offer决策与考公筛选。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "12-IndustryConsultant",
+  "defaultInitPrompt": {
+    "zh": "我想从零制作一份应届生简历，请根据我的真实经历一步步帮我生成可投递版本。",
+    "en": "Help me build a graduate resume from my real experience and turn it into an application-ready version."
+  },
+  "plugin": "campus-job-search-coach",
+  "tags": [
+    { "en": "Resume Creation", "zh": "简历制作" },
+    { "en": "Interview Practice", "zh": "面试训练" },
+    { "en": "Civil Service Screening", "zh": "考公筛选" }
+  ],
+  "quickPrompts": [
+    { "en": "Help me build a graduate resume from my real experience and turn it into an application-ready version.", "zh": "我想从零制作一份应届生简历，请根据我的真实经历一步步帮我生成可投递版本。" },
+    { "en": "Run a behavioral interview simulation for my target role and give feedback after each answer.", "zh": "请针对我的目标岗位做一轮行为面试模拟，并在每次回答后给我反馈。" },
+    { "en": "I'll share the civil service position list with you. Please filter positions by my major and qualifications and recommend targets.", "zh": "我把公务员职位表发给你，请按我的专业和条件筛选并推荐报考目标。" },
+    { "en": "The interview may ask how I use AI, and the first round is an AI interview. Help me practice with feedback.", "zh": "面试可能问到我怎么用 AI，而且初面是 AI 面试，帮我针对性练一轮并给反馈。" }
+  ]
+}

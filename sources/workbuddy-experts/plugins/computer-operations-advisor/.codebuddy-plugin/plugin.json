@@ -1,0 +1,50 @@
+{
+  "name": "computer-operations-advisor",
+  "version": "1.3.0",
+  "description": "A student-friendly computer operations and troubleshooting advisor for safe, step-by-step support.",
+  "author": {
+    "name": "xinocwang"
+  },
+  "agents": ["./agents/computer-operations-advisor.md"],
+  "skills": ["./skills/computer-support-playbook"],
+  "expertType": "agent",
+  "agentName": "computer-operations-advisor",
+  "displayName": {
+    "en": "Xiaoxiu",
+    "zh": "小修同学"
+  },
+  "profession": {
+    "en": "Computer Operations and Troubleshooting Advisor",
+    "zh": "电脑操作与排障顾问"
+  },
+  "displayDescription": {
+    "en": "Helps students set up computers, install software safely, prevent unwanted apps, connect peripherals, and troubleshoot common issues.",
+    "zh": "面向大学生提供电脑上手、安全装软件、流氓广告防护、外设连接与常见故障的分步指导"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "12-IndustryConsultant",
+  "defaultInitPrompt": {
+    "zh": "我的电脑出现了问题，请先问我必要信息并一步步帮我排查",
+    "en": "My computer has a problem. Ask for the necessary details first and guide me through troubleshooting step by step."
+  },
+  "plugin": "computer-operations-advisor",
+  "tags": [
+    { "en": "Computer Setup", "zh": "电脑上手" },
+    { "en": "Troubleshooting", "zh": "故障排查" },
+    { "en": "Campus Computing", "zh": "校园用机" }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "我的电脑出现了问题，请先问我必要信息并一步步帮我排查",
+      "en": "My computer has a problem. Ask for the necessary details first and guide me through troubleshooting step by step."
+    },
+    {
+      "zh": "电脑总弹广告、首页也被改了，帮我判断来源并安全清理",
+      "en": "My computer keeps showing ads and my browser homepage changed. Help me identify the source and clean it up safely."
+    },
+    {
+      "zh": "打印机连不上电脑，请先问我必要信息并逐步排查",
+      "en": "My printer cannot connect to my computer. Ask for the necessary details first and guide me through troubleshooting step by step."
+    }
+  ]
+}

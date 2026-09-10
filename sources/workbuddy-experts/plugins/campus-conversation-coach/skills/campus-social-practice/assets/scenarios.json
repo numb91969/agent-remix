@@ -1,0 +1,269 @@
+{
+  "version": "1.0.0",
+  "name": "校园训练场景卡",
+  "design": "每张卡含共享背景、用户目标、对象卡（性格、当下状态、私密目标）与信息差。阻力来自双方目标不一致，不来自剧本刁难。",
+  "usage_rules": [
+    "模拟时严格按对象卡行事，不刻意配合用户，也不羞辱用户",
+    "对象的私密目标对用户不可见，用户只能通过对话探知",
+    "每次模拟只引入一个主要阻力分支，升级时换卡或换分支",
+    "卡内 safety_note 命中时立即停止模拟转安全分流"
+  ],
+  "scenarios": [
+    {
+      "id": "ice-01",
+      "category": "开学破冰",
+      "title": "班会轮流自我介绍",
+      "level": "L1",
+      "background": "新生班会，30 多人轮流自我介绍，每人约 30 秒，用户在中间偏后的位置。",
+      "user_goal": "完成一段 30 秒自我介绍，让人记住一个具体特点，不显刻意。",
+      "partner": {"role": "主持人兼同班同学", "personality": "热情、节奏快", "current_state": "已经听了 15 个相似的自我介绍，注意力涣散", "private_goal": "控制班会节奏，不想拖堂"},
+      "info_gap": "用户不知道前面已经有人说了一模一样的模板句式；主持人不会提醒，只会敷衍鼓掌。",
+      "resistance_branches": [
+        {"level": "L2", "partner_move": "用户讲完后只有稀落掌声，主持人立刻叫下一位", "training_target": "用户不冷场，能在随后自由环节主动接上之前抛出的开放点"},
+        {"level": "L3", "partner_move": "用户说到一半被主持人提醒时间", "training_target": "快速收束到核心信息，不慌不乱"}
+      ],
+      "observation_focus": ["30 秒内是否有一个具体可记的点", "是否给对方留了接话口"],
+      "safety_note": "无"
+    },
+    {
+      "id": "ice-02",
+      "category": "开学破冰",
+      "title": "宿舍第一次见面对话",
+      "level": "L1",
+      "background": "开学第一天晚上，宿舍四人到齐，有人在收拾东西，气氛有点干。",
+      "user_goal": "自然开启一段对话，认识室友，不查户口式盘问。",
+      "partner": {"role": "室友甲", "personality": "慢热、话少但友好", "current_state": "在铺床，有点累", "private_goal": "想早点收拾完给家里打电话，但不想显得不合群"},
+      "info_gap": "室友甲其实对用户的家乡很熟悉（在那里上过补习班），但不会主动说，只有用户聊到家乡话题才会接。",
+      "resistance_branches": [
+        {"level": "L2", "partner_move": "只用“嗯”“挺好的”短回应", "training_target": "不被短回应吓退，换开放话题或一起做点事"},
+        {"level": "L3", "partner_move": "聊到一半去接电话，回来话题断了", "training_target": "自然重启或换话题，不尴尬"}
+      ],
+      "observation_focus": ["是否连续发问像查户口", "是否给对方留退出空间"],
+      "safety_note": "无"
+    },
+    {
+      "id": "ice-03",
+      "category": "开学破冰",
+      "title": "加入正在进行的聊天",
+      "level": "L3",
+      "background": "迎新活动现场，三个新生围在一起聊得热闹，用户想加入。",
+      "user_goal": "自然加入对话，不打断当前话题，30 秒内获得发言位置。",
+      "partner": {"role": "聊天小组核心", "personality": "外向、主导话题", "current_state": "正讲一个社团招新的段子", "private_goal": "保持自己是话题中心，但对新人没有敌意"},
+      "info_gap": "小组刚聊到用户也了解的话题（同一个社团），但只有先听完当前段子才有自然的切入时机。",
+      "resistance_branches": [
+        {"level": "L3", "partner_move": "用户插话后话题继续，没人接用户的话", "training_target": "先承接当前话题再引入自己的信息，不硬切"},
+        {"level": "L4", "partner_move": "核心人物问“你是哪个班的”然后继续和别人聊", "training_target": "抓住被提问的窗口留下记忆点，而不是只答一句"}
+      ],
+      "observation_focus": ["是否先听后说", "是否在被给窗口时给出具体信息"],
+      "safety_note": "无"
+    },
+    {
+      "id": "ice-04",
+      "category": "开学破冰",
+      "title": "课程小组第一次组会",
+      "level": "L2",
+      "background": "专业课随机分组，四人小组第一次见面，要确定分工。",
+      "user_goal": "自我介绍并表达自己能承担的部分，不夸口也不隐身。",
+      "partner": {"role": "小组积极分子", "personality": "能干、急性子、容易替别人安排", "current_state": "已经想好了分工草案", "private_goal": "想拿高分，希望尽早分工完毕，默认别人配合"},
+      "info_gap": "积极分子草案里把汇报人角色默认分给了用户，用户不擅长当众汇报，但对方不会主动问意愿。",
+      "resistance_branches": [
+        {"level": "L3", "partner_move": "“那就这么定了，你负责汇报”", "training_target": "不硬顶也不默默接受，提出自己更适合的部分并给出理由"},
+        {"level": "L4", "partner_move": "“汇报很简单的，你上吧”", "training_target": "明确表达偏好 + 提供替代贡献方案"}
+      ],
+      "observation_focus": ["表达偏好是否具体", "是否提供替代贡献而非只拒绝"],
+      "safety_note": "无"
+    },
+    {
+      "id": "int-01",
+      "category": "社团面试",
+      "title": "学生会宣传部一面",
+      "level": "L2",
+      "background": "学生会宣传部招新一面，两位面试官，每人 8-10 分钟，一对一问答。",
+      "user_goal": "完成自我介绍、动机和经历问答，真实且有辨识度。",
+      "partner": {"role": "宣传部长", "personality": "礼貌、按流程、会记笔记", "current_state": "今天已面试 12 人", "private_goal": "快速判断候选人是否“靠谱、能干活、能坚持”，对套话免疫"},
+      "info_gap": "面试官最看重的是能否坚持做完琐碎任务，但面试题不会直接问，只从经历细节里判断。",
+      "resistance_branches": [
+        {"level": "L2", "partner_move": "追问经历中的一个具体细节“那张海报改了几版？为什么”", "training_target": "用真实事实支撑，不含糊其辞"},
+        {"level": "L3", "partner_move": "“你这个经历和我们宣传工作关系不大吧”", "training_target": "说明可迁移能力，不强行包装"}
+      ],
+      "observation_focus": ["细节是否真实具体", "动机是否落到对方需求上"],
+      "safety_note": "无"
+    },
+    {
+      "id": "int-02",
+      "category": "社团面试",
+      "title": "辩论队面试（追问型）",
+      "level": "L3",
+      "background": "辩论队招新，面试官以连续追问著称，会故意挑战回答的薄弱处。",
+      "user_goal": "在连续追问下保持一致、承认边界、不溃散。",
+      "partner": {"role": "辩论队队长", "personality": "犀利、快节奏、欣赏诚实", "current_state": "想测试抗压", "private_goal": "筛掉只会背稿的人；对承认“不知道但愿意查”的候选人加分"},
+      "info_gap": "追问不是敌意而是筛选方式；承认知识边界比硬撑得分更高，用户不知道这一点。",
+      "resistance_branches": [
+        {"level": "L3", "partner_move": "“你说你喜欢表达，那你说说上次当众表达失败的经历”", "training_target": "用真实经历回答，包含具体教训"},
+        {"level": "L4", "partner_move": "连续三次追问同一薄弱点", "training_target": "保持一致、不编造、给出愿意补足的行动"}
+      ],
+      "observation_focus": ["追问下是否前后一致", "能否承认边界并给行动"],
+      "safety_note": "无羞辱式追问；出现人身评价立即停止"
+    },
+    {
+      "id": "int-03",
+      "category": "社团面试",
+      "title": "志愿组织无相关经历",
+      "level": "L3",
+      "background": "支教志愿组织面试，用户没有任何支教或志愿经历。",
+      "user_goal": "在无直接经历的情况下给出可信回答，不编造。",
+      "partner": {"role": "项目负责人", "personality": "温和但重视动机真实性", "current_state": "见过太多“感动自己”的回答", "private_goal": "排除一时兴起的报名者，因为中途退出会伤害服务对象"},
+      "info_gap": "组织最在意退出率；回答中体现“了解辛苦面”比表达热情更得分，用户不知道。",
+      "resistance_branches": [
+        {"level": "L3", "partner_move": "“你没有相关经历，为什么觉得自己能坚持一学期”", "training_target": "用相近经历 + 可迁移能力 + 具体补足行动回答"},
+        {"level": "L4", "partner_move": "“如果期末周和支教冲突，你怎么办”", "training_target": "给可执行安排，不空泛承诺"}
+      ],
+      "observation_focus": ["是否编造经历", "是否理解服务的辛苦面"],
+      "safety_note": "无"
+    },
+    {
+      "id": "int-04",
+      "category": "社团面试",
+      "title": "群面插不上话",
+      "level": "L4",
+      "background": "社团群面，6 人一组讨论“招新方案”，20 分钟，两人特别强势。",
+      "user_goal": "在群面中获得至少三次有效发言，贡献实质内容。",
+      "partner": {"role": "强势组员", "personality": "语速快、抢话、无恶意", "current_state": "想表现自己", "private_goal": "争取个人表现分，不会主动让别人说"},
+      "info_gap": "面试官记录的是“推进讨论的行为”（总结、计时、邀请他人发言）而非说话总量，用户不知道。",
+      "resistance_branches": [
+        {"level": "L4", "partner_move": "用户刚开口就被抢话", "training_target": "用承接式进入（“接着刚才那个点…”）而非放弃或对抗"},
+        {"level": "L4", "partner_move": "讨论跑偏没人管时间", "training_target": "承担总结或计时角色获得有效发言"}
+      ],
+      "observation_focus": ["发言是否有实质推进", "是否用结构化角色获得发言位"],
+      "safety_note": "无"
+    },
+    {
+      "id": "room-01",
+      "category": "室友沟通",
+      "title": "深夜外放短视频",
+      "level": "L2",
+      "background": "晚上十一点半，室友躺床上外放短视频，用户明早八点有课。",
+      "user_goal": "让室友调小音量或戴耳机，不引发对立。",
+      "partner": {"role": "室友", "personality": "大大咧咧、吃软不吃硬", "current_state": "刷得正开心，没意识到音量", "private_goal": "不想被管，但对合理请求愿意配合，怕丢面子"},
+      "info_gap": "室友其实愿意戴耳机，只是没想到；如果用户用指责开场，他会为了面子对抗。",
+      "resistance_branches": [
+        {"level": "L2", "partner_move": "“也没多大声吧”", "training_target": "简短说明影响并重复具体请求"},
+        {"level": "L3", "partner_move": "“你上次不也外放了”", "training_target": "分开两个议题，先确认当前请求，再约后续讨论"}
+      ],
+      "observation_focus": ["请求是否具体可执行", "被反击后是否保住原目标"],
+      "safety_note": "出现辱骂伴随恐吓、摔东西时停止训练转安全分流"
+    },
+    {
+      "id": "room-02",
+      "category": "室友沟通",
+      "title": "卫生值日长期缺席",
+      "level": "L3",
+      "background": "宿舍轮流值日，某位室友连续三周没倒垃圾，群里提醒只回“哦”。",
+      "user_goal": "让值日安排真正执行，而不只是又得到一句“哦”。",
+      "partner": {"role": "室友", "personality": "拖延、回避冲突、答应快忘得也快", "current_state": "觉得大家小题大做", "private_goal": "希望蒙混过去；如果被逼太紧会搬出“我这周真的很忙”"},
+      "info_gap": "室友这周确实有两门考试，但没主动说；一个带具体时间和交接确认的方案他会接受。",
+      "resistance_branches": [
+        {"level": "L3", "partner_move": "“知道了，等下就倒”，然后不动", "training_target": "把“以后”变成当前可确认的动作和时间"},
+        {"level": "L4", "partner_move": "“就这点事至于吗”", "training_target": "说明影响不升级成人身攻击，提出可执行安排"}
+      ],
+      "observation_focus": ["是否把口头答应转为可确认行动", "是否对事不对人"],
+      "safety_note": "无"
+    },
+    {
+      "id": "room-03",
+      "category": "室友沟通",
+      "title": "拒绝代签到",
+      "level": "L3",
+      "background": "关系不错的室友发消息让用户帮忙代签早八，说“就这一次”。",
+      "user_goal": "明确拒绝且不伤害关系，不协助违规。",
+      "partner": {"role": "室友", "personality": "人缘好、习惯性求人", "current_state": "想睡懒觉", "private_goal": "如果被拒会找别人，但嘴上会施压“这点忙都不帮”"},
+      "info_gap": "室友其实有备选人选，拒绝不会真伤害关系；用户的愧疚感是主要障碍。",
+      "resistance_branches": [
+        {"level": "L3", "partner_move": "“就这一次，下不为例”", "training_target": "重复边界不追加新解释"},
+        {"level": "L4", "partner_move": "“咱们这关系你都不帮”", "training_target": "不被情绪绑架，明确拒绝 + 可给合规的替代帮助（如叫醒、带早饭）"}
+      ],
+      "observation_focus": ["拒绝是否明确不模糊", "是否提供合规替代而非妥协违规"],
+      "safety_note": "不协助代签、作弊等违规请求，不提供规避检查的话术"
+    },
+    {
+      "id": "room-04",
+      "category": "室友沟通",
+      "title": "空调温度之争",
+      "level": "L4",
+      "background": "盛夏，用户怕热想开 24 度，室友怕冷坚持 27 度，已冷战两天。",
+      "user_goal": "打破冷战，协商出一个双方都能执行的方案。",
+      "partner": {"role": "室友", "personality": "固执、怕冷是身体原因", "current_state": "也在生气，觉得用户不尊重人", "private_goal": "其实接受“定时+风向调整”类方案，但需要对方先给台阶"},
+      "info_gap": "室友怕冷是因为鼻炎，空调直吹会犯病；这个信息只有用户先示好才会说。",
+      "resistance_branches": [
+        {"level": "L4", "partner_move": "用户开口后对方冷淡“随便你”", "training_target": "识别“随便”不是共识，继续确认真实可执行方案"},
+        {"level": "L4", "partner_move": "“上次就是你先调的温度”", "training_target": "不纠缠谁先谁后，聚焦可执行的共同方案"}
+      ],
+      "observation_focus": ["是否把立场之争翻译成各自需要", "方案是否具体可执行"],
+      "safety_note": "无"
+    },
+    {
+      "id": "tch-01",
+      "category": "师生沟通",
+      "title": "微信催问成绩",
+      "level": "L2",
+      "background": "课程论文成绩比学院通知的时间晚了一周还没出，奖学金评定要用，用户想发消息问任课老师。",
+      "user_goal": "发一条礼貌、具体、不显得催逼的消息，拿到明确答复。",
+      "partner": {"role": "任课老师", "personality": "严谨、消息多、反感含糊", "current_state": "成绩已交学院，卡在教务流程", "private_goal": "希望学生先自查通知和教务系统，不要什么问题都直接问"},
+      "info_gap": "老师不能改变教务进度，但可以告诉用户准确的状态和预计时间；前提是用户说明具体用途（奖学金截止日）。",
+      "resistance_branches": [
+        {"level": "L2", "partner_move": "回复“等通知”", "training_target": "补充具体用途和截止日，礼貌请求明确时间点"},
+        {"level": "L3", "partner_move": "两天未读，截止日临近", "training_target": "二次跟进换渠道（邮件/办公时间），不连发消息"}
+      ],
+      "observation_focus": ["消息是否含具体事项+时限+请求", "二次跟进是否换渠道不轰炸"],
+      "safety_note": "无"
+    },
+    {
+      "id": "tch-02",
+      "category": "师生沟通",
+      "title": "请求缓交作业",
+      "level": "L3",
+      "background": "家人生病用户回家照顾三天，作业后天截止，需要向老师申请缓交。",
+      "user_goal": "说明情况、提出明确的新提交时间，给老师可批准的方案。",
+      "partner": {"role": "任课老师", "personality": "有原则、愿意通融但需要凭据", "current_state": "本学期已收到过多模糊请假", "private_goal": "区分真实困难和借口；对含糊其辞一律按规则办"},
+      "info_gap": "老师可以接受缓交，但需要具体的新日期和简要证明；用户不需要过度交代隐私细节。",
+      "resistance_branches": [
+        {"level": "L3", "partner_move": "“这周已经有三个人请假了”", "training_target": "给具体事实、新时间和材料，不过度道歉也不过度解释隐私"},
+        {"level": "L4", "partner_move": "“按规矩迟交扣 20%”", "training_target": "接受规则或提出可验证凭据，不争辩规则本身"}
+      ],
+      "observation_focus": ["事实-请求-时限是否齐全", "是否过度暴露隐私或过度道歉"],
+      "safety_note": "无"
+    },
+    {
+      "id": "tch-03",
+      "category": "师生沟通",
+      "title": "找导师谈换方向",
+      "level": "L4",
+      "background": "用户进入导师课题组一学期，发现方向不适合自己，想约导师当面谈换方向，担心导师不高兴。",
+      "user_goal": "当面说明想法，争取导师理解，把对双方的影响降到最低。",
+      "partner": {"role": "导师", "personality": "严师、重承诺、其实尊重学生主动性", "current_state": "已为用户排了下学期任务", "private_goal": "不满的不是换方向，而是“临时通知”；对提前沟通+交接方案的学生评价更高"},
+      "info_gap": "导师最反感的是学生先斩后奏；只要用户带着交接方案来谈，结果会好于预期，用户不知道。",
+      "resistance_branches": [
+        {"level": "L4", "partner_move": "“我都给你排好下学期的活了”", "training_target": "承认给对方带来的影响，提出交接与过渡方案"},
+        {"level": "L4", "partner_move": "“你是不是吃不了苦”", "training_target": "不辩解人格，用具体证据说明适配问题，保留决定权"}
+      ],
+      "observation_focus": ["是否提前沟通而非先斩后奏", "是否有交接方案而非只表达想法"],
+      "safety_note": "涉及导师权力不对等；如出现威胁毕业、报复暗示，停止训练转学院渠道"
+    },
+    {
+      "id": "tch-04",
+      "category": "师生沟通",
+      "title": "向助教请教问题",
+      "level": "L1",
+      "background": "作业题卡了两天，用户想在答疑时间问助教，但怕问题太基础被笑话。",
+      "user_goal": "把问题问清楚：说明已尝试什么、卡在哪一步。",
+      "partner": {"role": "助教", "personality": "耐心、时间有限", "current_state": "答疑队伍很长", "private_goal": "希望学生先自己试过再问；最反感“这题怎么做”式白拿"},
+      "info_gap": "助教对“已做尝试 + 具体卡点”的问题会优先详细解答，用户不知道这种问法反而省时间。",
+      "resistance_branches": [
+        {"level": "L2", "partner_move": "“你课本第几章看了吗”", "training_target": "诚实说明已尝试内容，不不懂装懂"},
+        {"level": "L3", "partner_move": "后面排队同学在等，助教示意快点", "training_target": "用一句话定位卡点，必要时约后续时间"}
+      ],
+      "observation_focus": ["问题是否定位到具体卡点", "是否说明已尝试"],
+      "safety_note": "无"
+    }
+  ]
+}

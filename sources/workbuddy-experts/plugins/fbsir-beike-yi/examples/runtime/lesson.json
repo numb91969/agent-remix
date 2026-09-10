@@ -1,0 +1,176 @@
+{
+  "schemaVersion": "beike-yi.lesson/v2",
+  "id": "fraction-demo",
+  "title": "认识几分之一",
+  "subject": "数学",
+  "grade": "三年级示例",
+  "durationMinutes": 40,
+  "goal": "通过折纸和辨析，说明几分之一表示的含义，并能判断一种分法是否属于平均分。",
+  "chosenOption": "折纸观察与反例辨析",
+  "materialRefs": [
+    "S1"
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "kind": "local_material",
+      "title": "合成课例材料",
+      "locator": "material.md 第1至4行",
+      "readStatus": "read",
+      "path": "material.md",
+      "bytes": 345,
+      "sha256": "23a7ff1ffab8db9e01ba4d289374473889bf4dd7e9d586b1b90df13ebaa0c009",
+      "unverifiedScope": [
+        "未绑定任何真实教材版次",
+        "课堂效果未经教师试教"
+      ]
+    }
+  ],
+  "assumptions": [
+    "本例采用40分钟课时；实际课时以教师说明为准。",
+    "学生已有平均分的初步经验，如缺少则先用操作补足。"
+  ],
+  "confirmedFacts": [
+    "这是一份用于验证交付流程的合成课例，不代表真实学校教学安排。"
+  ],
+  "lockedFields": [
+    "objectives",
+    "assessments",
+    "homework"
+  ],
+  "objectives": [
+    {
+      "id": "O1",
+      "text": "用折纸结果解释把一个整体平均分后的一份，并以二分之一、四分之一为例说明。",
+      "sourceRefs": [
+        "S1"
+      ]
+    },
+    {
+      "id": "O2",
+      "text": "判断纸片是否平均分，并用每份是否一样大说明理由。",
+      "sourceRefs": [
+        "S1"
+      ]
+    }
+  ],
+  "prerequisites": [
+    "能用重合等操作判断两部分大小是否相同。",
+    "理解一个整体在同一道题中指什么。"
+  ],
+  "activities": [
+    {
+      "id": "intro",
+      "title": "观察两种分法",
+      "minutes": 5,
+      "objectiveIds": [
+        "O2"
+      ],
+      "teacherMoves": "出示两张相同大小的纸，一张对折，另一张分成明显不等的两部分。请学生先独立判断，再同桌解释。",
+      "studentTask": "判断哪张纸分得公平，用重合或指认大小的方法说明原因。",
+      "expectedEvidence": "学生能指出两部分一样大才是平均分，而不是只数有两部分。",
+      "misconception": "认为只要分成两份就能称其中一份为二分之一。",
+      "fallback": "让学生把两部分重合比较，再回到原问题，不急于引入符号。",
+      "resources": [
+        "两张同样大小的纸"
+      ],
+      "sourceRefs": [
+        "S1"
+      ]
+    },
+    {
+      "id": "explore",
+      "title": "折出整体的一份",
+      "minutes": 15,
+      "objectiveIds": [
+        "O1",
+        "O2"
+      ],
+      "teacherMoves": "先示范把纸对折并涂出其中一份，讨论整体、平均分和一份。再让小组用另一张相同大小的纸尝试平均分成四份。",
+      "studentTask": "完成两次折纸并涂色，用一句话解释涂色部分与整个纸片的关系。",
+      "expectedEvidence": "学生描述中同时出现整体、平均分成几份及其中一份；能解释不同折法仍可能各份相等。",
+      "misconception": "只记住符号读法，没有把分出的份数与整体对应。",
+      "fallback": "把表达句分成三个问题：哪一个整体、分成几份、各份是否一样大。",
+      "resources": [
+        "同样大小的长方形纸",
+        "彩笔"
+      ],
+      "sourceRefs": [
+        "S1"
+      ]
+    },
+    {
+      "id": "practice",
+      "title": "辨析并解释",
+      "minutes": 12,
+      "objectiveIds": [
+        "O1",
+        "O2"
+      ],
+      "teacherMoves": "出示平均分与不平均分的图形，让学生先选择再说明。对错误判断追问依据，避免只报答案。",
+      "studentTask": "从教师提供的图形中选出能够表示二分之一或四分之一的例子，说明不符合的图形差在哪里。",
+      "expectedEvidence": "学生能用平均分这一条件否定反例，并区分分成的份数与涂色份数。",
+      "misconception": "忽略整体是否相同，直接比较不同大小纸张上的涂色部分。",
+      "fallback": "先统一整体大小，再比较；必要时只保留两张最有对比性的图。",
+      "resources": [
+        "教师准备的正例和反例图"
+      ],
+      "sourceRefs": [
+        "S1"
+      ]
+    },
+    {
+      "id": "exit",
+      "title": "独立检测与回顾",
+      "minutes": 8,
+      "objectiveIds": [
+        "O1",
+        "O2"
+      ],
+      "teacherMoves": "请学生独立完成两道检测题，抽取解释进行讨论，再用一句话回顾分数表示条件。",
+      "studentTask": "完成检测题并写一句解释。与同桌交换，检查解释中是否说明了平均分。",
+      "expectedEvidence": "独立答案与理由能同时支持目标，教师能据此判断下一课是否需要补充操作活动。",
+      "misconception": "通过同桌答案完成任务，但无法独立解释。",
+      "fallback": "先保留独立作答，再交流；未能解释的学生下次继续用纸片操作。",
+      "resources": [
+        "检测题"
+      ],
+      "sourceRefs": [
+        "S1"
+      ]
+    }
+  ],
+  "assessments": [
+    {
+      "id": "E1",
+      "objectiveIds": [
+        "O1"
+      ],
+      "prompt": "把一张纸平均分成四份，涂出其中一份。请说明涂色部分表示什么以及理由。",
+      "expectedAnswer": "表示这张纸的四分之一，因为整个纸片被平均分成四份，涂色是其中的一份。",
+      "rubric": "能说明整体、平均分成四份和其中一份；仅报名称时追问依据。",
+      "sourceRefs": [
+        "S1"
+      ]
+    },
+    {
+      "id": "E2",
+      "objectiveIds": [
+        "O2"
+      ],
+      "prompt": "一张纸分成了大小不同的两份，其中一份可以说是这张纸的二分之一吗？说明理由。",
+      "expectedAnswer": "不可以，因为两份大小不同，没有平均分。",
+      "rubric": "结论与理由一致，理由明确提到两部分是否一样大。",
+      "sourceRefs": [
+        "S1"
+      ]
+    }
+  ],
+  "homework": "在一张纸上设计一种平均分法，涂出其中一份，并向家人说明整体、分成的份数和涂色部分；不要求拍照或收集家庭信息。",
+  "reviewPoints": [
+    "请教师确认年级、教材进度和平均分的前置经验。",
+    "检查准备的反例确实不是平均分，整体大小在需要比较时保持一致。",
+    "本稿未绑定正式教材版次；不据此宣称符合学校模板或已验证教学效果。"
+  ],
+  "nextStep": "教师核对前置经验后，试讲观察两种分法的导入环节。"
+}

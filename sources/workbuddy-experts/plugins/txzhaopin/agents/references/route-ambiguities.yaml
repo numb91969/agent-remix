@@ -1,0 +1,214 @@
+schema_version: "1.0"
+
+groups:
+  candidate_view:
+    question: "你想看这位候选人的哪一部分？"
+    options:
+      - id: resume_fit
+        label: 简历匹配度
+        description: 评估经历、技能和岗位要求是否匹配
+      - id: realtime_progress
+        label: 当前招聘进度
+        description: 查询候选人卡在哪一步或当前流程状态
+      - id: interview_evaluation
+        label: 面试或面评
+        description: 查看面试待办、安排、记录或评价
+
+  missing_objective:
+    question: "你希望查询或处理什么招聘对象，最终想得到什么结果？"
+    options:
+      - id: candidate
+        label: 候选人
+        description: 简历、流程、面试、面评或联系情况
+      - id: position_process
+        label: 岗位或流程
+        description: 岗位配置、招聘事项或实时流程状态
+      - id: recruitment_data
+        label: 招聘数据
+        description: 漏斗、效率、转化率或趋势分析
+
+  recruit_type:
+    question: "这是校招还是社招？"
+    options:
+      - id: campus
+        label: 校招
+        description: 应届生、实习生、毕业生或校园招聘
+      - id: social
+        label: 社招
+        description: 有工作经验的在职或社会招聘候选人
+
+  sourcing_channel:
+    question: "你希望通过哪种方式找人？"
+    options:
+      - id: internal_pool
+        label: 内部简历库
+        description: 搜索已进入公司招聘系统的候选人
+      - id: external_mapping
+        label: 外部人才寻访
+        description: 根据公开信息研究竞对团队和潜在人才
+      - id: headhunter
+        label: 猎头委外
+        description: 推荐合适的供应商去找人
+
+  contact_channel:
+    question: "你希望怎么联系候选人？"
+    options:
+      - id: ai_outbound
+        label: AI 电话外呼
+        description: 自动致电确认社招岗位意向
+      - id: interview_invitation
+        label: 系统面试邀约
+        description: 发起或安排面试
+
+  progress_source:
+    question: "你要看实时流程还是历史统计？"
+    options:
+      - id: realtime
+        label: 实时流程
+        description: 当前卡在哪一步、待办或已办事项
+      - id: warehouse
+        label: 历史统计
+        description: 漏斗、完成率、转化率和趋势
+
+  brand_review:
+    question: "你要审物料规范，还是评估发出去后的舆情风险？"
+    options:
+      - id: material_compliance
+        label: 物料合规
+        description: JD、PPT、海报、推文的事实、文字和规范
+      - id: sentiment_risk
+        label: 舆情风险
+        description: 对外发声是否可能引发负面或争议
+
+  schedule_or_now:
+    question: "你要现在执行一次，还是创建以后自动执行的定时任务？"
+    options:
+      - id: run_now
+        label: 现在执行
+        description: 本轮立即查询或处理一次
+      - id: schedule
+        label: 创建定时任务
+        description: 按每天、每周或每月自动执行
+
+  modeling_source:
+    question: "你要设计新岗位的人才标准，还是从历史面评数据反推岗位模型？"
+    options:
+      - id: design
+        label: 设计人才标准
+        description: 为岗位定义胜任力和甄选标准
+      - id: infer
+        label: 数据反推模型
+        description: 基于批量历史面评生成岗位模型
+
+  question_scope:
+    question: "你要针对某位候选人出题，还是为岗位设计整套题本？"
+    options:
+      - id: candidate
+        label: 候选人个性化题目
+        description: 根据已知简历生成针对性问题
+      - id: position
+        label: 岗位整套题本
+        description: 设计统一题目、评分锚点和覆盖结构
+
+  evaluation_action:
+    question: "你要写/提交一场面评、审核面评质量，还是处理批量面评数据？"
+    options:
+      - id: write
+        label: 写或提交面评
+        description: 针对一场具体面试完成评价
+      - id: audit
+        label: 审核面评
+        description: 判断已有评价的证据和质量
+      - id: batch_data
+        label: 批量数据处理
+        description: 清洗文件或从历史面评反推模型
+
+  rule_or_action:
+    question: "你要查询规则，还是执行实际招聘动作？"
+    options:
+      - id: rule
+        label: 查询制度规则
+        description: 了解条件、奖金、协议或系统规则
+      - id: action
+        label: 执行业务动作
+        description: 对候选人、流程或供应商采取操作
+
+  query_or_sql:
+    question: "你要我直接返回查询结果，还是只生成 SQL？"
+    options:
+      - id: result
+        label: 直接查数
+        description: 执行查询并解释结果
+      - id: sql
+        label: 只要 SQL
+        description: 生成或审查 StarRocks SQL
+
+  no_data_reason:
+    question: "你怀疑是权限/脱敏问题，还是要继续排查业务上确实没有数据？"
+    options:
+      - id: permission
+        label: 权限或脱敏
+        description: 检查星号、异常零值和权限范围
+      - id: business_empty
+        label: 业务无数据
+        description: 检查筛选条件、时间范围和数据沉淀
+
+  query_or_code:
+    question: "你要查询结果，还是生成前端调用数仓的代码？"
+    options:
+      - id: result
+        label: 查询结果
+        description: 直接从数仓取数并分析
+      - id: frontend_code
+        label: 前端取数代码
+        description: 生成浏览器端 fetch/axios 调用
+
+  competitor_view:
+    question: "你要研究竞对团队和人才，还是竞品雇主品牌与人才策略？"
+    options:
+      - id: people
+        label: 团队与人才
+        description: 组织结构、关键人才和可寻访对象
+      - id: brand
+        label: 品牌与人才策略
+        description: 候选人感知、招聘传播和竞品策略
+
+  scoring_context:
+    question: "你要处理测验平台成绩，还是面试题/面试评价？"
+    options:
+      - id: quiz
+        label: 测验平台
+        description: 阅卷建议、成绩单、重评或导出
+      - id: interview
+        label: 面试甄选
+        description: 面试题质量或候选人面试评价
+
+  strategy_or_copy:
+    question: "你要整体传播方案，还是直接产出可发布文案？"
+    options:
+      - id: strategy
+        label: 整体传播方案
+        description: 策略、节奏、渠道和活动打法
+      - id: copy
+        label: 直接出文案
+        description: 推文、标题、摘要或社媒成稿
+
+  write_or_review_jd:
+    question: "你要从需求生成 JD，还是审核一份已有 JD？"
+    options:
+      - id: write
+        label: 生成 JD
+        description: 从招聘需求产出岗位职责和要求
+      - id: review
+        label: 审核 JD
+        description: 检查已有 JD 的事实、文字和合规
+
+  research_or_metrics:
+    question: "你要候选人主观调研，还是客观招聘数据统计？"
+    options:
+      - id: research
+        label: 调研与反馈
+        description: 问卷、品牌感知、体验和拒 Offer 原因
+      - id: metrics
+        label: 数仓指标
+        description: 漏斗、转化率、录用和入职数据

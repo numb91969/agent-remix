@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "mibao.analysis-profile.v1",
+  "name": "comprehensive",
+  "label": "全面分析",
+  "description": "技术、结构、视觉、音频、文本、检索、质量和交付验收的完整分析包。",
+  "steps": [
+    {"id": "inventory", "required": true, "default": true, "output": "technical/manifest.json", "acceptance": "input manifest exists"},
+    {"id": "technical", "required": true, "default": true, "output": "technical/ffprobe.json", "acceptance": "probe completed"},
+    {"id": "evidence", "required": true, "default": true, "output": "evidence/evidence-manifest.json", "acceptance": "all evidence files decode and hash"},
+    {"id": "scenes", "required": false, "default": true, "output": "technical/scenes.json", "acceptance": "scene result has threshold and timecodes"},
+    {"id": "audio", "required": false, "default": true, "output": "technical/audio-analysis.json", "acceptance": "audio metrics recorded"},
+    {"id": "visual", "required": false, "default": true, "requires": "multimodal-capability", "output": "findings/visual-findings.json", "acceptance": "findings cite evidence IDs"},
+    {"id": "transcript", "required": false, "default": true, "requires": "asr-capability", "output": "transcript/transcript.json", "acceptance": "timecodes are ordered and non-overlapping"},
+    {"id": "ocr", "required": false, "default": true, "requires": "ocr-capability", "output": "transcript/ocr.json", "acceptance": "text cites frame or timecode"},
+    {"id": "index", "required": true, "default": true, "output": "index/index.sqlite3", "acceptance": "records searchable"},
+    {"id": "alignment", "required": false, "default": true, "output": "findings/aligned-findings.json", "acceptance": "sources and conflicts recorded"},
+    {"id": "report", "required": true, "default": true, "output": "report/index.html", "acceptance": "report references existing outputs"},
+    {"id": "acceptance", "required": true, "default": true, "output": "acceptance.json", "acceptance": "no unresolved consistency conflict"}
+  ]
+}

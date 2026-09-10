@@ -1,0 +1,387 @@
+{
+  "built_at": "2026-09-09T16:58:01+00:00",
+  "agent_records": 1004,
+  "family_count": 756,
+  "domain_count": 20,
+  "source_counts": {
+    "agency_en": 280,
+    "agency_zh": 278,
+    "workbuddy": 446
+  },
+  "repo_common_role_paths": 227,
+  "repo_unique_role_paths": 331,
+  "workbuddy_skill_count": 721,
+  "workbuddy_skill_refs": 929,
+  "agent_skill_records": 929,
+  "links": {
+    "by_source": 1004,
+    "by_domain": 1004,
+    "by_family": 1004,
+    "skills": 721,
+    "skills_by_agent": 929
+  },
+  "domains": [
+    {
+      "domain_id": "company",
+      "name_zh": "公司经营",
+      "name_en": "Company",
+      "agent_count": 7,
+      "family_count": 7,
+      "source_counts": {
+        "agency_zh": 7
+      },
+      "subcategory_counts": {
+        "company": 7
+      }
+    },
+    {
+      "domain_id": "content-creative",
+      "name_zh": "内容创作",
+      "name_en": "Content & Creative",
+      "agent_count": 48,
+      "family_count": 48,
+      "source_counts": {
+        "workbuddy": 48
+      },
+      "subcategory_counts": {
+        "内容创作": 48
+      }
+    },
+    {
+      "domain_id": "data-ai",
+      "name_zh": "数据智能",
+      "name_en": "Data & AI",
+      "agent_count": 70,
+      "family_count": 57,
+      "source_counts": {
+        "agency_en": 13,
+        "agency_zh": 13,
+        "workbuddy": 44
+      },
+      "subcategory_counts": {
+        "gis": 26,
+        "数据智能": 44
+      }
+    },
+    {
+      "domain_id": "education",
+      "name_zh": "教育学术",
+      "name_en": "Education & Academia",
+      "agent_count": 24,
+      "family_count": 19,
+      "source_counts": {
+        "agency_en": 7,
+        "agency_zh": 6,
+        "workbuddy": 11
+      },
+      "subcategory_counts": {
+        "academic": 12,
+        "research": 1,
+        "开学季": 11
+      }
+    },
+    {
+      "domain_id": "engineering",
+      "name_zh": "技术工程",
+      "name_en": "Engineering",
+      "agent_count": 153,
+      "family_count": 119,
+      "source_counts": {
+        "agency_en": 65,
+        "agency_zh": 43,
+        "workbuddy": 45
+      },
+      "subcategory_counts": {
+        "engineering": 106,
+        "integrations": 2,
+        "技术工程": 45
+      }
+    },
+    {
+      "domain_id": "finance",
+      "name_zh": "金融投资",
+      "name_en": "Finance",
+      "agent_count": 52,
+      "family_count": 47,
+      "source_counts": {
+        "agency_en": 5,
+        "agency_zh": 9,
+        "workbuddy": 38
+      },
+      "subcategory_counts": {
+        "finance": 14,
+        "金融投资": 38
+      }
+    },
+    {
+      "domain_id": "game-spatial",
+      "name_zh": "游戏空间",
+      "name_en": "Game & Spatial",
+      "agent_count": 78,
+      "family_count": 34,
+      "source_counts": {
+        "agency_en": 27,
+        "agency_zh": 26,
+        "workbuddy": 25
+      },
+      "subcategory_counts": {
+        "game-development": 41,
+        "spatial-computing": 12,
+        "游戏空间": 25
+      }
+    },
+    {
+      "domain_id": "global-development",
+      "name_zh": "全球发展",
+      "name_en": "Global Development",
+      "agent_count": 21,
+      "family_count": 21,
+      "source_counts": {
+        "workbuddy": 21
+      },
+      "subcategory_counts": {
+        "全球发展": 21
+      }
+    },
+    {
+      "domain_id": "healthcare",
+      "name_zh": "医疗健康",
+      "name_en": "Healthcare",
+      "agent_count": 3,
+      "family_count": 3,
+      "source_counts": {
+        "agency_en": 3
+      },
+      "subcategory_counts": {
+        "healthcare": 3
+      }
+    },
+    {
+      "domain_id": "industry-consulting",
+      "name_zh": "行业顾问",
+      "name_en": "Industry Consulting",
+      "agent_count": 34,
+      "family_count": 34,
+      "source_counts": {
+        "workbuddy": 34
+      },
+      "subcategory_counts": {
+        "行业顾问": 34
+      }
+    },
+    {
+      "domain_id": "legal-security",
+      "name_zh": "法务安全",
+      "name_en": "Legal & Security",
+      "agent_count": 51,
+      "family_count": 41,
+      "source_counts": {
+        "agency_en": 12,
+        "agency_zh": 12,
+        "workbuddy": 27
+      },
+      "subcategory_counts": {
+        "legal": 2,
+        "security": 22,
+        "法务安全": 27
+      }
+    },
+    {
+      "domain_id": "marketing-growth",
+      "name_zh": "营销增长",
+      "name_en": "Marketing & Growth",
+      "agent_count": 130,
+      "family_count": 87,
+      "source_counts": {
+        "agency_en": 43,
+        "agency_zh": 50,
+        "workbuddy": 37
+      },
+      "subcategory_counts": {
+        "marketing": 79,
+        "paid-media": 14,
+        "营销增长": 37
+      }
+    },
+    {
+      "domain_id": "operations-hr",
+      "name_zh": "运营人力",
+      "name_en": "Operations & HR",
+      "agent_count": 19,
+      "family_count": 19,
+      "source_counts": {
+        "agency_zh": 2,
+        "workbuddy": 17
+      },
+      "subcategory_counts": {
+        "hr": 2,
+        "运营人力": 17
+      }
+    },
+    {
+      "domain_id": "product-design",
+      "name_zh": "产品设计",
+      "name_en": "Product & Design",
+      "agent_count": 50,
+      "family_count": 36,
+      "source_counts": {
+        "agency_en": 15,
+        "agency_zh": 15,
+        "workbuddy": 20
+      },
+      "subcategory_counts": {
+        "design": 20,
+        "product": 10,
+        "产品设计": 20
+      }
+    },
+    {
+      "domain_id": "project-quality",
+      "name_zh": "项目质量",
+      "name_en": "Project & Quality",
+      "agent_count": 57,
+      "family_count": 42,
+      "source_counts": {
+        "agency_en": 16,
+        "agency_zh": 16,
+        "workbuddy": 25
+      },
+      "subcategory_counts": {
+        "project-management": 14,
+        "testing": 18,
+        "项目质量": 25
+      }
+    },
+    {
+      "domain_id": "sales-commerce",
+      "name_zh": "销售商务",
+      "name_en": "Sales & Commerce",
+      "agent_count": 35,
+      "family_count": 24,
+      "source_counts": {
+        "agency_en": 9,
+        "agency_zh": 9,
+        "workbuddy": 17
+      },
+      "subcategory_counts": {
+        "sales": 18,
+        "销售商务": 17
+      }
+    },
+    {
+      "domain_id": "strategy",
+      "name_zh": "战略专项",
+      "name_en": "Strategy & Specialized",
+      "agent_count": 117,
+      "family_count": 69,
+      "source_counts": {
+        "agency_en": 59,
+        "agency_zh": 58
+      },
+      "subcategory_counts": {
+        "specialized": 117
+      }
+    },
+    {
+      "domain_id": "supply-chain",
+      "name_zh": "供应链",
+      "name_en": "Supply Chain",
+      "agent_count": 5,
+      "family_count": 5,
+      "source_counts": {
+        "agency_zh": 5
+      },
+      "subcategory_counts": {
+        "supply-chain": 5
+      }
+    },
+    {
+      "domain_id": "support",
+      "name_zh": "客户支持",
+      "name_en": "Customer Support",
+      "agent_count": 13,
+      "family_count": 7,
+      "source_counts": {
+        "agency_en": 6,
+        "agency_zh": 7
+      },
+      "subcategory_counts": {
+        "support": 13
+      }
+    },
+    {
+      "domain_id": "tencent",
+      "name_zh": "腾讯专区",
+      "name_en": "Tencent",
+      "agent_count": 37,
+      "family_count": 37,
+      "source_counts": {
+        "workbuddy": 37
+      },
+      "subcategory_counts": {
+        "腾讯专区": 37
+      }
+    }
+  ],
+  "source_rows": [
+    {
+      "source_id": "agency_zh",
+      "label": "Agency Agents 中文仓库",
+      "repository": "https://github.com/jnmetacode/AGENCY-AGENTS-ZH",
+      "commit": "b08f35c07c62d985d0c60a4faaa7304ad4aee686",
+      "snapshot_path": "sources/AGENCY-AGENTS-ZH",
+      "record_count": 278,
+      "metadata": {
+        "repository": "https://github.com/jnmetacode/AGENCY-AGENTS-ZH",
+        "owner": "jnmetacode",
+        "repo": "AGENCY-AGENTS-ZH",
+        "commit": "b08f35c07c62d985d0c60a4faaa7304ad4aee686",
+        "tree_entries": 366,
+        "downloaded": 0,
+        "skipped": 366,
+        "present": 366,
+        "complete": true,
+        "failures": [],
+        "fetched_at": "2026-09-09T16:51:14+00:00"
+      }
+    },
+    {
+      "source_id": "agency_en",
+      "label": "Agency Agents 英文仓库",
+      "repository": "https://github.com/msitarzewski/AGENCY-AGENTS",
+      "commit": "6d29a9b08785a0e49ffc9818bbdd381164c2df5f",
+      "snapshot_path": "sources/AGENCY-AGENTS",
+      "record_count": 280,
+      "metadata": {
+        "repository": "https://github.com/msitarzewski/AGENCY-AGENTS",
+        "owner": "msitarzewski",
+        "repo": "AGENCY-AGENTS",
+        "commit": "6d29a9b08785a0e49ffc9818bbdd381164c2df5f",
+        "tree_entries": 362,
+        "downloaded": 0,
+        "skipped": 362,
+        "present": 362,
+        "complete": true,
+        "failures": [],
+        "fetched_at": "2026-09-09T16:51:13+00:00"
+      }
+    },
+    {
+      "source_id": "workbuddy",
+      "label": "WorkBuddy 本地专家包",
+      "repository": "local:sources/workbuddy-experts",
+      "commit": "",
+      "snapshot_path": "catalog/workbuddy_expert_catalog/experts.db",
+      "record_count": 446,
+      "metadata": {
+        "database": "catalog/workbuddy_expert_catalog/experts.db"
+      }
+    }
+  ],
+  "validation": {
+    "source_agent_paths_present": 1004,
+    "source_agent_paths_expected": 1004,
+    "skill_paths_present": 721,
+    "skill_rows_expected": 721
+  }
+}

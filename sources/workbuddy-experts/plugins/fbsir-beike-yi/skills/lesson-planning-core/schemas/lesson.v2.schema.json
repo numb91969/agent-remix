@@ -1,0 +1,422 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:fbsir:beike-yi:lesson:2",
+  "title": "Lesson document",
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "type": "string",
+      "const": "beike-yi.lesson/v2"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9_-]{0,63}$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 12000
+    },
+    "subject": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 12000
+    },
+    "grade": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 12000
+    },
+    "durationMinutes": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 240
+    },
+    "goal": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 12000
+    },
+    "chosenOption": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 12000
+    },
+    "materialRefs": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 12000
+      },
+      "minItems": 0,
+      "maxItems": 100
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/source"
+      },
+      "minItems": 0,
+      "maxItems": 100
+    },
+    "assumptions": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 12000
+      },
+      "minItems": 0,
+      "maxItems": 100
+    },
+    "confirmedFacts": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 12000
+      },
+      "minItems": 0,
+      "maxItems": 100
+    },
+    "lockedFields": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 12000
+      },
+      "minItems": 0,
+      "maxItems": 100
+    },
+    "objectives": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/objective"
+      },
+      "minItems": 1,
+      "maxItems": 20
+    },
+    "prerequisites": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 12000
+      },
+      "minItems": 1,
+      "maxItems": 20
+    },
+    "activities": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/activity"
+      },
+      "minItems": 1,
+      "maxItems": 30
+    },
+    "assessments": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/assessment"
+      },
+      "minItems": 1,
+      "maxItems": 30
+    },
+    "homework": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 12000
+    },
+    "reviewPoints": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 12000
+      },
+      "minItems": 1,
+      "maxItems": 30
+    },
+    "nextStep": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 12000
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "id",
+    "title",
+    "subject",
+    "grade",
+    "durationMinutes",
+    "goal",
+    "chosenOption",
+    "materialRefs",
+    "sources",
+    "assumptions",
+    "confirmedFacts",
+    "lockedFields",
+    "objectives",
+    "prerequisites",
+    "activities",
+    "assessments",
+    "homework",
+    "reviewPoints",
+    "nextStep"
+  ],
+  "additionalProperties": false,
+  "$defs": {
+    "source": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 12000
+        },
+        "kind": {
+          "type": "string",
+          "enum": [
+            "local_material",
+            "teacher_statement",
+            "teaching_suggestion",
+            "inference",
+            "host_material"
+          ]
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 12000
+        },
+        "locator": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 12000
+        },
+        "readStatus": {
+          "type": "string",
+          "enum": [
+            "read",
+            "read_partial",
+            "teacher_provided",
+            "not_read"
+          ]
+        },
+        "path": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 12000
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "bytes": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "unverifiedScope": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 12000
+          },
+          "minItems": 0,
+          "maxItems": 100
+        },
+        "observationRef": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 12000
+        }
+      },
+      "required": [
+        "id",
+        "kind",
+        "title",
+        "locator",
+        "readStatus"
+      ],
+      "additionalProperties": false
+    },
+    "objective": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 12000
+        },
+        "text": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 12000
+        },
+        "sourceRefs": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 12000
+          },
+          "minItems": 0,
+          "maxItems": 100
+        }
+      },
+      "required": [
+        "id",
+        "text",
+        "sourceRefs"
+      ],
+      "additionalProperties": false
+    },
+    "activity": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 12000
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 12000
+        },
+        "minutes": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 240
+        },
+        "objectiveIds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 12000
+          },
+          "minItems": 1,
+          "maxItems": 100
+        },
+        "teacherMoves": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 12000
+        },
+        "studentTask": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 12000
+        },
+        "expectedEvidence": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 12000
+        },
+        "misconception": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 12000
+        },
+        "fallback": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 12000
+        },
+        "resources": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 12000
+          },
+          "minItems": 0,
+          "maxItems": 100
+        },
+        "sourceRefs": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 12000
+          },
+          "minItems": 0,
+          "maxItems": 100
+        }
+      },
+      "required": [
+        "id",
+        "title",
+        "minutes",
+        "objectiveIds",
+        "teacherMoves",
+        "studentTask",
+        "expectedEvidence",
+        "misconception",
+        "fallback",
+        "resources",
+        "sourceRefs"
+      ],
+      "additionalProperties": false
+    },
+    "assessment": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 12000
+        },
+        "objectiveIds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 12000
+          },
+          "minItems": 1,
+          "maxItems": 100
+        },
+        "prompt": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 12000
+        },
+        "expectedAnswer": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 12000
+        },
+        "rubric": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 12000
+        },
+        "sourceRefs": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 12000
+          },
+          "minItems": 0,
+          "maxItems": 100
+        }
+      },
+      "required": [
+        "id",
+        "objectiveIds",
+        "prompt",
+        "expectedAnswer",
+        "rubric",
+        "sourceRefs"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

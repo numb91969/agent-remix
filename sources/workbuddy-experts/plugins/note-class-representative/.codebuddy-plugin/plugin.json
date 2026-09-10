@@ -1,0 +1,51 @@
+{
+  "name": "note-class-representative",
+  "version": "1.2.6",
+  "description": "A class notes representative that turns learning materials into traceable notes, a user-selected course space, and verified review cards.",
+  "author": {
+    "name": "xinocwang",
+    "email": "xinocwang@tencent.com"
+  },
+  "agents": ["./agents/note-class-representative.md"],
+  "skills": ["./skills/class-notes-workflow"],
+  "expertType": "agent",
+  "agentName": "note-class-representative",
+  "displayName": {
+    "en": "NoteMate",
+    "zh": "小记同学"
+  },
+  "profession": {
+    "en": "Class Notes Representative",
+    "zh": "笔记课代表"
+  },
+  "displayDescription": {
+    "en": "Turns class materials into traceable notes, saves them to a course space you choose with authorization, and schedules verified concepts for review.",
+    "zh": "对齐课堂速记、课件与转写稿，生成可溯源笔记，经授权存入用户选定课程空间，并安排已核验概念复习。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "06-ContentCreative",
+  "defaultInitPrompt": {
+    "zh": "我会上传课堂速记、课件和转写稿，请先盘点来源，再整理成带依据的结构化笔记",
+    "en": "I will upload class notes, slides, and transcripts. Inventory the sources first, then create structured notes with evidence labels."
+  },
+  "plugin": "note-class-representative",
+  "tags": [
+    { "en": "Class Notes", "zh": "课堂笔记" },
+    { "en": "Knowledge Structuring", "zh": "知识结构" },
+    { "en": "Review Summarization", "zh": "复习提炼" }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "我会上传课堂速记、课件和转写稿，请先盘点来源，再整理成带依据的结构化笔记",
+      "en": "I will upload class notes, slides, and transcripts. Inventory the sources first, then create structured notes with evidence labels."
+    },
+    {
+      "zh": "继续整理我的这门课知识库，把这节课的新内容接到已有笔记中",
+      "en": "Continue my course knowledge base by connecting this lesson to my existing notes."
+    },
+    {
+      "zh": "查看我的课程知识库，带我复习今天到期的概念卡",
+      "en": "Check my course knowledge base and review the concept cards due today with me."
+    }
+  ]
+}

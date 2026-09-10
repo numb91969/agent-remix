@@ -1,0 +1,16 @@
+{
+  "schemaVersion":"2.0",
+  "plugin":"liuxue-yanxue-expert",
+  "version":"26.9.9",
+  "marketplace":"experts",
+  "categoryId":"12-IndustryConsultant",
+  "entryPromptCode":"wb_qp_liuxue_yanxue_dual_track_48h",
+  "serviceProductId":"workbuddy_liuxue_yanxue_expert",
+  "packCode":"fbs.liuxue_yanxue.dual_track.v1",
+  "scenePackId":"liuxue_yanxue_dual_track",
+  "connectorRequired":false,
+  "updateMode":"existing_listed_product_successor_candidate",
+  "platformListingObjectId":null,
+  "platformListingObjectIdStatus":"not_observed",
+  "releaseBoundary":{"candidateOnly":true,"officialMarketplaceUpdateNotPerformed":true,"nonOfficialEquivalentSignalsMustNotCountAsNaturalTraffic":true}
+}

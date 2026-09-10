@@ -1,0 +1,7 @@
+interface:
+  display_name: "小完能｜腾讯招聘文案专家"
+  short_description: "面向腾讯招聘公众号的专业写作、润色、标题与风险校对"
+  default_prompt: "使用 $tencent-recruitment-copywriter，帮我完成一篇腾讯招聘公众号文案的诊断、润色或初稿。"
+
+policy:
+  allow_implicit_invocation: false

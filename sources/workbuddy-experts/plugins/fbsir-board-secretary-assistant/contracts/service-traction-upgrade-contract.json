@@ -1,0 +1,251 @@
+{
+  "schemaVersion": "fbs.boardSecretary.serviceTractionUpgradeContract.v1",
+  "packageName": "fbsir-board-secretary-assistant",
+  "packageVersion": "26.7.2",
+  "contractVersion": "2026-07-01",
+  "brand": {
+    "zh": "福帮手",
+    "en": "FBSir"
+  },
+  "product": {
+    "nameZh": "董秘助手",
+    "productId": "fbsir-board-secretary-assistant",
+    "serviceProductId": "workbuddy_board_secretary_assistant"
+  },
+  "sourceDemandIds": [
+    "BSA-PKG-003",
+    "BSA-PKG-005"
+  ],
+  "priority": "current_highest_package_workstream",
+  "status": "closed_loop_contract_upgraded_for_26_7_1_review_package",
+  "purpose": "Make the Board Secretary Assistant package cooperate with the service-side user research and traction system without depending on connector availability.",
+  "connectorDecoupledGate": {
+    "appliesTo": [
+      "first_value",
+      "lebao_claim",
+      "lebao_activation",
+      "gap_data_upload",
+      "service_strategy_return",
+      "validation_receipt_handoff",
+      "local_equivalent_joint_debug"
+    ],
+    "productFlowMustNotReadConnectorState": true,
+    "connectorAuthorizationRequired": false,
+    "connectorToolVisibilityRequired": false,
+    "connectorMcpStateRequired": false
+  },
+  "serviceSideNeeds": [
+    {
+      "needId": "BSA-SVC-001",
+      "title": "first_value_survives_followthrough_transport_gap",
+      "packageResponse": "Always deliver a useful first-turn compliance red-team card from pasted or authorized material, even when followthrough trace is not yet readable.",
+      "mustNotClaim": [
+        "same_binding_completed",
+        "consume_completed",
+        "host_runtime_upgrade_completed"
+      ]
+    },
+    {
+      "needId": "BSA-SVC-002",
+      "title": "gap_fields_visible_for_user_research",
+      "packageResponse": "Expose missing service-forward fields as visible gaps instead of hiding them behind connector status.",
+      "requiredGapFields": [
+        "missingForwardFields",
+        "visibleGapCount",
+        "missingFieldIds",
+        "consentState"
+      ]
+    },
+    {
+      "needId": "BSA-SVC-003",
+      "title": "lebao_unlock_collects_missing_fields",
+      "packageResponse": "Use benefit unlock copy as an opt-in incentive for users to claim, activate, and submit missing research fields to the service side.",
+      "mustRemainSeparateFrom": [
+        "paymentClosure",
+        "naturalProductCredit",
+        "officialListingReplacement",
+        "connectorStatus"
+      ]
+    },
+    {
+      "needId": "BSA-SVC-004",
+      "title": "service_strategy_return_guides_next_action",
+      "packageResponse": "When service-side strategy is returned, render only the next user action and stop condition; do not turn it into a legal, disclosure, payment, or host-runtime claim."
+    },
+    {
+      "needId": "BSA-SVC-005",
+      "title": "manual_review_and_delivery_events_are_observable",
+      "packageResponse": "Keep manual-review, review-pack, contact-request, delivery-started, and delivery-completed as their own event plane instead of borrowing natural product credit."
+    },
+    {
+      "needId": "BSA-SVC-006",
+      "title": "waiter_fix_receipt_handoff_only",
+      "packageResponse": "Accept WorkBuddy waiter lifecycle repair receipts as validation inputs, but do not claim this package has fixed the host runtime."
+    },
+    {
+      "needId": "BSA-SVC-007",
+      "title": "artifact_memory_receipt_bridge_without_credit_promotion",
+      "packageResponse": "Expose visible artifacts, presented files, and memory notes as record-only host_local/service_intent_report receipts when the official service tool spine is unavailable.",
+      "serviceResponseNeeded": "Persist artifact_or_memory_observed receipts in a separate evidence plane, keep serviceConsumeEquivalent=false, and surface the missing official service tool spine as an upgrade requirement.",
+      "mustRemainSeparateFrom": [
+        "service_consume",
+        "naturalProductCredit",
+        "officialListingReplacement",
+        "paymentClosure",
+        "lebaoEntitlementClosure"
+      ]
+    },
+    {
+      "needId": "BSA-SVC-008",
+      "title": "connector_upgrade_assist_without_closure_substitution",
+      "packageResponse": "Treat connector upgrade only as an optional assist for tool discovery, public MCP carrier compatibility, and explicit dispatch readability. Never frame it as a package-side closure substitute.",
+      "serviceResponseNeeded": "Persist a connector assist boundary that keeps connectorUpgradeCouldFullyCloseGap=false until the official same-binding session shows readable same-target transport join and service consume.",
+      "mustRemainSeparateFrom": [
+        "host_waiter_runtime_fix",
+        "same_target_transport_join",
+        "officialRuntimeReplacement",
+        "naturalProductCredit",
+        "paymentClosure"
+      ]
+    }
+  ],
+  "receiptShape": {
+    "requiredForArtifactMemoryReceipt": [
+      "receiptType=host_local_value_receipt",
+      "eventType=artifact_or_memory_observed",
+      "sourceWindow",
+      "hostPreset",
+      "sessionId",
+      "productId",
+      "expertEntryId",
+      "entrySurface",
+      "entryPromptCode",
+      "runtimeIdentity",
+      "artifactPaths_or_memoryPaths",
+      "artifactHashes_or_memoryHashes",
+      "privacyScanPassed",
+      "degradeReason=service_tool_spine_unavailable",
+      "serviceConsumeEquivalent=false",
+      "naturalProductCreditAllowed=false"
+    ],
+    "requiredForLebaoGapFill": [
+      "anonymousUserCodeHash",
+      "serverBindingId_or_hostLocalReceiptId",
+      "entrySurface",
+      "expertEntryId",
+      "packCode",
+      "scenePackId",
+      "missingFieldIds",
+      "consentState",
+      "lebaoClaimState",
+      "lebaoActivationState",
+      "lebaoDataUploaded",
+      "serviceStrategyReturned",
+      "strategyDispatchId"
+    ],
+    "requiredBeforeConsumeCredit": [
+      "serviceTraceRowCount_gt_0",
+      "joinedTransportCount_gt_0",
+      "same_binding_target_row_visible"
+    ],
+    "requiredBeforeLaunchGo": [
+      "waiterLifecycleValidationStatus_validated",
+      "internalLaunchGateDecision_go"
+    ]
+  },
+  "visibleGapPolicy": {
+    "missingFieldsMustRemainVisible": true,
+    "missingFieldsDoNotBlockFirstValue": true,
+    "missingFieldsDoBlockHostRuntimeSupportClaim": true,
+    "connectorStateMayOnlyBeDiagnostic": true
+  },
+  "localEquivalentJointDebug": {
+    "surface": "my-experts",
+    "allowedNow": true,
+    "provesOnly": [
+      "package_source_shape",
+      "local_equivalent_entry_rendering",
+      "first_value_and_boundary_copy",
+      "service_side_receipt_shape_when_observed"
+    ],
+    "doesNotProve": [
+      "official_listing_replaced",
+      "natural_same_binding_closure",
+      "host_waiter_runtime_fixed",
+      "payment_or_delivery_closure"
+    ]
+  },
+  "intelligentOpsClosedLoop": {
+    "A_independentClientIdentity": {
+      "subject": "independent_client",
+      "required": true,
+      "allowedFields": [
+        "clientHash",
+        "installHash",
+        "hostClientIdHash",
+        "anonymousUserCodeHash",
+        "serverBindingId",
+        "sessionBindingId",
+        "chainFingerprint",
+        "platform",
+        "hostVersion",
+        "packageVersion"
+      ]
+    },
+    "B_lebaoUnlockAndIntentAggregation": {
+      "claimEncouragementAllowed": true,
+      "claimMustBeProgressFeedbackOnly": true,
+      "intentAggregationRequired": true,
+      "requiredEvents": [
+        "lebao_exposed",
+        "lebao_claim_intent",
+        "lebao_claim_receipt",
+        "intent_aggregated"
+      ]
+    },
+    "C_serviceRecognitionAndHostTraction": {
+      "serviceMayRecognizeUserFromLebaoAndDesensitizedData": true,
+      "hostActionEnvelopeRequired": false,
+      "hostActionEnvelopeTargetOnly": true,
+      "serviceDecisionRenderMode": "host_renders_service_directive",
+      "sameBindingRequiredBeforeUnlockClaim": true
+    },
+    "D_experienceAndHostValueActivation": {
+      "goal": "提升用户体验并激活宿主侧能力价值",
+      "personalizationMode": "one_person_one_next_best_action",
+      "successSignals": [
+        "first_value_completed",
+        "continued_use_completed",
+        "lebao_claim_receipt",
+        "host_directive_receipt",
+        "manual_review_required",
+        "delivery_completed"
+      ]
+    }
+  },
+  "forbiddenOverclaims": [
+    "connector_connected_means_product_ready",
+    "connector_upgrade_means_host_followthrough_fixed",
+    "lebao_claim_means_payment_closed",
+    "host_local_receipt_means_consume_credit",
+    "my_experts_test_means_official_listing_replaced",
+    "package_contract_means_waiter_runtime_fixed"
+  ],
+  "promotionRule": {
+    "mayPromoteBsaPkg005ToMustIncludeAfter": [
+      "controlled_workbuddy_or_service_receipt_observed",
+      "lebao_claim_or_activation_visible",
+      "gap_data_upload_visible",
+      "service_strategy_return_visible",
+      "paymentClosureAllowed_false",
+      "naturalProductCreditAllowedFromLebaoOnly_false"
+    ],
+    "untilThen": "keep_BSA_PKG_005_as_26_7_1_closed_loop_boundary"
+  },
+  "reviewPackageBoundary": {
+    "contractKind": "service_traction_upgrade_contract",
+    "generatedForReviewOnly": true,
+    "hostRuntimeUpgradeAssumed": false,
+    "naturalClosureClaimAllowed": false
+  }
+}

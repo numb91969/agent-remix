@@ -1,0 +1,106 @@
+{
+  "name": "migraq-team",
+  "version": "1.0.0",
+  "description": "Tencent Cloud migration expert team for end-to-end cloud migration services",
+  "author": {
+    "name": "MigraQ Team",
+    "email": "leobhao@tencent.com"
+  },
+  "agents": [
+    "./agents/migraq-team-lead.md",
+    "./agents/product-expert.md",
+    "./agents/landing-zone-expert.md",
+    "./agents/cloud-architect.md",
+    "./agents/delivery-engineer.md",
+    "./agents/ops-engineer.md"
+  ],
+  "skills": [
+    "./skills/migraq"
+  ],
+  "expertType": "team",
+  "agentName": "migraq-team-lead",
+  "teamInfo": {
+    "leadAgent": "migraq-team-lead",
+    "memberAgents": [
+      "product-expert",
+      "landing-zone-expert",
+      "cloud-architect",
+      "delivery-engineer",
+      "ops-engineer"
+    ]
+  },
+  "displayName": {
+    "en": "Tencent Cloud Migration Team",
+    "zh": "腾讯云上云迁移专家团"
+  },
+  "profession": {
+    "en": "Tencent Cloud Migration Team",
+    "zh": "腾讯云上云迁移专家团"
+  },
+  "displayDescription": {
+    "en": "A team of 6 cloud migration specialists covering solution design, product selection, Landing Zone, architecture, delivery and operations handover.",
+    "zh": "由项目经理领衔，联合腾讯云产品专家、Landing Zone专家、解决方案架构师、交付实施工程师、运营交接及培训专家，端到端完成上云迁移"
+  },
+  "avatar": "avatars/team.png",
+  "categoryId": "02-Engineering",
+  "defaultInitPrompt": {
+    "en": "Help me plan an end-to-end migration from Alibaba Cloud to Tencent Cloud",
+    "zh": "帮我规划从阿里云整体迁移到腾讯云的方案"
+  },
+  "plugin": "migraq-team",
+  "tags": [
+    { "en": "Cloud Migration", "zh": "云迁移" },
+    { "en": "Solution Design", "zh": "方案设计" },
+    { "en": "Landing Zone", "zh": "Landing Zone" },
+    { "en": "Architecture", "zh": "架构设计" }
+  ],
+  "quickPrompts": [
+    { "en": "Help me plan an end-to-end migration from Alibaba Cloud to Tencent Cloud", "zh": "帮我规划从阿里云整体迁移到腾讯云的方案" },
+    { "en": "Design a Landing Zone for my multi-account cloud environment", "zh": "帮我设计多账号云环境的 Landing Zone" },
+    { "en": "Assess migration risks and create a delivery timeline", "zh": "评估迁移风险并制定交付时间表" }
+  ],
+  "members": [
+    {
+      "id": "migraq-team-lead",
+      "name": { "en": "Project Manager", "zh": "项目经理" },
+      "profession": { "en": "Migration Project Manager", "zh": "迁移项目经理" },
+      "avatar": "avatars/team-lead.png",
+      "role": "lead"
+    },
+    {
+      "id": "product-expert",
+      "name": { "en": "Product Expert", "zh": "腾讯云产品专家" },
+      "profession": { "en": "Tencent Cloud Product Expert", "zh": "腾讯云产品专家" },
+      "avatar": "avatars/product-expert.png",
+      "role": "member"
+    },
+    {
+      "id": "landing-zone-expert",
+      "name": { "en": "Landing Zone Expert", "zh": "Landing Zone 专家" },
+      "profession": { "en": "Landing Zone Specialist", "zh": "Landing Zone 专家" },
+      "avatar": "avatars/landing-zone-expert.png",
+      "role": "member"
+    },
+    {
+      "id": "cloud-architect",
+      "name": { "en": "Solution Architect", "zh": "解决方案架构师" },
+      "profession": { "en": "Solution Architect", "zh": "解决方案架构师" },
+      "avatar": "avatars/cloud-architect.png",
+      "role": "member"
+    },
+    {
+      "id": "delivery-engineer",
+      "name": { "en": "Delivery Engineer", "zh": "交付实施工程师" },
+      "profession": { "en": "Migration Delivery Engineer", "zh": "交付实施工程师" },
+      "avatar": "avatars/delivery-engineer.png",
+      "role": "member"
+    },
+    {
+      "id": "ops-engineer",
+      "name": { "en": "Operations & Training Specialist", "zh": "运营交接及培训专家" },
+      "profession": { "en": "Operations & Training Specialist", "zh": "运营交接及培训专家" },
+      "avatar": "avatars/ops-engineer.png",
+      "role": "member"
+    }
+  ]
+}

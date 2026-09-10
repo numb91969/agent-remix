@@ -1,0 +1,2495 @@
+[
+  {
+    "skill_slug": "3-statement-model",
+    "skill_ref_examples": "./skills/3-statement-model",
+    "expert_count": 1,
+    "expert_ids": "PitchAgent",
+    "downloaded_count": 2,
+    "local_paths": "sources/workbuddy-experts/plugins/model-builder/skills/3-statement-model;sources/workbuddy-experts/plugins/pitch-agent/skills/3-statement-model",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/3-statement-model"
+  },
+  {
+    "skill_slug": "aesthetic-starter-kits",
+    "skill_ref_examples": "./skills/aesthetic-starter-kits",
+    "expert_count": 1,
+    "expert_ids": "DesignPrototypeExpert",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/design-prototype-expert/skills/aesthetic-starter-kits",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/aesthetic-starter-kits"
+  },
+  {
+    "skill_slug": "ai-career-agent",
+    "skill_ref_examples": "./skills/ai-career-agent",
+    "expert_count": 1,
+    "expert_ids": "CareerBroker",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/career-broker/skills/ai-career-agent",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/ai-career-agent"
+  },
+  {
+    "skill_slug": "ai-content-production",
+    "skill_ref_examples": "./skills/ai-content-production",
+    "expert_count": 1,
+    "expert_ids": "AiContentCreatorTeam",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/ai-content-creator-team/skills/ai-content-production",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/ai-content-production"
+  },
+  {
+    "skill_slug": "ai-research-radar",
+    "skill_ref_examples": "./skills/ai-research-radar",
+    "expert_count": 1,
+    "expert_ids": "TrendHunter",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/trend-hunter/skills/ai-research-radar",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/ai-research-radar"
+  },
+  {
+    "skill_slug": "aigc-compliance-red-team",
+    "skill_ref_examples": "./skills/aigc-compliance-red-team",
+    "expert_count": 1,
+    "expert_ids": "FbsirAigcComplianceRedTeam",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/fbsir-aigc-compliance-red-team/skills/aigc-compliance-red-team",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/aigc-compliance-red-team"
+  },
+  {
+    "skill_slug": "analytics-reporting",
+    "skill_ref_examples": "./skills/analytics-reporting",
+    "expert_count": 1,
+    "expert_ids": "DataAnalyticsReporter",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/data-analytics-reporter/skills/analytics-reporting",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/analytics-reporting"
+  },
+  {
+    "skill_slug": "andonq",
+    "skill_ref_examples": "./skills/andonq",
+    "expert_count": 1,
+    "expert_ids": "CloudOpsTeam",
+    "downloaded_count": 2,
+    "local_paths": "sources/workbuddy-experts/plugins/andon-q-expert/skills/andonq;sources/workbuddy-experts/plugins/cloud-ops-team/skills/andonq",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/andonq"
+  },
+  {
+    "skill_slug": "anti-distill",
+    "skill_ref_examples": "./skills/anti-distill",
+    "expert_count": 7,
+    "expert_ids": "BaiduSeoExpert;BookCoCreator;ContentCreator;DouyinStrategist;SalesCoach;SeoExpert;WechatOfficialAccountExpert",
+    "downloaded_count": 10,
+    "local_paths": "sources/workbuddy-experts/plugins/baidu-seo-expert/skills/anti-distill;sources/workbuddy-experts/plugins/behavioral-nudge-engine/skills/anti-distill;sources/workbuddy-experts/plugins/book-co-creator/skills/anti-distill;sources/workbuddy-experts/plugins/content-creator/skills/anti-distill;sources/workbuddy-experts/plugins/douyin-strategist/skills/anti-distill;sources/workbuddy-experts/plugins/narrative-designer/skills/anti-distill;sources/workbuddy-experts/plugins/sales-coach/skills/anti-distill;sources/workbuddy-experts/plugins/seo-expert/skills/anti-distill;sources/workbuddy-experts/plugins/short-video-editing-coach/skills/anti-distill;sources/workbuddy-experts/plugins/wechat-official-account-expert/skills/anti-distill",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/anti-distill"
+  },
+  {
+    "skill_slug": "artifact-renderer",
+    "skill_ref_examples": "./skills/artifact-renderer",
+    "expert_count": 1,
+    "expert_ids": "IndustrialParkInvestmentAttractionExpert",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/industrial-park-investment-attraction-expert/skills/artifact-renderer",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/artifact-renderer"
+  },
+  {
+    "skill_slug": "assessment-quality-expert",
+    "skill_ref_examples": "./skills/assessment-quality-expert",
+    "expert_count": 1,
+    "expert_ids": "Txzhaopin",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/txzhaopin/skills/assessment-quality-expert",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/assessment-quality-expert"
+  },
+  {
+    "skill_slug": "audience-campaign",
+    "skill_ref_examples": "./skills/audience-campaign",
+    "expert_count": 1,
+    "expert_ids": "AutoConsultant",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/auto-consultant/skills/audience-campaign",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/audience-campaign"
+  },
+  {
+    "skill_slug": "audit-xls",
+    "skill_ref_examples": "./skills/audit-xls",
+    "expert_count": 1,
+    "expert_ids": "PitchAgent",
+    "downloaded_count": 6,
+    "local_paths": "sources/workbuddy-experts/plugins/earnings-reviewer/skills/audit-xls;sources/workbuddy-experts/plugins/gl-reconciler/skills/audit-xls;sources/workbuddy-experts/plugins/model-builder/skills/audit-xls;sources/workbuddy-experts/plugins/month-end-closer/skills/audit-xls;sources/workbuddy-experts/plugins/pitch-agent/skills/audit-xls;sources/workbuddy-experts/plugins/statement-auditor/skills/audit-xls",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/audit-xls"
+  },
+  {
+    "skill_slug": "bidding-strategist",
+    "skill_ref_examples": "./skills/bidding-strategist",
+    "expert_count": 1,
+    "expert_ids": "BiddingStrategist",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/bidding-strategist/skills/bidding-strategist",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/bidding-strategist"
+  },
+  {
+    "skill_slug": "brand-consistency-check",
+    "skill_ref_examples": "./skills/brand-consistency-check",
+    "expert_count": 1,
+    "expert_ids": "BrandGuardian",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/brand-guardian/skills/brand-consistency-check",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/brand-consistency-check"
+  },
+  {
+    "skill_slug": "brand-guidelines",
+    "skill_ref_examples": "./skills/brand-guidelines",
+    "expert_count": 2,
+    "expert_ids": "AdCreativeStrategist;BrandGuardian",
+    "downloaded_count": 2,
+    "local_paths": "sources/workbuddy-experts/plugins/ad-creative-strategist/skills/brand-guidelines;sources/workbuddy-experts/plugins/brand-guardian/skills/brand-guidelines",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/brand-guidelines"
+  },
+  {
+    "skill_slug": "brand-voice-messaging",
+    "skill_ref_examples": "./skills/brand-voice-messaging",
+    "expert_count": 1,
+    "expert_ids": "BrandGuardian",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/brand-guardian/skills/brand-voice-messaging",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/brand-voice-messaging"
+  },
+  {
+    "skill_slug": "browser-use",
+    "skill_ref_examples": "./skills/browser-use",
+    "expert_count": 3,
+    "expert_ids": "CrossBorderEcommerceExpert;ProposalStrategist;UiDesigner",
+    "downloaded_count": 9,
+    "local_paths": "sources/workbuddy-experts/plugins/cross-border-ecommerce-expert/skills/browser-use;sources/workbuddy-experts/plugins/frontend-developer/skills/browser-use;sources/workbuddy-experts/plugins/proposal-strategist/skills/browser-use;sources/workbuddy-experts/plugins/senior-developer/skills/browser-use;sources/workbuddy-experts/plugins/supply-chain-strategist/skills/browser-use;sources/workbuddy-experts/plugins/trend-researcher/skills/browser-use;sources/workbuddy-experts/plugins/ui-designer/skills/browser-use;sources/workbuddy-experts/plugins/user-experience-architect/skills/browser-use;sources/workbuddy-experts/plugins/user-experience-researcher/skills/browser-use",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/browser-use"
+  },
+  {
+    "skill_slug": "business-case",
+    "skill_ref_examples": "./skills/business-case",
+    "expert_count": 1,
+    "expert_ids": "SalesCoach",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/sales-coach/skills/business-case",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/business-case"
+  },
+  {
+    "skill_slug": "business-reporting",
+    "skill_ref_examples": "./skills/business-reporting",
+    "expert_count": 1,
+    "expert_ids": "SmbOperations",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/smb-operations/skills/business-reporting",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/business-reporting"
+  },
+  {
+    "skill_slug": "buyer-needs-direction",
+    "skill_ref_examples": "./skills/buyer-needs-direction",
+    "expert_count": 1,
+    "expert_ids": "AutoConsultant",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/auto-consultant/skills/buyer-needs-direction",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/buyer-needs-direction"
+  },
+  {
+    "skill_slug": "call-debrief",
+    "skill_ref_examples": "./skills/call-debrief",
+    "expert_count": 1,
+    "expert_ids": "SalesCoach",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/sales-coach/skills/call-debrief",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/call-debrief"
+  },
+  {
+    "skill_slug": "call-high-deck-generator",
+    "skill_ref_examples": "./skills/call-high-deck-generator",
+    "expert_count": 1,
+    "expert_ids": "LexiangPptExpert",
+    "downloaded_count": 2,
+    "local_paths": "sources/workbuddy-experts/plugins/ppt-creation-expert/skills/call-high-deck-generator",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/call-high-deck-generator"
+  },
+  {
+    "skill_slug": "campaign-execution",
+    "skill_ref_examples": "./skills/campaign-execution",
+    "expert_count": 1,
+    "expert_ids": "SmbRevenue",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/smb-revenue/skills/campaign-execution",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/campaign-execution"
+  },
+  {
+    "skill_slug": "canvas-design",
+    "skill_ref_examples": "./skills/canvas-design",
+    "expert_count": 1,
+    "expert_ids": "AiImagePromptEngineer",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/ai-image-prompt-engineer/skills/canvas-design",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/canvas-design"
+  },
+  {
+    "skill_slug": "career-broker-core",
+    "skill_ref_examples": "./skills/career-broker-core",
+    "expert_count": 1,
+    "expert_ids": "CareerBroker",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/career-broker/skills/career-broker-core",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/career-broker-core"
+  },
+  {
+    "skill_slug": "career-development-consultant",
+    "skill_ref_examples": "./skills/career-development-consultant",
+    "expert_count": 1,
+    "expert_ids": "CareerBroker",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/career-broker/skills/career-development-consultant",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/career-development-consultant"
+  },
+  {
+    "skill_slug": "career-qa",
+    "skill_ref_examples": "./skills/career-qa",
+    "expert_count": 1,
+    "expert_ids": "CareerBroker",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/career-broker/skills/career-qa",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/career-qa"
+  },
+  {
+    "skill_slug": "case-retrieval",
+    "skill_ref_examples": "./skills/case-retrieval",
+    "expert_count": 1,
+    "expert_ids": "LegalSearchPro",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/legal-search-pro/skills/case-retrieval",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/case-retrieval"
+  },
+  {
+    "skill_slug": "china-compliance-toolkit",
+    "skill_ref_examples": "./skills/china-compliance-toolkit",
+    "expert_count": 1,
+    "expert_ids": "EnterpriseLegalTeam",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/enterprise-legal-team/skills/china-compliance-toolkit",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/china-compliance-toolkit"
+  },
+  {
+    "skill_slug": "china-legal-research",
+    "skill_ref_examples": "./skills/china-legal-research",
+    "expert_count": 1,
+    "expert_ids": "EnterpriseLegalTeam",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/enterprise-legal-team/skills/china-legal-research",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/china-legal-research"
+  },
+  {
+    "skill_slug": "cloud-mapping",
+    "skill_ref_examples": "./skills/cloud-mapping",
+    "expert_count": 1,
+    "expert_ids": "Cpq",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/cpq/skills/cloud-mapping",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/cloud-mapping"
+  },
+  {
+    "skill_slug": "cloud-mapping-intl",
+    "skill_ref_examples": "./skills/cloud-mapping-intl",
+    "expert_count": 1,
+    "expert_ids": "Cpq",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/cpq/skills/cloud-mapping-intl",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/cloud-mapping-intl"
+  },
+  {
+    "skill_slug": "cloudq",
+    "skill_ref_examples": "./skills/cloudq",
+    "expert_count": 2,
+    "expert_ids": "CloudOpsTeam;IndustrySreTeam",
+    "downloaded_count": 4,
+    "local_paths": "sources/workbuddy-experts/plugins/cloud-ops-team/skills/cloudq;sources/workbuddy-experts/plugins/industry-sre-team/skills/cloudq;sources/workbuddy-experts/plugins/multi-cloud-management-expert/skills/cloudq;sources/workbuddy-experts/plugins/tencent-rtc-expert/skills/cloudq",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/cloudq--c1903457"
+  },
+  {
+    "skill_slug": "command-auth",
+    "skill_ref_examples": "./skills/command-auth",
+    "expert_count": 1,
+    "expert_ids": "Cpq",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/cpq/skills/command-auth",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/command-auth"
+  },
+  {
+    "skill_slug": "competitive-brief",
+    "skill_ref_examples": "./skills/competitive-brief",
+    "expert_count": 1,
+    "expert_ids": "SalesCoach",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/sales-coach/skills/competitive-brief",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/competitive-brief"
+  },
+  {
+    "skill_slug": "competitor-monitoring",
+    "skill_ref_examples": "./skills/competitor-monitoring",
+    "expert_count": 1,
+    "expert_ids": "TrendHunter",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/trend-hunter/skills/competitor-monitoring",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/competitor-monitoring"
+  },
+  {
+    "skill_slug": "comps-analysis",
+    "skill_ref_examples": "./skills/comps-analysis",
+    "expert_count": 1,
+    "expert_ids": "PitchAgent",
+    "downloaded_count": 4,
+    "local_paths": "sources/workbuddy-experts/plugins/financial-analysis/skills/comps-analysis;sources/workbuddy-experts/plugins/market-researcher/skills/comps-analysis;sources/workbuddy-experts/plugins/model-builder/skills/comps-analysis;sources/workbuddy-experts/plugins/pitch-agent/skills/comps-analysis",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/comps-analysis"
+  },
+  {
+    "skill_slug": "computer-support-playbook",
+    "skill_ref_examples": "./skills/computer-support-playbook",
+    "expert_count": 1,
+    "expert_ids": "ComputerOperationsAdvisor",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/computer-operations-advisor/skills/computer-support-playbook",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/computer-support-playbook"
+  },
+  {
+    "skill_slug": "content-calendar",
+    "skill_ref_examples": "./skills/content-calendar",
+    "expert_count": 1,
+    "expert_ids": "TrendHunter",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/trend-hunter/skills/content-calendar",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/content-calendar"
+  },
+  {
+    "skill_slug": "content-creation-expert-prod",
+    "skill_ref_examples": "./skills/content-creation-expert-prod",
+    "expert_count": 1,
+    "expert_ids": "ContentCreationExpertProd",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/content-creation-expert-prod/skills/content-creation-expert-prod",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/content-creation-expert-prod"
+  },
+  {
+    "skill_slug": "content-factory",
+    "skill_ref_examples": "./skills/content-factory",
+    "expert_count": 1,
+    "expert_ids": "VisualStorytellingExpert",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/visual-storytelling-expert/skills/content-factory",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/content-factory"
+  },
+  {
+    "skill_slug": "content-monetization-ops",
+    "skill_ref_examples": "./skills/content-monetization-ops",
+    "expert_count": 1,
+    "expert_ids": "ContentMonetizationTeam",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/content-monetization-team/skills/content-monetization-ops",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/content-monetization-ops"
+  },
+  {
+    "skill_slug": "content-strategy",
+    "skill_ref_examples": "./skills/content-strategy",
+    "expert_count": 1,
+    "expert_ids": "SmbRevenue",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/smb-revenue/skills/content-strategy",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/content-strategy"
+  },
+  {
+    "skill_slug": "content-writing",
+    "skill_ref_examples": "./skills/content-writing",
+    "expert_count": 1,
+    "expert_ids": "SeoContentTeam",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/seo-content-team/skills/content-writing",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/content-writing"
+  },
+  {
+    "skill_slug": "contract-drafting-engine",
+    "skill_ref_examples": "./skills/contract-drafting-engine",
+    "expert_count": 1,
+    "expert_ids": "ContractExpert",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/contract-expert/skills/contract-drafting-engine",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/contract-drafting-engine"
+  },
+  {
+    "skill_slug": "contract-intake",
+    "skill_ref_examples": "./skills/contract-intake",
+    "expert_count": 1,
+    "expert_ids": "ContractExpert",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/contract-expert/skills/contract-intake",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/contract-intake"
+  },
+  {
+    "skill_slug": "contract-legal-research",
+    "skill_ref_examples": "./skills/contract-legal-research",
+    "expert_count": 1,
+    "expert_ids": "ContractExpert",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/contract-expert/skills/contract-legal-research",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/contract-legal-research"
+  },
+  {
+    "skill_slug": "contract-lifecycle-advisor",
+    "skill_ref_examples": "./skills/contract-lifecycle-advisor",
+    "expert_count": 1,
+    "expert_ids": "ContractExpert",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/contract-expert/skills/contract-lifecycle-advisor",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/contract-lifecycle-advisor"
+  },
+  {
+    "skill_slug": "contract-output-formatter",
+    "skill_ref_examples": "./skills/contract-output-formatter",
+    "expert_count": 1,
+    "expert_ids": "ContractExpert",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/contract-expert/skills/contract-output-formatter",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/contract-output-formatter"
+  },
+  {
+    "skill_slug": "contract-review-engine",
+    "skill_ref_examples": "./skills/contract-review-engine",
+    "expert_count": 1,
+    "expert_ids": "ContractExpert",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/contract-expert/skills/contract-review-engine",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/contract-review-engine"
+  },
+  {
+    "skill_slug": "contract-scenario-router",
+    "skill_ref_examples": "./skills/contract-scenario-router",
+    "expert_count": 1,
+    "expert_ids": "ContractExpert",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/contract-expert/skills/contract-scenario-router",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/contract-scenario-router"
+  },
+  {
+    "skill_slug": "contract-standards-ingest",
+    "skill_ref_examples": "./skills/contract-standards-ingest",
+    "expert_count": 1,
+    "expert_ids": "ContractExpert",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/contract-expert/skills/contract-standards-ingest",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/contract-standards-ingest"
+  },
+  {
+    "skill_slug": "cordys-crm",
+    "skill_ref_examples": "./skills/cordys-crm",
+    "expert_count": 1,
+    "expert_ids": "CordysCrm",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/cordys-crm/skills/cordys-crm",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/cordys-crm"
+  },
+  {
+    "skill_slug": "cos-storage",
+    "skill_ref_examples": "./skills/cos-storage",
+    "expert_count": 1,
+    "expert_ids": "UaeMarketingAdvisor",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/uae-marketing-advisor/skills/cos-storage",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/cos-storage"
+  },
+  {
+    "skill_slug": "cpq",
+    "skill_ref_examples": "./skills/cpq",
+    "expert_count": 1,
+    "expert_ids": "Cpq",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/cpq/skills/cpq",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/cpq"
+  },
+  {
+    "skill_slug": "cro-optimization",
+    "skill_ref_examples": "./skills/cro-optimization",
+    "expert_count": 1,
+    "expert_ids": "SeoContentTeam",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/seo-content-team/skills/cro-optimization",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/cro-optimization"
+  },
+  {
+    "skill_slug": "daily-routine-builder",
+    "skill_ref_examples": "./skills/daily-routine-builder",
+    "expert_count": 1,
+    "expert_ids": "Txzhaopin",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/txzhaopin/skills/daily-routine-builder",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/daily-routine-builder"
+  },
+  {
+    "skill_slug": "data-quality-assessment",
+    "skill_ref_examples": "./skills/data-quality-assessment",
+    "expert_count": 1,
+    "expert_ids": "DataAnalyticsReporter",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/data-analytics-reporter/skills/data-quality-assessment",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/data-quality-assessment"
+  },
+  {
+    "skill_slug": "data-table-permission-checker",
+    "skill_ref_examples": "./skills/data-table-permission-checker",
+    "expert_count": 1,
+    "expert_ids": "Txzhaopin",
+    "downloaded_count": 2,
+    "local_paths": "sources/workbuddy-experts/plugins/hr-digital-expert/skills/data-table-permission-checker;sources/workbuddy-experts/plugins/txzhaopin/skills/data-table-permission-checker",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/data-table-permission-checker"
+  },
+  {
+    "skill_slug": "data-visualization",
+    "skill_ref_examples": "./skills/data-visualization",
+    "expert_count": 1,
+    "expert_ids": "DataAnalyticsReporter",
+    "downloaded_count": 2,
+    "local_paths": "sources/workbuddy-experts/plugins/data-analytics-reporter/skills/data-visualization;sources/workbuddy-experts/plugins/data/skills/data-visualization",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/data-visualization"
+  },
+  {
+    "skill_slug": "data-warehouse-api-codegen",
+    "skill_ref_examples": "./skills/data-warehouse-api-codegen",
+    "expert_count": 1,
+    "expert_ids": "Txzhaopin",
+    "downloaded_count": 2,
+    "local_paths": "sources/workbuddy-experts/plugins/hr-digital-expert/skills/data-warehouse-api-codegen;sources/workbuddy-experts/plugins/txzhaopin/skills/data-warehouse-api-codegen",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/data-warehouse-api-codegen"
+  },
+  {
+    "skill_slug": "databrain-competitor-events",
+    "skill_ref_examples": "./skills/databrain-competitor-events",
+    "expert_count": 1,
+    "expert_ids": "DatabrainOpinionExpert",
+    "downloaded_count": 2,
+    "local_paths": "sources/workbuddy-experts/plugins/databrain-opinion-expert/skills/databrain-competitor-events;sources/workbuddy-experts/plugins/tiderider-sentiment/skills/databrain-competitor-events",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/databrain-competitor-events"
+  },
+  {
+    "skill_slug": "databrain-game-content-trend",
+    "skill_ref_examples": "./skills/databrain-game-content-trend",
+    "expert_count": 1,
+    "expert_ids": "DatabrainOpinionExpert",
+    "downloaded_count": 2,
+    "local_paths": "sources/workbuddy-experts/plugins/databrain-opinion-expert/skills/databrain-game-content-trend;sources/workbuddy-experts/plugins/tiderider-sentiment/skills/databrain-game-content-trend",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/databrain-game-content-trend"
+  },
+  {
+    "skill_slug": "databrain-opinion-alert",
+    "skill_ref_examples": "./skills/databrain-opinion-alert",
+    "expert_count": 1,
+    "expert_ids": "DatabrainOpinionExpert",
+    "downloaded_count": 2,
+    "local_paths": "sources/workbuddy-experts/plugins/databrain-opinion-expert/skills/databrain-opinion-alert;sources/workbuddy-experts/plugins/tiderider-sentiment/skills/databrain-opinion-alert",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/databrain-opinion-alert"
+  },
+  {
+    "skill_slug": "databrain-opinion-hotposts",
+    "skill_ref_examples": "./skills/databrain-opinion-hotposts",
+    "expert_count": 1,
+    "expert_ids": "DatabrainOpinionExpert",
+    "downloaded_count": 2,
+    "local_paths": "sources/workbuddy-experts/plugins/databrain-opinion-expert/skills/databrain-opinion-hotposts;sources/workbuddy-experts/plugins/tiderider-sentiment/skills/databrain-opinion-hotposts",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/databrain-opinion-hotposts"
+  },
+  {
+    "skill_slug": "databrain-opinion-metrics",
+    "skill_ref_examples": "./skills/databrain-opinion-metrics",
+    "expert_count": 1,
+    "expert_ids": "DatabrainOpinionExpert",
+    "downloaded_count": 2,
+    "local_paths": "sources/workbuddy-experts/plugins/databrain-opinion-expert/skills/databrain-opinion-metrics;sources/workbuddy-experts/plugins/tiderider-sentiment/skills/databrain-opinion-metrics",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/databrain-opinion-metrics"
+  },
+  {
+    "skill_slug": "databrain-opinion-summary",
+    "skill_ref_examples": "./skills/databrain-opinion-summary",
+    "expert_count": 1,
+    "expert_ids": "DatabrainOpinionExpert",
+    "downloaded_count": 2,
+    "local_paths": "sources/workbuddy-experts/plugins/databrain-opinion-expert/skills/databrain-opinion-summary;sources/workbuddy-experts/plugins/tiderider-sentiment/skills/databrain-opinion-summary",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/databrain-opinion-summary"
+  },
+  {
+    "skill_slug": "dcf-model",
+    "skill_ref_examples": "./skills/dcf-model",
+    "expert_count": 1,
+    "expert_ids": "PitchAgent",
+    "downloaded_count": 4,
+    "local_paths": "sources/workbuddy-experts/plugins/financial-analysis/skills/dcf-model;sources/workbuddy-experts/plugins/investment-banking/skills/dcf-model;sources/workbuddy-experts/plugins/model-builder/skills/dcf-model;sources/workbuddy-experts/plugins/pitch-agent/skills/dcf-model",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/dcf-model"
+  },
+  {
+    "skill_slug": "deal-strategy",
+    "skill_ref_examples": "./skills/deal-strategy",
+    "expert_count": 1,
+    "expert_ids": "SalesCoach",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/sales-coach/skills/deal-strategy",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/deal-strategy"
+  },
+  {
+    "skill_slug": "deck-refresh",
+    "skill_ref_examples": "./skills/deck-refresh",
+    "expert_count": 1,
+    "expert_ids": "PitchAgent",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/pitch-agent/skills/deck-refresh",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/deck-refresh"
+  },
+  {
+    "skill_slug": "deep-research",
+    "skill_ref_examples": "./skills/deep-research",
+    "expert_count": 3,
+    "expert_ids": "ComplianceAuditor;GovernmentDigitalPresalesConsultant;TechnicalDocumentationEngineer",
+    "downloaded_count": 6,
+    "local_paths": "sources/workbuddy-experts/plugins/ai-engineer/skills/deep-research;sources/workbuddy-experts/plugins/compliance-auditor/skills/deep-research;sources/workbuddy-experts/plugins/government-digital-presales-consultant/skills/deep-research;sources/workbuddy-experts/plugins/technical-documentation-engineer/skills/deep-research;sources/workbuddy-experts/plugins/tool-evaluation-expert/skills/deep-research;sources/workbuddy-experts/plugins/unity-editor-tool-developer/skills/deep-research",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/deep-research"
+  },
+  {
+    "skill_slug": "design",
+    "skill_ref_examples": "./skills/design",
+    "expert_count": 1,
+    "expert_ids": "VibeknowDesignVideo",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/vibeknow-design-video/skills/design",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/design"
+  },
+  {
+    "skill_slug": "design-html",
+    "skill_ref_examples": "./skills/design-html",
+    "expert_count": 1,
+    "expert_ids": "SoftwareWorkshop",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/gstack/skills/design-html",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/design-html"
+  },
+  {
+    "skill_slug": "design-reference",
+    "skill_ref_examples": "./skills/design-reference",
+    "expert_count": 1,
+    "expert_ids": "DesignMdArchitect",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/design-md-architect/skills/design-reference",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/design-reference"
+  },
+  {
+    "skill_slug": "design-system-extract",
+    "skill_ref_examples": "./skills/design-system-extract",
+    "expert_count": 1,
+    "expert_ids": "DesignPrototypeExpert",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/design-prototype-expert/skills/design-system-extract",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/design-system-extract"
+  },
+  {
+    "skill_slug": "design-systems",
+    "skill_ref_examples": "./skills/design-systems",
+    "expert_count": 1,
+    "expert_ids": "DesignEngineTeam",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/design-engine/skills/design-systems",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/design-systems"
+  },
+  {
+    "skill_slug": "discovery-questions",
+    "skill_ref_examples": "./skills/discovery-questions",
+    "expert_count": 1,
+    "expert_ids": "DesignPrototypeExpert",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/design-prototype-expert/skills/discovery-questions",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/discovery-questions"
+  },
+  {
+    "skill_slug": "docx-manipulation",
+    "skill_ref_examples": "./skills/docx-manipulation",
+    "expert_count": 1,
+    "expert_ids": "Cpq",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/cpq/skills/docx-manipulation",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/docx-manipulation"
+  },
+  {
+    "skill_slug": "egypt-marketing-skill",
+    "skill_ref_examples": "./skills/egypt-marketing-skill",
+    "expert_count": 1,
+    "expert_ids": "EgyptMarketing",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/egypt-marketing/skills/egypt-marketing-skill",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/egypt-marketing-skill"
+  },
+  {
+    "skill_slug": "egypt-public-affairs-skill",
+    "skill_ref_examples": "./skills/egypt-public-affairs-skill",
+    "expert_count": 1,
+    "expert_ids": "EgyptPublicAffairs",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/egypt-public-affairs/skills/egypt-public-affairs-skill",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/egypt-public-affairs-skill"
+  },
+  {
+    "skill_slug": "egypt-strategic-advisory-skill",
+    "skill_ref_examples": "./skills/egypt-strategic-advisory-skill",
+    "expert_count": 1,
+    "expert_ids": "EgyptStrategicAdvisory",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/egypt-strategic-advisory/skills/egypt-strategic-advisory-skill",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/egypt-strategic-advisory-skill"
+  },
+  {
+    "skill_slug": "employer-brand-amy",
+    "skill_ref_examples": "./skills/employer-brand-amy",
+    "expert_count": 1,
+    "expert_ids": "Txzhaopin",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/txzhaopin/skills/employer-brand-amy",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/employer-brand-amy"
+  },
+  {
+    "skill_slug": "employer-brand-lulu",
+    "skill_ref_examples": "./skills/employer-brand-lulu",
+    "expert_count": 1,
+    "expert_ids": "Txzhaopin",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/txzhaopin/skills/employer-brand-lulu",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/employer-brand-lulu"
+  },
+  {
+    "skill_slug": "employer-brand-rita",
+    "skill_ref_examples": "./skills/employer-brand-rita",
+    "expert_count": 1,
+    "expert_ids": "Txzhaopin",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/txzhaopin/skills/employer-brand-rita",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/employer-brand-rita"
+  },
+  {
+    "skill_slug": "employer-brand-xiaoe",
+    "skill_ref_examples": "./skills/employer-brand-xiaoe",
+    "expert_count": 1,
+    "expert_ids": "Txzhaopin",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/txzhaopin/skills/employer-brand-xiaoe",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/employer-brand-xiaoe"
+  },
+  {
+    "skill_slug": "employer-brand-xiaowanneng",
+    "skill_ref_examples": "./skills/employer-brand-xiaowanneng",
+    "expert_count": 1,
+    "expert_ids": "Txzhaopin",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/txzhaopin/skills/employer-brand-xiaowanneng",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/employer-brand-xiaowanneng"
+  },
+  {
+    "skill_slug": "enterprise-legal-workflows",
+    "skill_ref_examples": "./skills/enterprise-legal-workflows",
+    "expert_count": 1,
+    "expert_ids": "EnterpriseLegalTeam",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/enterprise-legal-team/skills/enterprise-legal-workflows",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/enterprise-legal-workflows"
+  },
+  {
+    "skill_slug": "entity-evidence-audit",
+    "skill_ref_examples": "./skills/entity-evidence-audit",
+    "expert_count": 1,
+    "expert_ids": "IndustrialParkInvestmentAttractionExpert",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/industrial-park-investment-attraction-expert/skills/entity-evidence-audit",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/entity-evidence-audit"
+  },
+  {
+    "skill_slug": "executing-marketing-campaigns",
+    "skill_ref_examples": "./skills/executing-marketing-campaigns",
+    "expert_count": 1,
+    "expert_ids": "MarketingCampaignExpert",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/executing-marketing-campaigns/skills/executing-marketing-campaigns",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/executing-marketing-campaigns"
+  },
+  {
+    "skill_slug": "expert-creator",
+    "skill_ref_examples": "./skills/expert-creator",
+    "expert_count": 1,
+    "expert_ids": "SkillhubCharityExpertTeam",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/skillhub-charity-expert-team/skills/expert-creator",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/expert-creator"
+  },
+  {
+    "skill_slug": "expert-reviewer",
+    "skill_ref_examples": "./skills/expert-reviewer",
+    "expert_count": 1,
+    "expert_ids": "SkillhubCharityExpertTeam",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/skillhub-charity-expert-team/skills/expert-reviewer",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/expert-reviewer"
+  },
+  {
+    "skill_slug": "family-education-expert",
+    "skill_ref_examples": "./skills/family-education-expert",
+    "expert_count": 1,
+    "expert_ids": "FamilyEducationMa",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/family-education-ma/skills/family-education-expert",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/family-education-expert"
+  },
+  {
+    "skill_slug": "fbs-bookwriter",
+    "skill_ref_examples": "./skills/fbs-bookwriter",
+    "expert_count": 3,
+    "expert_ids": "BookCoCreator;FeedbackSynthesisAnalyst;SeoExpert",
+    "downloaded_count": 4,
+    "local_paths": "sources/workbuddy-experts/plugins/behavioral-nudge-engine/skills/fbs-bookwriter;sources/workbuddy-experts/plugins/book-co-creator/skills/fbs-bookwriter;sources/workbuddy-experts/plugins/feedback-synthesis-analyst/skills/fbs-bookwriter;sources/workbuddy-experts/plugins/seo-expert/skills/fbs-bookwriter",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/fbs-bookwriter"
+  },
+  {
+    "skill_slug": "feedback",
+    "skill_ref_examples": "./skills/feedback",
+    "expert_count": 1,
+    "expert_ids": "Cpq",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/cpq/skills/feedback",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/feedback"
+  },
+  {
+    "skill_slug": "fit-portfolio",
+    "skill_ref_examples": "./skills/fit-portfolio",
+    "expert_count": 1,
+    "expert_ids": "IndustrialParkInvestmentAttractionExpert",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/industrial-park-investment-attraction-expert/skills/fit-portfolio",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/fit-portfolio"
+  },
+  {
+    "skill_slug": "frontend-aesthetic-direction",
+    "skill_ref_examples": "./skills/frontend-aesthetic-direction",
+    "expert_count": 1,
+    "expert_ids": "DesignPrototypeExpert",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/design-prototype-expert/skills/frontend-aesthetic-direction",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/frontend-aesthetic-direction"
+  },
+  {
+    "skill_slug": "frontend-dev",
+    "skill_ref_examples": "./skills/frontend-dev",
+    "expert_count": 3,
+    "expert_ids": "BackendArchitect;DesignMdArchitect;UiDesigner",
+    "downloaded_count": 5,
+    "local_paths": "sources/workbuddy-experts/plugins/backend-architect/skills/frontend-dev;sources/workbuddy-experts/plugins/design-md-architect/skills/frontend-dev;sources/workbuddy-experts/plugins/frontend-developer/skills/frontend-dev;sources/workbuddy-experts/plugins/senior-developer/skills/frontend-dev;sources/workbuddy-experts/plugins/ui-designer/skills/frontend-dev",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/frontend-dev"
+  },
+  {
+    "skill_slug": "fullstack-dev",
+    "skill_ref_examples": "./skills/fullstack-dev",
+    "expert_count": 1,
+    "expert_ids": "BackendArchitect",
+    "downloaded_count": 6,
+    "local_paths": "sources/workbuddy-experts/plugins/ai-engineer/skills/fullstack-dev;sources/workbuddy-experts/plugins/backend-architect/skills/fullstack-dev;sources/workbuddy-experts/plugins/frontend-developer/skills/fullstack-dev;sources/workbuddy-experts/plugins/senior-developer/skills/fullstack-dev;sources/workbuddy-experts/plugins/software-architect/skills/fullstack-dev;sources/workbuddy-experts/plugins/we-chat-mini-program-developer/skills/fullstack-dev",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/fullstack-dev"
+  },
+  {
+    "skill_slug": "generate-variations",
+    "skill_ref_examples": "./skills/generate-variations",
+    "expert_count": 1,
+    "expert_ids": "DesignPrototypeExpert",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/design-prototype-expert/skills/generate-variations",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/generate-variations"
+  },
+  {
+    "skill_slug": "geo-diag-report",
+    "skill_ref_examples": "./skills/geo-diag-report",
+    "expert_count": 1,
+    "expert_ids": "GeoDiagnosisExpert",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/geo-diagnosis-expert/skills/geo-diag-report",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/geo-diag-report"
+  },
+  {
+    "skill_slug": "guided-ppt-creation-workflow",
+    "skill_ref_examples": "./skills/guided-ppt-creation-workflow",
+    "expert_count": 1,
+    "expert_ids": "LexiangPptExpert",
+    "downloaded_count": 2,
+    "local_paths": "sources/workbuddy-experts/plugins/ppt-creation-expert/skills/guided-ppt-creation-workflow",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/guided-ppt-creation-workflow"
+  },
+  {
+    "skill_slug": "hcp-insight",
+    "skill_ref_examples": "./skills/hcp-insight",
+    "expert_count": 1,
+    "expert_ids": "NgesHealthcareMarketingTeam",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/nges-healthcare-marketing-team/skills/hcp-insight",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/hcp-insight"
+  },
+  {
+    "skill_slug": "headhunter-recommend",
+    "skill_ref_examples": "./skills/headhunter-recommend",
+    "expert_count": 1,
+    "expert_ids": "Txzhaopin",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/txzhaopin/skills/headhunter-recommend",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/headhunter-recommend"
+  },
+  {
+    "skill_slug": "hiring",
+    "skill_ref_examples": "./skills/hiring",
+    "expert_count": 1,
+    "expert_ids": "SmbOperations",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/smb-operations/skills/hiring",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/hiring"
+  },
+  {
+    "skill_slug": "hr-data-router",
+    "skill_ref_examples": "./skills/hr-data-router",
+    "expert_count": 1,
+    "expert_ids": "Txzhaopin",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/txzhaopin/skills/hr-data-router",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/hr-data-router"
+  },
+  {
+    "skill_slug": "hr-data-sql-builder",
+    "skill_ref_examples": "./skills/hr-data-sql-builder",
+    "expert_count": 1,
+    "expert_ids": "Txzhaopin",
+    "downloaded_count": 2,
+    "local_paths": "sources/workbuddy-experts/plugins/hr-digital-expert/skills/hr-data-sql-builder;sources/workbuddy-experts/plugins/txzhaopin/skills/hr-data-sql-builder",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/hr-data-sql-builder"
+  },
+  {
+    "skill_slug": "hr-vue-next",
+    "skill_ref_examples": "./skills/hr-vue-next",
+    "expert_count": 1,
+    "expert_ids": "Txzhaopin",
+    "downloaded_count": 2,
+    "local_paths": "sources/workbuddy-experts/plugins/hr-digital-expert/skills/hr-vue-next;sources/workbuddy-experts/plugins/txzhaopin/skills/hr-vue-next",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/hr-vue-next"
+  },
+  {
+    "skill_slug": "hrclaw-messenger",
+    "skill_ref_examples": "./skills/hrclaw-messenger",
+    "expert_count": 1,
+    "expert_ids": "Txzhaopin",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/txzhaopin/skills/hrclaw-messenger",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/hrclaw-messenger"
+  },
+  {
+    "skill_slug": "humanizer",
+    "skill_ref_examples": "./skills/humanizer",
+    "expert_count": 7,
+    "expert_ids": "AdCreativeStrategist;BrandGuardian;ContentCreator;ContentDistributionTeam;DouyinStrategist;WechatOfficialAccountExpert;XiaohongshuOperationsExpert",
+    "downloaded_count": 7,
+    "local_paths": "sources/workbuddy-experts/plugins/ad-creative-strategist/skills/humanizer;sources/workbuddy-experts/plugins/brand-guardian/skills/humanizer;sources/workbuddy-experts/plugins/content-creator/skills/humanizer;sources/workbuddy-experts/plugins/content-distribution-team/skills/humanizer;sources/workbuddy-experts/plugins/douyin-strategist/skills/humanizer;sources/workbuddy-experts/plugins/wechat-official-account-expert/skills/humanizer;sources/workbuddy-experts/plugins/xiaohongshu-operations-expert/skills/humanizer",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/humanizer"
+  },
+  {
+    "skill_slug": "ib-check-deck",
+    "skill_ref_examples": "./skills/ib-check-deck",
+    "expert_count": 1,
+    "expert_ids": "PitchAgent",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/pitch-agent/skills/ib-check-deck",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/ib-check-deck"
+  },
+  {
+    "skill_slug": "ima-skills",
+    "skill_ref_examples": "./skills/ima-skills",
+    "expert_count": 2,
+    "expert_ids": "GrowthHacker;LegalComplianceReviewer",
+    "downloaded_count": 3,
+    "local_paths": "sources/workbuddy-experts/plugins/growth-hacker/skills/ima-skills;sources/workbuddy-experts/plugins/legal-compliance-reviewer/skills/ima-skills;sources/workbuddy-experts/plugins/trend-researcher/skills/ima-skills",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/ima-skills"
+  },
+  {
+    "skill_slug": "impeccable",
+    "skill_ref_examples": "./skills/impeccable",
+    "expert_count": 2,
+    "expert_ids": "DesignMdArchitect;UiDesigner",
+    "downloaded_count": 4,
+    "local_paths": "sources/workbuddy-experts/plugins/design-md-architect/skills/impeccable;sources/workbuddy-experts/plugins/frontend-developer/skills/impeccable;sources/workbuddy-experts/plugins/ui-designer/skills/impeccable;sources/workbuddy-experts/plugins/we-chat-mini-program-developer/skills/impeccable",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/impeccable"
+  },
+  {
+    "skill_slug": "independent-board-core",
+    "skill_ref_examples": "./skills/independent-board-core",
+    "expert_count": 1,
+    "expert_ids": "FbsirEightSeatBoard",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/fbsir-eight-seat-board/skills/independent-board-core",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/independent-board-core"
+  },
+  {
+    "skill_slug": "indicator-api-codegen",
+    "skill_ref_examples": "./skills/indicator-api-codegen",
+    "expert_count": 1,
+    "expert_ids": "Txzhaopin",
+    "downloaded_count": 2,
+    "local_paths": "sources/workbuddy-experts/plugins/hr-digital-expert/skills/indicator-api-codegen;sources/workbuddy-experts/plugins/txzhaopin/skills/indicator-api-codegen",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/indicator-api-codegen"
+  },
+  {
+    "skill_slug": "indicator-query",
+    "skill_ref_examples": "./skills/indicator-query",
+    "expert_count": 1,
+    "expert_ids": "Txzhaopin",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/txzhaopin/skills/indicator-query",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/indicator-query"
+  },
+  {
+    "skill_slug": "inquiry-price",
+    "skill_ref_examples": "./skills/inquiry-price",
+    "expert_count": 1,
+    "expert_ids": "Cpq",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/cpq/skills/inquiry-price",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/inquiry-price"
+  },
+  {
+    "skill_slug": "inquiry-price-knot",
+    "skill_ref_examples": "./skills/inquiry-price-knot",
+    "expert_count": 1,
+    "expert_ids": "Cpq",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/cpq/skills/inquiry-price-knot",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/inquiry-price-knot"
+  },
+  {
+    "skill_slug": "inquiry-price-master",
+    "skill_ref_examples": "./skills/inquiry-price-master",
+    "expert_count": 2,
+    "expert_ids": "TencentCloudPriceExpert;TencentCloudQuoteAssistant",
+    "downloaded_count": 2,
+    "local_paths": "sources/workbuddy-experts/plugins/tencent-cloud-price-expert/skills/inquiry-price-master;sources/workbuddy-experts/plugins/tencent-cloud-quote-assistant/skills/inquiry-price-master",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/inquiry-price-master"
+  },
+  {
+    "skill_slug": "inquiry-price-parallel",
+    "skill_ref_examples": "./skills/inquiry-price-parallel",
+    "expert_count": 1,
+    "expert_ids": "Cpq",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/cpq/skills/inquiry-price-parallel",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/inquiry-price-parallel"
+  },
+  {
+    "skill_slug": "interactive-medical-case",
+    "skill_ref_examples": "./skills/interactive-medical-case",
+    "expert_count": 1,
+    "expert_ids": "NgesHealthcareMarketingTeam",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/nges-healthcare-marketing-team/skills/interactive-medical-case",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/interactive-medical-case"
+  },
+  {
+    "skill_slug": "interview-assistant",
+    "skill_ref_examples": "./skills/interview-assistant",
+    "expert_count": 1,
+    "expert_ids": "Txzhaopin",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/txzhaopin/skills/interview-assistant",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/interview-assistant"
+  },
+  {
+    "skill_slug": "interview-data-processor",
+    "skill_ref_examples": "./skills/interview-data-processor",
+    "expert_count": 1,
+    "expert_ids": "Txzhaopin",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/txzhaopin/skills/interview-data-processor",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/interview-data-processor"
+  },
+  {
+    "skill_slug": "interview-talent-modeler",
+    "skill_ref_examples": "./skills/interview-talent-modeler",
+    "expert_count": 1,
+    "expert_ids": "Txzhaopin",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/txzhaopin/skills/interview-talent-modeler",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/interview-talent-modeler"
+  },
+  {
+    "skill_slug": "invoice-verify",
+    "skill_ref_examples": "./skills/invoice-verify",
+    "expert_count": 1,
+    "expert_ids": "InvoiceVerifyExpert",
+    "downloaded_count": 2,
+    "local_paths": "sources/workbuddy-experts/plugins/invoice-verify-expert/skills/invoice-verify;sources/workbuddy-experts/plugins/invoice-verify-workbuddy/skills/invoice-verify",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/invoice-verify"
+  },
+  {
+    "skill_slug": "jiaozhen-factcheck",
+    "skill_ref_examples": "./skills/jiaozhen-factcheck",
+    "expert_count": 2,
+    "expert_ids": "ComplianceAuditor;PresalesTechnicalConsultant",
+    "downloaded_count": 2,
+    "local_paths": "sources/workbuddy-experts/plugins/compliance-auditor/skills/jiaozhen-factcheck;sources/workbuddy-experts/plugins/presales-technical-consultant/skills/jiaozhen-factcheck",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/jiaozhen-factcheck"
+  },
+  {
+    "skill_slug": "jiayi-ads-analytics-expert-public",
+    "skill_ref_examples": "./skills/jiayi-ads-analytics-expert-public",
+    "expert_count": 1,
+    "expert_ids": "JiayiAdsAnalyticsExpert",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/jiayi-ads-analytics-expert/skills/jiayi-ads-analytics-expert-public",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/jiayi-ads-analytics-expert-public"
+  },
+  {
+    "skill_slug": "jinshuju-table",
+    "skill_ref_examples": "./skills/jinshuju-table",
+    "expert_count": 1,
+    "expert_ids": "JinshujuTableExpert",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/jinshuju-table-expert/skills/jinshuju-table",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/jinshuju-table"
+  },
+  {
+    "skill_slug": "job-search-coaching",
+    "skill_ref_examples": "./skills/job-search-coaching",
+    "expert_count": 1,
+    "expert_ids": "CampusJobSearchCoach",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/campus-job-search-coach/skills/job-search-coaching",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/job-search-coaching"
+  },
+  {
+    "skill_slug": "jq-json-processing",
+    "skill_ref_examples": "./skills/jq-json-processing",
+    "expert_count": 1,
+    "expert_ids": "Cpq",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/cpq/skills/jq-json-processing",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/jq-json-processing"
+  },
+  {
+    "skill_slug": "kpi-design",
+    "skill_ref_examples": "./skills/kpi-design",
+    "expert_count": 1,
+    "expert_ids": "DataAnalyticsReporter",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/data-analytics-reporter/skills/kpi-design",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/kpi-design"
+  },
+  {
+    "skill_slug": "lbo-model",
+    "skill_ref_examples": "./skills/lbo-model",
+    "expert_count": 1,
+    "expert_ids": "PitchAgent",
+    "downloaded_count": 4,
+    "local_paths": "sources/workbuddy-experts/plugins/financial-analysis/skills/lbo-model;sources/workbuddy-experts/plugins/investment-banking/skills/lbo-model;sources/workbuddy-experts/plugins/model-builder/skills/lbo-model;sources/workbuddy-experts/plugins/pitch-agent/skills/lbo-model",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/lbo-model"
+  },
+  {
+    "skill_slug": "lead-management",
+    "skill_ref_examples": "./skills/lead-management",
+    "expert_count": 1,
+    "expert_ids": "SmbRevenue",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/smb-revenue/skills/lead-management",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/lead-management"
+  },
+  {
+    "skill_slug": "legal-output-formatter",
+    "skill_ref_examples": "./skills/legal-output-formatter",
+    "expert_count": 1,
+    "expert_ids": "LegalSearchPro",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/legal-search-pro/skills/legal-output-formatter",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/legal-output-formatter"
+  },
+  {
+    "skill_slug": "legal-scenario-router",
+    "skill_ref_examples": "./skills/legal-scenario-router",
+    "expert_count": 1,
+    "expert_ids": "LegalSearchPro",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/legal-search-pro/skills/legal-scenario-router",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/legal-scenario-router"
+  },
+  {
+    "skill_slug": "legal-search-engine",
+    "skill_ref_examples": "./skills/legal-search-engine",
+    "expert_count": 1,
+    "expert_ids": "LegalSearchPro",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/legal-search-pro/skills/legal-search-engine",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/legal-search-engine"
+  },
+  {
+    "skill_slug": "legal-skill-operations",
+    "skill_ref_examples": "./skills/legal-skill-operations",
+    "expert_count": 1,
+    "expert_ids": "LegalBuilderHubExpert",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/legal-builder-hub/skills/legal-skill-operations",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/legal-skill-operations"
+  },
+  {
+    "skill_slug": "legal-verification-workbench",
+    "skill_ref_examples": "./skills/legal-verification-workbench",
+    "expert_count": 1,
+    "expert_ids": "LegalSearchPro",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/legal-search-pro/skills/legal-verification-workbench",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/legal-verification-workbench"
+  },
+  {
+    "skill_slug": "libtv-skill",
+    "skill_ref_examples": "./skills/libtv-skill",
+    "expert_count": 2,
+    "expert_ids": "ContentDistributionTeam;TikTokStrategist",
+    "downloaded_count": 2,
+    "local_paths": "sources/workbuddy-experts/plugins/content-distribution-team/skills/libtv-skill;sources/workbuddy-experts/plugins/tik-tok-strategist/skills/libtv-skill",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/libtv-skill"
+  },
+  {
+    "skill_slug": "linkfox-aigc-textgen",
+    "skill_ref_examples": "./skills/linkfox-aigc-textgen",
+    "expert_count": 1,
+    "expert_ids": "LinkfoxExpertAmazonListingSpecialist",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/linkfox-expert-amazon-listing-specialist/skills/linkfox-aigc-textgen",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/linkfox-aigc-textgen"
+  },
+  {
+    "skill_slug": "linkfox-amazon-alexa-search",
+    "skill_ref_examples": "./skills/linkfox-amazon-alexa-search",
+    "expert_count": 1,
+    "expert_ids": "LinkfoxExpertAmazonListingSpecialist",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/linkfox-expert-amazon-listing-specialist/skills/linkfox-amazon-alexa-search",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/linkfox-amazon-alexa-search"
+  },
+  {
+    "skill_slug": "linkfox-amazon-product-detail",
+    "skill_ref_examples": "./skills/linkfox-amazon-product-detail",
+    "expert_count": 1,
+    "expert_ids": "LinkfoxExpertAmazonListingSpecialist",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/linkfox-expert-amazon-listing-specialist/skills/linkfox-amazon-product-detail",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/linkfox-amazon-product-detail"
+  },
+  {
+    "skill_slug": "linkfox-amazon-reviews-list",
+    "skill_ref_examples": "./skills/linkfox-amazon-reviews-list",
+    "expert_count": 1,
+    "expert_ids": "LinkfoxExpertAmazonListingSpecialist",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/linkfox-expert-amazon-listing-specialist/skills/linkfox-amazon-reviews-list",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/linkfox-amazon-reviews-list"
+  },
+  {
+    "skill_slug": "linkfox-amazon-search",
+    "skill_ref_examples": "./skills/linkfox-amazon-search",
+    "expert_count": 1,
+    "expert_ids": "LinkfoxExpertAmazonListingSpecialist",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/linkfox-expert-amazon-listing-specialist/skills/linkfox-amazon-search",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/linkfox-amazon-search"
+  },
+  {
+    "skill_slug": "linkfox-amazon-search-by-image",
+    "skill_ref_examples": "./skills/linkfox-amazon-search-by-image",
+    "expert_count": 1,
+    "expert_ids": "LinkfoxExpertAmazonListingSpecialist",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/linkfox-expert-amazon-listing-specialist/skills/linkfox-amazon-search-by-image",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/linkfox-amazon-search-by-image"
+  },
+  {
+    "skill_slug": "linkfox-keepa-product-request",
+    "skill_ref_examples": "./skills/linkfox-keepa-product-request",
+    "expert_count": 1,
+    "expert_ids": "LinkfoxExpertAmazonListingSpecialist",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/linkfox-expert-amazon-listing-specialist/skills/linkfox-keepa-product-request",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/linkfox-keepa-product-request"
+  },
+  {
+    "skill_slug": "linkfox-multimodal-product-similarity",
+    "skill_ref_examples": "./skills/linkfox-multimodal-product-similarity",
+    "expert_count": 1,
+    "expert_ids": "LinkfoxExpertAmazonListingSpecialist",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/linkfox-expert-amazon-listing-specialist/skills/linkfox-multimodal-product-similarity",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/linkfox-multimodal-product-similarity"
+  },
+  {
+    "skill_slug": "linkfox-ruiguan-copyright-detection",
+    "skill_ref_examples": "./skills/linkfox-ruiguan-copyright-detection",
+    "expert_count": 1,
+    "expert_ids": "LinkfoxExpertAmazonListingSpecialist",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/linkfox-expert-amazon-listing-specialist/skills/linkfox-ruiguan-copyright-detection",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/linkfox-ruiguan-copyright-detection"
+  },
+  {
+    "skill_slug": "linkfox-ruiguan-detection-patent-design",
+    "skill_ref_examples": "./skills/linkfox-ruiguan-detection-patent-design",
+    "expert_count": 1,
+    "expert_ids": "LinkfoxExpertAmazonListingSpecialist",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/linkfox-expert-amazon-listing-specialist/skills/linkfox-ruiguan-detection-patent-design",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/linkfox-ruiguan-detection-patent-design"
+  },
+  {
+    "skill_slug": "linkfox-ruiguan-gun-parts-search",
+    "skill_ref_examples": "./skills/linkfox-ruiguan-gun-parts-search",
+    "expert_count": 1,
+    "expert_ids": "LinkfoxExpertAmazonListingSpecialist",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/linkfox-expert-amazon-listing-specialist/skills/linkfox-ruiguan-gun-parts-search",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/linkfox-ruiguan-gun-parts-search"
+  },
+  {
+    "skill_slug": "linkfox-ruiguan-text-trademark-detection",
+    "skill_ref_examples": "./skills/linkfox-ruiguan-text-trademark-detection",
+    "expert_count": 1,
+    "expert_ids": "LinkfoxExpertAmazonListingSpecialist",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/linkfox-expert-amazon-listing-specialist/skills/linkfox-ruiguan-text-trademark-detection",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/linkfox-ruiguan-text-trademark-detection"
+  },
+  {
+    "skill_slug": "linkfox-ruiguan-trademark-graphic-detection",
+    "skill_ref_examples": "./skills/linkfox-ruiguan-trademark-graphic-detection",
+    "expert_count": 1,
+    "expert_ids": "LinkfoxExpertAmazonListingSpecialist",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/linkfox-expert-amazon-listing-specialist/skills/linkfox-ruiguan-trademark-graphic-detection",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/linkfox-ruiguan-trademark-graphic-detection"
+  },
+  {
+    "skill_slug": "linkfox-ruiguan-utility-patent-detection",
+    "skill_ref_examples": "./skills/linkfox-ruiguan-utility-patent-detection",
+    "expert_count": 1,
+    "expert_ids": "LinkfoxExpertAmazonListingSpecialist",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/linkfox-expert-amazon-listing-specialist/skills/linkfox-ruiguan-utility-patent-detection",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/linkfox-ruiguan-utility-patent-detection"
+  },
+  {
+    "skill_slug": "linkfox-sellersprite-traffic-keyword",
+    "skill_ref_examples": "./skills/linkfox-sellersprite-traffic-keyword",
+    "expert_count": 1,
+    "expert_ids": "LinkfoxExpertAmazonListingSpecialist",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/linkfox-expert-amazon-listing-specialist/skills/linkfox-sellersprite-traffic-keyword",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/linkfox-sellersprite-traffic-keyword"
+  },
+  {
+    "skill_slug": "linkfox-sif-asin-keywords",
+    "skill_ref_examples": "./skills/linkfox-sif-asin-keywords",
+    "expert_count": 1,
+    "expert_ids": "LinkfoxExpertAmazonListingSpecialist",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/linkfox-expert-amazon-listing-specialist/skills/linkfox-sif-asin-keywords",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/linkfox-sif-asin-keywords"
+  },
+  {
+    "skill_slug": "listing-ai-readiness",
+    "skill_ref_examples": "./skills/listing-ai-readiness",
+    "expert_count": 1,
+    "expert_ids": "LinkfoxExpertAmazonListingSpecialist",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/linkfox-expert-amazon-listing-specialist/skills/listing-ai-readiness",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/listing-ai-readiness"
+  },
+  {
+    "skill_slug": "listing-asin-batch-ingest",
+    "skill_ref_examples": "./skills/listing-asin-batch-ingest",
+    "expert_count": 1,
+    "expert_ids": "LinkfoxExpertAmazonListingSpecialist",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/linkfox-expert-amazon-listing-specialist/skills/listing-asin-batch-ingest",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/listing-asin-batch-ingest"
+  },
+  {
+    "skill_slug": "listing-asin-deep-fetch",
+    "skill_ref_examples": "./skills/listing-asin-deep-fetch",
+    "expert_count": 1,
+    "expert_ids": "LinkfoxExpertAmazonListingSpecialist",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/linkfox-expert-amazon-listing-specialist/skills/listing-asin-deep-fetch",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/listing-asin-deep-fetch"
+  },
+  {
+    "skill_slug": "listing-audit",
+    "skill_ref_examples": "./skills/listing-audit",
+    "expert_count": 1,
+    "expert_ids": "LinkfoxExpertAmazonListingSpecialist",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/linkfox-expert-amazon-listing-specialist/skills/listing-audit",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/listing-audit"
+  },
+  {
+    "skill_slug": "listing-bullet-writer",
+    "skill_ref_examples": "./skills/listing-bullet-writer",
+    "expert_count": 1,
+    "expert_ids": "LinkfoxExpertAmazonListingSpecialist",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/linkfox-expert-amazon-listing-specialist/skills/listing-bullet-writer",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/listing-bullet-writer"
+  },
+  {
+    "skill_slug": "listing-competitor-cluster",
+    "skill_ref_examples": "./skills/listing-competitor-cluster",
+    "expert_count": 1,
+    "expert_ids": "LinkfoxExpertAmazonListingSpecialist",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/linkfox-expert-amazon-listing-specialist/skills/listing-competitor-cluster",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/listing-competitor-cluster"
+  },
+  {
+    "skill_slug": "listing-compliance-scan",
+    "skill_ref_examples": "./skills/listing-compliance-scan",
+    "expert_count": 1,
+    "expert_ids": "LinkfoxExpertAmazonListingSpecialist",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/linkfox-expert-amazon-listing-specialist/skills/listing-compliance-scan",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/listing-compliance-scan"
+  },
+  {
+    "skill_slug": "listing-compliance-validator",
+    "skill_ref_examples": "./skills/listing-compliance-validator",
+    "expert_count": 1,
+    "expert_ids": "LinkfoxExpertAmazonListingSpecialist",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/linkfox-expert-amazon-listing-specialist/skills/listing-compliance-validator",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/listing-compliance-validator"
+  },
+  {
+    "skill_slug": "listing-copy-suite-writer",
+    "skill_ref_examples": "./skills/listing-copy-suite-writer",
+    "expert_count": 1,
+    "expert_ids": "LinkfoxExpertAmazonListingSpecialist",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/linkfox-expert-amazon-listing-specialist/skills/listing-copy-suite-writer",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/listing-copy-suite-writer"
+  },
+  {
+    "skill_slug": "listing-core",
+    "skill_ref_examples": "./skills/listing-core",
+    "expert_count": 1,
+    "expert_ids": "LinkfoxExpertAmazonListingSpecialist",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/linkfox-expert-amazon-listing-specialist/skills/listing-core",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/listing-core"
+  },
+  {
+    "skill_slug": "listing-description-writer",
+    "skill_ref_examples": "./skills/listing-description-writer",
+    "expert_count": 1,
+    "expert_ids": "LinkfoxExpertAmazonListingSpecialist",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/linkfox-expert-amazon-listing-specialist/skills/listing-description-writer",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/listing-description-writer"
+  },
+  {
+    "skill_slug": "listing-diff-meter",
+    "skill_ref_examples": "./skills/listing-diff-meter",
+    "expert_count": 1,
+    "expert_ids": "LinkfoxExpertAmazonListingSpecialist",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/linkfox-expert-amazon-listing-specialist/skills/listing-diff-meter",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/listing-diff-meter"
+  },
+  {
+    "skill_slug": "listing-keyword-matrix-build",
+    "skill_ref_examples": "./skills/listing-keyword-matrix-build",
+    "expert_count": 1,
+    "expert_ids": "LinkfoxExpertAmazonListingSpecialist",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/linkfox-expert-amazon-listing-specialist/skills/listing-keyword-matrix-build",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/listing-keyword-matrix-build"
+  },
+  {
+    "skill_slug": "listing-quality-scorer",
+    "skill_ref_examples": "./skills/listing-quality-scorer",
+    "expert_count": 1,
+    "expert_ids": "LinkfoxExpertAmazonListingSpecialist",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/linkfox-expert-amazon-listing-specialist/skills/listing-quality-scorer",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/listing-quality-scorer"
+  },
+  {
+    "skill_slug": "listing-search-terms-writer",
+    "skill_ref_examples": "./skills/listing-search-terms-writer",
+    "expert_count": 1,
+    "expert_ids": "LinkfoxExpertAmazonListingSpecialist",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/linkfox-expert-amazon-listing-specialist/skills/listing-search-terms-writer",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/listing-search-terms-writer"
+  },
+  {
+    "skill_slug": "listing-title-writer",
+    "skill_ref_examples": "./skills/listing-title-writer",
+    "expert_count": 1,
+    "expert_ids": "LinkfoxExpertAmazonListingSpecialist",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/linkfox-expert-amazon-listing-specialist/skills/listing-title-writer",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/listing-title-writer"
+  },
+  {
+    "skill_slug": "liveflow-job-recommender",
+    "skill_ref_examples": "./skills/liveflow-job-recommender",
+    "expert_count": 1,
+    "expert_ids": "CareerBroker",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/career-broker/skills/liveflow-job-recommender",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/liveflow-job-recommender"
+  },
+  {
+    "skill_slug": "make-a-deck",
+    "skill_ref_examples": "./skills/make-a-deck",
+    "expert_count": 1,
+    "expert_ids": "DesignPrototypeExpert",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/design-prototype-expert/skills/make-a-deck",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/make-a-deck"
+  },
+  {
+    "skill_slug": "make-prototype",
+    "skill_ref_examples": "./skills/make-prototype",
+    "expert_count": 1,
+    "expert_ids": "DesignPrototypeExpert",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/design-prototype-expert/skills/make-prototype",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/make-prototype"
+  },
+  {
+    "skill_slug": "make-tweakable",
+    "skill_ref_examples": "./skills/make-tweakable",
+    "expert_count": 1,
+    "expert_ids": "DesignPrototypeExpert",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/design-prototype-expert/skills/make-tweakable",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/make-tweakable"
+  },
+  {
+    "skill_slug": "mapping",
+    "skill_ref_examples": "./skills/mapping",
+    "expert_count": 1,
+    "expert_ids": "Txzhaopin",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/txzhaopin/skills/mapping",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/mapping"
+  },
+  {
+    "skill_slug": "market-researcher",
+    "skill_ref_examples": "./skills/market-researcher",
+    "expert_count": 9,
+    "expert_ids": "ChinaEcommerceOperationsExpert;CustomerSupportExpert;DiscoveryCoach;EnterpriseAccountStrategist;FeedbackSynthesisAnalyst;GrowthHacker;LivestreamEcommerceCoach;ProposalStrategist;TechnicalDocumentationEngineer",
+    "downloaded_count": 12,
+    "local_paths": "sources/workbuddy-experts/plugins/china-ecommerce-operations-expert/skills/market-researcher;sources/workbuddy-experts/plugins/customer-support-expert/skills/market-researcher;sources/workbuddy-experts/plugins/discovery-coach/skills/market-researcher;sources/workbuddy-experts/plugins/enterprise-account-strategist/skills/market-researcher;sources/workbuddy-experts/plugins/feedback-synthesis-analyst/skills/market-researcher;sources/workbuddy-experts/plugins/growth-hacker/skills/market-researcher;sources/workbuddy-experts/plugins/livestream-ecommerce-coach/skills/market-researcher;sources/workbuddy-experts/plugins/proposal-strategist/skills/market-researcher;sources/workbuddy-experts/plugins/supply-chain-strategist/skills/market-researcher;sources/workbuddy-experts/plugins/technical-documentation-engineer/skills/market-researcher;sources/workbuddy-experts/plugins/trend-researcher/skills/market-researcher;sources/workbuddy-experts/plugins/user-experience-researcher/skills/market-researcher",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/market-researcher"
+  },
+  {
+    "skill_slug": "marketing-content-creation",
+    "skill_ref_examples": "./skills/marketing-content-creation",
+    "expert_count": 1,
+    "expert_ids": "AutoConsultant",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/auto-consultant/skills/marketing-content-creation",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/marketing-content-creation"
+  },
+  {
+    "skill_slug": "marketing-diagnosis-review",
+    "skill_ref_examples": "./skills/marketing-diagnosis-review",
+    "expert_count": 1,
+    "expert_ids": "AutoConsultant",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/auto-consultant/skills/marketing-diagnosis-review",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/marketing-diagnosis-review"
+  },
+  {
+    "skill_slug": "marketing-growth",
+    "skill_ref_examples": "./skills/marketing-growth",
+    "expert_count": 1,
+    "expert_ids": "MarketingGrowthTeam",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/marketing-growth-team/skills/marketing-growth",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/marketing-growth"
+  },
+  {
+    "skill_slug": "marketing-review",
+    "skill_ref_examples": "./skills/marketing-review",
+    "expert_count": 1,
+    "expert_ids": "MarketingReviewer",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/marketing-reviewer/skills/marketing-review",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/marketing-review"
+  },
+  {
+    "skill_slug": "marketing-skills",
+    "skill_ref_examples": "./skills/marketing-skills",
+    "expert_count": 5,
+    "expert_ids": "BaiduSeoExpert;BilibiliContentStrategist;GrowthHacker;LivestreamEcommerceCoach;XiaohongshuOperationsExpert",
+    "downloaded_count": 5,
+    "local_paths": "sources/workbuddy-experts/plugins/baidu-seo-expert/skills/marketing-skills;sources/workbuddy-experts/plugins/bilibili-content-strategist/skills/marketing-skills;sources/workbuddy-experts/plugins/growth-hacker/skills/marketing-skills;sources/workbuddy-experts/plugins/livestream-ecommerce-coach/skills/marketing-skills;sources/workbuddy-experts/plugins/xiaohongshu-operations-expert/skills/marketing-skills",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/marketing-skills"
+  },
+  {
+    "skill_slug": "material-studio",
+    "skill_ref_examples": "./skills/material-studio",
+    "expert_count": 1,
+    "expert_ids": "NgesHealthcareMarketingTeam",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/nges-healthcare-marketing-team/skills/material-studio",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/material-studio"
+  },
+  {
+    "skill_slug": "mcp-capability-explorer",
+    "skill_ref_examples": "./skills/mcp-capability-explorer",
+    "expert_count": 1,
+    "expert_ids": "Txzhaopin",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/txzhaopin/skills/mcp-capability-explorer",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/mcp-capability-explorer"
+  },
+  {
+    "skill_slug": "med-interactive-html",
+    "skill_ref_examples": "./skills/med-interactive-html",
+    "expert_count": 1,
+    "expert_ids": "NgesHealthcareMarketingTeam",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/nges-healthcare-marketing-team/skills/med-interactive-html",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/med-interactive-html"
+  },
+  {
+    "skill_slug": "med-podcast-generator",
+    "skill_ref_examples": "./skills/med-podcast-generator",
+    "expert_count": 1,
+    "expert_ids": "NgesHealthcareMarketingTeam",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/nges-healthcare-marketing-team/skills/med-podcast-generator",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/med-podcast-generator"
+  },
+  {
+    "skill_slug": "media-guard",
+    "skill_ref_examples": "./skills/media-guard",
+    "expert_count": 1,
+    "expert_ids": "UaeMarketingAdvisor",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/uae-marketing-advisor/skills/media-guard",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/media-guard"
+  },
+  {
+    "skill_slug": "mentor-recommender",
+    "skill_ref_examples": "./skills/mentor-recommender",
+    "expert_count": 1,
+    "expert_ids": "CareerBroker",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/career-broker/skills/mentor-recommender",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/mentor-recommender"
+  },
+  {
+    "skill_slug": "mermaid-render",
+    "skill_ref_examples": "./skills/mermaid-render",
+    "expert_count": 1,
+    "expert_ids": "MermaidDiagramExpert",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/mermaid-diagram-expert/skills/mermaid-render",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/mermaid-render"
+  },
+  {
+    "skill_slug": "metric-diagnostics",
+    "skill_ref_examples": "./skills/metric-diagnostics",
+    "expert_count": 1,
+    "expert_ids": "DataAnalyticsReporter",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/data-analytics-reporter/skills/metric-diagnostics",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/metric-diagnostics"
+  },
+  {
+    "skill_slug": "migraq",
+    "skill_ref_examples": "./skills/migraq",
+    "expert_count": 2,
+    "expert_ids": "CloudOpsTeam;Cpq",
+    "downloaded_count": 5,
+    "local_paths": "sources/workbuddy-experts/plugins/cloud-ops-team/skills/migraq;sources/workbuddy-experts/plugins/cpq/skills/migraq;sources/workbuddy-experts/plugins/migraq-expert/skills/migraq;sources/workbuddy-experts/plugins/migraq-team/skills/migraq",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/migraq"
+  },
+  {
+    "skill_slug": "minimax-docx",
+    "skill_ref_examples": "./skills/minimax-docx",
+    "expert_count": 10,
+    "expert_ids": "ComplianceAuditor;ContentCreator;DiscoveryCoach;GovernmentDigitalPresalesConsultant;LegalComplianceReviewer;PresalesTechnicalConsultant;ProposalStrategist;RapidPrototypingEngineer;TechnicalDocumentationEngineer;VisualStorytellingExpert",
+    "downloaded_count": 15,
+    "local_paths": "sources/workbuddy-experts/plugins/compliance-auditor/skills/minimax-docx;sources/workbuddy-experts/plugins/content-creator/skills/minimax-docx;sources/workbuddy-experts/plugins/discovery-coach/skills/minimax-docx;sources/workbuddy-experts/plugins/document-generation-expert/skills/minimax-docx;sources/workbuddy-experts/plugins/government-digital-presales-consultant/skills/minimax-docx;sources/workbuddy-experts/plugins/incident-response-commander/skills/minimax-docx;sources/workbuddy-experts/plugins/legal-compliance-reviewer/skills/minimax-docx;sources/workbuddy-experts/plugins/presales-technical-consultant/skills/minimax-docx;sources/workbuddy-experts/plugins/proposal-strategist/skills/minimax-docx;sources/workbuddy-experts/plugins/rapid-prototyping-engineer/skills/minimax-docx;sources/workbuddy-experts/plugins/senior-project-manager/skills/minimax-docx;sources/workbuddy-experts/plugins/technical-documentation-engineer/skills/minimax-docx;sources/workbuddy-experts/plugins/user-experience-researcher/skills/minimax-docx;sources/workbuddy-experts/plugins/visual-storytelling-expert/skills/minimax-docx;sources/workbuddy-experts/plugins/workflow-optimization-expert/skills/minimax-docx",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/minimax-docx"
+  },
+  {
+    "skill_slug": "model-comparison-cost",
+    "skill_ref_examples": "./skills/model-comparison-cost",
+    "expert_count": 1,
+    "expert_ids": "AutoConsultant",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/auto-consultant/skills/model-comparison-cost",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/model-comparison-cost"
+  },
+  {
+    "skill_slug": "mp-draft-push",
+    "skill_ref_examples": "./skills/mp-draft-push",
+    "expert_count": 2,
+    "expert_ids": "ContentDistributionTeam;WechatOfficialAccountExpert",
+    "downloaded_count": 2,
+    "local_paths": "sources/workbuddy-experts/plugins/content-distribution-team/skills/mp-draft-push;sources/workbuddy-experts/plugins/wechat-official-account-expert/skills/mp-draft-push",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/mp-draft-push"
+  },
+  {
+    "skill_slug": "multi-platform-distribution",
+    "skill_ref_examples": "./skills/multi-platform-distribution",
+    "expert_count": 1,
+    "expert_ids": "ContentDistributionTeam",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/content-distribution-team/skills/multi-platform-distribution",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/multi-platform-distribution"
+  },
+  {
+    "skill_slug": "multi-search-engine",
+    "skill_ref_examples": "./skills/multi-search-engine",
+    "expert_count": 3,
+    "expert_ids": "ChinaEcommerceOperationsExpert;SeoExpert;TechnicalDocumentationEngineer",
+    "downloaded_count": 6,
+    "local_paths": "sources/workbuddy-experts/plugins/china-ecommerce-operations-expert/skills/multi-search-engine;sources/workbuddy-experts/plugins/executive-summary-generator/skills/multi-search-engine;sources/workbuddy-experts/plugins/level-designer/skills/multi-search-engine;sources/workbuddy-experts/plugins/mentougou-business-guide/skills/multi-search-engine;sources/workbuddy-experts/plugins/seo-expert/skills/multi-search-engine;sources/workbuddy-experts/plugins/technical-documentation-engineer/skills/multi-search-engine",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/multi-search-engine"
+  },
+  {
+    "skill_slug": "neodata-financial-search",
+    "skill_ref_examples": "./skills/neodata-financial-search",
+    "expert_count": 2,
+    "expert_ids": "InvestmentMastersTeam;PitchAgent",
+    "downloaded_count": 10,
+    "local_paths": "sources/workbuddy-experts/plugins/a-share-analysis/skills/neodata-financial-search;sources/workbuddy-experts/plugins/consulting-partners/skills/neodata-financial-search;sources/workbuddy-experts/plugins/earnings-reviewer/skills/neodata-financial-search;sources/workbuddy-experts/plugins/fund-research-analyst/skills/neodata-financial-search;sources/workbuddy-experts/plugins/investment-masters-team/skills/neodata-financial-search;sources/workbuddy-experts/plugins/market-researcher/skills/neodata-financial-search;sources/workbuddy-experts/plugins/model-builder/skills/neodata-financial-search;sources/workbuddy-experts/plugins/pitch-agent/skills/neodata-financial-search;sources/workbuddy-experts/plugins/strategy-backtest-expert/skills/neodata-financial-search;sources/workbuddy-experts/plugins/valuation-reviewer/skills/neodata-financial-search",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/neodata-financial-search"
+  },
+  {
+    "skill_slug": "novel-writer",
+    "skill_ref_examples": "./skills/novel-writer",
+    "expert_count": 1,
+    "expert_ids": "ContentCreator",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/content-creator/skills/novel-writer",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/novel-writer"
+  },
+  {
+    "skill_slug": "novel-writing",
+    "skill_ref_examples": "./skills/novel-writing",
+    "expert_count": 1,
+    "expert_ids": "ContentCreator",
+    "downloaded_count": 2,
+    "local_paths": "sources/workbuddy-experts/plugins/content-creator/skills/novel-writing;sources/workbuddy-experts/plugins/narrative-designer/skills/novel-writing",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/novel-writing"
+  },
+  {
+    "skill_slug": "oem-dealer-ops",
+    "skill_ref_examples": "./skills/oem-dealer-ops",
+    "expert_count": 1,
+    "expert_ids": "AutoConsultant",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/auto-consultant/skills/oem-dealer-ops",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/oem-dealer-ops"
+  },
+  {
+    "skill_slug": "onboarding",
+    "skill_ref_examples": "./skills/onboarding",
+    "expert_count": 1,
+    "expert_ids": "SmbOperations",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/smb-operations/skills/onboarding",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/onboarding"
+  },
+  {
+    "skill_slug": "online-search",
+    "skill_ref_examples": "./skills/online-search",
+    "expert_count": 1,
+    "expert_ids": "TrendHunter",
+    "downloaded_count": 3,
+    "local_paths": "sources/workbuddy-experts/plugins/news-briefing-expert/skills/online-search;sources/workbuddy-experts/plugins/terminal-veteran/skills/online-search;sources/workbuddy-experts/plugins/trend-hunter/skills/online-search",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/online-search"
+  },
+  {
+    "skill_slug": "opc-asset-ops",
+    "skill_ref_examples": "./skills/opc-asset-ops",
+    "expert_count": 1,
+    "expert_ids": "OpcTeam",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/opc-team/skills/opc-asset-ops",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/opc-asset-ops"
+  },
+  {
+    "skill_slug": "opc-business-model-design",
+    "skill_ref_examples": "./skills/opc-business-model-design",
+    "expert_count": 1,
+    "expert_ids": "OpcTeam",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/opc-team/skills/opc-business-model-design",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/opc-business-model-design"
+  },
+  {
+    "skill_slug": "opc-conversion-loop",
+    "skill_ref_examples": "./skills/opc-conversion-loop",
+    "expert_count": 1,
+    "expert_ids": "OpcTeam",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/opc-team/skills/opc-conversion-loop",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/opc-conversion-loop"
+  },
+  {
+    "skill_slug": "opc-dashboard-review",
+    "skill_ref_examples": "./skills/opc-dashboard-review",
+    "expert_count": 1,
+    "expert_ids": "OpcTeam",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/opc-team/skills/opc-dashboard-review",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/opc-dashboard-review"
+  },
+  {
+    "skill_slug": "opc-mvp-designer",
+    "skill_ref_examples": "./skills/opc-mvp-designer",
+    "expert_count": 1,
+    "expert_ids": "OpcTeam",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/opc-team/skills/opc-mvp-designer",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/opc-mvp-designer"
+  },
+  {
+    "skill_slug": "opc-niche-positioning",
+    "skill_ref_examples": "./skills/opc-niche-positioning",
+    "expert_count": 1,
+    "expert_ids": "OpcTeam",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/opc-team/skills/opc-niche-positioning",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/opc-niche-positioning"
+  },
+  {
+    "skill_slug": "opc-orchestrator",
+    "skill_ref_examples": "./skills/opc-orchestrator",
+    "expert_count": 1,
+    "expert_ids": "OpcTeam",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/opc-team/skills/opc-orchestrator",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/opc-orchestrator"
+  },
+  {
+    "skill_slug": "opc-resource-audit",
+    "skill_ref_examples": "./skills/opc-resource-audit",
+    "expert_count": 1,
+    "expert_ids": "OpcTeam",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/opc-team/skills/opc-resource-audit",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/opc-resource-audit"
+  },
+  {
+    "skill_slug": "opc-value-proposition",
+    "skill_ref_examples": "./skills/opc-value-proposition",
+    "expert_count": 1,
+    "expert_ids": "OpcTeam",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/opc-team/skills/opc-value-proposition",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/opc-value-proposition"
+  },
+  {
+    "skill_slug": "opinions-crawler",
+    "skill_ref_examples": "./skills/opinions-crawler",
+    "expert_count": 1,
+    "expert_ids": "DatabrainOpinionExpert",
+    "downloaded_count": 2,
+    "local_paths": "sources/workbuddy-experts/plugins/databrain-opinion-expert/skills/opinions-crawler;sources/workbuddy-experts/plugins/tiderider-sentiment/skills/opinions-crawler",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/opinions-crawler"
+  },
+  {
+    "skill_slug": "outreach-communication",
+    "skill_ref_examples": "./skills/outreach-communication",
+    "expert_count": 1,
+    "expert_ids": "FamilyEducationMa",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/family-education-ma/skills/outreach-communication",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/outreach-communication"
+  },
+  {
+    "skill_slug": "park-brief-builder",
+    "skill_ref_examples": "./skills/park-brief-builder",
+    "expert_count": 1,
+    "expert_ids": "IndustrialParkInvestmentAttractionExpert",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/industrial-park-investment-attraction-expert/skills/park-brief-builder",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/park-brief-builder"
+  },
+  {
+    "skill_slug": "pdf-extraction",
+    "skill_ref_examples": "./skills/pdf-extraction",
+    "expert_count": 1,
+    "expert_ids": "Cpq",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/cpq/skills/pdf-extraction",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/pdf-extraction"
+  },
+  {
+    "skill_slug": "pitch-deck",
+    "skill_ref_examples": "./skills/pitch-deck",
+    "expert_count": 1,
+    "expert_ids": "PitchAgent",
+    "downloaded_count": 2,
+    "local_paths": "sources/workbuddy-experts/plugins/investment-banking/skills/pitch-deck;sources/workbuddy-experts/plugins/pitch-agent/skills/pitch-deck",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/pitch-deck"
+  },
+  {
+    "skill_slug": "ppt-script-generator",
+    "skill_ref_examples": "./skills/ppt-script-generator",
+    "expert_count": 1,
+    "expert_ids": "LexiangPptExpert",
+    "downloaded_count": 2,
+    "local_paths": "sources/workbuddy-experts/plugins/ppt-creation-expert/skills/ppt-script-generator",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/ppt-script-generator"
+  },
+  {
+    "skill_slug": "pptx-author",
+    "skill_ref_examples": "./skills/pptx-author",
+    "expert_count": 1,
+    "expert_ids": "PitchAgent",
+    "downloaded_count": 3,
+    "local_paths": "sources/workbuddy-experts/plugins/market-researcher/skills/pptx-author;sources/workbuddy-experts/plugins/meeting-prep-agent/skills/pptx-author;sources/workbuddy-experts/plugins/pitch-agent/skills/pptx-author",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/pptx-author"
+  },
+  {
+    "skill_slug": "pptx-manipulation",
+    "skill_ref_examples": "./skills/pptx-manipulation",
+    "expert_count": 1,
+    "expert_ids": "Cpq",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/cpq/skills/pptx-manipulation",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/pptx-manipulation"
+  },
+  {
+    "skill_slug": "prepare-meeting",
+    "skill_ref_examples": "./skills/prepare-meeting",
+    "expert_count": 1,
+    "expert_ids": "SalesCoach",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/sales-coach/skills/prepare-meeting",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/prepare-meeting"
+  },
+  {
+    "skill_slug": "profile-perception",
+    "skill_ref_examples": "./skills/profile-perception",
+    "expert_count": 1,
+    "expert_ids": "CareerBroker",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/career-broker/skills/profile-perception",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/profile-perception"
+  },
+  {
+    "skill_slug": "prototype-templates",
+    "skill_ref_examples": "./skills/prototype-templates",
+    "expert_count": 1,
+    "expert_ids": "DesignEngineTeam",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/design-engine/skills/prototype-templates",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/prototype-templates"
+  },
+  {
+    "skill_slug": "public-target-research",
+    "skill_ref_examples": "./skills/public-target-research",
+    "expert_count": 1,
+    "expert_ids": "IndustrialParkInvestmentAttractionExpert",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/industrial-park-investment-attraction-expert/skills/public-target-research",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/public-target-research"
+  },
+  {
+    "skill_slug": "qa",
+    "skill_ref_examples": "./skills/qa",
+    "expert_count": 1,
+    "expert_ids": "SoftwareWorkshop",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/gstack/skills/qa",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/qa"
+  },
+  {
+    "skill_slug": "qa-review",
+    "skill_ref_examples": "./skills/qa-review",
+    "expert_count": 1,
+    "expert_ids": "DesignPrototypeExpert",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/design-prototype-expert/skills/qa-review",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/qa-review"
+  },
+  {
+    "skill_slug": "quality-review",
+    "skill_ref_examples": "./skills/quality-review",
+    "expert_count": 1,
+    "expert_ids": "DesignEngineTeam",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/design-engine/skills/quality-review",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/quality-review"
+  },
+  {
+    "skill_slug": "quiz-deliverable-evaluator",
+    "skill_ref_examples": "./skills/quiz-deliverable-evaluator",
+    "expert_count": 1,
+    "expert_ids": "Txzhaopin",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/txzhaopin/skills/quiz-deliverable-evaluator",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/quiz-deliverable-evaluator"
+  },
+  {
+    "skill_slug": "recruit-data-dashboard",
+    "skill_ref_examples": "./skills/recruit-data-dashboard",
+    "expert_count": 1,
+    "expert_ids": "Txzhaopin",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/txzhaopin/skills/recruit-data-dashboard",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/recruit-data-dashboard"
+  },
+  {
+    "skill_slug": "recruiting-ai-outbound-call",
+    "skill_ref_examples": "./skills/recruiting-ai-outbound-call",
+    "expert_count": 1,
+    "expert_ids": "Txzhaopin",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/txzhaopin/skills/recruiting-ai-outbound-call",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/recruiting-ai-outbound-call"
+  },
+  {
+    "skill_slug": "recruitment-inquiry-bot",
+    "skill_ref_examples": "./skills/recruitment-inquiry-bot",
+    "expert_count": 1,
+    "expert_ids": "Txzhaopin",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/txzhaopin/skills/recruitment-inquiry-bot",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/recruitment-inquiry-bot"
+  },
+  {
+    "skill_slug": "recruitment-process-tracker",
+    "skill_ref_examples": "./skills/recruitment-process-tracker",
+    "expert_count": 1,
+    "expert_ids": "Txzhaopin",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/txzhaopin/skills/recruitment-process-tracker",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/recruitment-process-tracker"
+  },
+  {
+    "skill_slug": "regulations",
+    "skill_ref_examples": "./skills/regulations",
+    "expert_count": 1,
+    "expert_ids": "NgesHealthcareMarketingTeam",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/nges-healthcare-marketing-team/skills/regulations",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/regulations"
+  },
+  {
+    "skill_slug": "requirement-communication-assistant",
+    "skill_ref_examples": "./skills/requirement-communication-assistant",
+    "expert_count": 1,
+    "expert_ids": "Txzhaopin",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/txzhaopin/skills/requirement-communication-assistant",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/requirement-communication-assistant"
+  },
+  {
+    "skill_slug": "res-family-intervention",
+    "skill_ref_examples": "./skills/res-family-intervention",
+    "expert_count": 1,
+    "expert_ids": "FamilyEducationMa",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/family-education-ma/skills/res-family-intervention",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/res-family-intervention"
+  },
+  {
+    "skill_slug": "resume-generator",
+    "skill_ref_examples": "./skills/resume-generator",
+    "expert_count": 1,
+    "expert_ids": "CareerBroker",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/career-broker/skills/resume-generator",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/resume-generator"
+  },
+  {
+    "skill_slug": "review",
+    "skill_ref_examples": "./skills/review",
+    "expert_count": 1,
+    "expert_ids": "SoftwareWorkshop",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/gstack/skills/review",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/review"
+  },
+  {
+    "skill_slug": "review-to-word",
+    "skill_ref_examples": "./skills/review-to-word",
+    "expert_count": 1,
+    "expert_ids": "PatientEducationContentReviewWordAssistant",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/patient-education-content-review-word-assistant/skills/review-to-word",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/review-to-word"
+  },
+  {
+    "skill_slug": "risk-assessment-referral",
+    "skill_ref_examples": "./skills/risk-assessment-referral",
+    "expert_count": 1,
+    "expert_ids": "FamilyEducationMa",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/family-education-ma/skills/risk-assessment-referral",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/risk-assessment-referral"
+  },
+  {
+    "skill_slug": "rum-sdk-setup",
+    "skill_ref_examples": "./skills/rum-sdk-setup",
+    "expert_count": 1,
+    "expert_ids": "RumFullstackTeam",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/rum-fullstack-team/skills/rum-sdk-setup",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/rum-sdk-setup"
+  },
+  {
+    "skill_slug": "sector-overview",
+    "skill_ref_examples": "./skills/sector-overview",
+    "expert_count": 1,
+    "expert_ids": "PitchAgent",
+    "downloaded_count": 3,
+    "local_paths": "sources/workbuddy-experts/plugins/equity-research/skills/sector-overview;sources/workbuddy-experts/plugins/market-researcher/skills/sector-overview;sources/workbuddy-experts/plugins/pitch-agent/skills/sector-overview",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/sector-overview"
+  },
+  {
+    "skill_slug": "seo-analysis",
+    "skill_ref_examples": "./skills/seo-analysis",
+    "expert_count": 1,
+    "expert_ids": "SeoContentTeam",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/seo-content-team/skills/seo-analysis",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/seo-analysis"
+  },
+  {
+    "skill_slug": "skill-creator",
+    "skill_ref_examples": "./skills/skill-creator",
+    "expert_count": 1,
+    "expert_ids": "SkillhubCharityExpertTeam",
+    "downloaded_count": 2,
+    "local_paths": "sources/workbuddy-experts/plugins/financial-analysis/skills/skill-creator;sources/workbuddy-experts/plugins/skillhub-charity-expert-team/skills/skill-creator",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/skill-creator"
+  },
+  {
+    "skill_slug": "skill-tester",
+    "skill_ref_examples": "./skills/skill-tester",
+    "expert_count": 1,
+    "expert_ids": "SkillhubCharityExpertTeam",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/skillhub-charity-expert-team/skills/skill-tester",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/skill-tester"
+  },
+  {
+    "skill_slug": "social-copywriter",
+    "skill_ref_examples": "./skills/social-copywriter",
+    "expert_count": 1,
+    "expert_ids": "TrendHunter",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/trend-hunter/skills/social-copywriter",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/social-copywriter"
+  },
+  {
+    "skill_slug": "social-engagement-ops",
+    "skill_ref_examples": "./skills/social-engagement-ops",
+    "expert_count": 1,
+    "expert_ids": "SocialEngagementTeam",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/social-engagement-team/skills/social-engagement-ops",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/social-engagement-ops"
+  },
+  {
+    "skill_slug": "social-media-poster",
+    "skill_ref_examples": "./skills/social-media-poster",
+    "expert_count": 1,
+    "expert_ids": "TrendHunter",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/trend-hunter/skills/social-media-poster",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/social-media-poster"
+  },
+  {
+    "skill_slug": "soe",
+    "skill_ref_examples": "./skills/soe",
+    "expert_count": 1,
+    "expert_ids": "Soe",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/soe/skills/soe",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/soe"
+  },
+  {
+    "skill_slug": "solution-ppt-generator-v3",
+    "skill_ref_examples": "./skills/solution-ppt-generator-v3",
+    "expert_count": 1,
+    "expert_ids": "LexiangPptExpert",
+    "downloaded_count": 2,
+    "local_paths": "sources/workbuddy-experts/plugins/ppt-creation-expert/skills/solution-ppt-generator-v3",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/solution-ppt-generator-v3"
+  },
+  {
+    "skill_slug": "tavily",
+    "skill_ref_examples": "./skills/tavily",
+    "expert_count": 1,
+    "expert_ids": "SearchTermAnalyst",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/search-term-analyst/skills/tavily",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/tavily"
+  },
+  {
+    "skill_slug": "tc-sec",
+    "skill_ref_examples": "./skills/tc-sec",
+    "expert_count": 1,
+    "expert_ids": "TcSec",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/tc-sec/skills/tc-sec",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/tc-sec"
+  },
+  {
+    "skill_slug": "tencent-cloud-pricing",
+    "skill_ref_examples": "./skills/tencent-cloud-pricing",
+    "expert_count": 1,
+    "expert_ids": "Cpq",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/cpq/skills/tencent-cloud-pricing",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/tencent-cloud-pricing"
+  },
+  {
+    "skill_slug": "tencent-cloud-product-mapping",
+    "skill_ref_examples": "./skills/tencent-cloud-product-mapping",
+    "expert_count": 1,
+    "expert_ids": "Cpq",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/cpq/skills/tencent-cloud-product-mapping",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/tencent-cloud-product-mapping"
+  },
+  {
+    "skill_slug": "tencent-cloud-rum",
+    "skill_ref_examples": "./skills/tencent-cloud-rum",
+    "expert_count": 1,
+    "expert_ids": "RumFullstackTeam",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/rum-fullstack-team/skills/tencent-cloud-rum-zh-2.1",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/tencent-cloud-rum"
+  },
+  {
+    "skill_slug": "tencent-docs",
+    "skill_ref_examples": "./skills/tencent-docs",
+    "expert_count": 1,
+    "expert_ids": "LegalComplianceReviewer",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/legal-compliance-reviewer/skills/tencent-docs",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/tencent-docs"
+  },
+  {
+    "skill_slug": "tencent-esign-contract",
+    "skill_ref_examples": "./skills/tencent-esign-contract",
+    "expert_count": 1,
+    "expert_ids": "ContractLegalExpert",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/contract-legal-expert/skills/tencent-esign-contract",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/tencent-esign-contract"
+  },
+  {
+    "skill_slug": "tencent-rce-skill",
+    "skill_ref_examples": "./skills/tencent-rce-skill",
+    "expert_count": 1,
+    "expert_ids": "TianyuMarketingGuardian",
+    "downloaded_count": 2,
+    "local_paths": "sources/workbuddy-experts/plugins/tianyu-account-guardian/skills/tencent-rce-skill;sources/workbuddy-experts/plugins/tianyu-marketing-guardian/skills/tencent-rce-skill",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/tencent-rce-skill"
+  },
+  {
+    "skill_slug": "test-drive-transaction",
+    "skill_ref_examples": "./skills/test-drive-transaction",
+    "expert_count": 1,
+    "expert_ids": "AutoConsultant",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/auto-consultant/skills/test-drive-transaction",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/test-drive-transaction"
+  },
+  {
+    "skill_slug": "used-sell-tradein",
+    "skill_ref_examples": "./skills/used-sell-tradein",
+    "expert_count": 1,
+    "expert_ids": "AutoConsultant",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/auto-consultant/skills/used-sell-tradein",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/used-sell-tradein"
+  },
+  {
+    "skill_slug": "uupt-delivery",
+    "skill_ref_examples": "./skills/uupt-delivery",
+    "expert_count": 1,
+    "expert_ids": "UuptDelivery",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/uupt-delivery/skills/uupt-delivery",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/uupt-delivery"
+  },
+  {
+    "skill_slug": "video-editing",
+    "skill_ref_examples": "./skills/video-editing",
+    "expert_count": 1,
+    "expert_ids": "TrendHunter",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/trend-hunter/skills/video-editing",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/video-editing"
+  },
+  {
+    "skill_slug": "warming-recruit-manager",
+    "skill_ref_examples": "./skills/warming-recruit-manager",
+    "expert_count": 1,
+    "expert_ids": "Txzhaopin",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/txzhaopin/skills/warming-recruit-manager",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/warming-recruit-manager"
+  },
+  {
+    "skill_slug": "wechat-article-search",
+    "skill_ref_examples": "./skills/wechat-article-search",
+    "expert_count": 4,
+    "expert_ids": "ContentDistributionTeam;DataAnalysisExpert;PresalesTechnicalConsultant;WechatOfficialAccountExpert",
+    "downloaded_count": 6,
+    "local_paths": "sources/workbuddy-experts/plugins/content-distribution-team/skills/wechat-article-search;sources/workbuddy-experts/plugins/data-analysis/skills/wechat-article-search;sources/workbuddy-experts/plugins/deep-research/skills/wechat-article-search;sources/workbuddy-experts/plugins/executive-summary-generator/skills/wechat-article-search;sources/workbuddy-experts/plugins/presales-technical-consultant/skills/wechat-article-search;sources/workbuddy-experts/plugins/wechat-official-account-expert/skills/wechat-article-search",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/wechat-article-search"
+  },
+  {
+    "skill_slug": "wechat-draft-writer",
+    "skill_ref_examples": "./skills/wechat-draft-writer",
+    "expert_count": 1,
+    "expert_ids": "WechatOfficialAccountExpert",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/wechat-official-account-expert/skills/wechat-draft-writer",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/wechat-draft-writer"
+  },
+  {
+    "skill_slug": "wechat-style-profiler",
+    "skill_ref_examples": "./skills/wechat-style-profiler",
+    "expert_count": 1,
+    "expert_ids": "WechatOfficialAccountExpert",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/wechat-official-account-expert/skills/wechat-style-profiler",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/wechat-style-profiler"
+  },
+  {
+    "skill_slug": "wechat-title-generator",
+    "skill_ref_examples": "./skills/wechat-title-generator",
+    "expert_count": 1,
+    "expert_ids": "WechatOfficialAccountExpert",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/wechat-official-account-expert/skills/wechat-title-generator",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/wechat-title-generator"
+  },
+  {
+    "skill_slug": "wechat-topic-outline-planner",
+    "skill_ref_examples": "./skills/wechat-topic-outline-planner",
+    "expert_count": 1,
+    "expert_ids": "WechatOfficialAccountExpert",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/wechat-official-account-expert/skills/wechat-topic-outline-planner",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/wechat-topic-outline-planner"
+  },
+  {
+    "skill_slug": "wei-xin-shi-pin-hao-yun-ying-ce-lue-shi",
+    "skill_ref_examples": "./skills/wei-xin-shi-pin-hao-yun-ying-ce-lue-shi",
+    "expert_count": 1,
+    "expert_ids": "WechatChannelsStrategist",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/wechat-channels-strategist/skills/wei-xin-shi-pin-hao-yun-ying-ce-lue-shi",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/wei-xin-shi-pin-hao-yun-ying-ce-lue-shi"
+  },
+  {
+    "skill_slug": "wenjuan-fallback-submit",
+    "skill_ref_examples": "./skills/wenjuan-fallback-submit",
+    "expert_count": 1,
+    "expert_ids": "SkillhubCharityExpertTeam",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/skillhub-charity-expert-team/skills/wenjuan-fallback-submit",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/wenjuan-fallback-submit"
+  },
+  {
+    "skill_slug": "westock",
+    "skill_ref_examples": "./skills/westock",
+    "expert_count": 1,
+    "expert_ids": "PitchAgent",
+    "downloaded_count": 7,
+    "local_paths": "sources/workbuddy-experts/plugins/a-share-analysis/skills/westock;sources/workbuddy-experts/plugins/consulting-partners/skills/westock;sources/workbuddy-experts/plugins/earnings-reviewer/skills/westock;sources/workbuddy-experts/plugins/market-researcher/skills/westock;sources/workbuddy-experts/plugins/model-builder/skills/westock;sources/workbuddy-experts/plugins/pitch-agent/skills/westock;sources/workbuddy-experts/plugins/valuation-reviewer/skills/westock",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/westock"
+  },
+  {
+    "skill_slug": "wireframe",
+    "skill_ref_examples": "./skills/wireframe",
+    "expert_count": 1,
+    "expert_ids": "DesignPrototypeExpert",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/design-prototype-expert/skills/wireframe",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/wireframe"
+  },
+  {
+    "skill_slug": "xiaohongshu",
+    "skill_ref_examples": "./skills/xiaohongshu",
+    "expert_count": 2,
+    "expert_ids": "ContentDistributionTeam;XiaohongshuOperationsExpert",
+    "downloaded_count": 2,
+    "local_paths": "sources/workbuddy-experts/plugins/content-distribution-team/skills/xiaohongshu;sources/workbuddy-experts/plugins/xiaohongshu-operations-expert/skills/xiaohongshu",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/xiaohongshu"
+  },
+  {
+    "skill_slug": "xlsx",
+    "skill_ref_examples": "./skills/xlsx",
+    "expert_count": 1,
+    "expert_ids": "DataAnalysisExpert",
+    "downloaded_count": 4,
+    "local_paths": "sources/workbuddy-experts/plugins/aicoding-architecture-expert-team/skills/xlsx;sources/workbuddy-experts/plugins/data-analysis/skills/xlsx;sources/workbuddy-experts/plugins/document-skills/skills/xlsx;sources/workbuddy-experts/plugins/fortune-master/skills/xlsx",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/xlsx"
+  },
+  {
+    "skill_slug": "xlsx-author",
+    "skill_ref_examples": "./skills/xlsx-author",
+    "expert_count": 1,
+    "expert_ids": "PitchAgent",
+    "downloaded_count": 8,
+    "local_paths": "sources/workbuddy-experts/plugins/earnings-reviewer/skills/xlsx-author;sources/workbuddy-experts/plugins/gl-reconciler/skills/xlsx-author;sources/workbuddy-experts/plugins/kyc-screener/skills/xlsx-author;sources/workbuddy-experts/plugins/model-builder/skills/xlsx-author;sources/workbuddy-experts/plugins/month-end-closer/skills/xlsx-author;sources/workbuddy-experts/plugins/pitch-agent/skills/xlsx-author;sources/workbuddy-experts/plugins/statement-auditor/skills/xlsx-author;sources/workbuddy-experts/plugins/valuation-reviewer/skills/xlsx-author",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/xlsx-author"
+  },
+  {
+    "skill_slug": "xlsx-manipulation",
+    "skill_ref_examples": "./skills/xlsx-manipulation",
+    "expert_count": 1,
+    "expert_ids": "Cpq",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/cpq/skills/xlsx-manipulation",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/xlsx-manipulation"
+  },
+  {
+    "skill_slug": "yunzhi-qa",
+    "skill_ref_examples": "./skills/yunzhi-qa",
+    "expert_count": 1,
+    "expert_ids": "YunzhiQaAssistant",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/yunzhi-qa-assistant/skills/yunzhi-qa",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/yunzhi-qa"
+  },
+  {
+    "skill_slug": "zhaopin-operations",
+    "skill_ref_examples": "./skills/zhaopin-operations",
+    "expert_count": 1,
+    "expert_ids": "Txzhaopin",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/txzhaopin/skills/zhaopin-operations",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/zhaopin-operations"
+  },
+  {
+    "skill_slug": "zhaopin-social-operations",
+    "skill_ref_examples": "./skills/zhaopin-social-operations",
+    "expert_count": 1,
+    "expert_ids": "Txzhaopin",
+    "downloaded_count": 1,
+    "local_paths": "sources/workbuddy-experts/plugins/txzhaopin/skills/zhaopin-social-operations",
+    "by_skill_link": "catalog/workbuddy_expert_catalog/skills/by-skill/zhaopin-social-operations"
+  }
+]

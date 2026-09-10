@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "mibao.cloud-asset-record.v1",
+  "type": "object",
+  "required": ["assetId", "source", "name", "mediaType", "size", "provenance", "status"],
+  "properties": {
+    "assetId": {"type": "string"},
+    "source": {"type": "object", "required": ["provider"], "properties": {"provider": {"type": "string"}, "space": {"type": ["string", "null"]}, "library": {"type": ["string", "null"]}, "remoteId": {"type": ["string", "null"]}, "remotePath": {"type": ["string", "null"]}}},
+    "name": {"type": "string"},
+    "extension": {"type": "string"},
+    "mediaType": {"type": "string"},
+    "size": {"type": "integer", "minimum": 0},
+    "provenance": {"type": "object", "required": ["observedAt", "snapshotId"]},
+    "status": {"enum": ["present", "changed", "missing", "inaccessible", "unknown"]},
+    "raw": {"type": "object"}
+  }
+}

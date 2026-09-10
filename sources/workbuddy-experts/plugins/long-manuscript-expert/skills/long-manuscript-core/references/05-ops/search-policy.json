@@ -1,0 +1,62 @@
+{
+  "schemaVersion": "fbs.long-manuscript.search-policy/v1",
+  "name": "long-manuscript-core-search-policy",
+  "version": "26.9.10",
+  "mandatoryWebSearchStages": ["S0", "S1", "S2"],
+  "entryWorkplanes": {
+    "enabled": true,
+    "wp1": {
+      "id": "WP1",
+      "name": "对话首值面",
+      "forbiddenTerms": ["WP2", "S3", "S4", "S5", "S6", "结构锁定", "release", "deliverables"]
+    },
+    "wp2": {
+      "id": "WP2",
+      "name": "书稿工作面",
+      "firstUsableWorkspaceDirs": [".fbs", "deliverables", "releases"],
+      "stateFiles": [".fbs/esm-state.md", ".fbs/规范执行状态.md", ".fbs/chapter-status.md"]
+    }
+  },
+  "searchPreflightContract": {
+    "enabled": true,
+    "requiredFields": ["whyNow", "searchScope", "nextStepAfterSearch", "offlineFallback"],
+    "mustAnnounceBeforeStages": ["S0", "S1", "S2", "S3"],
+    "mustAnnounceBeforeChapterSearch": true,
+    "blockedIfMissingAnnouncement": true,
+    "defaultUserFacingTemplate": "我先查{searchScope}，确认{whyNow}；查完后直接进入{nextStepAfterSearch}。如果当前无法联网，{offlineFallback}。"
+  },
+  "workspaceGovernance": {
+    "enabled": true,
+    "projectTruthDirs": [".fbs", "deliverables", "releases"],
+    "projectTruthStateFiles": [".fbs/esm-state.md", ".fbs/规范执行状态.md", ".fbs/chapter-status.md"],
+    "artifactBoundary": "过程性 artifact 不得充当项目真值",
+    "readOnlyContextSources": ["user_materials"],
+    "userVisiblePreference": ["editable_structure", "substantive_text", "single_next_action"],
+    "firstUsableWorkspace": {
+      "id": "WP2",
+      "requiredDirs": [".fbs", "deliverables", "releases"],
+      "mustExplainToUser": "原件保持只读；持久写入只生成新版本并回读。"
+    }
+  },
+  "queryOptimizationAudit": {
+    "enabled": true,
+    "fieldName": "queryOptimization",
+    "skipWhenOkFalse": true
+  },
+  "temporalAccuracy": {
+    "requireTimestampSearchAtS0": true,
+    "forbidBareYearWithoutSource": true,
+    "yearLabelPolicy": "search_before_write"
+  },
+  "networkBoundary": {
+    "connectorRequired": false,
+    "externalSearchRequiresCurrentTaskNeed": true,
+    "externalSearchRequiresUserNotice": true,
+    "offlineFallbackMustRemainAvailable": true
+  },
+  "privacy": {
+    "emitRawQueries": false,
+    "emitSourceExcerptsInAudit": false,
+    "useRelativeProjectPathsOnly": true
+  }
+}

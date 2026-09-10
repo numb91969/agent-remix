@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "tietu-edition-patch.v1",
+  "title": "Single operation patch; existing state is validated before mutation",
+  "type": "object",
+  "required": ["base_revision_id", "plan_id", "operation"],
+  "properties": {
+    "base_revision_id": {"type": "string", "minLength": 1},
+    "plan_id": {"type": "string", "minLength": 1},
+    "operation": {"enum": ["select", "unselect", "set_on_cover", "remove_on_cover", "set_digest", "remove_digest", "set_headline"]},
+    "candidate_id": {"type": "string", "minLength": 1},
+    "headline": {"type": "string", "minLength": 1},
+    "synthesized_headline": {"type": "boolean"},
+    "revision_id": {"type": "string", "minLength": 1}
+  },
+  "allOf": [{
+    "if": {"properties": {"operation": {"const": "set_headline"}}},
+    "then": {"required": ["headline"]},
+    "else": {"required": ["candidate_id"]}
+  }],
+  "description": "operation and plan_id are top-level scalar fields, not an operations array. Known IDs, source hashes and plan relationships require runtime checks."
+}

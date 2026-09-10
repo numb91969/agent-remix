@@ -1,0 +1,30 @@
+{
+  "slug": "rita",
+  "version": "2.2.0",
+  "released_at": null,
+  "sha256": "406b956ea7847ac7961cab7822b3bc030dc838b91f7c459e7860ee0b3e85c258",
+  "source": "https://campus123.woa.com/skills",
+  "install_dir": "rita",
+  "files": {
+    "rita/assets/dsl-format.md": "4ba20ca0c285dcd575b8499a167ca3ed1c8b029633b0a05f306075eadf27df63",
+    "rita/assets/templates/00_首次配置状态表.md": "622118c90b9ffc868e7fa67ed229a346c792ae7fa14c2c90a9f9710bf3d05f4c",
+    "rita/assets/templates/01_品牌形象调研.md": "15ad026925ec74b295dc6e1cc1766b76b450880364403e3fb349d54dcfa31435",
+    "rita/assets/templates/02_技术影响力评估.md": "55f789d0b216a122d189115a34d71ed11776ae65716885faca68caab9a63f40e",
+    "rita/assets/templates/03_竞品人才策略.md": "2c4db935a4e626ab516640ae23eedb7798d541e3243486bca2e4e72e9650f629",
+    "rita/assets/templates/04_活动效果评估.md": "093618c828ee917a95cb9ad6146495114a0cde9ea3665791927a5618c0aa8bca",
+    "rita/assets/templates/05_拒offer分析.md": "9bf74d70033e8751c493ef04edc04561fd28f10f9c8c9e04aceb506ba9e8c66f",
+    "rita/assets/templates/06_候选人体验.md": "7e1b728e9c176a1b9cafcaaf299e546950d62dcb449f6312c75c9f2ab3cc3e59",
+    "rita/assets/templates/07_渠道效果分析.md": "07650ba5b745cfe761abb7f97ad60855d01ed733991dcc3ce8e0c7c8cc349e99",
+    "rita/assets/口碑分析输出规范.md": "f29cd28272a85e15b1e0dd41bfd2411e5018af37a4fc5340460a098fafbdba97",
+    "rita/data/standard_schema.json": "84da14db92260e57d286128bca946d8056b2986102fe36abc3e421e132abd735",
+    "rita/references/Amy舆情数据接入.md": "358e85dc0292f09e11cae6a3f500047da1feddc71be633ac794d7118de0ff1d9",
+    "rita/references/MCP接入指南.md": "38b98712a9dc2a9ca7bcb70522654213c6e9082abac113b5f84697cd343f7a6b",
+    "rita/references/分析方法论.md": "f320430b3ac25ce582e521d87b98c81febf2618f5bccf6865b2ce0f8142a11ba",
+    "rita/references/数据回传操作指南.md": "c41d4ff0edebc16bfb26f19847f761025dbe50e3ab77defb1db1f04488098a59",
+    "rita/references/标准化维度基准.md": "de722d2f773dff7ed2c46c0518b37422b8a2f1c8ea922917dd73c18163a94a00",
+    "rita/references/腾讯问卷API操作指南.md": "25d91005d87c4e61c6849ec2eb25fc83a8a8e7bac4db32d6b6b35c33bb80de7b",
+    "rita/references/质量标准.md": "cb5daf13640bbfa7112db4f8c67d79bf441434ff8951629828f503e851792047",
+    "rita/scripts/config_check.md": "a8b554f84cf378ae676af70b1164fd1a9787c6352da68330b6f410b9c9c0edc6",
+    "rita/SKILL.md": "9e47ce44e777483ea25dcd293a5bc69b15921e062f52da063d010a8f80208cce"
+  }
+}

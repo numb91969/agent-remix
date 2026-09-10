@@ -1,0 +1,12 @@
+{
+  "schemaVersion": "mibao.processing-log.v1",
+  "taskId": "",
+  "startedAt": "",
+  "completedAt": "",
+  "operation": "",
+  "runtimeVersion": "",
+  "inputs": [],
+  "outputs": [],
+  "failures": [],
+  "verification": {}
+}

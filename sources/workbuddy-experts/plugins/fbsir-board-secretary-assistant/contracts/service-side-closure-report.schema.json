@@ -1,0 +1,402 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "fbs.boardSecretary.serviceSideClosureReport.v1",
+  "title": "Board Secretary Assistant Service-Side Closure Report",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "productId",
+    "serviceProductId",
+    "currentServiceRelease",
+    "identity",
+    "firstValue",
+    "continuedUse",
+    "lebao",
+    "manualReview",
+    "delivery",
+    "hostSteering",
+    "boundaries"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": "fbs.boardSecretary.serviceSideClosureReport.v1"
+    },
+    "productId": {
+      "const": "fbsir-board-secretary-assistant"
+    },
+    "serviceProductId": {
+      "const": "workbuddy_board_secretary_assistant"
+    },
+    "currentServiceRelease": {
+      "type": "string",
+      "minLength": 1
+    },
+    "identity": {
+      "type": "object",
+      "required": [
+        "status"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "deidentified_identity_observed",
+            "identity_not_observed",
+            "probe_only_identity_context"
+          ]
+        },
+        "anonymousUserCodeHash": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "serverBindingId": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "chainFingerprint": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "additionalProperties": true
+    },
+    "firstValue": {
+      "type": "object",
+      "required": [
+        "status"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "first_value_completed",
+            "first_value_missing",
+            "probe_only"
+          ]
+        },
+        "resultCardAssetType": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "additionalProperties": true
+    },
+    "continuedUse": {
+      "type": "object",
+      "required": [
+        "status"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "continued_use_completed",
+            "continued_use_missing",
+            "same_binding_scene_pack_only",
+            "probe_only"
+          ]
+        },
+        "sameBindingRequired": {
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": true
+    },
+    "lebao": {
+      "type": "object",
+      "required": [
+        "status",
+        "paymentClosureAllowed"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "lebao_not_observed",
+            "lebao_exposed",
+            "lebao_claim_intent",
+            "lebao_claim_receipt",
+            "probe_only"
+          ]
+        },
+        "paymentClosureAllowed": {
+          "const": false
+        },
+        "sourceIsolationRequired": {
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": true
+    },
+    "manualReview": {
+      "type": "object",
+      "required": [
+        "status"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "manual_review_required",
+            "manual_review_not_required",
+            "review_pack_ready",
+            "contact_request"
+          ]
+        }
+      },
+      "additionalProperties": true
+    },
+    "delivery": {
+      "type": "object",
+      "required": [
+        "status"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "delivery_not_started",
+            "delivery_started",
+            "delivery_completed"
+          ]
+        }
+      },
+      "additionalProperties": true
+    },
+    "hostSteering": {
+      "type": "object",
+      "required": [
+        "hostActionEnvelopeRequired"
+      ],
+      "properties": {
+        "hostActionEnvelopeRequired": {
+          "type": "boolean"
+        },
+        "hostActionEnvelopeTargetOnly": {
+          "type": "boolean"
+        },
+        "publishedHostSurfaceOnly": {
+          "type": "boolean"
+        },
+        "hostDirectiveReceiptEventType": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sameBindingRequired": {
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": true
+    },
+    "boundaries": {
+      "type": "object",
+      "required": [
+        "officialReplacementClaimAllowed",
+        "naturalProductCreditAllowed",
+        "paymentClosureAllowed"
+      ],
+      "properties": {
+        "officialReplacementClaimAllowed": {
+          "const": false
+        },
+        "naturalProductCreditAllowed": {
+          "type": "boolean"
+        },
+        "paymentClosureAllowed": {
+          "const": false
+        },
+        "artifactMemoryCanPromoteToServiceConsume": {
+          "const": false
+        },
+        "serviceIntentReportCanPromoteToProductCredit": {
+          "const": false
+        }
+      },
+      "additionalProperties": true
+    },
+    "connectorAssistBoundary": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "type": "string"
+        },
+        "connectorPolicy": {
+          "type": "string"
+        },
+        "connectorUpgradeMayReduceGap": {
+          "type": "boolean"
+        },
+        "connectorUpgradeCouldFullyCloseGap": {
+          "const": false
+        },
+        "connectorCanHelpLayers": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "connectorCannotCloseLayers": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "decisiveBlockerLayer": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "conclusion": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": true
+    },
+    "evidenceTiers": {
+      "type": "object",
+      "properties": {
+        "hostLocalArtifact": {
+          "$ref": "#/$defs/recordOnlyEvidenceTier"
+        },
+        "hostLocalMemory": {
+          "$ref": "#/$defs/recordOnlyEvidenceTier"
+        },
+        "serviceIntentReport": {
+          "$ref": "#/$defs/recordOnlyEvidenceTier"
+        },
+        "serviceConsume": {
+          "type": "object",
+          "properties": {
+            "status": {
+              "enum": [
+                "current_official_service_consume_observed",
+                "current_official_service_consume_not_proven"
+              ]
+            },
+            "evidenceClass": {
+              "const": "service_consume"
+            },
+            "currentEvidence": {
+              "type": "boolean"
+            },
+            "historicalOrFallbackEvidence": {
+              "type": "boolean"
+            },
+            "whoamiCount": {
+              "type": "number"
+            },
+            "scenePackCount": {
+              "type": "number"
+            },
+            "consumeCount": {
+              "type": "number"
+            }
+          },
+          "additionalProperties": true
+        }
+      },
+      "additionalProperties": true
+    },
+    "tierBlockingReasons": {
+      "type": "object",
+      "properties": {
+        "serviceConsume": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "officialRuntimeReplacement": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "naturalProductCredit": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": true
+    },
+    "artifactMemoryReceiptGate": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "gateId": {
+          "const": "board_secretary_artifact_memory_receipt_gate"
+        },
+        "promotionDecision": {
+          "enum": [
+            "record_only",
+            "service_consume_candidate"
+          ]
+        },
+        "serviceConsumeEquivalent": {
+          "const": false
+        },
+        "naturalProductCreditAllowed": {
+          "const": false
+        },
+        "paymentClosureAllowed": {
+          "const": false
+        }
+      },
+      "additionalProperties": true
+    },
+    "serviceSideUpgradeDemand": {
+      "type": "object",
+      "properties": {
+        "demandId": {
+          "const": "BSA-SVC-007"
+        },
+        "status": {
+          "type": "string"
+        },
+        "packageResponse": {
+          "type": "string"
+        },
+        "serviceResponseNeeded": {
+          "type": "string"
+        },
+        "mustNotClaim": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": true
+    }
+  },
+  "$defs": {
+    "recordOnlyEvidenceTier": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "type": "string"
+        },
+        "evidenceClass": {
+          "type": "string"
+        },
+        "currentEvidence": {
+          "type": "boolean"
+        },
+        "canPromoteToServiceConsume": {
+          "const": false
+        }
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": true
+}

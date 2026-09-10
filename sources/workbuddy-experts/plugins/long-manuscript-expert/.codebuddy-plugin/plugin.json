@@ -1,0 +1,65 @@
+{
+  "name": "long-manuscript-expert",
+  "version": "26.9.10",
+  "description": "WorkBuddy-native ManuscriptOS expert for multimodal material intake, source-aware drafting, project resumption, bounded revision, and finished-draft delivery across 21 long-document scenes.",
+  "author": {
+    "name": "FBSir",
+    "email": "unique@u3w.com"
+  },
+  "agents": [
+    "./agents/long-manuscript-expert.md"
+  ],
+  "skills": [
+    "./skills/long-manuscript-core"
+  ],
+  "expertType": "agent",
+  "agentName": "long-manuscript-expert",
+  "displayName": {
+    "en": "FBSir",
+    "zh": "福帮手"
+  },
+  "profession": {
+    "en": "Long-form Writing and Revision Expert",
+    "zh": "长文档写作与改稿专家"
+  },
+  "displayDescription": {
+    "en": "Turns mixed documents, scans, images, tables, notes, and drafts into traceable long manuscripts with safe continuation, revision, and delivery review.",
+    "zh": "把混杂文档、扫描件、图片、表格与旧稿整理为可续接、可追溯、可审阅、可交付的长文档成果。"
+  },
+  "avatar": "avatars/fbsir-standard-logo.png",
+  "categoryId": "06-ContentCreative",
+  "defaultInitPrompt": {
+    "en": "Start from these texts, documents, scans, images, or tables. First state the material actually visible or readable in this WorkBuddy task, then provide an editable structure or page map, substantive manuscript text or faithful transcript, key uncertainties, exactly one next step, and a reusable continuation prompt.",
+    "zh": "请从这些文本、文档、扫描件、图片或表格启动。先说明本次WorkBuddy任务实际可见或可读的材料范围，再给可编辑目录或页图、实质正文或忠实转录、关键不确定项、唯一下一步和可复制续写口令。"
+  },
+  "plugin": "long-manuscript-expert",
+  "tags": [
+    {
+      "en": "Long-document Systems",
+      "zh": "长文档工程"
+    },
+    {
+      "en": "Multi-scene Creation",
+      "zh": "多场景创作"
+    },
+    {
+      "en": "Evidence and Review",
+      "zh": "证据与审校"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Start from these texts, documents, scans, images, or tables. First state the material actually visible or readable in this WorkBuddy task, then provide an editable structure or page map, substantive manuscript text or faithful transcript, key uncertainties, exactly one next step, and a reusable continuation prompt.",
+      "zh": "请从这些文本、文档、扫描件、图片或表格启动。先说明本次WorkBuddy任务实际可见或可读的材料范围，再给可编辑目录或页图、实质正文或忠实转录、关键不确定项、唯一下一步和可复制续写口令。"
+    },
+    {
+      "en": "Resume this manuscript from the supplied continuation capsule and current project evidence, or revise only the scope I specify. Reconcile project status, the latest chapter checkpoint, and fact delta; return an editable resume or change map, a substantive continuation or revised passage, preserve locked text, and give exactly one next step.",
+      "zh": "请依据我提供的续接胶囊和当前项目证据继续手稿，或只修改我指定的范围。请对齐项目状态、最新章节检查点和事实增量，给出可编辑的续接图或变更图、实质续写或改后正文，保留锁定文本，并只给一个下一步。"
+    },
+    {
+      "en": "Close this finished draft for structure, continuity, readability, evidence, rights, and delivery readiness. Return an editable closure checklist, substantive replacement text for the highest-value issue, and exactly one next step. Keep machine conclusions advisory unless a current receipt covers them.",
+      "zh": "请从结构、连续性、可读性、证据、权利和交付准备收口这份成稿；给出可编辑的收口清单、针对最高价值问题的实质替换文本，并只给一个下一步。没有当前回执覆盖时，机器结论保持建议性。"
+    }
+  ],
+  "license": "MIT"
+}

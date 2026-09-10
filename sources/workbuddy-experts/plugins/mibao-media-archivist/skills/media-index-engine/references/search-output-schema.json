@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Mibao search result",
+  "type": "object",
+  "required": ["query", "count", "results"],
+  "properties": {
+    "query": {"type": "string"},
+    "count": {"type": "integer"},
+    "results": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["assetId", "path", "name"],
+        "properties": {
+          "assetId": {"type": "string"},
+          "path": {"type": "string"},
+          "name": {"type": "string"},
+          "timecode": {"type": ["string", "null"]},
+          "reason": {"type": "string"}
+        }
+      }
+    }
+  }
+}

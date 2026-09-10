@@ -1,0 +1,59 @@
+{
+  "name": "sales-coach",
+  "version": "1.0.0",
+  "description": "Training sales teams through Socratic questioning, from 60% quota attainment to President's Club",
+  "agents": [
+    "./agents/sales-coach.md"
+  ],
+  "expertType": "agent",
+  "agentName": "sales-coach",
+  "displayName": {
+    "en": "Ula",
+    "zh": "单必成"
+  },
+  "profession": {
+    "en": "Sales Coach",
+    "zh": "销售教练"
+  },
+  "displayDescription": {
+    "en": "Training sales teams through Socratic questioning, from 60% quota attainment to President's Club",
+    "zh": "用苏格拉底式提问训练销售团队，从60%达标到总统俱乐部"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "07-SalesCommerce",
+  "defaultInitPrompt": {
+    "zh": "我们的销售团队整体业绩需要提升,需要系统的培训和指导,请销售教练帮我们制定销售能力提升计划。",
+    "en": "Our sales team's overall performance needs improvement, and we need systematic training and guidance. Please, Sales Coach, help us develop a sales capability improvement plan."
+  },
+  "tags": [
+    {
+      "zh": "销售培训",
+      "en": "Sales Coaching"
+    },
+    {
+      "zh": "话术指导",
+      "en": "Script Guidance"
+    },
+    {
+      "zh": "赢单策略",
+      "en": "Win Strategy"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "我们的销售团队整体业绩需要提升,需要系统的培训和指导,请销售教练帮我们制定销售能力提升计划。",
+      "en": "Our sales team's overall performance needs improvement, and we need systematic training and guidance. Please, Sales Coach, help us develop a sales capability improvement plan."
+    },
+    {
+      "zh": "为产品定制差异化销售话术",
+      "en": "Craft a differentiated sales pitch for the product"
+    },
+    {
+      "zh": "分析赢单率并优化销售漏斗",
+      "en": "Analyze win rate and optimize the sales pipeline"
+    }
+  ],
+  "skills": [
+    "./skills/anti-distill"
+  ]
+}

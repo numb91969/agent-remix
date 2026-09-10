@@ -1,0 +1,58 @@
+# 金融投资 / Finance
+
+专家记录：52；角色族：47
+
+| 来源 | 子分类 | 名称 | 角色族 | 文件 |
+|---|---|---|---|---|
+| agency_en | finance | [Bookkeeper & Controller](../../agents/by-domain/finance/agency_en--finance-finance-bookkeeper-controller--eeb5ddccef.md) | `role:finance/finance-bookkeeper-controller` | `finance/finance-bookkeeper-controller.md` |
+| agency_en | finance | [FP&A Analyst](../../agents/by-domain/finance/agency_en--finance-finance-fpa-analyst--162ddddd7b.md) | `role:finance/finance-fpa-analyst` | `finance/finance-fpa-analyst.md` |
+| agency_zh | finance | [FP&A 分析师](../../agents/by-domain/finance/agency_zh--finance-finance-fpa-analyst--de04bc0382.md) | `role:finance/finance-fpa-analyst` | `finance/finance-fpa-analyst.md` |
+| agency_en | finance | [Financial Analyst](../../agents/by-domain/finance/agency_en--finance-finance-financial-analyst--99437447f4.md) | `role:finance/finance-financial-analyst` | `finance/finance-financial-analyst.md` |
+| agency_en | finance | [Investment Researcher](../../agents/by-domain/finance/agency_en--finance-finance-investment-researcher--b5450bb577.md) | `role:finance/finance-investment-researcher` | `finance/finance-investment-researcher.md` |
+| agency_en | finance | [Tax Strategist](../../agents/by-domain/finance/agency_en--finance-finance-tax-strategist--9e9fc22270.md) | `role:finance/finance-tax-strategist` | `finance/finance-tax-strategist.md` |
+| agency_zh | finance | [发票管理专家](../../agents/by-domain/finance/agency_zh--finance-finance-invoice-manager--d38aafc018.md) | `role:finance/finance-invoice-manager` | `finance/finance-invoice-manager.md` |
+| agency_zh | finance | [投资研究员](../../agents/by-domain/finance/agency_zh--finance-finance-investment-researcher--c239a6da45.md) | `role:finance/finance-investment-researcher` | `finance/finance-investment-researcher.md` |
+| agency_zh | finance | [税务策略师](../../agents/by-domain/finance/agency_zh--finance-finance-tax-strategist--cd0e440356.md) | `role:finance/finance-tax-strategist` | `finance/finance-tax-strategist.md` |
+| agency_zh | finance | [簿记与财务总监](../../agents/by-domain/finance/agency_zh--finance-finance-bookkeeper-controller--613685c647.md) | `role:finance/finance-bookkeeper-controller` | `finance/finance-bookkeeper-controller.md` |
+| agency_zh | finance | [财务分析师](../../agents/by-domain/finance/agency_zh--finance-finance-financial-analyst--c403577ee5.md) | `role:finance/finance-financial-analyst` | `finance/finance-financial-analyst.md` |
+| agency_zh | finance | [财务预测分析师](../../agents/by-domain/finance/agency_zh--finance-finance-financial-forecaster--8425054ce6.md) | `role:finance/finance-financial-forecaster` | `finance/finance-financial-forecaster.md` |
+| agency_zh | finance | [金融风控分析师](../../agents/by-domain/finance/agency_zh--finance-finance-fraud-detector--e0573477f9.md) | `role:finance/finance-fraud-detector` | `finance/finance-fraud-detector.md` |
+| agency_zh | finance | [香港股市合规审查专家](../../agents/by-domain/finance/agency_zh--finance-finance-hk-stock-compliance-reviewer--3acf8cf70d.md) | `role:finance/finance-hk-stock-compliance-reviewer` | `finance/finance-hk-stock-compliance-reviewer.md` |
+| workbuddy | 金融投资 | [A股研究团队](../../agents/by-domain/finance/workbuddy--AShareAnalysis--0af1b4eec0.md) | `workbuddy:AShareAnalysis` | `sources/workbuddy-experts/plugins/a-share-analysis/agents/a-share-advisor.md` |
+| workbuddy | 金融投资 | [MAI Lab并购交易Agent](../../agents/by-domain/finance/workbuddy--MaiDealAdvisor--9737ebe75f.md) | `workbuddy:MaiDealAdvisor` | `sources/workbuddy-experts/plugins/mai-deal-advisor/agents/mai-deal-advisor.md` |
+| workbuddy | 金融投资 | [Vietnam Finance & Tax Expert](../../agents/by-domain/finance/workbuddy--VietnamFinanceTaxExpert--5ec7f82b75.md) | `workbuddy:VietnamFinanceTaxExpert` | `sources/workbuddy-experts/plugins/vietnam-finance-tax-expert/agents/vietnam-finance-tax-expert.md` |
+| workbuddy | 金融投资 | [严估深](../../agents/by-domain/finance/workbuddy--EquityResearchExpert--b76cf817ae.md) | `workbuddy:EquityResearchExpert` | `sources/workbuddy-experts/plugins/equity-research/agents/equity-research-expert.md` |
+| workbuddy | 金融投资 | [严研行](../../agents/by-domain/finance/workbuddy--FsiMarketResearcher--5de0bd2124.md) | `workbuddy:FsiMarketResearcher` | `sources/workbuddy-experts/plugins/market-researcher/agents/market-researcher.md` |
+| workbuddy | 金融投资 | [交易分析团队](../../agents/by-domain/finance/workbuddy--TradingAgentTeam--a63266889d.md) | `workbuddy:TradingAgentTeam` | `sources/workbuddy-experts/plugins/trading-agent/agents/trading-team-lead.md` |
+| workbuddy | 金融投资 | [付清清](../../agents/by-domain/finance/workbuddy--AccountsPayableAgent--7e21c5b70e.md) | `workbuddy:AccountsPayableAgent` | `sources/workbuddy-experts/plugins/accounts-payable-agent/agents/accounts-payable-agent.md` |
+| workbuddy | 金融投资 | [关月结](../../agents/by-domain/finance/workbuddy--MonthEndCloser--1034d3ff7e.md) | `workbuddy:MonthEndCloser` | `sources/workbuddy-experts/plugins/month-end-closer/agents/month-end-closer.md` |
+| workbuddy | 金融投资 | [刺桐说Pro-投资社群嘉宾团](../../agents/by-domain/finance/workbuddy--Citongshuopro--b04532cb50.md) | `workbuddy:Citongshuopro` | `sources/workbuddy-experts/plugins/citongshuopro/agents/citongshuopro-team-lead.md` |
+| workbuddy | 金融投资 | [募资资](../../agents/by-domain/finance/workbuddy--PrivateEquityExpert--f3d314fe59.md) | `workbuddy:PrivateEquityExpert` | `sources/workbuddy-experts/plugins/private-equity/agents/private-equity-expert.md` |
+| workbuddy | 金融投资 | [同舟股市投研专家](../../agents/by-domain/finance/workbuddy--FinResearchExpert--de3fa238e9.md) | `workbuddy:FinResearchExpert` | `sources/workbuddy-experts/plugins/fin-research-expert/agents/fin-research-expert.md` |
+| workbuddy | 金融投资 | [周备全](../../agents/by-domain/finance/workbuddy--MeetingPrepAgent--589dbfe106.md) | `workbuddy:MeetingPrepAgent` | `sources/workbuddy-experts/plugins/meeting-prep-agent/agents/meeting-prep-agent.md` |
+| workbuddy | 金融投资 | [回测明算](../../agents/by-domain/finance/workbuddy--StrategyBacktestExpert--858cdcd20d.md) | `workbuddy:StrategyBacktestExpert` | `sources/workbuddy-experts/plugins/strategy-backtest-expert/agents/strategy-backtest-expert.md` |
+| workbuddy | 金融投资 | [基金投研分析师](../../agents/by-domain/finance/workbuddy--FundResearchAnalyst--1a48d54bc4.md) | `workbuddy:FundResearchAnalyst` | `sources/workbuddy-experts/plugins/fund-research-analyst/agents/fund-research-analyst.md` |
+| workbuddy | 金融投资 | [天御对公信贷](../../agents/by-domain/finance/workbuddy--CorpCreditDueDiligence--ac046e4a88.md) | `workbuddy:CorpCreditDueDiligence` | `sources/workbuddy-experts/plugins/corp-credit-due-diligence/agents/corp-credit-due-diligence.md` |
+| workbuddy | 金融投资 | [季明辨](../../agents/by-domain/finance/workbuddy--EarningsReviewer--da2ec323c0.md) | `workbuddy:EarningsReviewer` | `sources/workbuddy-experts/plugins/earnings-reviewer/agents/earnings-reviewer.md` |
+| workbuddy | 金融投资 | [审细明](../../agents/by-domain/finance/workbuddy--StatementAuditor--df6c362f92.md) | `workbuddy:StatementAuditor` | `sources/workbuddy-experts/plugins/statement-auditor/agents/statement-auditor.md` |
+| workbuddy | 金融投资 | [建模模](../../agents/by-domain/finance/workbuddy--FinancialModelingExpert--edebec3e2e.md) | `workbuddy:FinancialModelingExpert` | `sources/workbuddy-experts/plugins/financial-analysis/agents/financial-modeling-expert.md` |
+| workbuddy | 金融投资 | [投资大师专家团](../../agents/by-domain/finance/workbuddy--InvestmentMastersTeam--c3b02480d5.md) | `workbuddy:InvestmentMastersTeam` | `sources/workbuddy-experts/plugins/investment-masters-team/agents/hedge-fund-lead.md` |
+| workbuddy | 金融投资 | [新股专家](../../agents/by-domain/finance/workbuddy--NewShareExpert--11c90acf48.md) | `workbuddy:NewShareExpert` | `sources/workbuddy-experts/plugins/new-share-expert/agents/new-share-expert.md` |
+| workbuddy | 金融投资 | [星辰](../../agents/by-domain/finance/workbuddy--SmartStockAnalyst--8e99620874.md) | `workbuddy:SmartStockAnalyst` | `sources/workbuddy-experts/plugins/smart-stock-analyst/agents/smart-stock-analyst.md` |
+| workbuddy | 金融投资 | [查本源](../../agents/by-domain/finance/workbuddy--KycScreener--2580fc20c5.md) | `workbuddy:KycScreener` | `sources/workbuddy-experts/plugins/kyc-screener/agents/kyc-screener.md` |
+| workbuddy | 金融投资 | [理财财](../../agents/by-domain/finance/workbuddy--WealthManagementExpert--31bef7ceda.md) | `workbuddy:WealthManagementExpert` | `sources/workbuddy-experts/plugins/wealth-management/agents/wealth-management-expert.md` |
+| workbuddy | 金融投资 | [白必得](../../agents/by-domain/finance/workbuddy--PitchAgent--067ac646aa.md) | `workbuddy:PitchAgent` | `sources/workbuddy-experts/plugins/pitch-agent/agents/pitch-agent.md` |
+| workbuddy | 金融投资 | [相信光么](../../agents/by-domain/finance/workbuddy--BelieveInLight--4486ee6502.md) | `workbuddy:BelieveInLight` | `sources/workbuddy-experts/plugins/believe-in-light/agents/believe-in-light-team-lead.md` |
+| workbuddy | 金融投资 | [腾讯自选股股票投研专家团](../../agents/by-domain/finance/workbuddy--StockPartnerTeam--92b7932356.md) | `workbuddy:StockPartnerTeam` | `sources/workbuddy-experts/plugins/stock-partner-team/agents/stock-partner-lead.md` |
+| workbuddy | 金融投资 | [莫百炼](../../agents/by-domain/finance/workbuddy--ModelBuilder--e4bd6b680b.md) | `workbuddy:ModelBuilder` | `sources/workbuddy-experts/plugins/model-builder/agents/model-builder.md` |
+| workbuddy | 金融投资 | [记账账](../../agents/by-domain/finance/workbuddy--FinanceAccountingExpert--ea8b50e920.md) | `workbuddy:FinanceAccountingExpert` | `sources/workbuddy-experts/plugins/finance/agents/finance-accounting-expert.md` |
+| workbuddy | 金融投资 | [账清清](../../agents/by-domain/finance/workbuddy--FinancialTracker--d79fdff18e.md) | `workbuddy:FinancialTracker` | `sources/workbuddy-experts/plugins/financial-tracker/agents/financial-tracker.md` |
+| workbuddy | 金融投资 | [资本市场路演研究团](../../agents/by-domain/finance/workbuddy--RoadshowResearchTeam--8e7d6e3962.md) | `workbuddy:RoadshowResearchTeam` | `sources/workbuddy-experts/plugins/roadshow-research-team/agents/roadshow-team-lead.md` |
+| workbuddy | 金融投资 | [通达信评估师](../../agents/by-domain/finance/workbuddy--TdxValueAssessor--9d88f871c7.md) | `workbuddy:TdxValueAssessor` | `sources/workbuddy-experts/plugins/tdx-value-assessor/agents/tdx-value-assessor.md` |
+| workbuddy | 金融投资 | [通达信诊断师](../../agents/by-domain/finance/workbuddy--TdxStockDiagnostician--4334fd24d4.md) | `workbuddy:TdxStockDiagnostician` | `sources/workbuddy-experts/plugins/tdx-stock-diagnostician/agents/tdx-stock-diagnostician.md` |
+| workbuddy | 金融投资 | [通达信选股猎手](../../agents/by-domain/finance/workbuddy--TdxStockHunter--6b9b8de414.md) | `workbuddy:TdxStockHunter` | `sources/workbuddy-experts/plugins/tdx-stock-hunter/agents/tdx-stock-hunter.md` |
+| workbuddy | 金融投资 | [钱守通](../../agents/by-domain/finance/workbuddy--SmbFinance--b6230d7bc6.md) | `workbuddy:SmbFinance` | `sources/workbuddy-experts/plugins/smb-finance/agents/smb-finance.md` |
+| workbuddy | 金融投资 | [钱对齐](../../agents/by-domain/finance/workbuddy--GlReconciler--2d83ec80af.md) | `workbuddy:GlReconciler` | `sources/workbuddy-experts/plugins/gl-reconciler/agents/gl-reconciler.md` |
+| workbuddy | 金融投资 | [银拓远](../../agents/by-domain/finance/workbuddy--InvestmentBankingExpert--44f7556fd5.md) | `workbuddy:InvestmentBankingExpert` | `sources/workbuddy-experts/plugins/investment-banking/agents/investment-banking-expert.md` |
+| workbuddy | 金融投资 | [顾估衡](../../agents/by-domain/finance/workbuddy--ValuationReviewer--b9fdfc671f.md) | `workbuddy:ValuationReviewer` | `sources/workbuddy-experts/plugins/valuation-reviewer/agents/valuation-reviewer.md` |
+| workbuddy | 金融投资 | [鹏城信息AI专家](../../agents/by-domain/finance/workbuddy--YahooFinanceCli--2a76e8565f.md) | `workbuddy:YahooFinanceCli` | `sources/workbuddy-experts/plugins/yahoo-finance-cli/agents/yahoo-finance-cli.md` |
