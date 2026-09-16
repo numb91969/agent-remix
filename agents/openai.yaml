@@ -1,0 +1,7 @@
+interface:
+  display_name: "Agent Remix"
+  short_description: "Search bundled experts and build portable agents"
+  default_prompt: "Use $agent-remix to search the bundled expert library and build a traceable custom agent."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,35 @@
+{
+  "example_name": "读书知识库助手",
+  "format": "Codex/WorkBuddy folder-based agent example",
+  "source_agents": [
+    {
+      "agent_id": "workbuddy:LlmWiki",
+      "bundle_path": "library/agents/workbuddy/workbuddy-LlmWiki.md",
+      "contribution": "file-based ingest, query, lint, citation, cross-linking, and conflict marking"
+    },
+    {
+      "agent_id": "workbuddy:PersonalKnowledgeArchitect",
+      "bundle_path": "library/agents/workbuddy/workbuddy-PersonalKnowledgeArchitect.md",
+      "contribution": "Zettelkasten, PARA, LYT, atomic notes, MOC, and coaching style"
+    }
+  ],
+  "skills": [
+    {
+      "skill_slug": "personal-knowledge-architect",
+      "bundle_path": "library/skills/personal-knowledge-architect",
+      "decision": "direct",
+      "reason": "methodology and configuration text is bundled and does not require a connector"
+    },
+    {
+      "skill_slug": "llm-wiki",
+      "decision": "exclude",
+      "reason": "the source text mentions an unavailable init_wiki.sh workflow; the example keeps the portable file-based method and does not claim that script exists"
+    }
+  ],
+  "discarded": [
+    "source-specific identity names and welcome copy",
+    "unavailable scripts, external services, and account integrations",
+    "claims of persistent memory outside files explicitly provided by the user"
+  ],
+  "external_dependencies": []
+}

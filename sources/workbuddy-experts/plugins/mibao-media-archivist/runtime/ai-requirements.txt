@@ -1,5 +1,0 @@
-# Optional managed local AI runtime for Mibao
-# Install with runtime/setup_ai_runtime.py --install.
-Pillow==11.3.0
-faster-whisper==1.2.0
-sentence-transformers==5.1.1

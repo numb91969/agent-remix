@@ -1,46 +1,69 @@
-# Agent Remix
+# agent-remix
 
-这是本地 WorkBuddy 专家目录、两套 AGENCY-AGENTS 源码和企业智能体 Remix 产物的可复现归档，并包含把多专家能力融合成单个企业 agent 的 `agent-remix` Skill。
+一个开箱即用的 Codex / WorkBuddy Skill：从随包提供的 1000+ 专家 prompt 和技能库中检索多个互补来源，审查依赖，生成可追溯、可移植的自定义 agent。
 
-## 已归档资产
+## 这个仓库现在提供什么
 
-- WorkBuddy 专家目录：446 条已获取记录，含专家数据库、分类、标签、技能关系、验证结果和 446 份 prompt 快照；
-- 合并目录：WorkBuddy + AGENCY-AGENTS 中英文共 1004 条 agent 记录、角色族/领域/技能/agent-skill 关系和 `agent_list_merged.xlsx`；
-- 来源快照：`jnmetacode/AGENCY-AGENTS-ZH` 与 `msitarzewski/AGENCY-AGENTS`；
-- WorkBuddy 技能快照：包元数据、专家 Markdown、`SKILL.md` 和可分发的 references；
-- Remix 成品：`CFO 赵公明`、`CHO 张亚子` 的系统提示词、安装报告和头像；
-- 方法 Skill：`skills/agent-remix/`，包含检索、融合、技能依赖裁决、发布验证、报告和 GitHub 脱敏导出规范。
+- 1004 个已物化的专家 prompt；
+- 971 个随 Skill 提供的技能目录，其中包含 721 个合并目录技能和本地发现的未绑定技能；
+- 929 条专家与技能绑定关系；
+- JSON 运行时索引、来源路径、commit、哈希和排除文件记录；
+- 标准库 Python 检索/阅读/提取工具；
+- 一个读书知识库助手的最小多专家生成示例。
+
+专家和技能都在 library/ 里面。下载仓库一次即可正常检索和提取，不需要再下载数据库、源仓库或第三方服务。运行时只需要 Python 3.9+ 标准库；实际执行某个技能仍需遵守该技能自己的本地运行前提。
+
+## 安装
+
+在 Codex 中，把仓库根目录复制到配置的技能目录，通常是 ~/.codex/skills/agent-remix/。在 WorkBuddy 中，把同一个根目录复制到它的本地 Skill 目录，并保持 library/ 与 SKILL.md 同级。
+
+安装后调用 $agent-remix，或者直接运行：
+
+~~~sh
+cd agent-remix
+python3 scripts/agent_remix.py stats
+python3 scripts/agent_remix.py search "财务 现金流"
+python3 scripts/agent_remix.py search "读书 知识库" --limit 20
+python3 scripts/agent_remix.py show-agent workbuddy:LlmWiki
+python3 scripts/agent_remix.py show-skill personal-knowledge-architect --files
+python3 scripts/agent_remix.py extract-agent workbuddy:PersonalKnowledgeArchitect \
+  --output ./exports/personal-knowledge-architect
+~~~
+
+检索工具离线运行，不联网、不改写索引。真正的 Remix 由模型依据 SKILL.md 完成：先选多个来源，再合并能力、保留证据、明确排除外部 API/付费服务/凭据和不可移植运行时。
 
 ## 目录
 
-```text
-skills/agent-remix/       # 可复用 Skill
-catalog/workbuddy_expert_catalog/
-                           # WorkBuddy 446 专家数据库、prompt、技能索引
-catalog/agency_agents_merged/
-                           # 1004 条合并目录、数据库、Excel、分组和 Remix 原始产物
-sources/AGENCY-AGENTS-ZH/ # AGENCY 中文源码快照
-sources/AGENCY-AGENTS/   # AGENCY 英文源码快照
-sources/workbuddy-experts/
-                           # WorkBuddy 包的可移植文本快照
-remixes/                  # 按职位+名字整理的自定义 agent 成品
-EXPORT_MANIFEST.md        # 纳入/排除、路径脱敏、体积和来源说明
-```
+~~~text
+agent-remix/
+├── SKILL.md
+├── agents/openai.yaml
+├── library/
+│   ├── index.json
+│   ├── agents/
+│   └── skills/
+├── scripts/
+│   ├── agent_remix.py
+│   ├── audit_export.py
+│   └── build_library.py
+├── references/
+└── examples/reader-knowledge-agent/
+~~~
 
-## 使用 Skill
+## 维护者刷新
 
-在 Codex 中调用 `$agent-remix`，提供目标职位、称谓/身份、边界、需要绑定的工具和发布渠道。Skill 会要求先建立来源证据表，再合并多个专家，而不是把一个来源直接改名；对外部运行时、私有连接器、`.NET`、密钥和本机软链会单独做依赖裁决。
+发布包中的 library/ 是物化副本。只有在明确刷新来源时，才在包含合并 SQLite 目录和源快照的维护工作区运行：
 
-每个 Remix 目录都应同时保存最终 prompt、来源/技能说明和安装报告。发布到企业智能体页面后，报告必须记录列表验证结果；未发布成功不能标记为已安装。
+~~~sh
+python3 scripts/build_library.py \
+  --catalog catalog/agency_agents_merged/merged_catalog.db \
+  --source-root . \
+  --output ./library \
+  --force
+~~~
 
-## 运行审计
-
-```bash
-python3 skills/agent-remix/scripts/audit_export.py .
-```
-
-仓库内的目录和数据库已将本机绝对路径改成相对路径；原始快照中的来源 URL、commit 和内容哈希仍保留。WorkBuddy 运行时、缓存、数据集、媒体和不可移植软链按 `EXPORT_MANIFEST.md` 规则排除。
+构建脚本不会联网，跳过凭据、绝对软链、缓存、数据集、二进制和超过阈值的支持文件；所有跳过项写入 index.json。
 
 ## 来源与许可
 
-本仓库是用户本地研究和 Remix 归档。各来源仓库/专家包的许可证、作者和再分发范围以对应目录中的 LICENSE/README 和上游仓库为准；使用者应在公开分发前逐项核对。不要把本仓库当作 WorkBuddy 官方发行包，也不要将未授权的企业数据或凭据加入其中。
+本仓库包含用户本地研究后整理的公开发布包。来源包括本地 WorkBuddy 快照、jnmetacode/AGENCY-AGENTS-ZH 和 msitarzewski/AGENCY-AGENTS；具体 commit、文件路径和依赖裁决见 library/SOURCES.md 与 EXPORT_MANIFEST.md。各上游许可证和再分发范围仍需由使用者自行核对。本仓库不代表 WorkBuddy 官方发行包。

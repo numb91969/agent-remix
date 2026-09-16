@@ -1,8 +1,0 @@
-{
-  "schemaVersion": "1.0",
-  "contractId": "liuxue-yanxue-case-state",
-  "purpose": "Optional, project-local continuation state. It is not a host memory replacement or a user-history crawler.",
-  "requiredCreateFields": ["operationId", "expectedRevision", "requestId", "goal", "caseState"],
-  "caseStateFields": ["stage", "helpType", "confirmedFacts", "assumptions", "unknowns", "selectedOptions", "openTasks", "sourceRefs"],
-  "rules": {"stateRootMustBeInsideUserAuthorizedWorkspace":true,"originalsReadOnly":true,"expectedRevisionRequired":true,"operationIdIdempotent":true,"sameOperationDifferentInputRejected":true,"unknownFieldsPreservedInSource":true,"externalSideEffects":false}
-}

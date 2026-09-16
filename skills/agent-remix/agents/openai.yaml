@@ -1,7 +1,0 @@
-interface:
-  display_name: "Agent Remix"
-  short_description: "Merge expert prompts and skills into traceable agents"
-  default_prompt: "Use $agent-remix to synthesize a custom agent from the local expert catalog."
-
-policy:
-  allow_implicit_invocation: true

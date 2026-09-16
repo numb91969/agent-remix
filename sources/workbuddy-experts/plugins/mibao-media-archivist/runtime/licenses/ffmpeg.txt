@@ -1,1 +1,0 @@
-Runtime license placeholder. Before distribution, include the exact FFmpeg build license and notices used by this package, including whether the build is LGPL or GPL configured.

@@ -1,8 +1,0 @@
-{
-  "schemaVersion": "1.0",
-  "contractId": "liuxue-yanxue-review-orchestration",
-  "reviewVersion": "26.9.9",
-  "reviewStates": ["source_validated","candidate_packaged","local_equivalent_pending","ready_for_submission_review","official_distribution_pending"],
-  "requiredGates": ["static_package","continuity_regression","no_connector_rehearsal","deterministic_zip","official_validator","review_manifest"],
-  "nonClaims": ["officially_updated","officially_listed_26.9.9","natural_service_credit","user_asset_migration_completed"]
-}

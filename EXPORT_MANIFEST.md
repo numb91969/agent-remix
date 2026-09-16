@@ -1,44 +1,62 @@
-# 导出清单
+# 发布包清单
 
-- 目标仓库：`git@github.com:wuyinhust/agent-remix.git`
-- 本地构建目录：`agent-remix/`
-- 导出时间：2026-09-10（Asia/Shanghai）
-- 目的：归档专家目录、原始提示词/技能文本、数据库和 Remix 方法，形成可复现的 Agent Remix 研究仓库。
+- 目标仓库：https://github.com/numb91969/agent-remix
+- 发布形态：单仓库、单 Skill、物化资源；
+- 生成时间：2026-09-16（Asia/Shanghai）；
+- 运行入口：SKILL.md；
+- 运行索引：library/index.json；
+- 构建方式：Python 3.9+ 标准库，正常使用不联网。
 
-## 来源快照
+## 发布包统计
 
-| 来源 | 记录/范围 | 版本证据 |
-| --- | --- | --- |
-| WorkBuddy 本地专家目录 | 446 条已获取专家，446 份 prompt | `catalog/workbuddy_expert_catalog/snapshots/expert_center.json`；SHA-256 `dc924682bf5bf700a8ea25acd34f4628c5780173a6ed76a4dc79d736f37f84ec` |
-| AGENCY-AGENTS-ZH | 278 条 | commit `b08f35c07c62d985d0c60a4faaa7304ad4aee686` |
-| AGENCY-AGENTS | 280 条 | commit `6d29a9b08785a0e49ffc9818bbdd381164c2df5f` |
-| 合并目录 | 1004 条 agent、756 个角色族、20 个领域、721 个技能、929 条 agent-skill 关系 | `catalog/agency_agents_merged/merged_catalog.db` |
+| 内容 | 数量 | 位置 |
+| --- | ---: | --- |
+| 专家 prompt | 1004 | library/agents/ |
+| 合并目录技能 | 721 | library/index.json |
+| 随包技能目录 | 971 | library/skills/ |
+| agent-skill 绑定 | 929 | library/index.json |
+| 缺失记录 | 0 | library/index.json |
 
-## 纳入
+971 个随包技能包括合并目录中登记的技能，以及从本地 WorkBuddy 插件树发现但没有出现在绑定表中的技能。每个技能保留自己的 SKILL.md；通过绑定关系能定位专家和技能的来源。
 
-- `experts.db`、`merged_catalog.db`、CSV/JSON/XLSX 和构建/抓取/验证结果；
-- WorkBuddy 的 446 份 prompt 快照、包元数据和分类/技能索引；
-- 两套 AGENCY-AGENTS 源码快照；
-- WorkBuddy 包的 `agents/*.md`、`SKILL.md`、references、包 manifest、README 和 LICENSE 等文本/配置；
-- `CFO 赵公明`、`CHO 张亚子` 的 Remix prompt、安装报告和头像；
-- `skills/agent-remix` Skill、参考文档和审计脚本。
+## 来源
 
-## 排除与处理
+| 来源 | 证据 |
+| --- | --- |
+| WorkBuddy 本地专家快照 | local:sources/workbuddy-experts；快照时间记录在 library/index.json |
+| jnmetacode/AGENCY-AGENTS-ZH | 上游 URL 和 commit 保存在每个 agent 条目 |
+| msitarzewski/AGENCY-AGENTS | 上游 URL 和 commit 保存在每个 agent 条目 |
 
-- 排除 SSH 私钥、API key、token、cookie、master key、`.env`/`.env.example`、session 和本机配置；MCP 配置只在确认不含实际凭据时保留，带 PAT/密钥的文件删除或脱敏；
-- 排除 `.git`、`node_modules`、缓存、构建目录、运行时二进制、模型、音视频、字体和图片型 WorkBuddy 包资产（Remix 头像除外）；
-- 排除 WorkBuddy `Databases/`、`CSV_Datasets/`、大型 DuckDB/SQLite、`references/corpus/`、`Reference_Texts/`、`render-bundle/`、`vendor/` 和超过 2MiB 的单文件；
-- 合并目录的 28MiB inspection NDJSON 临时产物未上传；同一 workbook 和较小的 inspection JSON 已保留；
-- WorkBuddy 技能的脚本/第三方依赖不作为完整运行时发行包上传；技能正文和 references 仍保留，缺失运行时在目录与报告中按依赖处理；
-- 合并目录和 WorkBuddy 的 agent 索引视图已从本机绝对软链物化为文本副本；`skills` 的重复软链视图未原样上传，数据库、CSV/JSON、prompt 快照和 `sources/workbuddy-experts/` 技能文本保留同样的关联信息。指向 `local qclaw workspace` 的 6 条不可移植软链已删除；
-- 数据库和文本索引中的 `local user/...`、`local user/.workbuddy/...` 已改写为仓库相对路径。来源 URL、commit 和内容哈希保留。
+## 随包纳入
 
-## 审计要求
+- Skill 主说明、Codex 元数据和标准库脚本；
+- 1004 份物化 prompt；
+- 971 个技能目录的 SKILL.md 及经审计的文本/配置支持文件；
+- agent 与 skill 的绑定、来源相对路径、哈希、构建策略和排除记录；
+- 一个读书知识库助手的最小生成示例。
 
-提交前运行：
+## 明确排除
 
-```bash
-python3 skills/agent-remix/scripts/audit_export.py .
-```
+- SSH 私钥、API key、token、cookie、session、master key、.env 和本机账号配置；
+- 绝对路径、绝对软链、缓存、node_modules、数据库数据集、语料库、音视频、字体、模型和运行时二进制；
+- 需要外部 API、私有 MCP、付费服务、内网、.NET 或专用账号才能工作的支持文件；
+- 原维护目录中的 SQLite/CSV/XLSX 归档、源仓库快照、头像、过程性 Remix 产物和发布过程文件。它们已经从当前发布树移除；当前 Skill 不依赖它们。
 
-high severity 结果必须为 0。出现外部软链、绝对路径或体积警告时，应确认是否属于来源元数据、删除或改写后再提交。该清单不记录任何秘密值。
+“物化”只表示文本和安全支持文件已经随包提供，不表示某个技能所描述的供应商服务或本地软件已经安装。依赖判断以 library/index.json 的 excluded_files 和 Skill 正文为准。
+
+## 复现与检查
+
+维护者在有源快照的工作区中运行：
+
+~~~sh
+python3 scripts/build_library.py \
+  --catalog catalog/agency_agents_merged/merged_catalog.db \
+  --source-root . \
+  --output ./library \
+  --force
+python3 scripts/agent_remix.py stats
+python3 scripts/audit_export.py .
+git diff --check -- . ':(exclude)library'
+~~~
+
+提交前要求 missing_records 为 0，审计 high severity 为 0。上游内容的许可证仍需逐项核对。
