@@ -51,6 +51,8 @@ description: "Remix multiple expert prompts and skills into a traceable custom a
 - **symlink-audit**：本地需要保留技能与专家包的关联、但运行环境可能变化；在本地索引中用相对软链或 link map 表示，发布包中不要依赖指向用户机器的绝对软链。
 - **exclude**：需要 `.NET`、私有 MCP、企业内网、付费数据库、特定凭据、绝对路径、不可复现二进制或法律上不能再分发的资源；保留能力说明和安装前置条件，不把秘密或不可移植文件复制进 agent。
 
+用户指定“本地 / ComfyUI / 自有云电脑”时，默认启用本地优先模式：把必须调用 LibTV/Liblib、ListenHub、ChatCut、WorkBuddy 内置生成模型、SiliconFlow、火山方舟、HeyGen 或其他第三方生成/分析 API 的完整 agent/skill 标记为 `exclude`；保留纯提示词、Node/Remotion/HyperFrames/FFmpeg 本地编排，并把生图/生视频入口替换为 ComfyUI。现成筛选结果见 `catalog/local_video_pipeline/`。
+
 对每个技能检查：触发条件、输入输出、运行时、网络权限、凭据、数据敏感性、许可证。若技能只是“读文件/写 Markdown/常规表格”，优先 direct；若要求外部账号或系统，就在 prompt 中写清“需要用户授权/连接器可用”，并在报告里单列缺失依赖。
 
 ### 5. 发布到企业智能体页面

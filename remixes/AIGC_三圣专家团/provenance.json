@@ -1,0 +1,179 @@
+{
+  "catalog_counts": {
+    "agency_en": 280,
+    "agency_zh": 278,
+    "workbuddy": 446
+  },
+  "source_agents": [
+    {
+      "agent_id": "workbuddy:AiVideoScript",
+      "name": "鹏城信息AI专家",
+      "source_path": "sources/workbuddy-experts/plugins/ai-video-script/agents/ai-video-script.md",
+      "source_commit": "2026-07-17T10:40:07Z",
+      "sha256": "402bafe15295bf4b985f056c3cb8412773b25fecbf2b4f928e28126105b4648f",
+      "targets": "关汉卿/吴道子/李白",
+      "retained": "脚本、镜头描述、画面提示词分层；交付配音字幕文本",
+      "discarded": "去掉云工具默认适配与固定平台时长",
+      "bound_skills": [],
+      "decision": "remix-method-only; no original runtime or whole package imported"
+    },
+    {
+      "agent_id": "workbuddy:NarrativeDesigner",
+      "name": "剧本本",
+      "source_path": "sources/workbuddy-experts/plugins/narrative-designer/agents/narrative-designer.md",
+      "source_commit": "2026-05-22T19:53:00Z",
+      "sha256": "eb4f327929e953954708d2c28dbeff3914bf3f85ed381fbc29ca98ab2b007ef3",
+      "targets": "关汉卿",
+      "retained": "人物声线、世界设定、叙事承诺与回收",
+      "discarded": "去掉游戏引擎、分支游戏规则与错标 anti-distill",
+      "bound_skills": [
+        {
+          "skill_slug": "anti-distill",
+          "local_skill_path": "sources/workbuddy-experts/plugins/narrative-designer/skills/anti-distill"
+        },
+        {
+          "skill_slug": "novel-writing",
+          "local_skill_path": "sources/workbuddy-experts/plugins/narrative-designer/skills/novel-writing"
+        }
+      ],
+      "decision": "remix-method-only; no original runtime or whole package imported"
+    },
+    {
+      "agent_id": "workbuddy:PromptEngineer",
+      "name": "提示词工程师",
+      "source_path": "sources/workbuddy-experts/plugins/prompt-engineer/agents/prompt-engineer.md",
+      "source_commit": "2026-07-27T00:00:00Z",
+      "sha256": "2786c175379e5b7d3b6e797193cb255f0b3e40f3bef66496aeb1b06d0313cdad",
+      "targets": "李白",
+      "retained": "具体约束、格式控制、单变量评测和版本追踪",
+      "discarded": "去掉通用成绩承诺，不外显内部推理链",
+      "bound_skills": [
+        {
+          "skill_slug": "prompt-engineer",
+          "local_skill_path": "sources/workbuddy-experts/plugins/prompt-engineer/skills/prompt-engineer"
+        }
+      ],
+      "decision": "remix-method-only; no original runtime or whole package imported"
+    },
+    {
+      "agent_id": "agency_en:academic/academic-narratologist",
+      "name": "Narratologist",
+      "source_path": "sources/AGENCY-AGENTS/academic/academic-narratologist.md",
+      "source_commit": "6d29a9b08785a0e49ffc9818bbdd381164c2df5f",
+      "sha256": "12d7a6fa6134c014e3734f8203f0b8634e627cffe5985fa1b69d25c4a69094b5",
+      "targets": "关汉卿",
+      "retained": "人物欲望与需要、伏笔回收、叙事时间与节奏",
+      "discarded": "去掉每条建议必须引理论的教学负担",
+      "bound_skills": [],
+      "decision": "remix-method-only; no original runtime or whole package imported"
+    },
+    {
+      "agent_id": "agency_en:design/design-visual-storyteller",
+      "name": "Visual Storyteller",
+      "source_path": "sources/AGENCY-AGENTS/design/design-visual-storyteller.md",
+      "source_commit": "6d29a9b08785a0e49ffc9818bbdd381164c2df5f",
+      "sha256": "f4950c9d65b5d105ec48ebce4b7621154e3bf89871dbbf07af245476930eb4dd",
+      "targets": "吴道子",
+      "retained": "视觉情绪弧线、品牌一致性与镜头节奏",
+      "discarded": "去掉固定机器路径和无依据增长百分比",
+      "bound_skills": [],
+      "decision": "remix-method-only; no original runtime or whole package imported"
+    },
+    {
+      "agent_id": "agency_en:project-management/project-management-studio-producer",
+      "name": "Studio Producer",
+      "source_path": "sources/AGENCY-AGENTS/project-management/project-management-studio-producer.md",
+      "source_commit": "6d29a9b08785a0e49ffc9818bbdd381164c2df5f",
+      "sha256": "d942feab0f50ea7b8e98cb73bdaf05226d2a6c53c6359c7380149f7545bb199d",
+      "targets": "关汉卿",
+      "retained": "制作范围、资源预算、交付优先级与风险预案",
+      "discarded": "去掉大制作公司组织、投资回报承诺和供应商流程",
+      "bound_skills": [],
+      "decision": "remix-method-only; no original runtime or whole package imported"
+    }
+  ],
+  "source_skills": [
+    {
+      "source_skill": "novel-outline",
+      "source_locator": "local-skill:novel-outline",
+      "sha256": "e611c46f54513ae200eff525fc83ef16e7b0531a84ab6a456923d7c534988dde",
+      "target_skill": "aigc-story-production",
+      "retained": "结构化大纲、分集与资产清单",
+      "discarded": "去除强制确认、长篇爽剧默认规模；无脚本代码复制",
+      "source_license": "Apache-2.0 declared in source metadata",
+      "decision": "method-remix; original executable not copied"
+    },
+    {
+      "source_skill": "novel-script",
+      "source_locator": "local-skill:novel-script",
+      "sha256": "5e653561304e51593a6bd0c36d134fe7076b6352883752912085d312e1e12b7c",
+      "target_skill": "aigc-story-production",
+      "retained": "动作/对白节拍、估时与上游对账",
+      "discarded": "去除强制大纲前置、换景免费假设；采用自有 schema",
+      "source_license": "Apache-2.0 declared in source metadata",
+      "decision": "method-remix; original executable not copied"
+    },
+    {
+      "source_skill": "novel-characters",
+      "source_locator": "local-skill:novel-characters",
+      "sha256": "4ea2fbbdfa31cde78da6f038c27e6ec4758efe4bcf322a5099b72dae3d0e4da0",
+      "target_skill": "aigc-visual-storyboard",
+      "retained": "身份卡、外观母版、引用与版本",
+      "discarded": "不携带 Codex imagegen 入口、默认批量出图或运行时",
+      "source_license": "Apache-2.0 declared in source metadata",
+      "decision": "method-remix; original executable not copied"
+    },
+    {
+      "source_skill": "novel-art",
+      "source_locator": "local-skill:novel-art",
+      "sha256": "2e3ec7fa9223f85395b661822ef009822f3865b413e4fd649642488f2b78b222",
+      "target_skill": "aigc-visual-storyboard",
+      "retained": "空间锚点、日夜变体、道具尺度与状态",
+      "discarded": "不携带可选外部出图；用现有 ComfyUI",
+      "source_license": "Apache-2.0 declared in source metadata",
+      "decision": "method-remix; original executable not copied"
+    },
+    {
+      "source_skill": "novel-storyboard",
+      "source_locator": "local-skill:novel-storyboard",
+      "sha256": "5e7a52d78cbb1fc74826313e7c290cdcfa70e80d110c4b1250f1b365bcbf66d5",
+      "target_skill": "aigc-visual-storyboard",
+      "retained": "节拍认领、分段、关键帧与批次",
+      "discarded": "移除 H3 强绑定、15秒硬上限、镜头免费假设和 imagegen",
+      "source_license": "Apache-2.0 declared in source metadata",
+      "decision": "method-remix; original executable not copied"
+    },
+    {
+      "source_skill": "novel-writing",
+      "source_locator": "sources/workbuddy-experts/plugins/narrative-designer/skills/novel-writing/SKILL.md",
+      "sha256": "2d3c24bf022446e699760acf42a21683034ea1d8990cb00c9109da8f337e0e7b",
+      "target_skill": "aigc-story-production",
+      "decision": "retain world/foreshadowing state method; do not invent novel CLI"
+    },
+    {
+      "source_skill": "prompt-engineer",
+      "source_locator": "sources/workbuddy-experts/plugins/prompt-engineer/skills/prompt-engineer/SKILL.md",
+      "sha256": "9ab2d4e748ad58eacc70e285fbf27ec8390c368ab68470200ac49b3d3bec24c2",
+      "target_skill": "aigc-comfyui-delivery",
+      "decision": "retain structured prompt/evaluation/versioning method"
+    },
+    {
+      "source_skill": "anti-distill",
+      "source_locator": "sources/workbuddy-experts/plugins/narrative-designer/skills/anti-distill/SKILL.md",
+      "sha256": "fb6ed4dcc1950b91c78bedacf6441b862bea19c99b39c1620ff52cd4d7cea652",
+      "target_skill": null,
+      "decision": "exclude: actual content is knowledge redaction, mislabelled by parent agent"
+    }
+  ],
+  "excluded": [
+    "LibTV/Liblib",
+    "ListenHub",
+    "ChatCut",
+    "paid editing and asset services",
+    "private MCP",
+    ".NET",
+    "original Remotion/HyperFrames runtime packages",
+    "provider-bound video-prompt agent"
+  ],
+  "packaging": "direct self-contained files; no symlink runtime"
+}

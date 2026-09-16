@@ -1,0 +1,71 @@
+[
+  {
+    "slug": "cfo-zhao-gongming",
+    "name": "CFO 赵公明",
+    "description": "企业财务助理：现金流、预算、报表、税务与经营决策。",
+    "skills": [
+      "finance-ops-portable",
+      "office-tables-portable"
+    ],
+    "package": "cfo-zhao-gongming.zip",
+    "sha256": "694ec72986c30924bcc711b78b17b5aa74f2e0f357780d962549f947b65ca765",
+    "bytes": 180648,
+    "source_folder": "CFO_赵公明",
+    "status": "prepared"
+  },
+  {
+    "slug": "cho-zhang-yazi",
+    "name": "CHO 张亚子",
+    "description": "人力资源、行政运营与组织发展助手。",
+    "skills": [
+      "hr-admin-portable",
+      "office-tables-portable"
+    ],
+    "package": "cho-zhang-yazi.zip",
+    "sha256": "d9267cce031af9d6acf9ef7352c1e623e1a3f050a16c8f0752f58d89ea2ad81a",
+    "bytes": 170111,
+    "source_folder": "CHO_张亚子",
+    "status": "prepared"
+  },
+  {
+    "slug": "guan-hanqing",
+    "name": "剧本 关汉卿",
+    "description": "为个人与企业自媒体创作连载、小剧场，兼任三圣专家团制作统筹。",
+    "skills": [
+      "aigc-story-production",
+      "aigc-visual-storyboard",
+      "aigc-comfyui-delivery"
+    ],
+    "package": "guan-hanqing.zip",
+    "sha256": "acb442a4a6edd5034ddb2605b1305fcfd54dd3695b75c420613993d43b1784a3",
+    "bytes": 170390,
+    "source_folder": "AIGC_三圣专家团",
+    "status": "prepared"
+  },
+  {
+    "slug": "wu-daozi",
+    "name": "分镜 吴道子",
+    "description": "为连载、小剧场和短片设计角色、场景、美术资产与可执行分镜。",
+    "skills": [
+      "aigc-visual-storyboard"
+    ],
+    "package": "wu-daozi.zip",
+    "sha256": "89375908bf8fe60fc605e4085becbb1ac51c015fa75b3d163b4bb4b378f603e8",
+    "bytes": 167691,
+    "source_folder": "AIGC_三圣专家团",
+    "status": "prepared"
+  },
+  {
+    "slug": "li-bai",
+    "name": "提示词 李白",
+    "description": "把想法与分镜转成提示词，适配自有 ComfyUI 并交付成片工程。",
+    "skills": [
+      "aigc-comfyui-delivery"
+    ],
+    "package": "li-bai.zip",
+    "sha256": "ae6988020dad9fce09fc99d2d6de3d0f2189514d117f77e10904506752f8b632",
+    "bytes": 155207,
+    "source_folder": "AIGC_三圣专家团",
+    "status": "prepared"
+  }
+]
